@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "citation.schema.json",
+  "type": "object",
+  "required": ["book", "doc_id", "page"],
+  "properties": {
+    "book": { "type": "string" },
+    "doc_id": { "type": "string" },
+    "page": { "type": "integer" },
+    "anchor_text": { "type": "string" }
+  }
+}

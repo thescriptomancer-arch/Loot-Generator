@@ -1,0 +1,16 @@
+{
+  "id": "PHB_3_5",
+  "title": "Player's Handbook",
+  "edition": "3.5",
+  "publisher": "Wizards of the Coast",
+  "document_path": "books/PHB/Player's Handbook. Core Rulebook I v.3.5.pdf",
+  "sections": {
+    "equipment_chapter": {
+      "name": "Equipment",
+      "start_page": null,
+      "end_page": null,
+      "notes": "Fill these page numbers if you want strict page range filtering; null means search by headings."
+    }
+  },
+  "notes": "Metadata for PHB harvest. Page numbers optional; the extractor can locate by headings."
+}

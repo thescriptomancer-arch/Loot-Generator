@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "block.schema.json",
+  "type": "object",
+  "required": ["doc_id", "book", "page", "block_id", "kind"],
+  "properties": {
+    "doc_id": { "type": "string" },
+    "book": { "type": "string" },
+    "page": { "type": "integer" },
+    "block_id": { "type": "string" },
+    "kind": { "type": "string", "enum": ["heading", "paragraph", "table", "list", "image", "sidebar"] },
+    "hierarchy": { "type": "array", "items": { "type": "string" } },
+    "text": { "type": "string" },
+    "attrs": { "type": "object", "additionalProperties": true }
+  }
+}
