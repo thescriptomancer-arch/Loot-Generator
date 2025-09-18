@@ -1,7 +1,7 @@
 {
   "source": "PHB v3.5",
   "chapter": "Magic",
-  "section": "Spell List — Ranger (Core, v1)",
+  "section": "Spell List — Ranger (Core, v2)",
   "schema_version": "1.0",
   "fields": ["id", "spell_id", "level"],
   "rows": [
