@@ -1,0 +1,13 @@
+{
+  "source": "PHB v3.5",
+  "chapter": "Magic",
+  "section": "Spell List — Druid (Core, v1)",
+  "schema_version": "1.0",
+  "fields": ["id", "spell_id", "level"],
+  "rows": [
+    { "id": "LIST_DRUID_CURE_LIGHT_WOUNDS", "spell_id": "SPELL_CURE_LIGHT_WOUNDS", "level": 1 },
+    { "id": "LIST_DRUID_ENTANGLE", "spell_id": "SPELL_ENTANGLE", "level": 1 },
+    { "id": "LIST_DRUID_BARKSKIN", "spell_id": "SPELL_BARKSKIN", "level": 2 },
+    { "id": "LIST_DRUID_HEAL", "spell_id": "SPELL_HEAL", "level": 7 }
+  ]
+}
