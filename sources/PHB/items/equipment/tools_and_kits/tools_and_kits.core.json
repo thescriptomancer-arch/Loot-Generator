@@ -1,0 +1,23 @@
+{
+  "source": "PHB v3.5",
+  "chapter": "Equipment",
+  "section": "Tools, Skill Kits & Related",
+  "schema_version": "1.0",
+  "fields": ["id","name","cost_gp","weight_lb","notes"],
+  "rows": [
+    { "id":"TK_ALCHEMISTS_LAB","name":"Alchemist’s lab","cost_gp":500,"weight_lb":40,"notes":"+2 circumstance on Craft (alchemy); usually not portable." },
+    { "id":"TK_ARTISANS_TOOLS","name":"Artisan’s tools","cost_gp":5,"weight_lb":5,"notes":"Tools for a given craft." },
+    { "id":"TK_ARTISANS_TOOLS_MW","name":"Artisan’s tools, masterwork","cost_gp":55,"weight_lb":5,"notes":"+2 circumstance to checks for that Craft." },
+    { "id":"TK_CLIMBERS_KIT","name":"Climber’s kit","cost_gp":80,"weight_lb":5,"notes":"+2 circumstance on Climb checks." },
+    { "id":"TK_DISGUISE_KIT","name":"Disguise kit","cost_gp":50,"weight_lb":8,"notes":"+2 circumstance on Disguise checks; 10 uses." },
+    { "id":"TK_HEALERS_KIT","name":"Healer’s kit","cost_gp":50,"weight_lb":1,"notes":"+2 circumstance on Heal checks; 10 uses." },
+    { "id":"TK_HOLY_SYMBOL_WOOD","name":"Holy symbol, wooden","cost_gp":1,"weight_lb":1,"notes":"" },
+    { "id":"TK_HOLY_SYMBOL_SILVER","name":"Holy symbol, silver","cost_gp":25,"weight_lb":1,"notes":"" },
+    { "id":"TK_MUSICAL_INSTRUMENT_COMMON","name":"Musical instrument, common","cost_gp":5,"weight_lb":3,"notes":"" },
+    { "id":"TK_MUSICAL_INSTRUMENT_MW","name":"Musical instrument, masterwork","cost_gp":100,"weight_lb":3,"notes":"+2 circumstance on Perform (instrument)." },
+    { "id":"TK_SPELL_COMPONENT_POUCH","name":"Spell component pouch","cost_gp":5,"weight_lb":2,"notes":"" },
+    { "id":"TK_SPELLBOOK","name":"Spellbook, wizard’s","cost_gp":15,"weight_lb":3,"notes":"100 pages." },
+    { "id":"TK_THIEVES_TOOLS","name":"Thieves’ tools","cost_gp":30,"weight_lb":1,"notes":"" },
+    { "id":"TK_THIEVES_TOOLS_MW","name":"Thieves’ tools, masterwork","cost_gp":100,"weight_lb":2,"notes":"+2 circumstance on Disable Device/Open Lock." }
+  ]
+}
