@@ -1,26 +1,55 @@
 {
-  "version": "1.0",
+  "schema_version": "hopper_manifest@1",
   "books": [
     {
-      "id": "PHB_3_5",
-      "title": "Player's Handbook v3.5",
-      "document_path": "books/PHB/Player's Handbook. Core Rulebook I v.3.5.pdf",
-      "meta_path": "meta/PHB/source_metadata.json",
-      "rules_path": "rules/PHB/extraction_rules.json",
+      "id": "PHB",
+      "name": "Player's Handbook v3.5",
+      "pdf": "books/PHB/Player's Handbook. Core Rulebook I v.3.5.pdf",
+      "rules": "rules/PHB/extraction_rules.json",
       "outputs": [
-        "data/PHB/equipment/armor_and_shields.json",
-        "data/PHB/equipment/weapons.json",
-        "data/PHB/equipment/adventuring_gear.json",
-        "data/PHB/equipment/special_substances.json",
-        "data/PHB/equipment/tools_kits.json",
-        "data/PHB/common/lookups/size_multipliers.json"
+        {
+          "id": "adventuring_gear",
+          "path": "data/PHB/equipment/adventuring_gear.json",
+          "schema": "schemas/equipment_item.json",
+          "merge": "config/merge_policies.json"
+        },
+        {
+          "id": "special_substances_and_items",
+          "path": "data/PHB/equipment/special_substances_and_items.json",
+          "schema": "schemas/equipment_item.json",
+          "merge": "config/merge_policies.json"
+        },
+        {
+          "id": "tools_and_skill_kits",
+          "path": "data/PHB/equipment/tools_and_skill_kits.json",
+          "schema": "schemas/equipment_item.json",
+          "merge": "config/merge_policies.json"
+        },
+        {
+          "id": "armor_unusual_sizes",
+          "path": "data/PHB/armor/armor_unusual_sizes.json",
+          "schema": "schemas/lookup_size_multipliers.json",
+          "merge": "config/merge_policies.json"
+        },
+        {
+          "id": "weapons",
+          "path": "data/PHB/items/weapons.phb.json",
+          "schema": "schemas/weapon.json",
+          "merge": "config/merge_policies.json"
+        },
+        {
+          "id": "armor_shields",
+          "path": "data/PHB/items/armor_shields.phb.json",
+          "schema": "schemas/armor_shield.json",
+          "merge": "config/merge_policies.json"
+        },
+        {
+          "id": "spells",
+          "path": "data/PHB/spells/spells.phb.json",
+          "schema": "schemas/spell.json",
+          "merge": "config/merge_policies.json"
+        }
       ]
     }
-  ],
-  "schemas": {
-    "base_item": "schemas/item_base.json",
-    "harvested_table": "schemas/harvested_table.json",
-    "equipment_item": "schemas/equipment_item.json",
-    "lookup_size_multipliers": "schemas/lookup_size_multipliers.json"
-  }
+  ]
 }
