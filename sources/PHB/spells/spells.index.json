@@ -1,1 +1,14 @@
+{
+  "schema_version": "1.0",
+  "book": "PHB v3.5",
+  "shards": [
+    "sources/PHB/spells/core/spells.master.json",
+    "sources/PHB/spells/core/lists.bard.json",
+    "sources/PHB/spells/core/lists.cleric.json",
+    "sources/PHB/spells/core/lists.druid.json",
+    "sources/PHB/spells/core/lists.paladin.json",
+    "sources/PHB/spells/core/lists.ranger.json",
+    "sources/PHB/spells/core/lists.sorcerer_wizard.json"
+  ]
+}
 
