@@ -1,0 +1,12 @@
+{
+  "source": "PHB v3.5",
+  "chapter": "Magic",
+  "section": "Spell List — Paladin (Core, v1)",
+  "schema_version": "1.0",
+  "fields": ["id", "spell_id", "level"],
+  "rows": [
+    { "id": "LIST_PALADIN_BLESS", "spell_id": "SPELL_BLESS", "level": 1 },
+    { "id": "LIST_PALADIN_DIVINE_FAVOR", "spell_id": "SPELL_DIVINE_FAVOR", "level": 1 },
+    { "id": "LIST_PALADIN_CURE_LIGHT_WOUNDS", "spell_id": "SPELL_CURE_LIGHT_WOUNDS", "level": 1 }
+  ]
+}
