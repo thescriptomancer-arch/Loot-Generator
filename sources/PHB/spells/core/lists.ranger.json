@@ -1,0 +1,11 @@
+{
+  "source": "PHB v3.5",
+  "chapter": "Magic",
+  "section": "Spell List — Ranger (Core, v1)",
+  "schema_version": "1.0",
+  "fields": ["id", "spell_id", "level"],
+  "rows": [
+    { "id": "LIST_RANGER_CURE_LIGHT_WOUNDS", "spell_id": "SPELL_CURE_LIGHT_WOUNDS", "level": 1 },
+    { "id": "LIST_RANGER_BARKSKIN", "spell_id": "SPELL_BARKSKIN", "level": 2 }
+  ]
+}
