@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "books": [
+    {
+      "code": "PHB",
+      "source": "PHB v3.5",
+      "load_order": [
+        {
+          "type": "rule",
+          "path": "sources/PHB/rules/armor_for_unusual_creatures.json"
+        },
+        {
+          "type": "table",
+          "path": "sources/PHB/items/armor_shields/armor_shields.core.json"
+        },
+        {
+          "type": "table",
+          "path": "sources/PHB/items/equipment/adventuring_gear/adventuring_gear.core.json"
+        },
+        {
+          "type": "table",
+          "path": "sources/PHB/items/equipment/tools_and_kits/tools_and_kits.core.json"
+        },
+        {
+          "type": "table",
+          "path": "sources/PHB/items/equipment/special_substances_items/special_substances_items.core.json"
+        }
+      ]
+    }
+  ]
+}
