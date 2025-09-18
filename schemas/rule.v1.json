@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Rule Blob (v1)",
+  "type": "object",
+  "required": ["source", "chapter", "section", "schema_version"],
+  "properties": {
+    "source": { "type": "string" },
+    "chapter": { "type": "string" },
+    "section": { "type": "string" },
+    "schema_version": { "type": "string", "enum": ["1.0"] }
+  },
+  "additionalProperties": true
+}
