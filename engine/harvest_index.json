@@ -14,7 +14,15 @@
         "sources/PHB/items/equipment/adventuring_gear/adventuring_gear.core.json",
         "sources/PHB/items/equipment/tools_and_kits/tools_and_kits.core.json",
         "sources/PHB/items/equipment/special_substances_items/special_substances_items.core.json",
-        "sources/PHB/items/weapons/weapons.core.json"
+        "sources/PHB/items/weapons/weapons.core.json",
+
+        "sources/PHB/spells/core/spells.master.json",
+        "sources/PHB/spells/core/lists.bard.json",
+        "sources/PHB/spells/core/lists.cleric.json",
+        "sources/PHB/spells/core/lists.druid.json",
+        "sources/PHB/spells/core/lists.paladin.json",
+        "sources/PHB/spells/core/lists.ranger.json",
+        "sources/PHB/spells/core/lists.sorcerer_wizard.json"
       ]
     }
   ]
