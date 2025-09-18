@@ -1,134 +1,48 @@
 {
-  "book_id": "PHB_3_5",
-  "extractions": [
-    {
-      "id": "armor_and_shields",
-      "strategy": "table_capture",
-      "seek": {
-        "headings_any": [
-          "Armor and Shields",
-          "Table 7–6: Armor and Shields",
-          "Table 7-6: Armor and Shields"
-        ]
-      },
-      "normalize_to": "equipment_item",
-      "write_to": "data/PHB/equipment/armor_and_shields.json",
-      "columns_map": {
-        "name": ["Armor", "Shield", "Item", "Name"],
-        "cost_gp": ["Cost"],
-        "armor_bonus": ["Armor Bonus", "Shield Bonus"],
-        "max_dex_bonus": ["Max Dex Bonus", "Max Dex"],
-        "armor_check_penalty": ["Armor Check Penalty", "ACP"],
-        "arcane_spell_failure": ["Arcane Spell Failure", "ASF"],
-        "speed_30": ["Speed (30 ft.)", "Speed 30"],
-        "speed_20": ["Speed (20 ft.)", "Speed 20"],
-        "weight_lb": ["Weight"]
-      },
-      "source_tags": ["PHB", "Armor", "Shields"]
-    },
-    {
-      "id": "weapons",
-      "strategy": "table_capture",
-      "seek": {
-        "headings_any": [
-          "Weapons",
-          "Table 7–5: Weapons",
-          "Table 7-5: Weapons"
-        ]
-      },
-      "normalize_to": "equipment_item",
-      "write_to": "data/PHB/equipment/weapons.json",
-      "columns_map": {
-        "name": ["Weapon", "Name", "Item"],
-        "cost_gp": ["Cost"],
-        "damage_s": ["Dmg (S)","Small"],
-        "damage_m": ["Dmg (M)","Medium"],
-        "critical": ["Critical","Crit."],
-        "range_increment_ft": ["Range Increment","Range"],
-        "weight_lb": ["Weight"],
-        "type": ["Type","Dmg Type","Damage Type"]
-      },
-      "source_tags": ["PHB", "Weapons"]
-    },
+  "schema_version": "extraction_rules@1",
+  "doc": "PHB v3.5",
+  "sections": [
     {
       "id": "adventuring_gear",
-      "strategy": "table_capture",
-      "seek": {
-        "headings_any": [
-          "Adventuring Gear",
-          "Table 7–8: Adventuring Gear",
-          "Table 7-8: Adventuring Gear",
-          "Goods and Services"
-        ]
-      },
-      "normalize_to": "equipment_item",
-      "write_to": "data/PHB/equipment/adventuring_gear.json",
-      "columns_map": {
-        "name": ["Item","Name"],
-        "cost_gp": ["Cost"],
-        "weight_lb": ["Weight"]
-      },
-      "source_tags": ["PHB", "Gear"]
+      "mode": "manual",
+      "target_output": "adventuring_gear",
+      "notes": "Manually curated (PHB Adventuring Gear table)."
     },
     {
-      "id": "special_substances",
-      "strategy": "table_capture",
-      "seek": {
-        "headings_any": [
-          "Special Substances and Items",
-          "Table 7–9: Special Substances and Items",
-          "Table 7-9: Special Substances and Items"
-        ]
-      },
-      "normalize_to": "equipment_item",
-      "write_to": "data/PHB/equipment/special_substances.json",
-      "columns_map": {
-        "name": ["Item","Name"],
-        "cost_gp": ["Cost"],
-        "weight_lb": ["Weight"]
-      },
-      "source_tags": ["PHB", "SpecialSubstances"]
+      "id": "special_substances_and_items",
+      "mode": "manual",
+      "target_output": "special_substances_and_items",
+      "notes": "Manually curated (PHB Special Substances and Items table)."
     },
     {
-      "id": "tools_and_kits",
-      "strategy": "table_capture",
-      "seek": {
-        "headings_any": [
-          "Tools and Skill Kits",
-          "Table 7–7: Tools and Skill Kits",
-          "Table 7-7: Tools and Skill Kits"
-        ]
-      },
-      "normalize_to": "equipment_item",
-      "write_to": "data/PHB/equipment/tools_kits.json",
-      "columns_map": {
-        "name": ["Item","Name"],
-        "cost_gp": ["Cost"],
-        "weight_lb": ["Weight"]
-      },
-      "source_tags": ["PHB", "ToolsKits"]
+      "id": "tools_and_skill_kits",
+      "mode": "manual",
+      "target_output": "tools_and_skill_kits",
+      "notes": "Manually curated (PHB Tools and Skill Kits table)."
     },
     {
       "id": "armor_for_unusual_creatures",
-      "strategy": "table_capture",
-      "seek": {
-        "headings_any": [
-          "Armor for Unusual Creatures",
-          "Table 7–6: Armor for Unusual Creatures",
-          "Table 7-6: Armor for Unusual Creatures",
-          "Barding"
-        ]
-      },
-      "normalize_to": "lookup_size_multipliers",
-      "write_to": "data/PHB/common/lookups/size_multipliers.json",
-      "columns_map": {
-        "size": ["Size"],
-        "humanoid_cost_mult": ["Humanoid Cost Multiplier","Humanoid Cost x"],
-        "humanoid_weight_mult": ["Humanoid Weight Multiplier","Humanoid Wt x"],
-        "nonhumanoid_cost_mult": ["Nonhumanoid Cost Multiplier","Nonhumanoid Cost x"],
-        "nonhumanoid_weight_mult": ["Nonhumanoid Weight Multiplier","Nonhumanoid Wt x"]
-      },
-      "source_tags": ["PHB", "SizeMultipliers"]
+      "mode": "manual",
+      "target_output": "armor_unusual_sizes",
+      "notes": "Manually curated multipliers for cost/weight by size and type."
+    },
+    {
+      "id": "weapons_base_tables",
+      "mode": "manual",
+      "target_output": "weapons",
+      "notes": "PHB weapons: simple/martial/exotic; melee/ranged; name, cost, damage by size (S/M/L), crit, range increment, weight, type (B/P/S), special."
+    },
+    {
+      "id": "armor_shields_base_table",
+      "mode": "manual",
+      "target_output": "armor_shields",
+      "notes": "PHB armor & shield base stats: category, AC bonus, max Dex, ACP, ASF, speed, weight, cost, type (armor/shield)."
+    },
+    {
+      "id": "spells",
+      "mode": "manual",
+      "target_output": "spells",
+      "notes": "PHB spells with canonical fields: school/subschool, descriptors, level by class, components, casting time, range, target/effect/area, duration, save, SR, page."
     }
   ]
 }
