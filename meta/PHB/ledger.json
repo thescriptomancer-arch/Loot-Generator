@@ -1,0 +1,47 @@
+{
+  "source": "Player's Handbook v3.5",
+  "artifacts": [
+    {
+      "path": "/mnt/data/harvest/phb/v1/rules/donning_armor.json",
+      "table": "Table 7-7: Donning Armor",
+      "pages": "PHB p.123",
+      "notes": "Hastily / Normally / Remove timings per armor category."
+    },
+    {
+      "path": "/mnt/data/harvest/phb/v1/rules/carrying_capacity.json",
+      "table": "Table 9-1: Carrying Capacity",
+      "pages": "PHB p.162",
+      "notes": "Load thresholds by Strength score."
+    },
+    {
+      "path": "/mnt/data/harvest/phb/v1/rules/carrying_loads.json",
+      "table": "Table 9-2: Carrying Loads",
+      "pages": "PHB p.162",
+      "notes": "Max Dex, Check Penalty, Speed (30/20), Run multiplier."
+    },
+    {
+      "path": "/mnt/data/harvest/phb/v1/rules/movement_table_9_3.json",
+      "table": "Table 9-3: Movement and Distance",
+      "pages": "PHB p.163",
+      "notes": "Walk/Hustle/Run (×4/×5) at 15/20/30/40/50/60 speeds."
+    },
+    {
+      "path": "/mnt/data/harvest/phb/v1/rules/hardness_hp_tables.json",
+      "table": "Tables 9-8 & 9-9: Common Item & Substance Hardness/HP",
+      "pages": "PHB p.165",
+      "notes": "Raw text blocks captured; numeric parsing TBD."
+    },
+    {
+      "path": "/mnt/data/harvest/phb/v1/items/armor_shields_index.json",
+      "table": "Table 7-6: Armor and Shields",
+      "pages": "PHB p.123",
+      "notes": "Names indexed; full numeric columns to be parsed in v2."
+    },
+    {
+      "path": "/mnt/data/harvest/phb/v1/items/weapons_index.json",
+      "table": "Table 7-5: Weapons",
+      "pages": "PHB p.116-117",
+      "notes": "Names indexed by category; full numeric columns to be parsed in v2."
+    }
+  ]
+}
