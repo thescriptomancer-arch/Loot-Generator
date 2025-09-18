@@ -346,9 +346,6 @@
       "short_description": "Cures 10 hp/level; removes many conditions.",
       "source_ref": "PHB"
     },
-
-    /* ---- New in v2 ---- */
-
     {
       "id": "SPELL_GREASE",
       "name": "Grease",
