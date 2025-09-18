@@ -1,0 +1,19 @@
+{
+  "schema_version": "hopper_manifest@1",
+  "accepted_books": ["PHB", "DMG", "DMG2", "MIC", "Setting"],
+  "segmentation": {
+    "min_heading_font_ratio": 1.2,
+    "merge_short_lines": true,
+    "detect_tables": "auto"
+  },
+  "extraction": {
+    "enable_item_detection": true,
+    "enable_spell_reference_detection": true,
+    "enable_rule_detection": true,
+    "enable_price_weight_units": true,
+    "enable_tables_to_assertions": true
+  },
+  "merge": {
+    "policy_file": "config/merge_policies.json"
+  }
+}
