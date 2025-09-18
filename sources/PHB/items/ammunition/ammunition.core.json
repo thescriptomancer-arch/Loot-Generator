@@ -1,0 +1,12 @@
+{
+  "source": "PHB v3.5",
+  "chapter": "Equipment",
+  "section": "Ammunition",
+  "schema_version": "1.0",
+  "fields": ["id","name","quantity_per_unit","cost_gp","cost_sp","cost_cp","weight_lb","for_weapons","notes"],
+  "rows": [
+    { "id":"AMMO_ARROWS","name":"Arrows","quantity_per_unit":20,"cost_gp":1,"weight_lb":3,"for_weapons":["shortbow","longbow","composite shortbow","composite longbow"],"notes":"" },
+    { "id":"AMMO_BOLTS","name":"Bolts, crossbow","quantity_per_unit":10,"cost_gp":1,"weight_lb":1,"for_weapons":["light crossbow","heavy crossbow","repeating crossbow (light/heavy)"],"notes":"" },
+    { "id":"AMMO_SLING_BULLETS","name":"Sling bullets","quantity_per_unit":10,"cost_sp":1,"weight_lb":5,"for_weapons":["sling"],"notes":"" }
+  ]
+}
