@@ -1,13 +1,15 @@
 {
   "source": "PHB v3.5",
   "chapter": "Magic",
-  "section": "Spell List — Cleric (Core, v1)",
+  "section": "Spell List — Cleric (Core, v2)",
   "schema_version": "1.0",
   "fields": ["id", "spell_id", "level"],
   "rows": [
     { "id": "LIST_CLERIC_BLESS", "spell_id": "SPELL_BLESS", "level": 1 },
     { "id": "LIST_CLERIC_DIVINE_FAVOR", "spell_id": "SPELL_DIVINE_FAVOR", "level": 1 },
+    { "id": "LIST_CLERIC_MAGIC_WEAPON", "spell_id": "SPELL_MAGIC_WEAPON", "level": 1 },
     { "id": "LIST_CLERIC_CURE_LIGHT_WOUNDS", "spell_id": "SPELL_CURE_LIGHT_WOUNDS", "level": 1 },
+    { "id": "LIST_CLERIC_DISPEL_MAGIC", "spell_id": "SPELL_DISPEL_MAGIC", "level": 3 },
     { "id": "LIST_CLERIC_HEAL", "spell_id": "SPELL_HEAL", "level": 6 }
   ]
 }
