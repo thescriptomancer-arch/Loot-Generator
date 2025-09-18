@@ -1,0 +1,33 @@
+{
+  "source": "PHB v3.5",
+  "chapter": "Equipment",
+  "section": "Armor for Unusual Creatures",
+  "schema_version": "1.0",
+  "notes": "Cost/weight multipliers by size & body shape; Tiny-or-smaller armor bonus halves (rounded down); shields unaffected. Masterwork armor/shields: +150 gp, ACP -1; auto-included on magic.",
+  "size_scaling": {
+    "humanoid": [
+      { "size": "Tiny or smaller", "cost_mult": 0.5, "weight_mult": 0.1, "armor_ac_mult_if_tiny_or_smaller": 0.5 },
+      { "size": "Small", "cost_mult": 1.0, "weight_mult": 0.5 },
+      { "size": "Medium", "cost_mult": 1.0, "weight_mult": 1.0 },
+      { "size": "Large", "cost_mult": 2.0, "weight_mult": 2.0 },
+      { "size": "Huge", "cost_mult": 4.0, "weight_mult": 5.0 },
+      { "size": "Gargantuan", "cost_mult": 8.0, "weight_mult": 8.0 },
+      { "size": "Colossal", "cost_mult": 16.0, "weight_mult": 12.0 }
+    ],
+    "nonhumanoid": [
+      { "size": "Small", "cost_mult": 2.0, "weight_mult": 1.0 },
+      { "size": "Medium", "cost_mult": 2.0, "weight_mult": 2.0 },
+      { "size": "Large", "cost_mult": 4.0, "weight_mult": 4.0 },
+      { "size": "Huge", "cost_mult": 8.0, "weight_mult": 6.0 },
+      { "size": "Gargantuan", "cost_mult": 16.0, "weight_mult": 10.0 },
+      { "size": "Colossal", "cost_mult": 32.0, "weight_mult": 16.0 }
+    ]
+  },
+  "masterwork": {
+    "extra_cost_gp": 150,
+    "acp_reduction": 1,
+    "applies_to": ["armor", "shield"],
+    "auto_on_magic": true,
+    "cannot_add_after_crafted": true
+  }
+}
