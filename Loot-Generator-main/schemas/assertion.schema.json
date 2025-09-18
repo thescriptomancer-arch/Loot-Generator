@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "assertion.schema.json",
+  "type": "object",
+  "required": ["id", "doc_id", "book", "page", "type", "subject", "predicates", "source"],
+  "properties": {
+    "id": { "type": "string" },
+    "doc_id": { "type": "string" },
+    "book": { "type": "string" },
+    "page": { "type": "integer" },
+    "type": { "type": "string", "enum": [
+      "item_record",
+      "rule_statement",
+      "price_model",
+      "size_rule",
+      "proficiency_rule",
+      "material_note",
+      "spell_reference",
+      "tag_assignment",
+      "table_row_record"
+    ]},
+    "subject": { "type": "string" },
+    "predicates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "value"],
+        "properties": {
+          "key": { "type": "string" },
+          "value": {},
+          "unit": { "type": "string" },
+          "raw": { "type": "string" }
+        }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "source": {
+      "type": "object",
+      "required": ["kind", "ref"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["block", "table"] },
+        "ref": { "type": "string" },
+        "cell": { "type": "object", "properties": { "row": {"type":"integer"}, "col": {"type":"integer"} } }
+      }
+    },
+    "confidence": { "type": "number" }
+  }
+}

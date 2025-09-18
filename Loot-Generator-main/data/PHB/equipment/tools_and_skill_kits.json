@@ -1,0 +1,29 @@
+{
+  "domain": "tools_and_skill_kits",
+  "source": { "book": "PHB", "edition": "3.5e", "section": "Equipment", "pages_hint": "126–128" },
+  "schema": {
+    "id": "string",
+    "name": "string",
+    "cost_gp": "number",
+    "weight_lb": "number|null",
+    "skill_bonus": "string|null",
+    "uses": "string|null",
+    "notes": "string|null",
+    "tags": "string[]"
+  },
+  "items": [
+    { "id": "tools_alchemists_lab", "name": "Alchemist’s lab", "cost_gp": 500, "weight_lb": 40, "skill_bonus": "+2 circumstance on Craft (alchemy)", "uses": "Permanent fixture", "notes": "Not portable without penalty at DM’s discretion", "tags": ["craft"] },
+    { "id": "tools_artisans_tools", "name": "Artisan’s tools", "cost_gp": 1, "weight_lb": 5, "skill_bonus": null, "uses": "General", "notes": "No bonus; required to avoid –2 penalty on Craft checks", "tags": ["craft"] },
+    { "id": "tools_artisans_tools_mw", "name": "Artisan’s tools, masterwork", "cost_gp": 55, "weight_lb": 5, "skill_bonus": "+2 circumstance on Craft", "uses": "General", "notes": null, "tags": ["craft"] },
+    { "id": "tools_climbers_kit", "name": "Climber’s kit", "cost_gp": 80, "weight_lb": 5, "skill_bonus": "+2 circumstance on Climb", "uses": "Includes pitons, rope, etc.", "notes": null, "tags": ["climb"] },
+    { "id": "tools_disguise_kit", "name": "Disguise kit", "cost_gp": 50, "weight_lb": 8, "skill_bonus": "+2 circumstance on Disguise", "uses": "10 uses", "notes": null, "tags": ["disguise"] },
+    { "id": "tools_healers_kit", "name": "Healer’s kit", "cost_gp": 50, "weight_lb": 1, "skill_bonus": "+2 circumstance on Heal", "uses": "10 uses", "notes": null, "tags": ["heal"] },
+    { "id": "tools_magnifying_glass", "name": "Magnifying glass", "cost_gp": 100, "weight_lb": null, "skill_bonus": "+2 circumstance on Appraise (details) or Search for small items (DMG/PHB guidance)", "uses": "Utility", "notes": "Negligible weight", "tags": ["utility"] },
+    { "id": "tools_musical_instrument", "name": "Musical instrument", "cost_gp": 5, "weight_lb": 3, "skill_bonus": null, "uses": "Perform", "notes": "Common instrument", "tags": ["perform"] },
+    { "id": "tools_musical_instrument_mw", "name": "Musical instrument, masterwork", "cost_gp": 100, "weight_lb": 3, "skill_bonus": "+2 circumstance on Perform (instrument)", "uses": "Perform", "notes": null, "tags": ["perform"] },
+    { "id": "tools_spell_component_pouch", "name": "Spell component pouch", "cost_gp": 5, "weight_lb": 2, "skill_bonus": null, "uses": "Arcane/divine casting", "notes": "Holds common components; excludes costly components/ foci", "tags": ["casting"] },
+    { "id": "tools_spellbook", "name": "Spellbook", "cost_gp": 15, "weight_lb": 3, "skill_bonus": null, "uses": "Wizard spells", "notes": "100 pages", "tags": ["casting"] },
+    { "id": "tools_thieves_tools", "name": "Thieves’ tools", "cost_gp": 30, "weight_lb": 1, "skill_bonus": null, "uses": "Disable Device, Open Lock", "notes": "Required to attempt most tasks; no bonus", "tags": ["thief"] },
+    { "id": "tools_thieves_tools_mw", "name": "Thieves’ tools, masterwork", "cost_gp": 100, "weight_lb": 2, "skill_bonus": "+2 circumstance on Disable Device and Open Lock", "uses": "As above", "notes": null, "tags": ["thief"] }
+  ]
+}

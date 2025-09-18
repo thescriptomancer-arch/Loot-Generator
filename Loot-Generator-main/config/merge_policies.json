@@ -1,0 +1,19 @@
+{
+  "schema_version": "merge_policies@1",
+  "id_policy": "stable_hash(subject + normalized_predicates + source.doc + source.page)",
+  "conflicts": {
+    "text": "prefer_longer",
+    "numeric": "prefer_median",
+    "units": "normalize_then_median",
+    "alignment": "union",
+    "tags": "union"
+  },
+  "dedupe": {
+    "name_similarity_threshold": 0.92,
+    "allow_alias_cluster": true
+  },
+  "audit": {
+    "flag_incompatible_units": true,
+    "flag_impossible_values": true
+  }
+}

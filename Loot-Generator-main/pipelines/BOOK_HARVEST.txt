@@ -1,0 +1,51 @@
+# BOOK HARVEST (Zero-Assumption)
+
+INPUT:
+- A single book (PDF or plain text) handed to the runner.
+
+OUTPUT (create if missing):
+- /data/raw/<BOOK_ID>/blocks.jsonl         (validated by schemas/block.schema.json)
+- /data/raw/<BOOK_ID>/tables.jsonl         (validated by schemas/table.schema.json)
+- /data/assertions/<BOOK_ID>/assertions.jsonl  (validated by schemas/assertion.schema.json)
+- /data/assertions/<BOOK_ID>/entities.jsonl    (optional)
+- /data/catalog/                             (post-merge)
+
+STEPS:
+
+1) SEGMENTATION
+   - Split into blocks:
+     kind = heading | paragraph | table | list | image | sidebar
+     Include hierarchy array for nested headings.
+     Assign block_id = stable hash(book + page + byte_offset).
+
+2) TABLE EXTRACTION
+   - Detect tables; emit tables.jsonl entries with columns/rows untouched
+     (no early unit/number coercion beyond trimming whitespace).
+
+3) ASSERTION EXTRACTION (generic)
+   - From tables: turn each data row into type=table_row_record or item_record,
+     subject = best-effort row label (e.g., first column), predicates = remaining column pairs.
+   - From paragraphs/sidebars:
+     - Detect rules (“All magic armor is masterwork”, “Tower shield provides cover…”)
+       as type=rule_statement with full sentence in predicates[{key:"text"}].
+     - Detect item lines (name + cost/weight/etc.) as type=item_record with predicates like
+       cost, weight, AC, ACP, ASF, proficiency, size effects, etc., but **do not invent fields**:
+       store as loose key/value with units and raw strings as needed.
+     - Detect spell references used in crafting as type=spell_reference (subject=item or topic).
+     - Detect sizing/encumbrance details as size_rule/proficiency_rule assertions.
+   - Each assertion **must** include a `source` pointing to block_id or table_id (and cell).
+
+4) ENTITIES (optional)
+   - Cluster names and aliases found across assertions into entities.jsonl (type = “Item”, “Spell”, “RuleConcept”, etc.).
+
+5) MERGE (catalog)
+   - Append PHB assertions to /data/catalog/ (per-book catalogs are kept and the merged view can be rebuilt).
+   - No domain projection yet. Keep everything generic.
+
+VALIDATION:
+- Validate outputs against schemas.
+- Fail on invalid JSON or missing required fields.
+
+NOTES:
+- No assumptions about categories, materials, or pricing models are enforced here.
+- Later projections can transform assertions → domain schemas, but hopper stays generic.

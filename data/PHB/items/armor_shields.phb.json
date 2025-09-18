@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Padded",
+    "aliases": [],
+    "kind": "armor",
+    "category": "light",
+    "ac_bonus": 1,
+    "max_dex_bonus": 8,
+    "armor_check_penalty": 0,
+    "arcane_spell_failure": 5,
+    "speed": {
+      "base30": 30,
+      "base20": 20
+    },
+    "weight": 10.0,
+    "cost": "5 gp",
+    "notes": "PHB baseline; confirm exact numbers from table",
+    "source": {
+      "book": "PHB",
+      "page": 123
+    }
+  }
+]
