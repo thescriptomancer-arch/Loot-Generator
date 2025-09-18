@@ -1,7 +1,7 @@
 {
   "source": "PHB v3.5",
   "chapter": "Magic",
-  "section": "Spell List — Sorcerer/Wizard (Core, v1)",
+  "section": "Spell List — Sorcerer/Wizard (Core, v2)",
   "schema_version": "1.0",
   "fields": ["id", "spell_id", "level"],
   "rows": [
@@ -11,10 +11,21 @@
     { "id": "LIST_SORWIZ_SHIELD", "spell_id": "SPELL_SHIELD", "level": 1 },
     { "id": "LIST_SORWIZ_SLEEP", "spell_id": "SPELL_SLEEP", "level": 1 },
     { "id": "LIST_SORWIZ_CHARM_PERSON", "spell_id": "SPELL_CHARM_PERSON", "level": 1 },
+    { "id": "LIST_SORWIZ_GREASE", "spell_id": "SPELL_GREASE", "level": 1 },
+    { "id": "LIST_SORWIZ_COLOR_SPRAY", "spell_id": "SPELL_COLOR_SPRAY", "level": 1 },
     { "id": "LIST_SORWIZ_INVISIBILITY", "spell_id": "SPELL_INVISIBILITY", "level": 2 },
+    { "id": "LIST_SORWIZ_MIRROR_IMAGE", "spell_id": "SPELL_MIRROR_IMAGE", "level": 2 },
+    { "id": "LIST_SORWIZ_GLITTERDUST", "spell_id": "SPELL_GLITTERDUST", "level": 2 },
+    { "id": "LIST_SORWIZ_WEB", "spell_id": "SPELL_WEB", "level": 2 },
+    { "id": "LIST_SORWIZ_SCORCHING_RAY", "spell_id": "SPELL_SCORCHING_RAY", "level": 2 },
     { "id": "LIST_SORWIZ_FIREBALL", "spell_id": "SPELL_FIREBALL", "level": 3 },
+    { "id": "LIST_SORWIZ_LIGHTNING_BOLT", "spell_id": "SPELL_LIGHTNING_BOLT", "level": 3 },
     { "id": "LIST_SORWIZ_HASTE", "spell_id": "SPELL_HASTE", "level": 3 },
     { "id": "LIST_SORWIZ_SLOW", "spell_id": "SPELL_SLOW", "level": 3 },
-    { "id": "LIST_SORWIZ_FLY", "spell_id": "SPELL_FLY", "level": 3 }
+    { "id": "LIST_SORWIZ_DISPEL_MAGIC", "spell_id": "SPELL_DISPEL_MAGIC", "level": 3 },
+    { "id": "LIST_SORWIZ_STONESKIN", "spell_id": "SPELL_STONESKIN", "level": 4 },
+    { "id": "LIST_SORWIZ_DIMENSION_DOOR", "spell_id": "SPELL_DIMENSION_DOOR", "level": 4 },
+    { "id": "LIST_SORWIZ_CONE_OF_COLD", "spell_id": "SPELL_CONE_OF_COLD", "level": 5 },
+    { "id": "LIST_SORWIZ_MAGIC_WEAPON", "spell_id": "SPELL_MAGIC_WEAPON", "level": 1 }
   ]
 }
