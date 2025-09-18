@@ -1,14 +1,19 @@
 {
   "source": "PHB v3.5",
   "chapter": "Magic",
-  "section": "Spell List — Bard (Core, v1)",
+  "section": "Spell List — Bard (Core, v2)",
   "schema_version": "1.0",
   "fields": ["id", "spell_id", "level"],
   "rows": [
     { "id": "LIST_BARD_SLEEP", "spell_id": "SPELL_SLEEP", "level": 1 },
     { "id": "LIST_BARD_CHARM_PERSON", "spell_id": "SPELL_CHARM_PERSON", "level": 1 },
+    { "id": "LIST_BARD_COLOR_SPRAY", "spell_id": "SPELL_COLOR_SPRAY", "level": 1 },
+    { "id": "LIST_BARD_MIRROR_IMAGE", "spell_id": "SPELL_MIRROR_IMAGE", "level": 2 },
     { "id": "LIST_BARD_INVISIBILITY", "spell_id": "SPELL_INVISIBILITY", "level": 2 },
+    { "id": "LIST_BARD_GLITTERDUST", "spell_id": "SPELL_GLITTERDUST", "level": 2 },
+    { "id": "LIST_BARD_DISPEL_MAGIC", "spell_id": "SPELL_DISPEL_MAGIC", "level": 3 },
     { "id": "LIST_BARD_HASTE", "spell_id": "SPELL_HASTE", "level": 3 },
+    { "id": "LIST_BARD_DIMENSION_DOOR", "spell_id": "SPELL_DIMENSION_DOOR", "level": 4 },
     { "id": "LIST_BARD_CURE_LIGHT_WOUNDS", "spell_id": "SPELL_CURE_LIGHT_WOUNDS", "level": 1 }
   ]
 }
