@@ -1,11 +1,12 @@
-# Engine Notes (clean v0)
+# Engine Notes
 
-This repo is **data-first**. Your loader just needs to:
+This directory only declares *what to load* and in which order. Your generator should:
 
-1) Read `/engine/harvest_index.json`
-2) For each entry in `load_order`:
-   - If `type: "rule"`, load and merge the rule blob (they follow `/schemas/rule.v1.json`).
-   - If `type: "table"`, load the table (they follow `/schemas/table.v1.json`) and index by `section` + `fields`.
+1) Load rules first (they inform later transforms).
+2) Load item tables next (equipment, armor/shields, ammunition, etc.).
+3) Derive or join extra fields at compile time (e.g., apply size scaling from rules to armor).
+
+No executable code here—purely declarative indexing.
 
 ## Validation
 
