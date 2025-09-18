@@ -1,0 +1,18 @@
+{
+  "source": "PHB v3.5",
+  "chapter": "Equipment",
+  "section": "Special Substances & Items",
+  "schema_version": "1.0",
+  "fields": ["id","name","cost_gp","weight_lb","game_text"],
+  "rows": [
+    { "id":"SSI_ACID_FLASK",         "name":"Acid (flask)",                 "cost_gp":10,  "weight_lb":1,   "game_text":"Thrown splash; acid damage per PHB splash weapon rules." },
+    { "id":"SSI_ALCHEMISTS_FIRE",    "name":"Alchemist’s fire (flask)",     "cost_gp":20,  "weight_lb":1,   "game_text":"Thrown splash; target burns again next round unless extinguished." },
+    { "id":"SSI_ANTITOXIN",          "name":"Antitoxin (vial)",             "cost_gp":50,  "weight_lb":0,   "game_text":"+5 alchemical bonus on Fort saves vs poison for 1 hour." },
+    { "id":"SSI_HOLY_WATER",         "name":"Holy water (flask)",           "cost_gp":25,  "weight_lb":1,   "game_text":"Thrown splash; 2d4 vs undead/evil outsiders on hit; splash 1 within 5 ft.; special vs incorporeal (PHB)." },
+    { "id":"SSI_SMOKESTICK",         "name":"Smokestick",                   "cost_gp":20,  "weight_lb":0.5, "game_text":"10-ft cube of opaque smoke; 1 round (longer in still air)." },
+    { "id":"SSI_SUNROD",             "name":"Sunrod",                       "cost_gp":2,   "weight_lb":1,   "game_text":"Bright 30 ft., shadowy 60 ft., 6 hours." },
+    { "id":"SSI_TANGLEFOOT_BAG",     "name":"Tanglefoot bag",               "cost_gp":50,  "weight_lb":4,   "game_text":"Touch attack; entangles on failed Reflex save; penalties and sticking effect per PHB." },
+    { "id":"SSI_THUNDERSTONE",       "name":"Thunderstone",                 "cost_gp":30,  "weight_lb":1,   "game_text":"Thrown; creatures in 10 ft. must save or be deafened (Fort)."},
+    { "id":"SSI_TINDERTWIG",         "name":"Tindertwig",                   "cost_gp":1,   "weight_lb":0,   "game_text":"Lights like a match as a standard action; ignites torches, lamps, etc." }
+  ]
+}
