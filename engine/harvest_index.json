@@ -8,18 +8,17 @@
         "sources/PHB/items",
         "sources/PHB/spells"
       ],
-      "load_order": [
-        "sources/PHB/rules/armor_for_unusual_creatures.json",
-        "sources/PHB/items/armor_shields/armor_shields.core.json",
-        "sources/PHB/items/equipment/adventuring_gear/adventuring_gear.core.json",
-        "sources/PHB/items/equipment/tools_and_kits/tools_and_kits.core.json",
-        "sources/PHB/items/equipment/special_substances_items/special_substances_items.core.json",
+  "load_order": [
+    "sources/PHB/rules/armor_for_unusual_creatures.json",
 
-        "sources/PHB/items/weapons/weapons.core.json",
+    "sources/PHB/items/armor_shields/armor_shields.core.json",
 
-        "sources/PHB/spells/spells.schema.v1.json",
-        "sources/PHB/spells/spells.A-F.json"
-      ]
+    "sources/PHB/items/equipment/adventuring_gear/adventuring_gear.core.json",
+    "sources/PHB/items/equipment/tools_and_kits/tools_and_kits.core.json",
+    "sources/PHB/items/equipment/special_substances_items/special_substances_items.core.json",
+
+    "sources/PHB/items/ammunition/ammunition.core.json"
+  ]
     }
   ]
 }
