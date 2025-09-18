@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "weapon.schema.json",
+  "title": "PHB Weapon",
+  "type": "object",
+  "required": ["name", "category", "group", "damage", "critical", "type", "weight", "cost", "source"],
+  "properties": {
+    "name": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "category": { "type": "string", "enum": ["simple", "martial", "exotic"] },
+    "group": { "type": "string", "enum": ["melee", "ranged"] },
+    "handedness": { "type": "string", "enum": ["light", "one-handed", "two-handed", "thrown", "ammunition"], "nullable": true },
+    "damage": {
+      "type": "object",
+      "description": "Damage by size; keys: S (Small), M (Medium), L (Large).",
+      "properties": {
+        "S": { "type": "string" },
+        "M": { "type": "string" },
+        "L": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "critical": {
+      "type": "object",
+      "required": ["threat", "multiplier"],
+      "properties": {
+        "threat": { "type": "string", "description": "e.g., '19-20' or '20'" },
+        "multiplier": { "type": "string", "description": "e.g., 'x2', 'x3', 'x4'" }
+      },
+      "additionalProperties": false
+    },
+    "range_increment": { "type": "integer", "description": "In feet; null for melee.", "nullable": true },
+    "type": { "type": "string", "description": "Damage type: B/P/S or combinations, e.g., 'P or S'." },
+    "weight": { "type": "number" },
+    "cost": { "type": "string", "description": "e.g., '10 gp', '1 sp'" },
+    "special": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "string" },
+    "source": {
+      "type": "object",
+      "required": ["book", "page"],
+      "properties": {
+        "book": { "type": "string" },
+        "page": { "type": "integer" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
