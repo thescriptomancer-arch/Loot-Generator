@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "spell.schema.json",
+  "title": "PHB Spell",
+  "type": "object",
+  "required": ["name", "school", "level_by_class", "components", "casting_time", "range", "duration", "saving_throw", "spell_resistance", "source"],
+  "properties": {
+    "name": { "type": "string" },
+    "school": { "type": "string" },
+    "subschool": { "type": "string", "nullable": true },
+    "descriptors": { "type": "array", "items": { "type": "string" } },
+    "level_by_class": {
+      "type": "object",
+      "description": "e.g., {\"bard\":2, \"cleric\":3, \"druid\":2, \"paladin\":1, \"ranger\":1, \"sorcerer_wizard\":2}"
+    },
+    "components": {
+      "type": "object",
+      "properties": {
+        "V": { "type": "boolean" },
+        "S": { "type": "boolean" },
+        "M": { "type": "boolean" },
+        "F": { "type": "boolean" },
+        "DF": { "type": "boolean" },
+        "XP": { "type": "boolean" },
+        "material_cost": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "casting_time": { "type": "string" },
+    "range": { "type": "string" },
+    "target": { "type": "string" },
+    "effect": { "type": "string" },
+    "area": { "type": "string" },
+    "duration": { "type": "string" },
+    "saving_throw": { "type": "string" },
+    "spell_resistance": { "type": "string" },
+    "text": { "type": "string", "description": "Rules text (optional, if you’re not storing full text skip it)" },
+    "source": {
+      "type": "object",
+      "required": ["book", "page"],
+      "properties": {
+        "book": { "type": "string" },
+        "page": { "type": "integer" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
