@@ -1,0 +1,35 @@
+{
+  "source": "PHB v3.5",
+  "chapter": "Equipment",
+  "section": "Armor and Shields (Table 7–6)",
+  "schema_version": "1.0",
+  "fields": [
+    "id","name","category","armor_bonus","shield_bonus","max_dex_bonus",
+    "armor_check_penalty","arcane_spell_failure_percent","speed_30","speed_20",
+    "weight_lb","cost_gp","materials_base","notes"
+  ],
+  "rows": [
+    { "id":"ARM_PADDED","name":"Padded","category":"light","armor_bonus":1,"shield_bonus":null,"max_dex_bonus":8,"armor_check_penalty":0,"arcane_spell_failure_percent":5,"speed_30":30,"speed_20":20,"weight_lb":10,"cost_gp":5,"materials_base":"cloth|leather","notes":"" },
+    { "id":"ARM_LEATHER","name":"Leather","category":"light","armor_bonus":2,"shield_bonus":null,"max_dex_bonus":6,"armor_check_penalty":0,"arcane_spell_failure_percent":10,"speed_30":30,"speed_20":20,"weight_lb":15,"cost_gp":10,"materials_base":"leather","notes":"" },
+    { "id":"ARM_STUDDED_LEATHER","name":"Studded leather","category":"light","armor_bonus":3,"shield_bonus":null,"max_dex_bonus":5,"armor_check_penalty":-1,"arcane_spell_failure_percent":15,"speed_30":30,"speed_20":20,"weight_lb":20,"cost_gp":25,"materials_base":"leather|metal_rivets","notes":"" },
+    { "id":"ARM_CHAIN_SHIRT","name":"Chain shirt","category":"light","armor_bonus":4,"shield_bonus":null,"max_dex_bonus":4,"armor_check_penalty":-2,"arcane_spell_failure_percent":20,"speed_30":30,"speed_20":20,"weight_lb":25,"cost_gp":100,"materials_base":"metal","notes":"" },
+
+    { "id":"ARM_HIDE","name":"Hide","category":"medium","armor_bonus":3,"shield_bonus":null,"max_dex_bonus":4,"armor_check_penalty":-3,"arcane_spell_failure_percent":20,"speed_30":20,"speed_20":15,"weight_lb":25,"cost_gp":15,"materials_base":"hide","notes":"" },
+    { "id":"ARM_SCALE_MAIL","name":"Scale mail","category":"medium","armor_bonus":4,"shield_bonus":null,"max_dex_bonus":3,"armor_check_penalty":-4,"arcane_spell_failure_percent":25,"speed_30":20,"speed_20":15,"weight_lb":30,"cost_gp":50,"materials_base":"metal","notes":"" },
+    { "id":"ARM_CHAINMAIL","name":"Chainmail","category":"medium","armor_bonus":5,"shield_bonus":null,"max_dex_bonus":2,"armor_check_penalty":-5,"arcane_spell_failure_percent":30,"speed_30":20,"speed_20":15,"weight_lb":40,"cost_gp":150,"materials_base":"metal","notes":"" },
+    { "id":"ARM_BREASTPLATE","name":"Breastplate","category":"medium","armor_bonus":5,"shield_bonus":null,"max_dex_bonus":3,"armor_check_penalty":-4,"arcane_spell_failure_percent":25,"speed_30":20,"speed_20":15,"weight_lb":30,"cost_gp":200,"materials_base":"metal","notes":"" },
+
+    { "id":"ARM_SPLINT_MAIL","name":"Splint mail","category":"heavy","armor_bonus":6,"shield_bonus":null,"max_dex_bonus":0,"armor_check_penalty":-7,"arcane_spell_failure_percent":40,"speed_30":20,"speed_20":15,"weight_lb":45,"cost_gp":200,"materials_base":"metal","notes":"Includes gauntlets." },
+    { "id":"ARM_BANDED_MAIL","name":"Banded mail","category":"heavy","armor_bonus":6,"shield_bonus":null,"max_dex_bonus":1,"armor_check_penalty":-6,"arcane_spell_failure_percent":35,"speed_30":20,"speed_20":15,"weight_lb":35,"cost_gp":250,"materials_base":"metal","notes":"" },
+    { "id":"ARM_HALF_PLATE","name":"Half-plate","category":"heavy","armor_bonus":7,"shield_bonus":null,"max_dex_bonus":0,"armor_check_penalty":-7,"arcane_spell_failure_percent":40,"speed_30":20,"speed_20":15,"weight_lb":50,"cost_gp":600,"materials_base":"metal","notes":"" },
+    { "id":"ARM_FULL_PLATE","name":"Full plate","category":"heavy","armor_bonus":8,"shield_bonus":null,"max_dex_bonus":1,"armor_check_penalty":-6,"arcane_spell_failure_percent":35,"speed_30":20,"speed_20":15,"weight_lb":50,"cost_gp":1500,"materials_base":"metal","notes":"" },
+
+    { "id":"SHD_BUCKLER","name":"Buckler","category":"shield","armor_bonus":null,"shield_bonus":1,"max_dex_bonus":null,"armor_check_penalty":-1,"arcane_spell_failure_percent":5,"speed_30":null,"speed_20":null,"weight_lb":5,"cost_gp":15,"materials_base":"metal|wood","notes":"" },
+    { "id":"SHD_LIGHT_WOOD","name":"Light wooden shield","category":"shield","armor_bonus":null,"shield_bonus":1,"max_dex_bonus":null,"armor_check_penalty":-1,"arcane_spell_failure_percent":5,"speed_30":null,"speed_20":null,"weight_lb":5,"cost_gp":3,"materials_base":"wood","notes":"" },
+    { "id":"SHD_LIGHT_STEEL","name":"Light steel shield","category":"shield","armor_bonus":null,"shield_bonus":1,"max_dex_bonus":null,"armor_check_penalty":-1,"arcane_spell_failure_percent":5,"speed_30":null,"speed_20":null,"weight_lb":6,"cost_gp":9,"materials_base":"metal","notes":"" },
+    { "id":"SHD_HEAVY_WOOD","name":"Heavy wooden shield","category":"shield","armor_bonus":null,"shield_bonus":2,"max_dex_bonus":null,"armor_check_penalty":-2,"arcane_spell_failure_percent":15,"speed_30":null,"speed_20":null,"weight_lb":10,"cost_gp":7,"materials_base":"wood","notes":"" },
+    { "id":"SHD_HEAVY_STEEL","name":"Heavy steel shield","category":"shield","armor_bonus":null,"shield_bonus":2,"max_dex_bonus":null,"armor_check_penalty":-2,"arcane_spell_failure_percent":15,"speed_30":null,"speed_20":null,"weight_lb":15,"cost_gp":20,"materials_base":"metal","notes":"" },
+    { "id":"SHD_TOWER","name":"Tower shield","category":"shield","armor_bonus":null,"shield_bonus":4,"max_dex_bonus":null,"armor_check_penalty":-10,"arcane_spell_failure_percent":50,"speed_30":null,"speed_20":null,"weight_lb":45,"cost_gp":30,"materials_base":"wood|metal","notes":"" }
+  ],
+  "masterwork": { "extra_cost_gp": 150, "acp_reduction": 1, "auto_on_magic": true }
+}
