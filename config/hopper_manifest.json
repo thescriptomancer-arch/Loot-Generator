@@ -1,19 +1,26 @@
 {
-  "schema_version": "hopper_manifest@1",
-  "accepted_books": ["PHB", "DMG", "DMG2", "MIC", "Setting"],
-  "segmentation": {
-    "min_heading_font_ratio": 1.2,
-    "merge_short_lines": true,
-    "detect_tables": "auto"
-  },
-  "extraction": {
-    "enable_item_detection": true,
-    "enable_spell_reference_detection": true,
-    "enable_rule_detection": true,
-    "enable_price_weight_units": true,
-    "enable_tables_to_assertions": true
-  },
-  "merge": {
-    "policy_file": "config/merge_policies.json"
+  "version": "1.0",
+  "books": [
+    {
+      "id": "PHB_3_5",
+      "title": "Player's Handbook v3.5",
+      "document_path": "books/PHB/Player's Handbook. Core Rulebook I v.3.5.pdf",
+      "meta_path": "meta/PHB/source_metadata.json",
+      "rules_path": "rules/PHB/extraction_rules.json",
+      "outputs": [
+        "data/PHB/equipment/armor_and_shields.json",
+        "data/PHB/equipment/weapons.json",
+        "data/PHB/equipment/adventuring_gear.json",
+        "data/PHB/equipment/special_substances.json",
+        "data/PHB/equipment/tools_kits.json",
+        "data/PHB/common/lookups/size_multipliers.json"
+      ]
+    }
+  ],
+  "schemas": {
+    "base_item": "schemas/item_base.json",
+    "harvested_table": "schemas/harvested_table.json",
+    "equipment_item": "schemas/equipment_item.json",
+    "lookup_size_multipliers": "schemas/lookup_size_multipliers.json"
   }
 }
