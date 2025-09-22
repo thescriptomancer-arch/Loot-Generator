@@ -1,0 +1,14 @@
+{
+  "$id": "schemas/cursed_item_generation.v1.json",
+  "title": "Cursed Item Generation Tables",
+  "type": "object",
+  "required": ["schema_version", "curse_trigger", "curse_table_ref"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "curse_trigger": { "type": "string", "enum": ["d%_on_magic_roll", "explicit_rule"] },
+    "d%_range_for_curse": { "type": "string" },
+    "curse_table_ref": { "type": "string" },
+    "notes": { "type": "string" },
+    "source": { "type": "string" }
+  }
+}
