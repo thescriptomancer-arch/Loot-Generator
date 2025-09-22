@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG v3.5",
+  "chapter": "Magic Items",
+  "section": "Cursed Items",
+  "curse_trigger": "d%_on_magic_roll",
+  "d%_range_for_curse": "01–05",
+  "curse_table_ref": "DMG: Cursed Item Common Curses",
+  "families": [
+    "Delusion",
+    "Opposite effect or target",
+    "Intermittent functioning",
+    "Requirement",
+    "Drawback",
+    "Completely different effect",
+    "Substitute specific cursed item"
+  ]
+}
