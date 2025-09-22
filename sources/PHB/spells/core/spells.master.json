@@ -6700,7 +6700,7 @@
 "duration": "Instantaneous or 1 round/level; see text",
 "saving_throw": "Reflex half; see text",
 "spell_resistance": "Yes",
-"short_description": "Frigid globe explodes for 1d6 cold/level (max 15d6) or 1d8/level vs. water elementals (max 15d8). Can freeze water to 6" depth over 100 sq. ft./level for 1 round/level (traps swimmers; Str or Escape Artist DC 25). You can hold the charge up to 1 round/level; if it expires, it bursts centered on you. Focus: crystal sphere.",
+"short_description": "Frigid globe explodes for 1d6 cold/level (max 15d6) or 1d8/level vs. water elementals (max 15d8). Can freeze water to 6 inch depth over 100 sq. ft./level for 1 round/level (traps swimmers; Str or Escape Artist DC 25). You can hold the charge up to 1 round/level; if it expires, it bursts centered on you. Focus: crystal sphere.",
 "source_ref": "PHB"
 },
 {
