@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "category": "armor",
+  "steps": [
+    {
+      "id": "base_item",
+      "name": "Select Base Armor/Shield",
+      "kind": "select_base_item",
+      "inputs": { "from_table": "sources/PHB/items/armor_shields/armor_shields.core.json" },
+      "weights": { "rarity": "core_weight" },
+      "rules": { "allow_shields": true, "allow_armor": true }
+    },
+    {
+      "id": "masterwork",
+      "name": "Masterwork Gate",
+      "kind": "masterwork_gate",
+      "rules": {
+        "require_masterwork_for_magic": true,
+        "auto_masterwork_if_material_requires": true
+      },
+      "table_refs": ["DMG Masterwork Items"],
+      "output_bindings": { "quality.masterwork": true }
+    },
+    {
+      "id": "material",
+      "name": "Select Special Material",
+      "kind": "select_material",
+      "inputs": { "from_table": "sources/DMG/items/materials/materials.core.json" },
+      "weights": { "d%_special_substance": { "range_01_95": "standard", "range_96_100": "special_material" } },
+      "rules": {
+        "filter_by_item_composition": true,
+        "apply_stats_modifiers": true,
+        "apply_cost_modifiers": true
+      },
+      "table_refs": ["DMG: Special Materials"],
+      "output_bindings": { "material": "row.id" }
+    },
+    {
+      "id": "size_shape",
+      "name": "Apply Size/Shape",
+      "kind": "size_shape",
+      "rules": { "use_phb_size_profiles": true, "unusual_creatures_allowed": true },
+      "table_refs": ["PHB: Armor for Unusual Creatures"]
+    },
+    {
+      "id": "magic_core",
+      "name": "Enhancement Bonus Determination",
+      "kind": "magic_core",
+      "weights": {
+        "minor_medium_major": { "tiers": ["minor","medium","major"], "default": "minor" },
+        "enhancement_distro": { "+1": 0.7, "+2": 0.25, "+3": 0.05 }
+      },
+      "rules": { "min_enhancement_if_has_special_ability": 1, "effective_bonus_cap": 10 },
+      "table_refs": ["DMG: Armor/Shields random generation & pricing"]
+    },
+    {
+      "id": "magic_specials",
+      "name": "Armor/Shield Special Abilities",
+      "kind": "magic_special_abilities",
+      "inputs": { "from_table": "sources/DMG/items/magic/armor_special_abilities.core.json" },
+      "weights": {
+        "minor": {"Glamered": 25, "Fortification, light": 7, "Shadow": 20, "Silent moves": 20, "Energy resistance (10s)": 0},
+        "medium": {"Improved Shadow": 10, "Improved Silent moves": 10, "Energy resistance (10s)": 55, "Ghost touch": 5},
+        "major": {"Spell resistance": 6, "Energy resistance (20s/30s)": 40, "Fortification (higher grades)": 8}
+      },
+      "rules": {
+        "respect_min_enhancement": true,
+        "sum_bonus_equiv_to_pricing": true,
+        "disallow_conflicts": ["multiple_fortification_grades"]
+      },
+      "table_refs": ["DMG Table 7-2..7-6 overview"],
+      "output_bindings": { "special_abilities": "ids" }
+    },
+    {
+      "id": "int_check",
+      "name": "Intelligent Item Determination",
+      "kind": "intelligent_item_check",
+      "weights": { "chance_pct": 1 },
+      "rules": {},
+      "table_refs": ["DMG: Intelligent Items"]
+    },
+    {
+      "id": "int_build",
+      "name": "Intelligent Item Build",
+      "kind": "intelligent_item_build",
+      "inputs": { "tables": "sources/DMG/items/magic/intelligent_item_tables.core.json" },
+      "rules": { "enforce_alignment_constraints": true, "compute_ego": true },
+      "table_refs": ["DMG: Intelligent Item tables"]
+    },
+    {
+      "id": "curse_check",
+      "name": "Cursed Item Check",
+      "kind": "cursed_item_check",
+      "inputs": { "tables": "sources/DMG/items/magic/cursed_item_tables.core.json" },
+      "rules": { "re_roll_secret": true }
+    },
+    {
+      "id": "curse_apply",
+      "name": "Apply Curse",
+      "kind": "cursed_item_apply",
+      "rules": { "family_selection": "weighted", "respect_substitute_specific_item": true },
+      "table_refs": ["DMG: Cursed Items"]
+    },
+    {
+      "id": "flavor",
+      "name": "Item Flavor",
+      "kind": "flavor",
+      "rules": { "ai_flavor_allowed": true, "tone": "evocative, non-mechanical", "respect_alignment": true }
+    },
+    {
+      "id": "desc",
+      "name": "Item Description Synthesis",
+      "kind": "description_synth",
+      "rules": { "include_blocks": ["base","material","magic","intelligence","curse","history"], "omit_if_absent": true }
+    }
+  ]
+}
