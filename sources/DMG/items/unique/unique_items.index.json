@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG v3.5",
+  "chapter": "Magic Items",
+  "section": "Specific Items Index",
+  "fields": ["id","name","category","source_page","notes"],
+  "rows": [
+    ["uniq_holy_avenger","Holy Avenger","weapon","DMG Ch.7 (specific weapons)","Paladin iconic; alignment locks apply"],
+    ["uniq_celestial_armor","Celestial Armor","armor","DMG Ch.7 (specific armors)","Light armor with flight benefit"],
+    ["uniq_sun_blade","Sun Blade","weapon","DMG Ch.7 (specific weapons)","Bastard sword-like; vs undead"],
+    ["uniq_dwarven_thrower","Dwarven Thrower","weapon","DMG Ch.7 (specific weapons)","Dwarves, throwing returns"],
+    ["uniq_shield_animated","Animated Shield","shield","DMG Ch.7 (specific shields)","Animated property"]
+  ]
+}
