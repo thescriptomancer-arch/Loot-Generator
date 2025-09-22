@@ -5,11 +5,75 @@
   "section": "Weapon Special Abilities",
   "fields": ["id","name","category","costing","min_enhancement","stacking_rules","source"],
   "rows": [
-    ["wpn_flaming","Flaming","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"", "DMG Table 7-14"],
-    ["wpn_frost","Frost","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"", "DMG Table 7-14"],
-    ["wpn_shock","Shock","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"", "DMG Table 7-14"],
-    ["wpn_holy","Holy","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated interactions must be satisfied", "DMG Table 7-14"],
-    ["wpn_speed","Speed","weapon_melee",{"type":"bonus_equiv","bonus_equiv":4},1,"", "DMG Table 7-14"],
-    ["wpn_distance","Distance","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"", "DMG Table 7-15"]
+    ["wpn_anarchic_melee","Anarchic","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; chaotic only; conflicts with lawful/axiomatic/holy/unholy","DMG Ch.7"],
+    ["wpn_anarchic_ranged","Anarchic","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; chaotic only; conflicts with lawful/axiomatic/holy/unholy","DMG Ch.7"],
+
+    ["wpn_axiomatic_melee","Axiomatic","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; lawful only; conflicts with chaotic/anarchic/holy/unholy","DMG Ch.7"],
+    ["wpn_axiomatic_ranged","Axiomatic","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; lawful only; conflicts with chaotic/anarchic/holy/unholy","DMG Ch.7"],
+
+    ["wpn_bane_melee","Bane","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Choose creature type/subtype at creation; applies to that foe","DMG Ch.7"],
+    ["wpn_bane_ranged","Bane","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Choose creature type/subtype at creation; applies to that foe","DMG Ch.7"],
+    ["wpn_bane_ammo","Bane","ammunition",{"type":"bonus_equiv","bonus_equiv":1},1,"Choose creature type/subtype at creation; applies to that foe","DMG Ch.7"],
+
+    ["wpn_brilliant_energy","Brilliant energy","weapon_melee",{"type":"bonus_equiv","bonus_equiv":4},1,"Negates armor/natural armor; no effect vs constructs/undead/objects; cannot be on ammunition","DMG Ch.7"],
+
+    ["wpn_dancing","Dancing","weapon_melee",{"type":"bonus_equiv","bonus_equiv":4},1,"Weapon can fight on its own briefly; melee only","DMG Ch.7"],
+
+    ["wpn_defending","Defending","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Can shift enhancement to AC as a dodge bonus; melee only","DMG Ch.7"],
+
+    ["wpn_distance","Distance","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Range increment ×2; ranged only","DMG Ch.7"],
+
+    ["wpn_disruption","Disruption","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Bludgeoning only; destroys undead on failed save","DMG Ch.7"],
+
+    ["wpn_flaming","Flaming","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds fire damage; melee or ammunition (use separate ammo row if needed)","DMG Ch.7"],
+    ["wpn_flaming_ranged","Flaming","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds fire damage to ranged attacks; also valid for ammunition","DMG Ch.7"],
+    ["wpn_flaming_burst","Flaming burst","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Flaming (includes it); reroll if Flaming already present when randomly generating","DMG Ch.7"],
+    ["wpn_flaming_burst_ranged","Flaming burst","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Flaming (includes it); ranged only; reroll duplicate","DMG Ch.7"],
+
+    ["wpn_frost","Frost","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds cold damage; melee or ammunition (use separate ammo row if needed)","DMG Ch.7"],
+    ["wpn_frost_ranged","Frost","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds cold damage to ranged attacks; also valid for ammunition","DMG Ch.7"],
+    ["wpn_icy_burst","Icy burst","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Frost (includes it); reroll duplicate","DMG Ch.7"],
+    ["wpn_icy_burst_ranged","Icy burst","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Frost (includes it); reroll duplicate","DMG Ch.7"],
+
+    ["wpn_ghost_touch_melee","Ghost touch","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Fully effective vs incorporeal; melee only","DMG Ch.7"],
+    ["wpn_ghost_touch_ranged","Ghost touch","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Fully effective vs incorporeal; ranged only","DMG Ch.7"],
+
+    ["wpn_holy_melee","Holy","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; good only; conflicts with unholy/anarchic/axiomatic","DMG Ch.7"],
+    ["wpn_holy_ranged","Holy","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; good only; conflicts with unholy/anarchic/axiomatic","DMG Ch.7"],
+
+    ["wpn_unholy_melee","Unholy","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; evil only; conflicts with holy/anarchic/axiomatic","DMG Ch.7"],
+    ["wpn_unholy_ranged","Unholy","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; evil only; conflicts with holy/anarchic/axiomatic","DMG Ch.7"],
+
+    ["wpn_keen","Keen","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Slashing or piercing melee only; does not stack with Improved Critical","DMG Ch.7"],
+
+    ["wpn_ki_focus","Ki focus","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Allows use of ki strike–like effects; melee only","DMG Ch.7"],
+
+    ["wpn_merciful_melee","Merciful","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Converts to nonlethal and adds damage; toggle as command","DMG Ch.7"],
+    ["wpn_merciful_ranged","Merciful","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Converts to nonlethal and adds damage; ranged","DMG Ch.7"],
+
+    ["wpn_mighty_cleaving","Mighty cleaving","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Grants one extra Cleave attempt per round; melee only","DMG Ch.7"],
+
+    ["wpn_returning","Returning","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Thrown weapons only; returns to wielder","DMG Ch.7"],
+
+    ["wpn_seeking","Seeking","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Ignores concealment miss chance (non-total); ranged only","DMG Ch.7"],
+
+    ["wpn_shock","Shock","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds electricity damage; melee or ammunition (use separate ammo row if needed)","DMG Ch.7"],
+    ["wpn_shock_ranged","Shock","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds electricity damage to ranged attacks; also valid for ammunition","DMG Ch.7"],
+    ["wpn_shocking_burst","Shocking burst","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Shock (includes it); reroll duplicate","DMG Ch.7"],
+    ["wpn_shocking_burst_ranged","Shocking burst","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Shock (includes it); reroll duplicate","DMG Ch.7"],
+
+    ["wpn_spell_storing","Spell storing","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Holds and delivers a spell (up to 3rd) on hit; melee only","DMG Ch.7"],
+
+    ["wpn_speed","Speed","weapon_melee",{"type":"bonus_equiv","bonus_equiv":3},1,"Grants an extra attack when making a full attack; melee","DMG Ch.7"],
+
+    ["wpn_thundering","Thundering","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"On a critical, adds sonic damage and may deafen","DMG Ch.7"],
+
+    ["wpn_throwing","Throwing","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Allows melee weapon to be thrown (10 ft. increment unless noted)","DMG Ch.7"],
+
+    ["wpn_vicious","Vicious","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Extra damage to target and to wielder","DMG Ch.7"],
+
+    ["wpn_vorpal","Vorpal","weapon_melee",{"type":"bonus_equiv","bonus_equiv":5},1,"Slashing only; decapitation on crit; cannot apply to ranged/ammo","DMG Ch.7"],
+
+    ["wpn_wounding","Wounding","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Deals bleed (Con damage) on hit; melee only","DMG Ch.7"]
   ]
 }
