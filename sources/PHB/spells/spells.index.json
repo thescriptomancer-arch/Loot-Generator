@@ -1,14 +1,2440 @@
 {
   "schema_version": "1.0",
-  "book": "PHB v3.5",
-  "shards": [
-    "sources/PHB/spells/core/spells.master.json",
-    "sources/PHB/spells/core/lists.bard.json",
-    "sources/PHB/spells/core/lists.cleric.json",
-    "sources/PHB/spells/core/lists.druid.json",
-    "sources/PHB/spells/core/lists.paladin.json",
-    "sources/PHB/spells/core/lists.ranger.json",
-    "sources/PHB/spells/core/lists.sorcerer_wizard.json"
+  "source": "PHB v3.5",
+  "chapter": "Spells",
+  "section": "Index",
+  "fields": [
+    "spell_id",
+    "name"
+  ],
+  "rows": [
+    [
+      "SPELL_ACID_FOG",
+      "Acid Fog"
+    ],
+    [
+      "SPELL_ACID_SPLASH",
+      "Acid Splash"
+    ],
+    [
+      "SPELL_AID",
+      "Aid"
+    ],
+    [
+      "SPELL_AIR_WALK",
+      "Air Walk"
+    ],
+    [
+      "SPELL_ALARM",
+      "Alarm"
+    ],
+    [
+      "SPELL_ALIGN_WEAPON",
+      "Align Weapon"
+    ],
+    [
+      "SPELL_ALTER_SELF",
+      "Alter Self"
+    ],
+    [
+      "SPELL_ANALYZE_DWEOMER",
+      "Analyze Dweomer"
+    ],
+    [
+      "SPELL_ANIMAL_GROWTH",
+      "Animal Growth"
+    ],
+    [
+      "SPELL_ANIMAL_MESSENGER",
+      "Animal Messenger"
+    ],
+    [
+      "SPELL_ANIMAL_SHAPES",
+      "Animal Shapes"
+    ],
+    [
+      "SPELL_ANIMAL_TRANCE",
+      "Animal Trance"
+    ],
+    [
+      "SPELL_ANIMATE_DEAD",
+      "Animate Dead"
+    ],
+    [
+      "SPELL_ANIMATE_OBJECTS",
+      "Animate Objects"
+    ],
+    [
+      "SPELL_ANIMATE_PLANTS",
+      "Animate Plants"
+    ],
+    [
+      "SPELL_ANIMATE_ROPE",
+      "Animate Rope"
+    ],
+    [
+      "SPELL_ANTILIFE_SHELL",
+      "Antilife Shell"
+    ],
+    [
+      "SPELL_ANTIMAGIC_FIELD",
+      "Antimagic Field"
+    ],
+    [
+      "SPELL_ANTIPATHY",
+      "Antipathy"
+    ],
+    [
+      "SPELL_ANTIPLANT_SHELL",
+      "Antiplant Shell"
+    ],
+    [
+      "SPELL_ARCANE_EYE",
+      "Arcane Eye"
+    ],
+    [
+      "SPELL_ARCANE_LOCK",
+      "Arcane Lock"
+    ],
+    [
+      "SPELL_ARCANE_MARK",
+      "Arcane Mark"
+    ],
+    [
+      "SPELL_ARCANE_SIGHT",
+      "Arcane Sight"
+    ],
+    [
+      "SPELL_ARCANE_SIGHT_GREATER",
+      "Arcane Sight, Greater"
+    ],
+    [
+      "SPELL_ASTRAL_PROJECTION",
+      "Astral Projection"
+    ],
+    [
+      "SPELL_ATONEMENT",
+      "Atonement"
+    ],
+    [
+      "SPELL_AUGURY",
+      "Augury"
+    ],
+    [
+      "SPELL_AWAKEN",
+      "Awaken"
+    ],
+    [
+      "SPELL_BALEFUL_POLYMORPH",
+      "Baleful Polymorph"
+    ],
+    [
+      "SPELL_BANE",
+      "Bane"
+    ],
+    [
+      "SPELL_BANISHMENT",
+      "Banishment"
+    ],
+    [
+      "SPELL_BARKSKIN",
+      "Barkskin"
+    ],
+    [
+      "SPELL_BEARS_ENDURANCE",
+      "Bear’s Endurance"
+    ],
+    [
+      "SPELL_BEARS_ENDURANCE_MASS",
+      "Bear’s Endurance, Mass"
+    ],
+    [
+      "SPELL_BESTOW_CURSE",
+      "Bestow Curse"
+    ],
+    [
+      "SPELL_BIGBYS_CLENCHED_FIST",
+      "Bigby’s Clenched Fist"
+    ],
+    [
+      "SPELL_BIGBYS_CRUSHING_HAND",
+      "Bigby’s Crushing Hand"
+    ],
+    [
+      "SPELL_BIGBYS_FORCEFUL_HAND",
+      "Bigby’s Forceful Hand"
+    ],
+    [
+      "SPELL_BIGBYS_GRASPING_HAND",
+      "Bigby’s Grasping Hand"
+    ],
+    [
+      "SPELL_BIGBYS_INTERPOSING_HAND",
+      "Bigby’s Interposing Hand"
+    ],
+    [
+      "SPELL_BINDING",
+      "Binding"
+    ],
+    [
+      "SPELL_BLADE_BARRIER",
+      "Blade Barrier"
+    ],
+    [
+      "SPELL_BLASPHEMY",
+      "Blasphemy"
+    ],
+    [
+      "SPELL_BLESS",
+      "Bless"
+    ],
+    [
+      "SPELL_BLESS_WATER",
+      "Bless Water"
+    ],
+    [
+      "SPELL_BLESS_WEAPON",
+      "Bless Weapon"
+    ],
+    [
+      "SPELL_BLIGHT",
+      "Blight"
+    ],
+    [
+      "SPELL_BLINDNESS_DEAFNESS",
+      "Blindness/Deafness"
+    ],
+    [
+      "SPELL_BLINK",
+      "Blink"
+    ],
+    [
+      "SPELL_BLUR",
+      "Blur"
+    ],
+    [
+      "SPELL_BREAK_ENCHANTMENT",
+      "Break Enchantment"
+    ],
+    [
+      "SPELL_BULLS_STRENGTH",
+      "Bull’s Strength"
+    ],
+    [
+      "SPELL_BULLS_STRENGTH_MASS",
+      "Bull’s Strength, Mass"
+    ],
+    [
+      "SPELL_BURNING_HANDS",
+      "Burning Hands"
+    ],
+    [
+      "SPELL_CALL_LIGHTNING",
+      "Call Lightning"
+    ],
+    [
+      "SPELL_CALL_LIGHTNING_STORM",
+      "Call Lightning Storm"
+    ],
+    [
+      "SPELL_CALM_ANIMALS",
+      "Calm Animals"
+    ],
+    [
+      "SPELL_CALM_EMOTIONS",
+      "Calm Emotions"
+    ],
+    [
+      "SPELL_CATS_GRACE",
+      "Cat’s Grace"
+    ],
+    [
+      "SPELL_CATS_GRACE_MASS",
+      "Cat’s Grace, Mass"
+    ],
+    [
+      "SPELL_CAUSE_FEAR",
+      "Cause Fear"
+    ],
+    [
+      "SPELL_CHAIN_LIGHTNING",
+      "Chain Lightning"
+    ],
+    [
+      "SPELL_CHANGESTAFF",
+      "Changestaff"
+    ],
+    [
+      "SPELL_CHAOS_HAMMER",
+      "Chaos Hammer"
+    ],
+    [
+      "SPELL_CHARM_ANIMAL",
+      "Charm Animal"
+    ],
+    [
+      "SPELL_CHARM_MONSTER",
+      "Charm Monster"
+    ],
+    [
+      "SPELL_CHARM_MONSTER_MASS",
+      "Charm Monster, Mass"
+    ],
+    [
+      "SPELL_CHARM_PERSON",
+      "Charm Person"
+    ],
+    [
+      "SPELL_CHILL_METAL",
+      "Chill Metal"
+    ],
+    [
+      "SPELL_CHILL_TOUCH",
+      "Chill Touch"
+    ],
+    [
+      "SPELL_CIRCLE_OF_DEATH",
+      "Circle of Death"
+    ],
+    [
+      "SPELL_CLAIRAUDIENCE_CLAIRVOYANCE",
+      "Clairaudience/Clairvoyance"
+    ],
+    [
+      "SPELL_CLOAK_OF_CHAOS",
+      "Cloak of Chaos"
+    ],
+    [
+      "SPELL_CLONE",
+      "Clone"
+    ],
+    [
+      "SPELL_CLOUDKILL",
+      "Cloudkill"
+    ],
+    [
+      "SPELL_COLOR_SPRAY",
+      "Color Spray"
+    ],
+    [
+      "SPELL_COMMAND",
+      "Command"
+    ],
+    [
+      "SPELL_COMMAND_PLANTS",
+      "Command Plants"
+    ],
+    [
+      "SPELL_COMMAND_UNDEAD",
+      "Command Undead"
+    ],
+    [
+      "SPELL_COMMAND_GREATER",
+      "Command, Greater"
+    ],
+    [
+      "SPELL_COMMUNE",
+      "Commune"
+    ],
+    [
+      "SPELL_COMMUNE_WITH_NATURE",
+      "Commune with Nature"
+    ],
+    [
+      "SPELL_COMPREHEND_LANGUAGES",
+      "Comprehend Languages"
+    ],
+    [
+      "SPELL_CONE_OF_COLD",
+      "Cone of Cold"
+    ],
+    [
+      "SPELL_CONFUSION",
+      "Confusion"
+    ],
+    [
+      "SPELL_CONFUSION_LESSER",
+      "Confusion, Lesser"
+    ],
+    [
+      "SPELL_CONSECRATE",
+      "Consecrate"
+    ],
+    [
+      "SPELL_CONTACT_OTHER_PLANE",
+      "Contact Other Plane"
+    ],
+    [
+      "SPELL_CONTAGION",
+      "Contagion"
+    ],
+    [
+      "SPELL_CONTINGENCY",
+      "Contingency"
+    ],
+    [
+      "SPELL_CONTINUAL_FLAME",
+      "Continual Flame"
+    ],
+    [
+      "SPELL_CONTROL_PLANTS",
+      "Control Plants"
+    ],
+    [
+      "SPELL_CONTROL_UNDEAD",
+      "Control Undead"
+    ],
+    [
+      "SPELL_CONTROL_WATER",
+      "Control Water"
+    ],
+    [
+      "SPELL_CONTROL_WEATHER",
+      "Control Weather"
+    ],
+    [
+      "SPELL_CONTROL_WINDS",
+      "Control Winds"
+    ],
+    [
+      "SPELL_CREATE_FOOD_AND_WATER",
+      "Create Food and Water"
+    ],
+    [
+      "SPELL_CREATE_GREATER_UNDEAD",
+      "Create Greater Undead"
+    ],
+    [
+      "SPELL_CREATE_UNDEAD",
+      "Create Undead"
+    ],
+    [
+      "SPELL_CREATE_WATER",
+      "Create Water"
+    ],
+    [
+      "SPELL_CREEPING_DOOM",
+      "Creeping Doom"
+    ],
+    [
+      "SPELL_CRUSHING_DESPAIR",
+      "Crushing Despair"
+    ],
+    [
+      "SPELL_CURE_CRITICAL_WOUNDS",
+      "Cure Critical Wounds"
+    ],
+    [
+      "SPELL_CURE_CRITICAL_WOUNDS_MASS",
+      "Cure Critical Wounds, Mass"
+    ],
+    [
+      "SPELL_CURE_LIGHT_WOUNDS",
+      "Cure Light Wounds"
+    ],
+    [
+      "SPELL_CURE_LIGHT_WOUNDS_MASS",
+      "Cure Light Wounds, Mass"
+    ],
+    [
+      "SPELL_CURE_MINOR_WOUNDS",
+      "Cure Minor Wounds"
+    ],
+    [
+      "SPELL_CURE_MODERATE_WOUNDS",
+      "Cure Moderate Wounds"
+    ],
+    [
+      "SPELL_CURE_MODERATE_WOUNDS_MASS",
+      "Cure Moderate Wounds, Mass"
+    ],
+    [
+      "SPELL_CURE_SERIOUS_WOUNDS",
+      "Cure Serious Wounds"
+    ],
+    [
+      "SPELL_CURE_SERIOUS_WOUNDS_MASS",
+      "Cure Serious Wounds, Mass"
+    ],
+    [
+      "SPELL_CURSE_WATER",
+      "Curse Water"
+    ],
+    [
+      "SPELL_DANCING_LIGHTS",
+      "Dancing Lights"
+    ],
+    [
+      "SPELL_DARKNESS",
+      "Darkness"
+    ],
+    [
+      "SPELL_DARKVISION",
+      "Darkvision"
+    ],
+    [
+      "SPELL_DAYLIGHT",
+      "Daylight"
+    ],
+    [
+      "SPELL_DAZE",
+      "Daze"
+    ],
+    [
+      "SPELL_DAZE_MONSTER",
+      "Daze Monster"
+    ],
+    [
+      "SPELL_DEATH_KNELL",
+      "Death Knell"
+    ],
+    [
+      "SPELL_DEATH_WARD",
+      "Death Ward"
+    ],
+    [
+      "SPELL_DEATHWATCH",
+      "Deathwatch"
+    ],
+    [
+      "SPELL_DEEP_SLUMBER",
+      "Deep Slumber"
+    ],
+    [
+      "SPELL_DEEPER_DARKNESS",
+      "Deeper Darkness"
+    ],
+    [
+      "SPELL_DELAY_POISON",
+      "Delay Poison"
+    ],
+    [
+      "SPELL_DELAYED_BLAST_FIREBALL",
+      "Delayed Blast Fireball"
+    ],
+    [
+      "SPELL_DEMAND",
+      "Demand"
+    ],
+    [
+      "SPELL_DESECRATE",
+      "Desecrate"
+    ],
+    [
+      "SPELL_DESTRUCTION",
+      "Destruction"
+    ],
+    [
+      "SPELL_DETECT_ANIMALS_OR_PLANTS",
+      "Detect Animals or Plants"
+    ],
+    [
+      "SPELL_DETECT_CHAOS",
+      "Detect Chaos"
+    ],
+    [
+      "SPELL_DETECT_EVIL",
+      "Detect Evil"
+    ],
+    [
+      "SPELL_DETECT_GOOD",
+      "Detect Good"
+    ],
+    [
+      "SPELL_DETECT_LAW",
+      "Detect Law"
+    ],
+    [
+      "SPELL_DETECT_MAGIC",
+      "Detect Magic"
+    ],
+    [
+      "SPELL_DETECT_POISON",
+      "Detect Poison"
+    ],
+    [
+      "SPELL_DETECT_SCRYING",
+      "Detect Scrying"
+    ],
+    [
+      "SPELL_DETECT_SECRET_DOORS",
+      "Detect Secret Doors"
+    ],
+    [
+      "SPELL_DETECT_SNARES_AND_PITS",
+      "Detect Snares and Pits"
+    ],
+    [
+      "SPELL_DETECT_THOUGHTS",
+      "Detect Thoughts"
+    ],
+    [
+      "SPELL_DETECT_UNDEAD",
+      "Detect Undead"
+    ],
+    [
+      "SPELL_DICTUM",
+      "Dictum"
+    ],
+    [
+      "SPELL_DIMENSION_DOOR",
+      "Dimension Door"
+    ],
+    [
+      "SPELL_DIMENSIONAL_ANCHOR",
+      "Dimensional Anchor"
+    ],
+    [
+      "SPELL_DIMENSIONAL_LOCK",
+      "Dimensional Lock"
+    ],
+    [
+      "SPELL_DIMINISH_PLANTS",
+      "Diminish Plants"
+    ],
+    [
+      "SPELL_DISCERN_LIES",
+      "Discern Lies"
+    ],
+    [
+      "SPELL_DISCERN_LOCATION",
+      "Discern Location"
+    ],
+    [
+      "SPELL_DISGUISE_SELF",
+      "Disguise Self"
+    ],
+    [
+      "SPELL_DISINTEGRATE",
+      "Disintegrate"
+    ],
+    [
+      "SPELL_DISMISSAL",
+      "Dismissal"
+    ],
+    [
+      "SPELL_DISPEL_CHAOS",
+      "Dispel Chaos"
+    ],
+    [
+      "SPELL_DISPEL_EVIL",
+      "Dispel Evil"
+    ],
+    [
+      "SPELL_DISPEL_GOOD",
+      "Dispel Good"
+    ],
+    [
+      "SPELL_DISPEL_LAW",
+      "Dispel Law"
+    ],
+    [
+      "SPELL_DISPEL_MAGIC",
+      "Dispel Magic"
+    ],
+    [
+      "SPELL_DISPEL_MAGIC_GREATER",
+      "Dispel Magic, Greater"
+    ],
+    [
+      "SPELL_DISPLACEMENT",
+      "Displacement"
+    ],
+    [
+      "SPELL_DISRUPT_UNDEAD",
+      "Disrupt Undead"
+    ],
+    [
+      "SPELL_DISRUPTING_WEAPON",
+      "Disrupting Weapon"
+    ],
+    [
+      "SPELL_DIVINATION",
+      "Divination"
+    ],
+    [
+      "SPELL_DIVINE_FAVOR",
+      "Divine Favor"
+    ],
+    [
+      "SPELL_DIVINE_POWER",
+      "Divine Power"
+    ],
+    [
+      "SPELL_DOMINATE_ANIMAL",
+      "Dominate Animal"
+    ],
+    [
+      "SPELL_DOMINATE_MONSTER",
+      "Dominate Monster"
+    ],
+    [
+      "SPELL_DOMINATE_PERSON",
+      "Dominate Person"
+    ],
+    [
+      "SPELL_DOOM",
+      "Doom"
+    ],
+    [
+      "SPELL_DRAWMIJS_INSTANT_SUMMONS",
+      "Drawmij's Instant Summons"
+    ],
+    [
+      "SPELL_DREAM",
+      "Dream"
+    ],
+    [
+      "SPELL_EAGLES_SPLENDOR",
+      "Eagle's Splendor"
+    ],
+    [
+      "SPELL_EAGLES_SPLENDOR_MASS",
+      "Eagle's Splendor, Mass"
+    ],
+    [
+      "SPELL_EARTHQUAKE",
+      "Earthquake"
+    ],
+    [
+      "SPELL_ELEMENTAL_SWARM",
+      "Elemental Swarm"
+    ],
+    [
+      "SPELL_ENDURE_ELEMENTS",
+      "Endure Elements"
+    ],
+    [
+      "SPELL_ENERGY_DRAIN",
+      "Energy Drain"
+    ],
+    [
+      "SPELL_ENERVATION",
+      "Enervation"
+    ],
+    [
+      "SPELL_ENLARGE_PERSON",
+      "Enlarge Person"
+    ],
+    [
+      "SPELL_ENLARGE_PERSON_MASS",
+      "Enlarge Person, Mass"
+    ],
+    [
+      "SPELL_ENTANGLE",
+      "Entangle"
+    ],
+    [
+      "SPELL_ENTHRALL",
+      "Enthrall"
+    ],
+    [
+      "SPELL_ENTROPIC_SHIELD",
+      "Entropic Shield"
+    ],
+    [
+      "SPELL_ERASE",
+      "Erase"
+    ],
+    [
+      "SPELL_ETHEREAL_JAUNT",
+      "Ethereal Jaunt"
+    ],
+    [
+      "SPELL_ETHEREALNESS",
+      "Etherealness"
+    ],
+    [
+      "SPELL_EVARDS_BLACK_TENTACLES",
+      "Evard's Black Tentacles"
+    ],
+    [
+      "SPELL_EXPEDITIOUS_RETREAT",
+      "Expeditious Retreat"
+    ],
+    [
+      "SPELL_EXPLOSIVE_RUNES",
+      "Explosive Runes"
+    ],
+    [
+      "SPELL_EYEBITE",
+      "Eyebite"
+    ],
+    [
+      "SPELL_FABRICATE",
+      "Fabricate"
+    ],
+    [
+      "SPELL_FAERIE_FIRE",
+      "Faerie Fire"
+    ],
+    [
+      "SPELL_FALSE_LIFE",
+      "False Life"
+    ],
+    [
+      "SPELL_FALSE_VISION",
+      "False Vision"
+    ],
+    [
+      "SPELL_FEAR",
+      "Fear"
+    ],
+    [
+      "SPELL_FEATHER_FALL",
+      "Feather Fall"
+    ],
+    [
+      "SPELL_FEEBLEMIND",
+      "Feeblemind"
+    ],
+    [
+      "SPELL_FIND_TRAPS",
+      "Find Traps"
+    ],
+    [
+      "SPELL_FIND_THE_PATH",
+      "Find the Path"
+    ],
+    [
+      "SPELL_FINGER_OF_DEATH",
+      "Finger of Death"
+    ],
+    [
+      "SPELL_FIRE_SEEDS",
+      "Fire Seeds"
+    ],
+    [
+      "SPELL_FIRE_SHIELD",
+      "Fire Shield"
+    ],
+    [
+      "SPELL_FIRE_STORM",
+      "Fire Storm"
+    ],
+    [
+      "SPELL_FIRE_TRAP",
+      "Fire Trap"
+    ],
+    [
+      "SPELL_FIREBALL",
+      "Fireball"
+    ],
+    [
+      "SPELL_FLAME_ARROW",
+      "Flame Arrow"
+    ],
+    [
+      "SPELL_FLAME_BLADE",
+      "Flame Blade"
+    ],
+    [
+      "SPELL_FLAME_STRIKE",
+      "Flame Strike"
+    ],
+    [
+      "SPELL_FLAMING_SPHERE",
+      "Flaming Sphere"
+    ],
+    [
+      "SPELL_FLARE",
+      "Flare"
+    ],
+    [
+      "SPELL_FLESH_TO_STONE",
+      "Flesh to Stone"
+    ],
+    [
+      "SPELL_FLY",
+      "Fly"
+    ],
+    [
+      "SPELL_FOG_CLOUD",
+      "Fog Cloud"
+    ],
+    [
+      "SPELL_FORBIDDANCE",
+      "Forbiddance"
+    ],
+    [
+      "SPELL_FORCECAGE",
+      "Forcecage"
+    ],
+    [
+      "SPELL_FORESIGHT",
+      "Foresight"
+    ],
+    [
+      "SPELL_FOXS_CUNNING",
+      "Fox's Cunning"
+    ],
+    [
+      "SPELL_FOXS_CUNNING_MASS",
+      "Fox's Cunning, Mass"
+    ],
+    [
+      "SPELL_FREEDOM",
+      "Freedom"
+    ],
+    [
+      "SPELL_FREEDOM_OF_MOVEMENT",
+      "Freedom of Movement"
+    ],
+    [
+      "SPELL_GASEOUS_FORM",
+      "Gaseous Form"
+    ],
+    [
+      "SPELL_GATE",
+      "Gate"
+    ],
+    [
+      "SPELL_GEAS_LESSER",
+      "Geas, Lesser"
+    ],
+    [
+      "SPELL_GEAS_QUEST",
+      "Geas/Quest"
+    ],
+    [
+      "SPELL_GENTLE_REPOSE",
+      "Gentle Repose"
+    ],
+    [
+      "SPELL_GHOST_SOUND",
+      "Ghost Sound"
+    ],
+    [
+      "SPELL_GHOUL_TOUCH",
+      "Ghoul Touch"
+    ],
+    [
+      "SPELL_GIANT_VERMIN",
+      "Giant Vermin"
+    ],
+    [
+      "SPELL_GLIBNESS",
+      "Glibness"
+    ],
+    [
+      "SPELL_GLITTERDUST",
+      "Glitterdust"
+    ],
+    [
+      "SPELL_GLOBE_OF_INVULNERABILITY",
+      "Globe of Invulnerability"
+    ],
+    [
+      "SPELL_GLOBE_OF_INVULNERABILITY_LESSER",
+      "Globe of Invulnerability, Lesser"
+    ],
+    [
+      "SPELL_GLYPH_OF_WARDING",
+      "Glyph of Warding"
+    ],
+    [
+      "SPELL_GLYPH_OF_WARDING_GREATER",
+      "Glyph of Warding, Greater"
+    ],
+    [
+      "SPELL_GOOD_HOPE",
+      "Good Hope"
+    ],
+    [
+      "SPELL_GOODBERRY",
+      "Goodberry"
+    ],
+    [
+      "SPELL_GREASE",
+      "Grease"
+    ],
+    [
+      "SPELL_GUARDS_AND_WARDS",
+      "Guards and Wards"
+    ],
+    [
+      "SPELL_GUIDANCE",
+      "Guidance"
+    ],
+    [
+      "SPELL_GUST_OF_WIND",
+      "Gust of Wind"
+    ],
+    [
+      "SPELL_HALLOW",
+      "Hallow"
+    ],
+    [
+      "SPELL_HALLUCINATORY_TERRAIN",
+      "Hallucinatory Terrain"
+    ],
+    [
+      "SPELL_HALT_UNDEAD",
+      "Halt Undead"
+    ],
+    [
+      "SPELL_HARM",
+      "Harm"
+    ],
+    [
+      "SPELL_HASTE",
+      "Haste"
+    ],
+    [
+      "SPELL_HEAL",
+      "Heal"
+    ],
+    [
+      "SPELL_HEAL_MOUNT",
+      "Heal Mount"
+    ],
+    [
+      "SPELL_HEAL_MASS",
+      "Heal, Mass"
+    ],
+    [
+      "SPELL_HEAT_METAL",
+      "Heat Metal"
+    ],
+    [
+      "SPELL_HELPING_HAND",
+      "Helping Hand"
+    ],
+    [
+      "SPELL_HEROES_FEAST",
+      "Heroes’ Feast"
+    ],
+    [
+      "SPELL_HEROISM",
+      "Heroism"
+    ],
+    [
+      "SPELL_HEROISM_GREATER",
+      "Heroism, Greater"
+    ],
+    [
+      "SPELL_HIDE_FROM_ANIMALS",
+      "Hide from Animals"
+    ],
+    [
+      "SPELL_HIDE_FROM_UNDEAD",
+      "Hide from Undead"
+    ],
+    [
+      "SPELL_HOLD_ANIMAL",
+      "Hold Animal"
+    ],
+    [
+      "SPELL_HOLD_MONSTER",
+      "Hold Monster"
+    ],
+    [
+      "SPELL_HOLD_MONSTER_MASS",
+      "Hold Monster, Mass"
+    ],
+    [
+      "SPELL_HOLD_PERSON",
+      "Hold Person"
+    ],
+    [
+      "SPELL_HOLD_PERSON_MASS",
+      "Hold Person, Mass"
+    ],
+    [
+      "SPELL_HOLD_PORTAL",
+      "Hold Portal"
+    ],
+    [
+      "SPELL_HOLY_AURA",
+      "Holy Aura"
+    ],
+    [
+      "SPELL_HOLY_SMITE",
+      "Holy Smite"
+    ],
+    [
+      "SPELL_HOLY_SWORD",
+      "Holy Sword"
+    ],
+    [
+      "SPELL_HOLY_WORD",
+      "Holy Word"
+    ],
+    [
+      "SPELL_HORRID_WILTING",
+      "Horrid Wilting"
+    ],
+    [
+      "SPELL_HYPNOTIC_PATTERN",
+      "Hypnotic Pattern"
+    ],
+    [
+      "SPELL_HYPNOTISM",
+      "Hypnotism"
+    ],
+    [
+      "SPELL_ICE_STORM",
+      "Ice Storm"
+    ],
+    [
+      "SPELL_IDENTIFY",
+      "Identify"
+    ],
+    [
+      "SPELL_ILLUSORY_SCRIPT",
+      "Illusory Script"
+    ],
+    [
+      "SPELL_ILLUSORY_WALL",
+      "Illusory Wall"
+    ],
+    [
+      "SPELL_IMBUE_WITH_SPELL_ABILITY",
+      "Imbue with Spell Ability"
+    ],
+    [
+      "SPELL_IMPLOSION",
+      "Implosion"
+    ],
+    [
+      "SPELL_IMPRISONMENT",
+      "Imprisonment"
+    ],
+    [
+      "SPELL_INCENDIARY_CLOUD",
+      "Incendiary Cloud"
+    ],
+    [
+      "SPELL_INFLICT_CRITICAL_WOUNDS",
+      "Inflict Critical Wounds"
+    ],
+    [
+      "SPELL_INFLICT_CRITICAL_WOUNDS_MASS",
+      "Inflict Critical Wounds, Mass"
+    ],
+    [
+      "SPELL_INFLICT_LIGHT_WOUNDS",
+      "Inflict Light Wounds"
+    ],
+    [
+      "SPELL_INFLICT_LIGHT_WOUNDS_MASS",
+      "Inflict Light Wounds, Mass"
+    ],
+    [
+      "SPELL_INFLICT_MINOR_WOUNDS",
+      "Inflict Minor Wounds"
+    ],
+    [
+      "SPELL_INFLICT_MODERATE_WOUNDS",
+      "Inflict Moderate Wounds"
+    ],
+    [
+      "SPELL_INFLICT_MODERATE_WOUNDS_MASS",
+      "Inflict Moderate Wounds, Mass"
+    ],
+    [
+      "SPELL_INFLICT_SERIOUS_WOUNDS",
+      "Inflict Serious Wounds"
+    ],
+    [
+      "SPELL_INFLICT_SERIOUS_WOUNDS_MASS",
+      "Inflict Serious Wounds, Mass"
+    ],
+    [
+      "SPELL_INSANITY",
+      "Insanity"
+    ],
+    [
+      "SPELL_INSECT_PLAGUE",
+      "Insect Plague"
+    ],
+    [
+      "SPELL_INVISIBILITY",
+      "Invisibility"
+    ],
+    [
+      "SPELL_INVISIBILITY_PURGE",
+      "Invisibility Purge"
+    ],
+    [
+      "SPELL_INVISIBILITY_SPHERE",
+      "Invisibility Sphere"
+    ],
+    [
+      "SPELL_INVISIBILITY_GREATER",
+      "Invisibility, Greater"
+    ],
+    [
+      "SPELL_INVISIBILITY_MASS",
+      "Invisibility, Mass"
+    ],
+    [
+      "SPELL_IRON_BODY",
+      "Iron Body"
+    ],
+    [
+      "SPELL_IRONWOOD",
+      "Ironwood"
+    ],
+    [
+      "SPELL_JUMP",
+      "Jump"
+    ],
+    [
+      "SPELL_KEEN_EDGE",
+      "Keen Edge"
+    ],
+    [
+      "SPELL_KNOCK",
+      "Knock"
+    ],
+    [
+      "SPELL_KNOW_DIRECTION",
+      "Know Direction"
+    ],
+    [
+      "SPELL_LEGEND_LORE",
+      "Legend Lore"
+    ],
+    [
+      "SPELL_LEOMUNDS_SECRET_CHEST",
+      "Leomund’s Secret Chest"
+    ],
+    [
+      "SPELL_LEOMUNDS_SECURE_SHELTER",
+      "Leomund’s Secure Shelter"
+    ],
+    [
+      "SPELL_LEOMUNDS_TINY_HUT",
+      "Leomund’s Tiny Hut"
+    ],
+    [
+      "SPELL_LEOMUNDS_TRAP",
+      "Leomund’s Trap"
+    ],
+    [
+      "SPELL_LESSER_SPELL_NAME",
+      "Lesser (Spell Name)"
+    ],
+    [
+      "SPELL_LEVITATE",
+      "Levitate"
+    ],
+    [
+      "SPELL_LIGHT",
+      "Light"
+    ],
+    [
+      "SPELL_LIGHTNING_BOLT",
+      "Lightning Bolt"
+    ],
+    [
+      "SPELL_LIMITED_WISH",
+      "Limited Wish"
+    ],
+    [
+      "SPELL_LIVEOAK",
+      "Liveoak"
+    ],
+    [
+      "SPELL_LOCATE_CREATURE",
+      "Locate Creature"
+    ],
+    [
+      "SPELL_LOCATE_OBJECT",
+      "Locate Object"
+    ],
+    [
+      "SPELL_LONGSTRIDER",
+      "Longstrider"
+    ],
+    [
+      "SPELL_LULLABY",
+      "Lullaby"
+    ],
+    [
+      "SPELL_MAGE_ARMOR",
+      "Mage Armor"
+    ],
+    [
+      "SPELL_MAGE_HAND",
+      "Mage Hand"
+    ],
+    [
+      "SPELL_MAGIC_CIRCLE_AGAINST_CHAOS",
+      "Magic Circle against Chaos"
+    ],
+    [
+      "SPELL_MAGIC_CIRCLE_AGAINST_EVIL",
+      "Magic Circle against Evil"
+    ],
+    [
+      "SPELL_MAGIC_CIRCLE_AGAINST_GOOD",
+      "Magic Circle against Good"
+    ],
+    [
+      "SPELL_MAGIC_CIRCLE_AGAINST_LAW",
+      "Magic Circle against Law"
+    ],
+    [
+      "SPELL_MAGIC_FANG",
+      "Magic Fang"
+    ],
+    [
+      "SPELL_MAGIC_FANG_GREATER",
+      "Magic Fang, Greater"
+    ],
+    [
+      "SPELL_MAGIC_JAR",
+      "Magic Jar"
+    ],
+    [
+      "SPELL_MAGIC_MISSILE",
+      "Magic Missile"
+    ],
+    [
+      "SPELL_MAGIC_MOUTH",
+      "Magic Mouth"
+    ],
+    [
+      "SPELL_MAGIC_STONE",
+      "Magic Stone"
+    ],
+    [
+      "SPELL_MAGIC_VESTMENT",
+      "Magic Vestment"
+    ],
+    [
+      "SPELL_MAGIC_WEAPON",
+      "Magic Weapon"
+    ],
+    [
+      "SPELL_MAGIC_WEAPON_GREATER",
+      "Magic Weapon, Greater"
+    ],
+    [
+      "SPELL_MAJOR_CREATION",
+      "Major Creation"
+    ],
+    [
+      "SPELL_MAJOR_IMAGE",
+      "Major Image"
+    ],
+    [
+      "SPELL_MAKE_WHOLE",
+      "Make Whole"
+    ],
+    [
+      "SPELL_MARK_OF_JUSTICE",
+      "Mark of Justice"
+    ],
+    [
+      "SPELL_MASS_SPELL_NAME",
+      "Mass (Spell Name)"
+    ],
+    [
+      "SPELL_MAZE",
+      "Maze"
+    ],
+    [
+      "SPELL_MELD_INTO_STONE",
+      "Meld into Stone"
+    ],
+    [
+      "SPELL_MELFS_ACID_ARROW",
+      "Melf’s Acid Arrow"
+    ],
+    [
+      "SPELL_MENDING",
+      "Mending"
+    ],
+    [
+      "SPELL_MESSAGE",
+      "Message"
+    ],
+    [
+      "SPELL_METEOR_SWARM",
+      "Meteor Swarm"
+    ],
+    [
+      "SPELL_MIND_BLANK",
+      "Mind Blank"
+    ],
+    [
+      "SPELL_MIND_FOG",
+      "Mind Fog"
+    ],
+    [
+      "SPELL_MINOR_CREATION",
+      "Minor Creation"
+    ],
+    [
+      "SPELL_MINOR_IMAGE",
+      "Minor Image"
+    ],
+    [
+      "SPELL_MIRACLE",
+      "Miracle"
+    ],
+    [
+      "SPELL_MIRAGE_ARCANA",
+      "Mirage Arcana"
+    ],
+    [
+      "SPELL_MIRROR_IMAGE",
+      "Mirror Image"
+    ],
+    [
+      "SPELL_MISDIRECTION",
+      "Misdirection"
+    ],
+    [
+      "SPELL_MISLEAD",
+      "Mislead"
+    ],
+    [
+      "SPELL_MODIFY_MEMORY",
+      "Modify Memory"
+    ],
+    [
+      "SPELL_MOMENT_OF_PRESCIENCE",
+      "Moment of Prescience"
+    ],
+    [
+      "SPELL_MORDENKAINENS_DISJUNCTION",
+      "Mordenkainen’s Disjunction"
+    ],
+    [
+      "SPELL_MORDENKAINENS_FAITHFUL_HOUND",
+      "Mordenkainen’s Faithful Hound"
+    ],
+    [
+      "SPELL_MORDENKAINENS_LUCUBRATION",
+      "Mordenkainen’s Lucubration"
+    ],
+    [
+      "SPELL_MORDENKAINENS_MAGNIFICENT_MANSION",
+      "Mordenkainen’s Magnificent Mansion"
+    ],
+    [
+      "SPELL_MORDENKAINENS_PRIVATE_SANCTUM",
+      "Mordenkainen’s Private Sanctum"
+    ],
+    [
+      "SPELL_MORDENKAINENS_SWORD",
+      "Mordenkainen’s Sword"
+    ],
+    [
+      "SPELL_MOUNT",
+      "Mount"
+    ],
+    [
+      "SPELL_MOVE_EARTH",
+      "Move Earth"
+    ],
+    [
+      "SPELL_NEUTRALIZE_POISON",
+      "Neutralize Poison"
+    ],
+    [
+      "SPELL_NIGHTMARE",
+      "Nightmare"
+    ],
+    [
+      "SPELL_NONDETECTION",
+      "Nondetection"
+    ],
+    [
+      "SPELL_NYSTULS_MAGIC_AURA",
+      "Nystul’s Magic Aura"
+    ],
+    [
+      "SPELL_OBSCURE_OBJECT",
+      "Obscure Object"
+    ],
+    [
+      "SPELL_OBSCURING_MIST",
+      "Obscuring Mist"
+    ],
+    [
+      "SPELL_OPEN_CLOSE",
+      "Open/Close"
+    ],
+    [
+      "SPELL_ORDERS_WRATH",
+      "Order’s Wrath"
+    ],
+    [
+      "SPELL_OTILUKES_FREEZING_SPHERE",
+      "Otiluke’s Freezing Sphere"
+    ],
+    [
+      "SPELL_OTILUKES_RESILIENT_SPHERE",
+      "Otiluke’s Resilient Sphere"
+    ],
+    [
+      "SPELL_OTILUKES_TELEKINETIC_SPHERE",
+      "Otiluke’s Telekinetic Sphere"
+    ],
+    [
+      "SPELL_OTTOS_IRRESISTIBLE_DANCE",
+      "Otto’s Irresistible Dance"
+    ],
+    [
+      "SPELL_OVERLAND_FLIGHT",
+      "Overland Flight"
+    ],
+    [
+      "SPELL_OWLS_WISDOM",
+      "Owl’s Wisdom"
+    ],
+    [
+      "SPELL_OWLS_WISDOM_MASS",
+      "Owl’s Wisdom, Mass"
+    ],
+    [
+      "SPELL_PASS_WITHOUT_TRACE",
+      "Pass without Trace"
+    ],
+    [
+      "SPELL_PASSWALL",
+      "Passwall"
+    ],
+    [
+      "SPELL_PERMANENCY",
+      "Permanency"
+    ],
+    [
+      "SPELL_PERMANENT_IMAGE",
+      "Permanent Image"
+    ],
+    [
+      "SPELL_PERSISTENT_IMAGE",
+      "Persistent Image"
+    ],
+    [
+      "SPELL_PHANTASMAL_KILLER",
+      "Phantasmal Killer"
+    ],
+    [
+      "SPELL_PHANTOM_STEED",
+      "Phantom Steed"
+    ],
+    [
+      "SPELL_PHASE_DOOR",
+      "Phase Door"
+    ],
+    [
+      "SPELL_PLANAR_ALLY",
+      "Planar Ally"
+    ],
+    [
+      "SPELL_PLANAR_ALLY_GREATER",
+      "Planar Ally, Greater"
+    ],
+    [
+      "SPELL_PLANAR_ALLY_LESSER",
+      "Planar Ally, Lesser"
+    ],
+    [
+      "SPELL_PLANAR_BINDING",
+      "Planar Binding"
+    ],
+    [
+      "SPELL_PLANAR_BINDING_GREATER",
+      "Planar Binding, Greater"
+    ],
+    [
+      "SPELL_PLANAR_BINDING_LESSER",
+      "Planar Binding, Lesser"
+    ],
+    [
+      "SPELL_PLANE_SHIFT",
+      "Plane Shift"
+    ],
+    [
+      "SPELL_PLANT_GROWTH",
+      "Plant Growth"
+    ],
+    [
+      "SPELL_POISON",
+      "Poison"
+    ],
+    [
+      "SPELL_POLAR_RAY",
+      "Polar Ray"
+    ],
+    [
+      "SPELL_POLYMORPH",
+      "Polymorph"
+    ],
+    [
+      "SPELL_POLYMORPH_ANY_OBJECT",
+      "Polymorph Any Object"
+    ],
+    [
+      "SPELL_POWER_WORD_BLIND",
+      "Power Word Blind"
+    ],
+    [
+      "SPELL_POWER_WORD_KILL",
+      "Power Word Kill"
+    ],
+    [
+      "SPELL_POWER_WORD_STUN",
+      "Power Word Stun"
+    ],
+    [
+      "SPELL_PRAYER",
+      "Prayer"
+    ],
+    [
+      "SPELL_PRESTIDIGITATION",
+      "Prestidigitation"
+    ],
+    [
+      "SPELL_PRISMATIC_SPHERE",
+      "Prismatic Sphere"
+    ],
+    [
+      "SPELL_PRISMATIC_SPRAY",
+      "Prismatic Spray"
+    ],
+    [
+      "SPELL_PRISMATIC_WALL",
+      "Prismatic Wall"
+    ],
+    [
+      "SPELL_PRODUCE_FLAME",
+      "Produce Flame"
+    ],
+    [
+      "SPELL_PROGRAMMED_IMAGE",
+      "Programmed Image"
+    ],
+    [
+      "SPELL_PROJECT_IMAGE",
+      "Project Image"
+    ],
+    [
+      "SPELL_PROTECTION_FROM_ARROWS",
+      "Protection from Arrows"
+    ],
+    [
+      "SPELL_PROTECTION_FROM_CHAOS",
+      "Protection from Chaos"
+    ],
+    [
+      "SPELL_PROTECTION_FROM_ENERGY",
+      "Protection from Energy"
+    ],
+    [
+      "SPELL_PROTECTION_FROM_EVIL",
+      "Protection from Evil"
+    ],
+    [
+      "SPELL_PROTECTION_FROM_GOOD",
+      "Protection from Good"
+    ],
+    [
+      "SPELL_PROTECTION_FROM_LAW",
+      "Protection from Law"
+    ],
+    [
+      "SPELL_PROTECTION_FROM_SPELLS",
+      "Protection from Spells"
+    ],
+    [
+      "SPELL_PRYING_EYES",
+      "Prying Eyes"
+    ],
+    [
+      "SPELL_PRYING_EYES_GREATER",
+      "Prying Eyes, Greater"
+    ],
+    [
+      "SPELL_PURIFY_FOOD_AND_DRINK",
+      "Purify Food and Drink"
+    ],
+    [
+      "SPELL_PYROTECHNICS",
+      "Pyrotechnics"
+    ],
+    [
+      "SPELL_QUENCH",
+      "Quench"
+    ],
+    [
+      "SPELL_RAGE",
+      "Rage"
+    ],
+    [
+      "SPELL_RAINBOW_PATTERN",
+      "Rainbow Pattern"
+    ],
+    [
+      "SPELL_RAISE_DEAD",
+      "Raise Dead"
+    ],
+    [
+      "SPELL_RARYS_MNEMONIC_ENHANCER",
+      "Rary’s Mnemonic Enhancer"
+    ],
+    [
+      "SPELL_RARYS_TELEPATHIC_BOND",
+      "Rary’s Telepathic Bond"
+    ],
+    [
+      "SPELL_RAY_OF_ENFEEBLEMENT",
+      "Ray of Enfeeblement"
+    ],
+    [
+      "SPELL_RAY_OF_EXHAUSTION",
+      "Ray of Exhaustion"
+    ],
+    [
+      "SPELL_RAY_OF_FROST",
+      "Ray of Frost"
+    ],
+    [
+      "SPELL_READ_MAGIC",
+      "Read Magic"
+    ],
+    [
+      "SPELL_REDUCE_ANIMAL",
+      "Reduce Animal"
+    ],
+    [
+      "SPELL_REDUCE_PERSON",
+      "Reduce Person"
+    ],
+    [
+      "SPELL_REDUCE_PERSON_MASS",
+      "Reduce Person, Mass"
+    ],
+    [
+      "SPELL_REFUGE",
+      "Refuge"
+    ],
+    [
+      "SPELL_REGENERATE",
+      "Regenerate"
+    ],
+    [
+      "SPELL_REINCARNATE",
+      "Reincarnate"
+    ],
+    [
+      "SPELL_REMOVE_BLINDNESS_DEAFNESS",
+      "Remove Blindness/Deafness"
+    ],
+    [
+      "SPELL_REMOVE_CURSE",
+      "Remove Curse"
+    ],
+    [
+      "SPELL_REMOVE_DISEASE",
+      "Remove Disease"
+    ],
+    [
+      "SPELL_REMOVE_FEAR",
+      "Remove Fear"
+    ],
+    [
+      "SPELL_REMOVE_PARALYSIS",
+      "Remove Paralysis"
+    ],
+    [
+      "SPELL_REPEL_METAL_OR_STONE",
+      "Repel Metal or Stone"
+    ],
+    [
+      "SPELL_REPEL_VERMIN",
+      "Repel Vermin"
+    ],
+    [
+      "SPELL_REPEL_WOOD",
+      "Repel Wood"
+    ],
+    [
+      "SPELL_REPULSION",
+      "Repulsion"
+    ],
+    [
+      "SPELL_RESIST_ENERGY",
+      "Resist Energy"
+    ],
+    [
+      "SPELL_RESISTANCE",
+      "Resistance"
+    ],
+    [
+      "SPELL_RESTORATION",
+      "Restoration"
+    ],
+    [
+      "SPELL_RESTORATION_GREATER",
+      "Restoration, Greater"
+    ],
+    [
+      "SPELL_RESTORATION_LESSER",
+      "Restoration, Lesser"
+    ],
+    [
+      "SPELL_RESURRECTION",
+      "Resurrection"
+    ],
+    [
+      "SPELL_REVERSE_GRAVITY",
+      "Reverse Gravity"
+    ],
+    [
+      "SPELL_RIGHTEOUS_MIGHT",
+      "Righteous Might"
+    ],
+    [
+      "SPELL_ROPE_TRICK",
+      "Rope Trick"
+    ],
+    [
+      "SPELL_RUSTING_GRASP",
+      "Rusting Grasp"
+    ],
+    [
+      "SPELL_SANCTUARY",
+      "Sanctuary"
+    ],
+    [
+      "SPELL_SCARE",
+      "Scare"
+    ],
+    [
+      "SPELL_SCINTILLATING_PATTERN",
+      "Scintillating Pattern"
+    ],
+    [
+      "SPELL_SCORCHING_RAY",
+      "Scorching Ray"
+    ],
+    [
+      "SPELL_SCREEN",
+      "Screen"
+    ],
+    [
+      "SPELL_SCRYING",
+      "Scrying"
+    ],
+    [
+      "SPELL_SCRYING_GREATER",
+      "Scrying, Greater"
+    ],
+    [
+      "SPELL_SCULPT_SOUND",
+      "Sculpt Sound"
+    ],
+    [
+      "SPELL_SEARING_LIGHT",
+      "Searing Light"
+    ],
+    [
+      "SPELL_SECRET_PAGE",
+      "Secret Page"
+    ],
+    [
+      "SPELL_SEE_INVISIBILITY",
+      "See Invisibility"
+    ],
+    [
+      "SPELL_SEEMING",
+      "Seeming"
+    ],
+    [
+      "SPELL_SENDING",
+      "Sending"
+    ],
+    [
+      "SPELL_SEPIA_SNAKE_SIGIL",
+      "Sepia Snake Sigil"
+    ],
+    [
+      "SPELL_SEQUESTER",
+      "Sequester"
+    ],
+    [
+      "SPELL_SHADES",
+      "Shades"
+    ],
+    [
+      "SPELL_SHADOW_CONJURATION",
+      "Shadow Conjuration"
+    ],
+    [
+      "SPELL_SHADOW_CONJURATION_GREATER",
+      "Shadow Conjuration, Greater"
+    ],
+    [
+      "SPELL_SHADOW_EVOCATION",
+      "Shadow Evocation"
+    ],
+    [
+      "SPELL_SHADOW_EVOCATION_GREATER",
+      "Shadow Evocation, Greater"
+    ],
+    [
+      "SPELL_SHADOW_WALK",
+      "Shadow Walk"
+    ],
+    [
+      "SPELL_SHAMBLER",
+      "Shambler"
+    ],
+    [
+      "SPELL_SHAPECHANGE",
+      "Shapechange"
+    ],
+    [
+      "SPELL_SHATTER",
+      "Shatter"
+    ],
+    [
+      "SPELL_SHIELD",
+      "Shield"
+    ],
+    [
+      "SPELL_SHIELD_OTHER",
+      "Shield Other"
+    ],
+    [
+      "SPELL_SHIELD_OF_FAITH",
+      "Shield of Faith"
+    ],
+    [
+      "SPELL_SHIELD_OF_LAW",
+      "Shield of Law"
+    ],
+    [
+      "SPELL_SHILLELAGH",
+      "Shillelagh"
+    ],
+    [
+      "SPELL_SHOCKING_GRASP",
+      "Shocking Grasp"
+    ],
+    [
+      "SPELL_SHOUT",
+      "Shout"
+    ],
+    [
+      "SPELL_SHOUT_GREATER",
+      "Shout, Greater"
+    ],
+    [
+      "SPELL_SHRINK_ITEM",
+      "Shrink Item"
+    ],
+    [
+      "SPELL_SILENCE",
+      "Silence"
+    ],
+    [
+      "SPELL_SILENT_IMAGE",
+      "Silent Image"
+    ],
+    [
+      "SPELL_SIMULACRUM",
+      "Simulacrum"
+    ],
+    [
+      "SPELL_SLAY_LIVING",
+      "Slay Living"
+    ],
+    [
+      "SPELL_SLEEP",
+      "Sleep"
+    ],
+    [
+      "SPELL_SLEET_STORM",
+      "Sleet Storm"
+    ],
+    [
+      "SPELL_SLOW",
+      "Slow"
+    ],
+    [
+      "SPELL_SNARE",
+      "Snare"
+    ],
+    [
+      "SPELL_SOFTEN_EARTH_AND_STONE",
+      "Soften Earth and Stone"
+    ],
+    [
+      "SPELL_SOLID_FOG",
+      "Solid Fog"
+    ],
+    [
+      "SPELL_SONG_OF_DISCORD",
+      "Song of Discord"
+    ],
+    [
+      "SPELL_SOUL_BIND",
+      "Soul Bind"
+    ],
+    [
+      "SPELL_SOUND_BURST",
+      "Sound Burst"
+    ],
+    [
+      "SPELL_SPEAK_WITH_ANIMALS",
+      "Speak with Animals"
+    ],
+    [
+      "SPELL_SPEAK_WITH_DEAD",
+      "Speak with Dead"
+    ],
+    [
+      "SPELL_SPEAK_WITH_PLANTS",
+      "Speak with Plants"
+    ],
+    [
+      "SPELL_SPECTRAL_HAND",
+      "Spectral Hand"
+    ],
+    [
+      "SPELL_SPELL_IMMUNITY",
+      "Spell Immunity"
+    ],
+    [
+      "SPELL_SPELL_IMMUNITY_GREATER",
+      "Spell Immunity, Greater"
+    ],
+    [
+      "SPELL_SPELL_RESISTANCE",
+      "Spell Resistance"
+    ],
+    [
+      "SPELL_SPELL_TURNING",
+      "Spell Turning"
+    ],
+    [
+      "SPELL_SPELLSTAFF",
+      "Spellstaff"
+    ],
+    [
+      "SPELL_SPIDER_CLIMB",
+      "Spider Climb"
+    ],
+    [
+      "SPELL_SPIKE_GROWTH",
+      "Spike Growth"
+    ],
+    [
+      "SPELL_SPIKE_STONES",
+      "Spike Stones"
+    ],
+    [
+      "SPELL_SPIRITUAL_WEAPON",
+      "Spiritual Weapon"
+    ],
+    [
+      "SPELL_STATUE",
+      "Statue"
+    ],
+    [
+      "SPELL_STATUS",
+      "Status"
+    ],
+    [
+      "SPELL_STINKING_CLOUD",
+      "Stinking Cloud"
+    ],
+    [
+      "SPELL_STONE_SHAPE",
+      "Stone Shape"
+    ],
+    [
+      "SPELL_STONE_TELL",
+      "Stone Tell"
+    ],
+    [
+      "SPELL_STONE_TO_FLESH",
+      "Stone to Flesh"
+    ],
+    [
+      "SPELL_STONESKIN",
+      "Stoneskin"
+    ],
+    [
+      "SPELL_STORM_OF_VENGEANCE",
+      "Storm of Vengeance"
+    ],
+    [
+      "SPELL_SUGGESTION",
+      "Suggestion"
+    ],
+    [
+      "SPELL_SUGGESTION_MASS",
+      "Suggestion, Mass"
+    ],
+    [
+      "SPELL_SUMMON_INSTRUMENT",
+      "Summon Instrument"
+    ],
+    [
+      "SPELL_SUMMON_MONSTER_I",
+      "Summon Monster I"
+    ],
+    [
+      "SPELL_SUMMON_MONSTER_II",
+      "Summon Monster II"
+    ],
+    [
+      "SPELL_SUMMON_MONSTER_III",
+      "Summon Monster III"
+    ],
+    [
+      "SPELL_SUMMON_MONSTER_IV",
+      "Summon Monster IV"
+    ],
+    [
+      "SPELL_SUMMON_MONSTER_IX",
+      "Summon Monster IX"
+    ],
+    [
+      "SPELL_SUMMON_MONSTER_V",
+      "Summon Monster V"
+    ],
+    [
+      "SPELL_SUMMON_MONSTER_VI",
+      "Summon Monster VI"
+    ],
+    [
+      "SPELL_SUMMON_MONSTER_VII",
+      "Summon Monster VII"
+    ],
+    [
+      "SPELL_SUMMON_MONSTER_VIII",
+      "Summon Monster VIII"
+    ],
+    [
+      "SPELL_SUMMON_NATURES_ALLY_I",
+      "Summon Nature’s Ally I"
+    ],
+    [
+      "SPELL_SUMMON_NATURES_ALLY_II",
+      "Summon Nature’s Ally II"
+    ],
+    [
+      "SPELL_SUMMON_NATURES_ALLY_III",
+      "Summon Nature’s Ally III"
+    ],
+    [
+      "SPELL_SUMMON_NATURES_ALLY_IV",
+      "Summon Nature’s Ally IV"
+    ],
+    [
+      "SPELL_SUMMON_NATURES_ALLY_IX",
+      "Summon Nature’s Ally IX"
+    ],
+    [
+      "SPELL_SUMMON_NATURES_ALLY_V",
+      "Summon Nature’s Ally V"
+    ],
+    [
+      "SPELL_SUMMON_NATURES_ALLY_VI",
+      "Summon Nature’s Ally VI"
+    ],
+    [
+      "SPELL_SUMMON_NATURES_ALLY_VII",
+      "Summon Nature’s Ally VII"
+    ],
+    [
+      "SPELL_SUMMON_NATURES_ALLY_VIII",
+      "Summon Nature’s Ally VIII"
+    ],
+    [
+      "SPELL_SUMMON_SWARM",
+      "Summon Swarm"
+    ],
+    [
+      "SPELL_SUNBEAM",
+      "Sunbeam"
+    ],
+    [
+      "SPELL_SUNBURST",
+      "Sunburst"
+    ],
+    [
+      "SPELL_SYMBOL_OF_DEATH",
+      "Symbol of Death"
+    ],
+    [
+      "SPELL_SYMBOL_OF_FEAR",
+      "Symbol of Fear"
+    ],
+    [
+      "SPELL_SYMBOL_OF_INSANITY",
+      "Symbol of Insanity"
+    ],
+    [
+      "SPELL_SYMBOL_OF_PAIN",
+      "Symbol of Pain"
+    ],
+    [
+      "SPELL_SYMBOL_OF_PERSUASION",
+      "Symbol of Persuasion"
+    ],
+    [
+      "SPELL_SYMBOL_OF_SLEEP",
+      "Symbol of Sleep"
+    ],
+    [
+      "SPELL_SYMBOL_OF_STUNNING",
+      "Symbol of Stunning"
+    ],
+    [
+      "SPELL_SYMBOL_OF_WEAKNESS",
+      "Symbol of Weakness"
+    ],
+    [
+      "SPELL_SYMPATHETIC_VIBRATION",
+      "Sympathetic Vibration"
+    ],
+    [
+      "SPELL_SYMPATHY",
+      "Sympathy"
+    ],
+    [
+      "SPELL_TASHAS_HIDEOUS_LAUGHTER",
+      "Tasha’s Hideous Laughter"
+    ],
+    [
+      "SPELL_TELEKINESIS",
+      "Telekinesis"
+    ],
+    [
+      "SPELL_TELEPORT",
+      "Teleport"
+    ],
+    [
+      "SPELL_TELEPORT_OBJECT",
+      "Teleport Object"
+    ],
+    [
+      "SPELL_TELEPORT_GREATER",
+      "Teleport, Greater"
+    ],
+    [
+      "SPELL_TELEPORTATION_CIRCLE",
+      "Teleportation Circle"
+    ],
+    [
+      "SPELL_TEMPORAL_STASIS",
+      "Temporal Stasis"
+    ],
+    [
+      "SPELL_TENSERS_FLOATING_DISK",
+      "Tenser's Floating Disk"
+    ],
+    [
+      "SPELL_TENSERS_TRANSFORMATION",
+      "Tenser's Transformation"
+    ],
+    [
+      "SPELL_TIME_STOP",
+      "Time Stop"
+    ],
+    [
+      "SPELL_TONGUES",
+      "Tongues"
+    ],
+    [
+      "SPELL_TOUCH_OF_FATIGUE",
+      "Touch of Fatigue"
+    ],
+    [
+      "SPELL_TOUCH_OF_IDIOCY",
+      "Touch of Idiocy"
+    ],
+    [
+      "SPELL_TRANSMUTE_METAL_TO_WOOD",
+      "Transmute Metal to Wood"
+    ],
+    [
+      "SPELL_TRANSMUTE_MUD_TO_ROCK",
+      "Transmute Mud to Rock"
+    ],
+    [
+      "SPELL_TRANSMUTE_ROCK_TO_MUD",
+      "Transmute Rock to Mud"
+    ],
+    [
+      "SPELL_TRANSPORT_VIA_PLANTS",
+      "Transport via Plants"
+    ],
+    [
+      "SPELL_TRAP_THE_SOUL",
+      "Trap the Soul"
+    ],
+    [
+      "SPELL_TREE_SHAPE",
+      "Tree Shape"
+    ],
+    [
+      "SPELL_TREE_STRIDE",
+      "Tree Stride"
+    ],
+    [
+      "SPELL_TRUE_RESURRECTION",
+      "True Resurrection"
+    ],
+    [
+      "SPELL_TRUE_SEEING",
+      "True Seeing"
+    ],
+    [
+      "SPELL_TRUE_STRIKE",
+      "True Strike"
+    ],
+    [
+      "SPELL_UNDEATH_TO_DEATH",
+      "Undeath to Death"
+    ],
+    [
+      "SPELL_UNDETECTABLE_ALIGNMENT",
+      "Undetectable Alignment"
+    ],
+    [
+      "SPELL_UNHALLOW",
+      "Unhallow"
+    ],
+    [
+      "SPELL_UNHOLY_AURA",
+      "Unholy Aura"
+    ],
+    [
+      "SPELL_UNHOLY_BLIGHT",
+      "Unholy Blight"
+    ],
+    [
+      "SPELL_UNSEEN_SERVANT",
+      "Unseen Servant"
+    ],
+    [
+      "SPELL_VAMPIRIC_TOUCH",
+      "Vampiric Touch"
+    ],
+    [
+      "SPELL_VEIL",
+      "Veil"
+    ],
+    [
+      "SPELL_VENTRILOQUISM",
+      "Ventriloquism"
+    ],
+    [
+      "SPELL_VIRTUE",
+      "Virtue"
+    ],
+    [
+      "SPELL_VISION",
+      "Vision"
+    ],
+    [
+      "SPELL_WAIL_OF_THE_BANSHEE",
+      "Wail of the Banshee"
+    ],
+    [
+      "SPELL_WALL_OF_FIRE",
+      "Wall of Fire"
+    ],
+    [
+      "SPELL_WALL_OF_FORCE",
+      "Wall of Force"
+    ],
+    [
+      "SPELL_WALL_OF_ICE",
+      "Wall of Ice"
+    ],
+    [
+      "SPELL_WALL_OF_IRON",
+      "Wall of Iron"
+    ],
+    [
+      "SPELL_WALL_OF_STONE",
+      "Wall of Stone"
+    ],
+    [
+      "SPELL_WALL_OF_THORNS",
+      "Wall of Thorns"
+    ],
+    [
+      "SPELL_WARP_WOOD",
+      "Warp Wood"
+    ],
+    [
+      "SPELL_WATER_BREATHING",
+      "Water Breathing"
+    ],
+    [
+      "SPELL_WATER_WALK",
+      "Water Walk"
+    ],
+    [
+      "SPELL_WAVES_OF_EXHAUSTION",
+      "Waves of Exhaustion"
+    ],
+    [
+      "SPELL_WAVES_OF_FATIGUE",
+      "Waves of Fatigue"
+    ],
+    [
+      "SPELL_WEB",
+      "Web"
+    ],
+    [
+      "SPELL_WEIRD",
+      "Weird"
+    ],
+    [
+      "SPELL_WHIRLWIND",
+      "Whirlwind"
+    ],
+    [
+      "SPELL_WHISPERING_WIND",
+      "Whispering Wind"
+    ],
+    [
+      "SPELL_WIND_WALK",
+      "Wind Walk"
+    ],
+    [
+      "SPELL_WIND_WALL",
+      "Wind Wall"
+    ],
+    [
+      "SPELL_WISH",
+      "Wish"
+    ],
+    [
+      "SPELL_WOOD_SHAPE",
+      "Wood Shape"
+    ],
+    [
+      "SPELL_WORD_OF_CHAOS",
+      "Word of Chaos"
+    ],
+    [
+      "SPELL_WORD_OF_RECALL",
+      "Word of Recall"
+    ],
+    [
+      "SPELL_ZONE_OF_SILENCE",
+      "Zone of Silence"
+    ],
+    [
+      "SPELL_ZONE_OF_TRUTH",
+      "Zone of Truth"
+    ]
   ]
 }
-
