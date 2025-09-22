@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG v3.5",
+  "chapter": "Magic Items",
+  "section": "Armor & Shield Special Abilities",
+  "fields": ["id","name","category","costing","min_enhancement","stacking_rules","source"],
+  "rows": [
+    ["arm_glamered","Glamered","armor",{"type":"flat_gp","gp":2700},1,"", "DMG Table 7-5"],
+    ["arm_fort_light","Fortification, light","armor",{"type":"bonus_equiv","bonus_equiv":1},1,"Mutually exclusive with other fortification grades", "DMG Table 7-5"],
+    ["arm_shadow","Shadow","armor",{"type":"flat_gp","gp":3750},1,"Upgrades to Improved Shadow", "DMG Table 7-5"],
+    ["arm_silent_moves","Silent moves","armor",{"type":"flat_gp","gp":3750},1,"Upgrades to Improved Silent moves", "DMG Table 7-5"],
+    ["arm_resist_acid","Energy resistance (acid 10)","armor",{"type":"flat_gp","gp":18000},1,"Upgrades to 20/30 versions; counts as same family", "DMG Table 7-5"],
+    ["arm_ghost_touch","Ghost touch","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"", "DMG Table 7-5"]
+  ]
+}
