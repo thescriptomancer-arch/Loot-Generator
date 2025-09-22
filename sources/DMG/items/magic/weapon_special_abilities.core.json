@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG v3.5",
+  "chapter": "Magic Items",
+  "section": "Weapon Special Abilities",
+  "fields": ["id","name","category","costing","min_enhancement","stacking_rules","source"],
+  "rows": [
+    ["wpn_flaming","Flaming","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"", "DMG Table 7-14"],
+    ["wpn_frost","Frost","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"", "DMG Table 7-14"],
+    ["wpn_shock","Shock","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"", "DMG Table 7-14"],
+    ["wpn_holy","Holy","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated interactions must be satisfied", "DMG Table 7-14"],
+    ["wpn_speed","Speed","weapon_melee",{"type":"bonus_equiv","bonus_equiv":4},1,"", "DMG Table 7-14"],
+    ["wpn_distance","Distance","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"", "DMG Table 7-15"]
+  ]
+}
