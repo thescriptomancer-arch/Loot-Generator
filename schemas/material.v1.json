@@ -1,0 +1,40 @@
+{
+  "$id": "schemas/material.v1.json",
+  "title": "Special Material",
+  "type": "object",
+  "required": ["schema_version", "id", "name", "applies_to", "cost_mod"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "applies_to": { "type": "array", "items": { "type": "string", "enum": ["weapon", "armor", "shield", "ammunition", "wooden_only", "metal_only"] } },
+    "notes": { "type": "string" },
+    "cost_mod": {
+      "type": "object",
+      "description": "Modifiers relative to base item (gp). For multipliers use {\"mult\": x}. For additive, use {\"add\": x}.",
+      "properties": {
+        "weapon": { "type": "object" },
+        "armor_light": { "type": "object" },
+        "armor_medium": { "type": "object" },
+        "armor_heavy": { "type": "object" },
+        "shield": { "type": "object" },
+        "ammunition": { "type": "object" },
+        "per_lb_add": { "type": "number" }
+      }
+    },
+    "stats_mod": {
+      "type": "object",
+      "properties": {
+        "weight_mult": { "type": "number" },
+        "acp_adj": { "type": "integer" },
+        "max_dex_adj": { "type": "integer" },
+        "spell_fail_adj_pct": { "type": "integer" },
+        "dr_by_armor_category": { "type": "object", "properties": { "light": { "type": "string" }, "medium": { "type": "string" }, "heavy": { "type": "string" } } },
+        "hardness": { "type": "integer" },
+        "hp_per_inch": { "type": "integer" }
+      }
+    },
+    "constraints": { "type": "object" },
+    "source": { "type": "string" }
+  }
+}
