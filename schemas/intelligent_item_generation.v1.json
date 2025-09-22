@@ -1,0 +1,24 @@
+{
+  "$id": "schemas/intelligent_item_generation.v1.json",
+  "title": "Intelligent Item Generation Tables",
+  "type": "object",
+  "required": ["schema_version", "tables"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "tables": {
+      "type": "object",
+      "properties": {
+        "int_wis_cha_capabilities": { "type": "string" },
+        "alignment": { "type": "string" },
+        "communication_senses": { "type": "string" },
+        "lesser_powers": { "type": "string" },
+        "greater_powers": { "type": "string" },
+        "special_purpose": { "type": "string" },
+        "purpose_power": { "type": "string" },
+        "ego_formula": { "type": "string" }
+      }
+    },
+    "notes": { "type": "string" },
+    "source": { "type": "string" }
+  }
+}
