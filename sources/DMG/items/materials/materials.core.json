@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG v3.5",
+  "chapter": "Magic Items",
+  "section": "Special Materials",
+  "fields": ["id","name","applies_to","cost_mod","stats_mod","constraints","source"],
+  "rows": [
+    [
+      "mat_adamantine",
+      "Adamantine",
+      ["weapon","armor","shield","ammunition","metal_only"],
+      { "weapon": {"add": 3000}, "ammunition": {"add": 60}, "armor_light": {"add": 5000}, "armor_medium": {"add": 10000}, "armor_heavy": {"add": 15000} },
+      {
+        "dr_by_armor_category": { "light": "1/-", "medium": "2/-", "heavy": "3/-" },
+        "hardness": 20,
+        "hp_per_inch": 40,
+        "acp_adj": -1
+      },
+      { "notes": "Always masterwork; only items normally made of metal; arrows yes, quarterstaff no." },
+      "DMG p.283"
+    ],
+    [
+      "mat_mithral",
+      "Mithral",
+      ["weapon","armor","shield","metal_only"],
+      {},
+      { "weight_mult": 0.5, "acp_adj": 2, "max_dex_adj": 2, "spell_fail_adj_pct": -10 },
+      { "notes": "Lightens category for some checks per DMG; always masterwork." },
+      "DMG p.283"
+    ],
+    [
+      "mat_darkwood",
+      "Darkwood",
+      ["wooden_only","shield"],
+      { "per_lb_add": 10 },
+      { "weight_mult": 0.5, "acp_adj": 2, "hardness": 5, "hp_per_inch": 10 },
+      { "notes": "Wooden/mostly wooden only; shield ACP reduced by 2; auto-masterwork." },
+      "DMG p.283"
+    ],
+    [
+      "mat_dragonhide",
+      "Dragonhide",
+      ["armor","shield"],
+      {},
+      {},
+      { "notes": "Armor/shields from dragon hides; masterwork quality by craft; material interacts with energy type at DM’s discretion." },
+      "DMG p.283"
+    ]
+  ]
+}
