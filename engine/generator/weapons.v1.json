@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "category": "weapon",
+  "steps": [
+    { "id": "base_item", "name": "Select Base Weapon", "kind": "select_base_item",
+      "inputs": { "from_table": "sources/PHB/items/weapons/weapons.core.json" },
+      "rules": { "allow_exotics": true } },
+    { "id": "masterwork", "name": "Masterwork Gate", "kind": "masterwork_gate",
+      "rules": { "require_masterwork_for_magic": true } },
+    { "id": "material", "name": "Select Special Material", "kind": "select_material",
+      "inputs": { "from_table": "sources/DMG/items/materials/materials.core.json" },
+      "rules": { "filter_by_item_composition": true } },
+    { "id": "size_shape", "name": "Apply Size/Shape", "kind": "size_shape", "rules": { "use_phb_size_profiles": true } },
+    { "id": "magic_core", "name": "Enhancement Bonus", "kind": "magic_core",
+      "weights": { "minor_medium_major": { "tiers": ["minor","medium","major"] }, "enhancement_distro": { "+1": 0.7, "+2": 0.25, "+3": 0.05 } },
+      "rules": { "effective_bonus_cap": 10 } },
+    { "id": "magic_specials", "name": "Weapon Special Abilities", "kind": "magic_special_abilities",
+      "inputs": { "from_table": "sources/DMG/items/magic/weapon_special_abilities.core.json" },
+      "rules": { "respect_min_enhancement": true, "sum_bonus_equiv_to_pricing": true, "split_by_category": ["weapon_melee","weapon_ranged"] } },
+    { "id": "int_check", "name": "Intelligent Item Check", "kind": "intelligent_item_check", "weights": { "chance_pct": 1 } },
+    { "id": "int_build", "name": "Build Intelligence", "kind": "intelligent_item_build",
+      "inputs": { "tables": "sources/DMG/items/magic/intelligent_item_tables.core.json" } },
+    { "id": "curse_check", "name": "Cursed Item Check", "kind": "cursed_item_check",
+      "inputs": { "tables": "sources/DMG/items/magic/cursed_item_tables.core.json" } },
+    { "id": "curse_apply", "name": "Apply Curse", "kind": "cursed_item_apply" },
+    { "id": "flavor", "name": "Item Flavor", "kind": "flavor" },
+    { "id": "desc", "name": "Item Description", "kind": "description_synth" }
+  ]
+}
