@@ -15,7 +15,7 @@
         "sources/PHB/items/equipment/tools_and_kits/tools_and_kits.core.json",
         "sources/PHB/items/equipment/special_substances_items/special_substances_items.core.json",
         "sources/PHB/items/weapons/weapons.core.json",
-
+        "sources/PHB/spells/spells.index.json",
         "sources/PHB/spells/core/spells.master.json",
         "sources/PHB/spells/core/lists.bard.json",
         "sources/PHB/spells/core/lists.cleric.json",
