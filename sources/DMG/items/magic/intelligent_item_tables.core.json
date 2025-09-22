@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG v3.5",
+  "chapter": "Magic Items",
+  "section": "Intelligent Items",
+  "tables": {
+    "int_wis_cha_capabilities": "DMG Table 7-30",
+    "alignment": "DMG: Intelligent Item Alignment",
+    "communication_senses": "DMG: Item Communication & Senses",
+    "lesser_powers": "DMG: Intelligent Item Lesser Powers",
+    "greater_powers": "DMG: Intelligent Item Greater Powers",
+    "special_purpose": "DMG: Special Purpose",
+    "purpose_power": "DMG: Dedicated Power"
+  },
+  "ego_formula": "DMG text: Ego combines enhancement, abilities, communication/senses, powers, special purpose.",
+  "behavior_notes": "Items act on owner’s initiative; can activate powers; may impose negative levels on misaligned wielders; contested control via Ego vs wielder; items may act against owners under conflict.",
+  "source_pages": "DMG Ch.7, Intelligent Items",
+  "references": ["DMG tables & text"]
+}
