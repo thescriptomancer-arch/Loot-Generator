@@ -1,0 +1,21 @@
+{
+  "$id": "schemas/magic_special_ability.v1.json",
+  "title": "Magic Special Ability",
+  "type": "object",
+  "required": ["schema_version", "id", "name", "category", "costing", "min_enhancement"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "category": { "type": "string", "enum": ["armor", "shield", "weapon_melee", "weapon_ranged", "ammunition"] },
+    "costing": { "type": "object", "required": ["type"], "properties": {
+      "type": { "type": "string", "enum": ["bonus_equiv", "flat_gp"] },
+      "bonus_equiv": { "type": "integer" },
+      "gp": { "type": "integer" }
+    }},
+    "min_enhancement": { "type": "integer" },
+    "stacking_rules": { "type": "string" },
+    "effects": { "type": "object" },
+    "source": { "type": "string" }
+  }
+}
