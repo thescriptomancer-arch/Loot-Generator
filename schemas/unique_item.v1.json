@@ -1,0 +1,14 @@
+{
+  "$id": "schemas/unique_item.v1.json",
+  "title": "Unique/Bespoke Item Index Entry",
+  "type": "object",
+  "required": ["schema_version", "id", "name", "category", "source_page"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "category": { "type": "string", "enum": ["armor", "shield", "weapon", "ammunition", "ring", "rod", "scroll", "staff", "wand", "wondrous", "artifact", "other"] },
+    "source_page": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}
