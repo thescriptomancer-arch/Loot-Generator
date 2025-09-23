@@ -3712,7 +3712,7 @@
  {
       "id": "uniq_helm_of_brilliance",
       "name": "Helm of Brilliance",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Gems usable once: diamond (prismatic spray, DC 20), ruby (wall of fire), fire opal (fireball 10d6, Reflex DC 20 half), opal (daylight). While active: undead within 30 ft take 1d6/round (bluish light), command makes wielded weapon flaming (1 round to activate), fire resistance 30. If wearer takes magical fire damage (after resist) and fails Will DC 15, remaining gems detonate as spells; helm destroyed.",
       "price_gp": 125000,
@@ -3724,7 +3724,7 @@
     {
       "id": "uniq_helm_of_comprehend_languages_and_read_magic",
       "name": "Helm of Comprehend Languages and Read Magic",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Understand any speech; read any language and magical writing; +5 competence on Decipher Script for incomplete/archaic/exotic texts.",
       "price_gp": 5200,
@@ -3736,7 +3736,7 @@
     {
       "id": "uniq_helm_of_telepathy",
       "name": "Helm of Telepathy",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Detect thoughts at will; two-way telepathy with a creature you’re reading; 1/day suggestion (Will DC 14).",
       "price_gp": 27000,
@@ -3748,7 +3748,7 @@
     {
       "id": "uniq_helm_of_teleportation",
       "name": "Helm of Teleportation",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Teleport 3/day as the spell.",
       "price_gp": 73500,
@@ -3760,7 +3760,7 @@
     {
       "id": "uniq_helm_of_underwater_action",
       "name": "Helm of Underwater Action",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Underwater vision ×5 normal distance (subject to obstructions). Command maintains globe of air to breathe.",
       "price_gp": 57000,
@@ -3772,7 +3772,7 @@
     {
       "id": "uniq_hewards_handy_haversack",
       "name": "Heward’s Handy Haversack",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Two side pouches (2 cu. ft./20 lb each) and main (8 cu. ft./80 lb); always weighs 5 lb. Desired item is always on top; retrieving is a move action and doesn’t provoke.",
       "price_gp": 2000,
@@ -3784,7 +3784,7 @@
     {
       "id": "uniq_horn_of_blasting",
       "name": "Horn of Blasting",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "40-ft cone: 5d6 sonic and deafen 2d6 rds (Fort DC 16 half/negates). Crystalline: 7d6 (Will DC 16 if held/worn). Extra magical uses same day: 20% cumulative chance to explode for 10d6 to blower.",
       "price_gp": 20000,
@@ -3796,7 +3796,7 @@
     {
       "id": "uniq_horn_of_blasting_greater",
       "name": "Horn of Blasting (greater)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "As horn of blasting but 10d6 sonic, stun 1 rd and deafen 4d6 rds (Fort DC 19 half/negates); crystalline 16d6. 20% cumulative chance to explode on extra uses.",
       "price_gp": 70000,
@@ -3808,7 +3808,7 @@
     {
       "id": "uniq_horn_of_fog",
       "name": "Horn of Fog",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Blows forth obscuring mist: creates a 10-ft square/round while blowing; fog travels 10 ft/round from source; dissipates after 3 minutes (faster in wind).",
       "price_gp": 2000,
@@ -3820,7 +3820,7 @@
     {
       "id": "uniq_horn_of_goodness_evil",
       "name": "Horn of Goodness/Evil",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day; produces magic circle matching wielder’s alignment (good or evil) for 1 hour. No effect if wielder is neither good nor evil.",
       "price_gp": 6500,
@@ -3832,7 +3832,7 @@
     {
       "id": "uniq_horn_of_the_tritons",
       "name": "Horn of the Tritons",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day (tritons 3/day). Options: calm rough waters (1-mile radius), attract helpful sea creatures, or panic Int 1–2 aquatic creatures (Will DC 16 partial). Audible to tritons within 3 miles. Creator must be a triton or have a triton’s aid.",
       "price_gp": 15100,
@@ -3844,7 +3844,7 @@
     {
       "id": "uniq_horn_of_valhalla_silver",
       "name": "Horn of Valhalla (silver)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/7 days; summons 2d4+2 2nd-level human barbarian constructs with starting gear; obey for up to 1 hour.",
       "price_gp": 50000,
@@ -3856,7 +3856,7 @@
     {
       "id": "uniq_horn_of_valhalla_brass",
       "name": "Horn of Valhalla (brass)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/7 days; summons 2d4+1 3rd-level human barbarian constructs. Prerequisite to use: spellcaster level 1st.",
       "price_gp": 50000,
@@ -3868,7 +3868,7 @@
     {
       "id": "uniq_horn_of_valhalla_bronze",
       "name": "Horn of Valhalla (bronze)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/7 days; summons 2d4 4th-level human barbarian constructs. Prereq to use: proficiency with all martial weapons or bardic music.",
       "price_gp": 50000,
@@ -3880,7 +3880,7 @@
     {
       "id": "uniq_horn_of_valhalla_iron",
       "name": "Horn of Valhalla (iron)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/7 days; summons 1d4+1 5th-level human barbarian constructs. Prereq to use: proficiency with all martial weapons or bardic music.",
       "price_gp": 50000,
@@ -3892,7 +3892,7 @@
     {
       "id": "uniq_horseshoes_of_speed",
       "name": "Horseshoes of Speed",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Set of four; +30 ft enhancement to base land speed while all are worn; jump distances scale with speed.",
       "price_gp": 3000,
@@ -3904,7 +3904,7 @@
     {
       "id": "uniq_horseshoes_of_a_zephyr",
       "name": "Horseshoes of a Zephyr",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Set of four; horse runs ~4 inches above surfaces; crosses water/lava/unstable ground; leaves no tracks.",
       "price_gp": 6000,
@@ -3916,7 +3916,7 @@
     {
       "id": "uniq_incense_of_meditation",
       "name": "Incense of Meditation",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Burn 8 hours; a divine caster who prays/meditates nearby prepares all spells as if Maximized for the next 24 hours (no slot level increase).",
       "price_gp": 4900,
@@ -3928,7 +3928,7 @@
     {
       "id": "uniq_ioun_stone_pearlescent_spindle",
       "name": "Ioun Stone (pearlescent spindle)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Sustains creature without food or water.",
       "price_gp": 4000,
@@ -3940,7 +3940,7 @@
     {
       "id": "uniq_ioun_stone_dusty_rose_prism",
       "name": "Ioun Stone (dusty rose prism)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+1 insight bonus to AC.",
       "price_gp": 5000,
@@ -3952,7 +3952,7 @@
     {
       "id": "uniq_ioun_stone_deep_red_sphere",
       "name": "Ioun Stone (deep red sphere)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+2 enhancement bonus to Dexterity.",
       "price_gp": 8000,
@@ -3964,7 +3964,7 @@
     {
       "id": "uniq_ioun_stone_incandescent_blue_sphere",
       "name": "Ioun Stone (incandescent blue sphere)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+2 enhancement bonus to Wisdom.",
       "price_gp": 8000,
@@ -3976,7 +3976,7 @@
     {
       "id": "uniq_ioun_stone_pale_blue_rhomboid",
       "name": "Ioun Stone (pale blue rhomboid)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+2 enhancement bonus to Strength.",
       "price_gp": 8000,
@@ -3988,7 +3988,7 @@
     {
       "id": "uniq_ioun_stone_pink_rhomboid",
       "name": "Ioun Stone (pink rhomboid)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+2 enhancement bonus to Constitution.",
       "price_gp": 8000,
@@ -4000,7 +4000,7 @@
     {
       "id": "uniq_ioun_stone_pink_and_green_sphere",
       "name": "Ioun Stone (pink and green sphere)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+2 enhancement bonus to Charisma.",
       "price_gp": 8000,
@@ -4012,7 +4012,7 @@
     {
       "id": "uniq_ioun_stone_scarlet_and_blue_sphere",
       "name": "Ioun Stone (scarlet and blue sphere)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+2 enhancement bonus to Intelligence.",
       "price_gp": 8000,
@@ -4024,7 +4024,7 @@
     {
       "id": "uniq_ioun_stone_dark_blue_rhomboid",
       "name": "Ioun Stone (dark blue rhomboid)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Alertness (as the feat).",
       "price_gp": 10000,
@@ -4036,7 +4036,7 @@
     {
       "id": "uniq_ioun_stone_vibrant_purple_prism",
       "name": "Ioun Stone (vibrant purple prism)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Stores 3 spell levels (as a ring of minor spell storing).",
       "price_gp": 36000,
@@ -4048,7 +4048,7 @@
     {
       "id": "uniq_ioun_stone_iridescent_spindle",
       "name": "Ioun Stone (iridescent spindle)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Sustains creature without air.",
       "price_gp": 18000,
@@ -4060,7 +4060,7 @@
     {
       "id": "uniq_ioun_stone_pale_lavender_ellipsoid",
       "name": "Ioun Stone (pale lavender ellipsoid)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Absorbs spells of 4th level or lower on a readied action; burns out after 20 spell levels (turns dull gray).",
       "price_gp": 20000,
@@ -4072,7 +4072,7 @@
     {
       "id": "uniq_ioun_stone_pearly_white_spindle",
       "name": "Ioun Stone (pearly white spindle)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Regenerates 1 hp/hour (like ring of regeneration; only damage taken while using the stone).",
       "price_gp": 20000,
@@ -4084,7 +4084,7 @@
     {
       "id": "uniq_ioun_stone_pale_green_prism",
       "name": "Ioun Stone (pale green prism)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+1 competence bonus on attack rolls, saves, skill checks, and ability checks.",
       "price_gp": 30000,
@@ -4096,7 +4096,7 @@
     {
       "id": "uniq_ioun_stone_orange_prism",
       "name": "Ioun Stone (orange prism)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+1 caster level.",
       "price_gp": 30000,
@@ -4108,7 +4108,7 @@
     {
       "id": "uniq_ioun_stone_lavender_and_green_ellipsoid",
       "name": "Ioun Stone (lavender and green ellipsoid)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Absorbs spells of 8th level or lower on a readied action; burns out after 50 spell levels.",
       "price_gp": 40000,
@@ -4120,7 +4120,7 @@
  {
       "id": "uniq_iron_bands_of_bilarro",
       "name": "Iron Bands of Bilarro",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Command-activated; thrown ranged touch to bind one Large or smaller creature, immobilizing until released by command. Target can break (Str DC 30) or escape (Escape Artist DC 30). Usable 1/day.",
       "price_gp": 26000,
@@ -4132,7 +4132,7 @@
     {
       "id": "uniq_iron_flask",
       "name": "Iron Flask",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day command forces a creature from another plane (Will DC 19 negates) within 60 ft into the flask; releasing with command forces 1 hour of service; otherwise creature acts normally (likely hostile). Repeated capture of same creature: +2 on its save and becomes hostile. Random contents possible (see table in text).",
       "price_gp": 170000,
@@ -4144,7 +4144,7 @@
     {
       "id": "uniq_keoghtoms_ointment",
       "name": "Keoghtom’s Ointment",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Jar with 5 applications. Each use: neutralize poison, remove disease, or cure 1d8+5 hp (as cure light wounds).",
       "price_gp": 4000,
@@ -4156,7 +4156,7 @@
     {
       "id": "uniq_lantern_of_revealing",
       "name": "Lantern of Revealing",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "As hooded lantern; while lit, reveals invisible creatures/objects within 25 ft (as invisibility purge).",
       "price_gp": 30000,
@@ -4168,7 +4168,7 @@
     {
       "id": "uniq_lens_of_detection",
       "name": "Lens of Detection",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+5 competence on Search and +5 on Survival checks to track.",
       "price_gp": 3500,
@@ -4180,7 +4180,7 @@
     {
       "id": "uniq_lyre_of_building",
       "name": "Lyre of Building",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day for 30 minutes: negates attacks vs inanimate constructions in 300 ft (incl. horn of blasting, disintegrate, siege). 1/week: 30 minutes of playing performs work equal to 100 humans × 3 days; after first hour, DC 18 Perform (strings) each hour or must stop.",
       "price_gp": 13000,
@@ -4192,7 +4192,7 @@
     {
       "id": "uniq_mantle_of_faith",
       "name": "Mantle of Faith",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Grants DR 5/evil to the wearer.",
       "price_gp": 76000,
@@ -4204,7 +4204,7 @@
     {
       "id": "uniq_mantle_of_spell_resistance",
       "name": "Mantle of Spell Resistance",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Wearer has SR 21.",
       "price_gp": 90000,
@@ -4216,7 +4216,7 @@
     {
       "id": "uniq_manual_of_bodily_health",
       "name": "Manual of Bodily Health",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Read 48 hours over ≥6 days to gain inherent +1 to +5 Constitution; book then becomes nonmagical. Prices: +1 27,500; +2 55,000; +3 82,500; +4 110,000; +5 137,500 gp.",
       "price_gp": 27500,
@@ -4228,7 +4228,7 @@
     {
       "id": "uniq_manual_of_gainful_exercise",
       "name": "Manual of Gainful Exercise",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Read 48 hours over ≥6 days to gain inherent +1 to +5 Strength; book then becomes nonmagical. Prices: +1 27,500; +2 55,000; +3 82,500; +4 110,000; +5 137,500 gp.",
       "price_gp": 27500,
@@ -4240,7 +4240,7 @@
     {
       "id": "uniq_manual_of_quickness_of_action",
       "name": "Manual of Quickness of Action",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Read 48 hours over ≥6 days to gain inherent +1 to +5 Dexterity; book then becomes nonmagical. Prices: +1 27,500; +2 55,000; +3 82,500; +4 110,000; +5 137,500 gp.",
       "price_gp": 27500,
@@ -4252,7 +4252,7 @@
     {
       "id": "uniq_mask_of_the_skull",
       "name": "Mask of the Skull",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "After worn ≥1 hour, 1/day the mask flies up to 50 ft and makes a touch attack (using wearer’s BAB): target Fort DC 20 or die (finger of death); on save takes 3d6+13 damage; then returns. Mask AC 16, hp 10, hardness 6.",
       "price_gp": 22000,
@@ -4264,7 +4264,7 @@
     {
       "id": "uniq_mattock_of_the_titans",
       "name": "Mattock of the Titans",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Huge+ user can loosen/tumble earth (10-ft cube/10 min) or smash rock (10-ft cube/hour). As weapon: Gargantuan +3 adamantine warhammer (4d6 base). Cost to craft: 13,348 gp + 800 XP.",
       "price_gp": 23348,
@@ -4276,7 +4276,7 @@
     {
       "id": "uniq_maul_of_the_titans",
       "name": "Maul of the Titans",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+3 greatclub that deals triple damage to inanimate objects; requires Str 18 to wield without –4 penalty. Cost to craft: 12,305 gp + 480 XP.",
       "price_gp": 25305,
@@ -4288,7 +4288,7 @@
     {
       "id": "uniq_medallion_of_thoughts",
       "name": "Medallion of Thoughts",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Wearer can use detect thoughts.",
       "price_gp": 12000,
@@ -4300,7 +4300,7 @@
     {
       "id": "uniq_mirror_of_life_trapping",
       "name": "Mirror of Life Trapping",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Activate/deactivate by command. Has 15 extradimensional cells. Any creature within 30 ft seeing its reflection must make Will DC 23 or be trapped (constructs/undead unaffected); gear remains behind. Owner can converse with a prisoner’s reflection or free by specific command words. If capacity exceeded, a random prisoner is freed. Breaking the mirror frees all prisoners.",
       "price_gp": 200000,
@@ -4312,7 +4312,7 @@
     {
       "id": "uniq_mirror_of_mental_prowess",
       "name": "Mirror of Mental Prowess",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Functions by command: read thoughts of a reflected creature (within 25 ft), clairvoyance viewing (incl. other planes if familiar), create portal to viewed place (remains 24 hours; can close by command; return via invisible portal; others can follow). 1/week answers one short question about a shown creature (as legend lore).",
       "price_gp": 175000,
@@ -4324,7 +4324,7 @@
     {
       "id": "uniq_mirror_of_opposition",
       "name": "Mirror of Opposition",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Command-activated. A viewer’s reflection creates an exact duplicate that immediately attacks the original; duplicate has all possessions and powers. Upon defeat of either, duplicate and its items vanish. Up to 4 uses/day.",
       "price_gp": 92000,
@@ -4336,7 +4336,7 @@
     {
       "id": "uniq_murlynds_spoon",
       "name": "Murlynd’s Spoon",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Placed in an empty vessel, produces nourishing gruel sufficient to feed up to four humans per day.",
       "price_gp": 5400,
@@ -4348,7 +4348,7 @@
     {
       "id": "uniq_necklace_of_adaptation",
       "name": "Necklace of Adaptation",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Creates shell of fresh air: wearer breathes in any environment and is immune to harmful vapors/gases and inhaled poisons.",
       "price_gp": 9000,
@@ -4360,7 +4360,7 @@
     {
       "id": "uniq_necklace_of_fireballs_type_i",
       "name": "Necklace of Fireballs (Type I)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Contains 3 spheres: one 5d6 and two 3d6 fireballs (Reflex DC 14 half). Each bead detachable by wearer and thrown up to 70 ft. Individual sphere cost 150 gp per die. If wearer fails save vs magical fire, necklace saves at +7 or remaining beads detonate.",
       "price_gp": 1650,
@@ -4372,7 +4372,7 @@
     {
       "id": "uniq_necklace_of_fireballs_type_ii",
       "name": "Necklace of Fireballs (Type II)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Contains 5 spheres: one 6d6, two 4d6, two 2d6.",
       "price_gp": 2700,
@@ -4384,7 +4384,7 @@
     {
       "id": "uniq_necklace_of_fireballs_type_iii",
       "name": "Necklace of Fireballs (Type III)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Contains 7 spheres: one 7d6, two 5d6, four 3d6.",
       "price_gp": 4350,
@@ -4396,7 +4396,7 @@
     {
       "id": "uniq_necklace_of_fireballs_type_iv",
       "name": "Necklace of Fireballs (Type IV)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Contains 7 spheres: one 8d6, two 6d6, two 4d6, two 2d6.",
       "price_gp": 5400,
@@ -4408,7 +4408,7 @@
     {
       "id": "uniq_necklace_of_fireballs_type_v",
       "name": "Necklace of Fireballs (Type V)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Contains 7 spheres: one 9d6, two 7d6, two 5d6, two 3d6.",
       "price_gp": 5850,
@@ -4420,7 +4420,7 @@
     {
       "id": "uniq_necklace_of_fireballs_type_vi",
       "name": "Necklace of Fireballs (Type VI)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Contains 9 spheres: one 10d6, two 8d6, two 6d6, four 4d6.",
       "price_gp": 8100,
@@ -4432,7 +4432,7 @@
     {
       "id": "uniq_necklace_of_fireballs_type_vii",
       "name": "Necklace of Fireballs (Type VII)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Contains 7 spheres: one 10d6, two 9d6, two 7d6, two 5d6.",
       "price_gp": 8700,
@@ -4444,7 +4444,7 @@
     {
       "id": "uniq_nolzurs_marvelous_pigments",
       "name": "Nolzur’s Marvelous Pigments",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Create real, permanent nonmagical objects by painting. One pot creates up to 1,000 cu. ft over 100 sq. ft of surface. Can’t create creatures or magic items; valuables are base metals/fakes; may create mundane items up to 2,000 gp value. Craft (painting) DC 15; 10 minutes per object.",
       "price_gp": 4000,
@@ -4456,7 +4456,7 @@
     {
       "id": "uniq_orb_of_storms",
       "name": "Orb of Storms",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day control weather; 1/month storm of vengeance; continuous endure elements for possessor.",
       "price_gp": 48000,
@@ -4468,7 +4468,7 @@
     {
       "id": "uniq_pearl_of_power_1",
       "name": "Pearl of Power (1st-level)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day recall a prepared 1st-level spell. Creator must be able to cast spells of the level to be recalled.",
       "price_gp": 1000,
@@ -4480,7 +4480,7 @@
     {
       "id": "uniq_pearl_of_power_2",
       "name": "Pearl of Power (2nd-level)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day recall a prepared 2nd-level spell. Creator must be able to cast spells of the level to be recalled.",
       "price_gp": 4000,
@@ -4492,7 +4492,7 @@
     {
       "id": "uniq_pearl_of_power_3",
       "name": "Pearl of Power (3rd-level)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day recall a prepared 3rd-level spell.",
       "price_gp": 9000,
@@ -4504,7 +4504,7 @@
     {
       "id": "uniq_pearl_of_power_4",
       "name": "Pearl of Power (4th-level)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day recall a prepared 4th-level spell.",
       "price_gp": 16000,
@@ -4516,7 +4516,7 @@
     {
       "id": "uniq_pearl_of_power_5",
       "name": "Pearl of Power (5th-level)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day recall a prepared 5th-level spell.",
       "price_gp": 25000,
@@ -4528,7 +4528,7 @@
     {
       "id": "uniq_pearl_of_power_6",
       "name": "Pearl of Power (6th-level)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day recall a prepared 6th-level spell.",
       "price_gp": 36000,
@@ -4540,7 +4540,7 @@
     {
       "id": "uniq_pearl_of_power_7",
       "name": "Pearl of Power (7th-level)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day recall a prepared 7th-level spell.",
       "price_gp": 49000,
@@ -4552,7 +4552,7 @@
     {
       "id": "uniq_pearl_of_power_8",
       "name": "Pearl of Power (8th-level)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day recall a prepared 8th-level spell.",
       "price_gp": 64000,
@@ -4564,7 +4564,7 @@
     {
       "id": "uniq_pearl_of_power_9",
       "name": "Pearl of Power (9th-level)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "1/day recall a prepared 9th-level spell.",
       "price_gp": 81000,
@@ -4576,7 +4576,7 @@
     {
       "id": "uniq_pearl_of_power_two_spells",
       "name": "Pearl of Power (two spells/day)",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Recall two prepared spells/day, each of a different level, 6th or lower.",
       "price_gp": 70000,
@@ -4588,7 +4588,7 @@
     {
       "id": "uniq_pearl_of_the_sirines",
       "name": "Pearl of the Sirines",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Allows breathing underwater as in air; grants swim speed 60 ft; no hindrance to casting/acting underwater.",
       "price_gp": 15300,
@@ -4600,7 +4600,7 @@
     {
       "id": "uniq_periapt_of_health",
       "name": "Periapt of Health",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Wearer is immune to disease, including supernatural diseases.",
       "price_gp": 7500,
@@ -4612,7 +4612,7 @@
     {
       "id": "uniq_periapt_of_proof_against_poison",
       "name": "Periapt of Proof against Poison",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Wearer is immune to poison; poisons already active when donned still run their course.",
       "price_gp": 27000,
@@ -4624,7 +4624,7 @@
     {
       "id": "uniq_periapt_of_wisdom_2",
       "name": "Periapt of Wisdom +2",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+2 enhancement to Wisdom.",
       "price_gp": 4000,
@@ -4636,7 +4636,7 @@
     {
       "id": "uniq_periapt_of_wisdom_4",
       "name": "Periapt of Wisdom +4",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+4 enhancement to Wisdom.",
       "price_gp": 16000,
@@ -4648,7 +4648,7 @@
     {
       "id": "uniq_periapt_of_wisdom_6",
       "name": "Periapt of Wisdom +6",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "+6 enhancement to Wisdom.",
       "price_gp": 36000,
@@ -4660,7 +4660,7 @@
     {
       "id": "uniq_periapt_of_wound_closure",
       "name": "Periapt of Wound Closure",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Automatically stabilizes wearer at –1 to –9 hp; doubles natural healing or enables normal healing where it wouldn’t; negates hp-bleed effects (not Con-bleed).",
       "price_gp": 15000,
@@ -4672,7 +4672,7 @@
     {
       "id": "uniq_phylactery_of_faithfulness",
       "name": "Phylactery of Faithfulness",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Warns wearer about actions/items that would harm alignment or standing with deity (including magical effects) if they pause to contemplate.",
       "price_gp": 1000,
@@ -4684,7 +4684,7 @@
     {
       "id": "uniq_phylactery_of_undead_turning",
       "name": "Phylactery of Undead Turning",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Wearer turns undead as if 4 levels higher. Prereq to craft: 10th-level cleric.",
       "price_gp": 11000,
@@ -4696,7 +4696,7 @@
     {
       "id": "uniq_pipes_of_haunting",
       "name": "Pipes of Haunting",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "DC 15 Perform (wind) to play; within 30 ft, Will DC 13 or frightened for 4 rounds; creatures with 6+ HD unaffected; 2/day.",
       "price_gp": 6000,
@@ -4708,7 +4708,7 @@
     {
       "id": "uniq_pipes_of_pain",
       "name": "Pipes of Pain",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "DC 15 Perform (wind) to fascinate (Will DC 14 negates; mind-affecting sonic compulsion). When playing stops, listeners take 1d4 dmg/round for 2d4 rounds unless in total silence; sonic damage is doubled; then they become shaken by any noise (curse). Creator must have bardic music.",
       "price_gp": 12000,
@@ -4720,7 +4720,7 @@
     {
       "id": "uniq_pipes_of_the_sewers",
       "name": "Pipes of the Sewers",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "Attracts 1d3 rat swarms within 400 ft (delay 1 round/50 ft). Must keep playing; DC 10 Perform (wind) to control by telepathy or they turn on piper; control check each round if contested. Re-calling within a day: DC 15. Creator must have wild empathy.",
       "price_gp": 1150,
@@ -4732,7 +4732,7 @@
     {
       "id": "uniq_pipes_of_sounding",
       "name": "Pipes of Sounding",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "When played by someone with Perform (wind), creates sounds as ghost sound (CL 2nd).",
       "price_gp": 1800,
@@ -4744,7 +4744,7 @@
     {
       "id": "uniq_portable_hole",
       "name": "Portable Hole",
-      "category": "wondrous item",
+      "category": "wondrous",
       "source_page": "",
       "notes": "6-ft diameter cloth creates a 10-ft-deep extradimensional space. Air lasts 10 minutes for 1 Medium or 2 Small creatures. Interactions with bag of holding cause rifts/gates to Astral Plane destroying items and drawing creatures within 10 ft.",
       "price_gp": 20000,
@@ -4756,7 +4756,7 @@
   {
   "id": "uniq_quaals_feather_token_anchor",
   "name": "Quaal’s Feather Token (Anchor)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Moor a craft in water; renders it immobile for up to 1 day. Single-use.",
   "price_gp": 50,
@@ -4768,7 +4768,7 @@
 {
   "id": "uniq_quaals_feather_token_bird",
   "name": "Quaal’s Feather Token (Bird)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Delivers a small written message unerringly to a designated target; lasts as long as needed to carry the message. Single-use.",
   "price_gp": 300,
@@ -4780,7 +4780,7 @@
 {
   "id": "uniq_quaals_feather_token_fan",
   "name": "Quaal’s Feather Token (Fan)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Creates a huge flapping fan to propel one ship (~25 mph) or lessen existing winds; functions up to 8 hours; does not work on land. Single-use.",
   "price_gp": 200,
@@ -4792,7 +4792,7 @@
 {
   "id": "uniq_quaals_feather_token_swan_boat",
   "name": "Quaal’s Feather Token (Swan Boat)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Creates a swanlike boat (speed 60 ft.) carrying 8 horses & gear or 32 Medium creatures (or equivalent); lasts 1 day. Single-use.",
   "price_gp": 450,
@@ -4804,7 +4804,7 @@
 {
   "id": "uniq_quaals_feather_token_tree",
   "name": "Quaal’s Feather Token (Tree)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Creates a great oak (5-ft trunk, 60-ft height, 40-ft top diameter). Instantaneous. Single-use.",
   "price_gp": 400,
@@ -4816,7 +4816,7 @@
 {
   "id": "uniq_quaals_feather_token_whip",
   "name": "Quaal’s Feather Token (Whip)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Becomes a dancing whip for up to 1 hour: +10 base attack, 1d6+1 damage, +1 enhancement, and free grapple (+15) on hit. Single-use.",
   "price_gp": 500,
@@ -4828,7 +4828,7 @@
 {
   "id": "uniq_quiver_of_ehlonna",
   "name": "Quiver of Ehlonna",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Three nondimensional compartments: up to 60 arrow-sized items, 18 javelin-sized, 6 bow/spear/staff-sized; always produces desired item; weight constant.",
   "price_gp": 1800,
@@ -4840,7 +4840,7 @@
 {
   "id": "uniq_ring_gates",
   "name": "Ring Gates",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Paired 18\" iron rings. Within 100 miles on same plane, anything put through one emerges from the other. Up to 100 lb/day total. Reach/attack/cast through; Small can slip through (DC 13 Escape Artist); Tiny or smaller pass freely. Entry/exit sides are marked.",
   "price_gp": 40000,
@@ -4852,7 +4852,7 @@
 {
   "id": "uniq_robe_of_the_archmagi",
   "name": "Robe of the Archmagi",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "+5 armor bonus; SR 18; +4 resistance on saves; +2 enhancement on caster level checks to overcome SR. Alignment keyed (white=good, gray=neutral, black=evil); wrong alignment imposes negative levels while worn; creator must share alignment.",
   "price_gp": 75000,
@@ -4864,7 +4864,7 @@
 {
   "id": "uniq_robe_of_blending",
   "name": "Robe of Blending",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "+10 competence bonus on Hide; at-will disguise self; friends/acquaintances see wearer normally.",
   "price_gp": 30000,
@@ -4876,7 +4876,7 @@
 {
   "id": "uniq_robe_of_bones",
   "name": "Robe of Bones",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Robe bears patches that become uncontrolled undead when detached (1/round). New robe has 2 each: Small goblin skeleton; Medium human commoner skeleton; Medium wolf skeleton; Small goblin zombie; Medium human commoner zombie; Medium wolf zombie.",
   "price_gp": 2400,
@@ -4888,7 +4888,7 @@
 {
   "id": "uniq_robe_of_eyes",
   "name": "Robe of Eyes",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "See in all directions; darkvision 120 ft; sees invisible/ethereal within 120 ft; +10 competence on Search & Spot; retain Dex to AC when flat-footed; cannot be flanked; cannot avert/close eyes vs gazes. Light/continual flame blinds 1d3 min; daylight blinds 2d4 min.",
   "price_gp": 120000,
@@ -4900,7 +4900,7 @@
 {
   "id": "uniq_robe_of_scintillating_colors",
   "name": "Robe of Scintillating Colors",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Command (1-round start), up to 10 rounds/day: 30-ft pattern gaze dazes 1d4+1 (Will DC 16 negates; mind-affecting pattern); grants increasing concealment 10%/round to 50%; sheds light in 30-ft radius.",
   "price_gp": 27000,
@@ -4912,7 +4912,7 @@
 {
   "id": "uniq_robe_of_stars",
   "name": "Robe of Stars",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Travel physically to the Astral Plane (with gear); +1 luck bonus on all saves; up to six embroidered stars become +5 shuriken (proficiency granted), each vanishes after use.",
   "price_gp": 58000,
@@ -4924,7 +4924,7 @@
 {
   "id": "uniq_robe_of_useful_items",
   "name": "Robe of Useful Items",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Has patches that become real items when detached (1/round). Always includes 2 each: dagger, bullseye lantern (filled/lit), 2’×4’ mirror, 10-ft pole, 50-ft hemp rope, sack. Plus 4d4 random patches by table. Used patches don’t reappear.",
   "price_gp": 7000,
@@ -4936,7 +4936,7 @@
 {
   "id": "uniq_rope_of_climbing",
   "name": "Rope of Climbing",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "60-ft rope supports 3,000 lb; on command moves 10 ft/round to attach/unfasten/return; can knot itself (every 1 ft), shortening to 50 ft and reducing Climb DC by 10; must hold one end to invoke.",
   "price_gp": 3000,
@@ -4948,7 +4948,7 @@
 {
   "id": "uniq_rope_of_entanglement",
   "name": "Rope of Entanglement",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "30-ft rope lashes 20 ft forward or 10 ft up to entangle; break DC 20 or Escape Artist DC 20. AC 22, hp 12, hardness 10, DR 5/slashing; self-repairs 1 hp/5 min; destroyed if severed.",
   "price_gp": 21000,
@@ -4960,7 +4960,7 @@
 {
   "id": "uniq_salve_of_slipperiness",
   "name": "Salve of Slipperiness",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "+20 competence on Escape Artist; ignore webs/restraints; smeared surfaces act as long-lasting grease; lasts 8 hours (remove with alcohol). Required to coat flasks that hold sovereign glue.",
   "price_gp": 1000,
@@ -4972,7 +4972,7 @@
 {
   "id": "uniq_scabbard_of_keen_edges",
   "name": "Scabbard of Keen Edges",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Shrinks/enlarges to fit up to greatsword; up to 3/day casts keen edge on a blade placed within.",
   "price_gp": 16000,
@@ -4984,7 +4984,7 @@
 {
   "id": "uniq_scarab_of_protection",
   "name": "Scarab of Protection",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "SR 20; absorbs 12 total effects of energy drain, death effects, or negative energy then turns to powder.",
   "price_gp": 38000,
@@ -4996,7 +4996,7 @@
 {
   "id": "uniq_scarab_golembane",
   "name": "Scarab, Golembane",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Detects golems within 60 ft with concentration; wearer’s weapon/unarmed/natural attacks ignore golem DR. Creator must be at least 10th level.",
   "price_gp": 2500,
@@ -5008,7 +5008,7 @@
 {
   "id": "uniq_shrouds_of_disintegration",
   "name": "Shrouds of Disintegration",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Burial wrappings that, on command, turn a body placed inside to dust. One-use; then becomes ordinary cloth.",
   "price_gp": 6600,
@@ -5020,7 +5020,7 @@
 {
   "id": "uniq_silversheen",
   "name": "Silversheen",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Apply to a weapon (or 20 ammo) as a standard action; gains alchemical silver properties for 1 hour, replacing other special materials.",
   "price_gp": 250,
@@ -5032,7 +5032,7 @@
 {
   "id": "uniq_slippers_of_spider_climbing",
   "name": "Slippers of Spider Climbing",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Move on walls/ceilings at speed 20 ft; fails on severely slippery surfaces; usable 10 minutes/day (split up).",
   "price_gp": 4800,
@@ -5044,7 +5044,7 @@
 {
   "id": "uniq_sovereign_glue",
   "name": "Sovereign Glue",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Permanent adhesive; 1 oz covers 1 sq. ft., sets in 1 round. Must be stored in flask lined with salve of slipperiness and re-lined within 1 round after pouring. Only universal solvent dissolves the bond. Price is per ounce.",
   "price_gp": 2400,
@@ -5056,7 +5056,7 @@
 {
   "id": "uniq_stone_of_alarm",
   "name": "Stone of Alarm",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Affixes to an object on command; later touch without command word triggers a piercing screech for 1 hour (audible up to 1/4 mile barring barriers).",
   "price_gp": 2700,
@@ -5068,7 +5068,7 @@
 {
   "id": "uniq_stone_of_controlling_earth_elementals",
   "name": "Stone of Controlling Earth Elementals",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Speak summoning words (1 full round) to call a Huge earth elemental (as summon monster VII; appears in 1d4 rounds). Using sand/rough unhewn stone instead calls a Large elemental (as summon monster VI). Only one at a time; requires new patch of earth/stone after prior elemental is gone.",
   "price_gp": 100000,
@@ -5080,7 +5080,7 @@
 {
   "id": "uniq_stone_of_good_luck",
   "name": "Stone of Good Luck (Luckstone)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "+1 luck bonus on saving throws, ability checks, and skill checks.",
   "price_gp": 20000,
@@ -5092,7 +5092,7 @@
 {
   "id": "uniq_stone_horse_courser",
   "name": "Stone Horse (Courser)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Rough stone horse animates on command (heavy horse stats, hardness 10); carries 1,000 lb tirelessly. Repair by stone to flesh then normal healing; reverts to stone when fully healed. Feeding gems while stone heals 1 hp/50 gp.",
   "price_gp": 10000,
@@ -5104,7 +5104,7 @@
 {
   "id": "uniq_stone_horse_destrier",
   "name": "Stone Horse (Destrier)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As courser but with heavy warhorse stats (hardness 10); same healing/feeding rules.",
   "price_gp": 14800,
@@ -5116,7 +5116,7 @@
 {
   "id": "uniq_stone_salve",
   "name": "Stone Salve",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Apply 1 oz to petrified flesh: stone to flesh. Apply 1 oz to living flesh: stoneskin. Price is per ounce.",
   "price_gp": 4000,
@@ -5128,7 +5128,7 @@
 {
   "id": "uniq_strand_of_prayer_beads_lesser",
   "name": "Strand of Prayer Beads (Lesser)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Reveals powers when owner casts a divine spell. Includes bead of blessing (spell-trigger bless) and bead of healing (spell-trigger cure serious wounds/remove blindness-deafness/remove disease). Each 1/day; power lost if bead removed.",
   "price_gp": 9600,
@@ -5140,7 +5140,7 @@
 {
   "id": "uniq_strand_of_prayer_beads_standard",
   "name": "Strand of Prayer Beads (Standard)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Beads: healing (as lesser), karma (+4 caster level for 10 minutes; any divine caster), smiting (spell-trigger: chaos hammer/holy smite/order’s wrath/unholy blight, Will DC 17 partial). Each 1/day; power lost if bead removed.",
   "price_gp": 25800,
@@ -5152,7 +5152,7 @@
 {
   "id": "uniq_strand_of_prayer_beads_greater",
   "name": "Strand of Prayer Beads (Greater)",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Beads: healing (as lesser), karma (+4 caster level 10 min), summons (gate once, then becomes nonmagical), wind walking (spell-trigger wind walk). Each 1/day unless noted; power lost if bead removed.",
   "price_gp": 95800,
@@ -5164,7 +5164,7 @@
 {
   "id": "uniq_tome_of_clear_thought_1",
   "name": "Tome of Clear Thought +1",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Read 48 hours over ≥6 days to gain +1 inherent bonus to Intelligence; book then becomes mundane. Inherent bonus grants extra skill points on future level-ups. (Aura noted as strong evocation if miracle is used.)",
   "price_gp": 27500,
@@ -5176,7 +5176,7 @@
 {
   "id": "uniq_tome_of_clear_thought_2",
   "name": "Tome of Clear Thought +2",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +2 inherent bonus to Intelligence.",
   "price_gp": 55000,
@@ -5188,7 +5188,7 @@
 {
   "id": "uniq_tome_of_clear_thought_3",
   "name": "Tome of Clear Thought +3",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +3 inherent bonus to Intelligence.",
   "price_gp": 82500,
@@ -5200,7 +5200,7 @@
 {
   "id": "uniq_tome_of_clear_thought_4",
   "name": "Tome of Clear Thought +4",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +4 inherent bonus to Intelligence.",
   "price_gp": 110000,
@@ -5212,7 +5212,7 @@
 {
   "id": "uniq_tome_of_clear_thought_5",
   "name": "Tome of Clear Thought +5",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +5 inherent bonus to Intelligence.",
   "price_gp": 137500,
@@ -5224,7 +5224,7 @@
 {
   "id": "uniq_tome_of_leadership_and_influence_1",
   "name": "Tome of Leadership and Influence +1",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Read 48 hours over ≥6 days to gain +1 inherent bonus to Charisma; book then mundane.",
   "price_gp": 27500,
@@ -5236,7 +5236,7 @@
 {
   "id": "uniq_tome_of_leadership_and_influence_2",
   "name": "Tome of Leadership and Influence +2",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +2 inherent bonus to Charisma.",
   "price_gp": 55000,
@@ -5248,7 +5248,7 @@
 {
   "id": "uniq_tome_of_leadership_and_influence_3",
   "name": "Tome of Leadership and Influence +3",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +3 inherent bonus to Charisma.",
   "price_gp": 82500,
@@ -5260,7 +5260,7 @@
 {
   "id": "uniq_tome_of_leadership_and_influence_4",
   "name": "Tome of Leadership and Influence +4",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +4 inherent bonus to Charisma.",
   "price_gp": 110000,
@@ -5272,7 +5272,7 @@
 {
   "id": "uniq_tome_of_leadership_and_influence_5",
   "name": "Tome of Leadership and Influence +5",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +5 inherent bonus to Charisma.",
   "price_gp": 137500,
@@ -5284,7 +5284,7 @@
 {
   "id": "uniq_tome_of_understanding_1",
   "name": "Tome of Understanding +1",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Read 48 hours over ≥6 days to gain +1 inherent bonus to Wisdom; book then mundane.",
   "price_gp": 27500,
@@ -5296,7 +5296,7 @@
 {
   "id": "uniq_tome_of_understanding_2",
   "name": "Tome of Understanding +2",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +2 inherent bonus to Wisdom.",
   "price_gp": 55000,
@@ -5308,7 +5308,7 @@
 {
   "id": "uniq_tome_of_understanding_3",
   "name": "Tome of Understanding +3",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +3 inherent bonus to Wisdom.",
   "price_gp": 82500,
@@ -5320,7 +5320,7 @@
 {
   "id": "uniq_tome_of_understanding_4",
   "name": "Tome of Understanding +4",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +4 inherent bonus to Wisdom.",
   "price_gp": 110000,
@@ -5332,7 +5332,7 @@
 {
   "id": "uniq_tome_of_understanding_5",
   "name": "Tome of Understanding +5",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "As +1, but +5 inherent bonus to Wisdom.",
   "price_gp": 137500,
@@ -5344,7 +5344,7 @@
 {
   "id": "uniq_unguent_of_timelessness",
   "name": "Unguent of Timelessness",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Applied to once-living matter (leather, paper, wood, etc.): each real year counts as 1 day; coated object gains +1 resistance on all saves; effect permanent unless dispelled. One flask coats eight Medium objects (Large=2, Huge=4).",
   "price_gp": 150,
@@ -5356,7 +5356,7 @@
 {
   "id": "uniq_universal_solvent",
   "name": "Universal Solvent",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Dissolves sovereign glue, tanglefoot bag adhesive, and kuo-toa adhesive. Apply as a standard action.",
   "price_gp": 50,
@@ -5368,7 +5368,7 @@
 {
   "id": "uniq_vest_of_escape",
   "name": "Vest of Escape",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Hidden lockpicks grant +4 competence on Open Lock; +6 competence on Escape Artist.",
   "price_gp": 5200,
@@ -5380,7 +5380,7 @@
 {
   "id": "uniq_vestment_druids",
   "name": "Vestment, Druid’s",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Worn over clothing/armor; wearer with wild shape gains one additional use per day. Creator needs polymorph or the wild shape ability.",
   "price_gp": 10000,
@@ -5392,7 +5392,7 @@
 {
   "id": "uniq_well_of_many_worlds",
   "name": "Well of Many Worlds",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Looks like a portable hole. Anything placed within is sent to another world/plane (DM/random). Moving it randomizes destination again. Two-way portal allows ingress from the other side.",
   "price_gp": 82000,
@@ -5404,7 +5404,7 @@
 {
   "id": "uniq_wind_fan",
   "name": "Wind Fan",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Command word to produce gust of wind 1/day safely; additional uses same day risk 20% cumulative chance per use to tear into useless tatters.",
   "price_gp": 5500,
@@ -5416,7 +5416,7 @@
 {
   "id": "uniq_wings_of_flying",
   "name": "Wings of Flying",
-  "category": "wondrous item",
+  "category": "wondrous",
   "source_page": "",
   "notes": "Cloak transforms into bat/bird wings on command; fly speed 60 ft (good).",
   "price_gp": 54000,
