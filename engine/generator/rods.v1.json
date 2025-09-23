@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "category": "rod",
+  "steps": [
+    {
+      "id": "tier_select",
+      "name": "Select Treasure Tier",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "tier": ["minor","medium","major"] } },
+      "weights": { "tier": { "minor": 40, "medium": 40, "major": 20 } },
+      "output_bindings": { "tier": "tier" }
+    },
+    {
+      "id": "build_mode",
+      "name": "Specific vs Procedural",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "mode": ["procedural_metamagic","specific_from_index"] } },
+      "weights": {
+        "mode_by_tier": {
+          "minor": { "procedural_metamagic": 85, "specific_from_index": 15 },
+          "medium": { "procedural_metamagic": 75, "specific_from_index": 25 },
+          "major": { "procedural_metamagic": 65, "specific_from_index": 35 }
+        }
+      },
+      "rules": { "use_tier_weights": true },
+      "output_bindings": { "rod.build_mode": "mode" }
+    },
+    {
+      "id": "specific_pick",
+      "name": "Pick Specific Rod",
+      "kind": "select_base_item",
+      "inputs": { "from_table": "sources/DMG/items/unique/unique_items.index.json" },
+      "rules": {
+        "only_if": { "rod.build_mode": "specific_from_index" },
+        "filter_by_field_equals": { "category": "rod" },
+        "skip_if_table_missing": true
+      },
+      "output_bindings": {
+        "specific.id": "row.id",
+        "specific.name": "row.name",
+        "specific.source_page": "row.source_page"
+      }
+    },
+    {
+      "id": "metamagic_choice",
+      "name": "Choose Metamagic Rod Type",
+      "kind": "select_base_item",
+      "inputs": {
+        "inline_choices": {
+          "metamagic": ["enlarge","extend","silent","empower","maximize","quicken"]
+        }
+      },
+      "weights": {
+        "metamagic_by_tier": {
+          "minor":   { "enlarge": 26, "extend": 26, "silent": 26, "empower": 22, "maximize": 0,  "quicken": 0  },
+          "medium":  { "enlarge": 12, "extend": 12, "silent": 0,  "empower": 12, "maximize": 22, "quicken": 42 },
+          "major":   { "enlarge": 0,  "extend": 0,  "silent": 0,  "empower": 16, "maximize": 32, "quicken": 52 }
+        }
+      },
+      "rules": {
+        "only_if": { "rod.build_mode": "procedural_metamagic" },
+        "use_tier_weights": true
+      },
+      "output_bindings": { "rod.metamagic": "metamagic" }
+    },
+    {
+      "id": "grade_choice",
+      "name": "Choose Grade",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "grade": ["lesser","normal","greater"] } },
+      "weights": {
+        "grade_by_tier": {
+          "minor":  { "lesser": 95, "normal": 5,  "greater": 0 },
+          "medium": { "lesser": 35, "normal": 55, "greater": 10 },
+          "major":  { "lesser": 10, "normal": 45, "greater": 45 }
+        }
+      },
+      "rules": {
+        "only_if": { "rod.build_mode": "procedural_metamagic" },
+        "disallow_pairs": [
+          ["silent","normal"],
+          ["silent","greater"]
+        ]
+      },
+      "output_bindings": { "rod.grade": "grade" }
+    },
+    {
+      "id": "metamagic_price_map",
+      "name": "Resolve Metamagic Price",
+      "kind": "select_base_item",
+      "inputs": {
+        "inline_map": {
+          "enlarge": { "lesser": 3000, "normal": 11000, "greater": null },
+          "extend":  { "lesser": 3000, "normal": 11000, "greater": null },
+          "silent":  { "lesser": 3000, "normal": null,  "greater": null },
+          "empower": { "lesser": 9000, "normal": null,  "greater": 73000 },
+          "maximize":{ "lesser": null,  "normal": 54000, "greater": 121500 },
+          "quicken": { "lesser": 35000,"normal": 75500, "greater": 170000 }
+        }
+      },
+      "rules": {
+        "only_if": { "rod.build_mode": "procedural_metamagic" },
+        "lookup": { "key1": "rod.metamagic", "key2": "rod.grade" },
+        "fail_if_null": true
+      },
+      "output_bindings": {
+        "procedural.name": "concat('Metamagic Rod, ', rod.metamagic, ', ', rod.grade)",
+        "procedural.uses_per_day": 3,
+        "pricing.total_gp": "result.value_gp"
+      }
+    },
+    {
+      "id": "int_check",
+      "name": "Intelligent Item Check",
+      "kind": "intelligent_item_check",
+      "weights": { "chance_pct_by_tier": { "minor": 1, "medium": 2, "major": 4 } },
+      "rules": {
+        "disallow_if_has_charges": true
+      },
+      "output_bindings": { "intelligent.is_intelligent": "result.pass" }
+    },
+    {
+      "id": "curse_check",
+      "name": "Cursed Item Check",
+      "kind": "cursed_item_check",
+      "inputs": { "tables": "sources/DMG/items/magic/cursed_item_tables.core.json" },
+      "weights": { "curse_roll_pct": 5 },
+      "output_bindings": { "cursed.roll": "result.roll", "cursed.is_cursed": "result.pass" }
+    },
+    {
+      "id": "curse_apply",
+      "name": "Apply Curse",
+      "kind": "cursed_item_apply",
+      "rules": { "select_family_by_tier": true },
+      "output_bindings": { "cursed.details": "result.curse" }
+    },
+    {
+      "id": "flavor",
+      "name": "Item Flavor",
+      "kind": "flavor",
+      "rules": {
+        "ai_flavor_allowed": true,
+        "tone": "evocative",
+        "respect_spell_theme": true
+      },
+      "output_bindings": { "flavor.text": "result.text", "flavor.tags": "result.tags" }
+    },
+    {
+      "id": "desc",
+      "name": "Item Description Synthesis",
+      "kind": "description_synth",
+      "rules": {
+        "include_blocks": ["base","metamagic","intelligence","curse","pricing","history"],
+        "omit_if_absent": true
+      },
+      "output_bindings": { "description.text": "result.text" }
+    },
+    {
+      "id": "pricing_finalize",
+      "name": "Finalize Pricing",
+      "kind": "magic_core",
+      "rules": {
+        "skip_if_specific": true,
+        "skip_if_pricing_already_set": true
+      },
+      "output_bindings": {
+        "pricing.total_gp": "result.total_gp",
+        "pricing.breakdown": "result.breakdown"
+      }
+    }
+  ]
+}
