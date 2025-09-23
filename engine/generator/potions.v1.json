@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "category": "potion",
+  "steps": [
+    {
+      "id": "tier_select",
+      "name": "Select Treasure Tier",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "tier": ["minor", "medium", "major"] } },
+      "weights": { "tier": { "minor": 60, "medium": 30, "major": 10 } },
+      "output_bindings": { "tier": "tier" }
+    },
+    {
+      "id": "spell_pool",
+      "name": "Build Eligible Spell Pool",
+      "kind": "select_base_item",
+      "inputs": { "from_table": "sources/PHB/spells/core/spells.master.json" },
+      "rules": {
+        "max_spell_level": 3,
+        "allow_classes": ["cleric","druid","bard","paladin","ranger","sorcerer_wizard"],
+        "filter_targets_contains_any": ["creature","living creature","willing creature","personal","creature touched","object or creature"],
+        "filter_cast_time_under_rounds": 10,
+        "disallow_school_subschools": [],
+        "fallback_if_missing_target_field": true
+      },
+      "output_bindings": { "potion.eligible_spells": "rows" }
+    },
+    {
+      "id": "spell_pick",
+      "name": "Pick Spell",
+      "kind": "select_base_item",
+      "inputs": { "from_prev": "potion.eligible_spells" },
+      "weights": {
+        "by_level_bias": { "1": 60, "2": 30, "3": 10 }
+      },
+      "rules": {
+        "tier_caps": {
+          "minor": { "max_level": 2 },
+          "medium": { "max_level": 3 },
+          "major": { "max_level": 3 }
+        }
+      },
+      "output_bindings": {
+        "spell.id": "row.id",
+        "spell.name": "row.name",
+        "spell.levels": "row.levels",
+        "spell.school": "row.school",
+        "spell.target": "row.target",
+        "spell.duration": "row.duration",
+        "spell.casting_time": "row.casting_time"
+      }
+    },
+    {
+      "id": "as_oil_check",
+      "name": "Oil vs. Potion",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "form": ["potion","oil"] } },
+      "weights": {
+        "form_by_target_hint": {
+          "object": { "potion": 10, "oil": 90 },
+          "creature_or_personal": { "potion": 95, "oil": 5 },
+          "default": { "potion": 85, "oil": 15 }
+        }
+      },
+      "rules": {
+        "infer_target_hint_from_spell": true
+      },
+      "output_bindings": { "potion.form": "form" }
+    },
+    {
+      "id": "caster_level_select",
+      "name": "Determine Caster Level",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "caster_level_mode": ["minimum","weighted_above_min"] } },
+      "weights": { "caster_level_mode": { "minimum": 85, "weighted_above_min": 15 } },
+      "rules": {
+        "min_cl_by_class_level": {
+          "default": { "1": 1, "2": 3, "3": 5 },
+          "bard":    { "1": 1, "2": 4, "3": 7 },
+          "paladin": { "1": 4, "2": 7, "3": 10 },
+          "ranger":  { "1": 4, "2": 7, "3": 10 }
+        },
+        "class_preference_order": ["cleric","druid","sorcerer_wizard","bard","paladin","ranger"],
+        "weighted_above_min_profile": { "delta_0": 70, "delta_1": 20, "delta_2": 10 },
+        "cap_max_cl": 20
+      },
+      "output_bindings": {
+        "potion.caster_class": "result.class",
+        "potion.caster_level": "result.cl"
+      }
+    },
+    {
+      "id": "pricing",
+      "name": "Price Potion/Oil",
+      "kind": "magic_core",
+      "rules": {
+        "pricing_formula": "potion_gp = 50 * spell_level * caster_level",
+        "use_spell_level_for_selected_class": true,
+        "minimum_spell_level_if_multi_class": true,
+        "rounding": "nearest_integer"
+      },
+      "output_bindings": {
+        "pricing.total_gp": "result.total_gp",
+        "pricing.breakdown": "result.breakdown"
+      }
+    },
+    {
+      "id": "int_check",
+      "name": "Intelligent Item Check",
+      "kind": "intelligent_item_check",
+      "weights": { "chance_pct_by_tier": { "minor": 0, "medium": 0, "major": 0 } },
+      "output_bindings": { "intelligent.is_intelligent": "result.pass" }
+    },
+    {
+      "id": "curse_check",
+      "name": "Cursed Item Check",
+      "kind": "cursed_item_check",
+      "inputs": { "tables": "sources/DMG/items/magic/cursed_item_tables.core.json" },
+      "weights": { "curse_roll_pct": 5 },
+      "output_bindings": { "cursed.roll": "result.roll", "cursed.is_cursed": "result.pass" }
+    },
+    {
+      "id": "curse_apply",
+      "name": "Apply Curse",
+      "kind": "cursed_item_apply",
+      "rules": { "select_family_by_tier": true },
+      "output_bindings": { "cursed.details": "result.curse" }
+    },
+    {
+      "id": "flavor",
+      "name": "Item Flavor",
+      "kind": "flavor",
+      "rules": {
+        "ai_flavor_allowed": true,
+        "tone": "evocative",
+        "respect_spell_theme": true,
+        "form_overrides_notes": true
+      },
+      "output_bindings": { "flavor.text": "result.text", "flavor.tags": "result.tags" }
+    },
+    {
+      "id": "desc",
+      "name": "Item Description Synthesis",
+      "kind": "description_synth",
+      "rules": { "include_blocks": ["spell","form","pricing","curse","history"], "omit_if_absent": true },
+      "output_bindings": { "description.text": "result.text" }
+    }
+  ]
+}
