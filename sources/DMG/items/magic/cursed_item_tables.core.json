@@ -7,12 +7,154 @@
   "d%_range_for_curse": "01–05",
   "curse_table_ref": "DMG: Cursed Item Common Curses",
   "families": [
-    "Delusion",
-    "Opposite effect or target",
-    "Intermittent functioning",
-    "Requirement",
-    "Drawback",
-    "Completely different effect",
-    "Substitute specific cursed item"
-  ]
+    {
+      "id": "curse_delusion",
+      "name": "Delusion",
+      "notes": "Item appears to possess one or more beneficial powers, but the benefit is illusory.",
+      "engine_templates": [
+        {
+          "id": "illusion_of_bonus",
+          "applies_to": ["armor","shield","weapon","ammunition","ring","rod","staff","wand","wondrous","other"],
+          "effect": {"visual_feedback": "shows_success", "mechanical_effect": "no_benefit"},
+          "reveal": {"method": ["analyze","identify","use_failure"], "dc_hint": "as per magic analysis"}
+        }
+      ]
+    },
+    {
+      "id": "curse_opposite_effect",
+      "name": "Opposite Effect or Target",
+      "notes": "Item functions in reverse, applies effects to the wielder or an ally instead of target, or inverts the intended modifier.",
+      "engine_templates": [
+        {
+          "id": "reverse_modifier",
+          "applies_to": ["armor","shield","weapon","ring","wondrous","other"],
+          "effect": {"modifier_inversion": true, "targeting_flip": false}
+        },
+        {
+          "id": "target_self",
+          "applies_to": ["weapon","wand","staff","rod","scroll","wondrous"],
+          "effect": {"targeting_flip": true}
+        }
+      ]
+    },
+    {
+      "id": "curse_intermittent",
+      "name": "Intermittent Functioning",
+      "notes": "Item works only some of the time or under specific cadence.",
+      "engine_templates": [
+        {
+          "id": "fifty_percent_failure",
+          "applies_to": ["all"],
+          "effect": {"activation_roll": {"d%": true, "success_range": "51–100"}}
+        },
+        {
+          "id": "limited_uses_per_day",
+          "applies_to": ["all"],
+          "effect": {"uses_per_day": 1, "recharge": "daily"}
+        },
+        {
+          "id": "works_one_day_per_week",
+          "applies_to": ["all"],
+          "effect": {"calendar_gate": {"period": "weekly", "active_days": 1}}
+        }
+      ]
+    },
+    {
+      "id": "curse_requirement",
+      "name": "Requirement",
+      "notes": "Item functions only if a requirement is met; failure may impose penalties.",
+      "engine_templates": [
+        {
+          "id": "alignment_lock",
+          "applies_to": ["all"],
+          "effect": {"requires_alignment": ["LG","NG","CG","LN","N","CN","LE","NE","CE"], "penalty_if_violate": "suppression_or_penalty"}
+        },
+        {
+          "id": "class_or_feat_gate",
+          "applies_to": ["all"],
+          "effect": {"requires_class_or_feat": true, "penalty_if_violate": "suppression"}
+        },
+        {
+          "id": "material_dependency",
+          "applies_to": ["weapon","armor","shield","wondrous"],
+          "effect": {"requires_material": ["adamantine","mithral","cold_iron","silver","dragonhide","darkwood"], "penalty_if_violate": "suppression"}
+        }
+      ]
+    },
+    {
+      "id": "curse_drawback",
+      "name": "Drawback",
+      "notes": "Item burdens the wielder with a persistent penalty or unwanted side effect while used or carried.",
+      "engine_templates": [
+        {
+          "id": "skill_penalty",
+          "applies_to": ["all"],
+          "effect": {"penalty": {"type": "competence", "targets": ["stealth","perception","athletics"], "value": -2}}
+        },
+        {
+          "id": "save_penalty",
+          "applies_to": ["all"],
+          "effect": {"penalty": {"type": "resistance", "targets": ["fort","ref","will"], "value": -1}}
+        },
+        {
+          "id": "attracts_hostility",
+          "applies_to": ["all"],
+          "effect": {"narrative_flag": "attracts_enemies_or_bad_luck"}
+        }
+      ]
+    },
+    {
+      "id": "curse_different_effect",
+      "name": "Completely Different Effect",
+      "notes": "Item produces a different (usually less useful or harmful) effect than described.",
+      "engine_templates": [
+        {
+          "id": "swap_effect_table",
+          "applies_to": ["all"],
+          "effect": {"replaces_primary_effect": true, "alt_effect_source": "cursed_subtable"}
+        }
+      ]
+    },
+    {
+      "id": "curse_substitute_specific",
+      "name": "Substitute Specific Cursed Item",
+      "notes": "Item is actually a known specific cursed item instead of the intended item.",
+      "engine_templates": [
+        {
+          "id": "substitute_specific",
+          "applies_to": ["all"],
+          "effect": {"replaces_item_with": "lookup:unique_cursed_item_index"}
+        }
+      ]
+    }
+  ],
+  "weights": {
+    "family_selection_minor": {
+      "curse_delusion": 20,
+      "curse_opposite_effect": 15,
+      "curse_intermittent": 20,
+      "curse_requirement": 10,
+      "curse_drawback": 25,
+      "curse_different_effect": 5,
+      "curse_substitute_specific": 5
+    },
+    "family_selection_medium": {
+      "curse_delusion": 15,
+      "curse_opposite_effect": 20,
+      "curse_intermittent": 20,
+      "curse_requirement": 10,
+      "curse_drawback": 20,
+      "curse_different_effect": 10,
+      "curse_substitute_specific": 5
+    },
+    "family_selection_major": {
+      "curse_delusion": 10,
+      "curse_opposite_effect": 20,
+      "curse_intermittent": 15,
+      "curse_requirement": 10,
+      "curse_drawback": 15,
+      "curse_different_effect": 20,
+      "curse_substitute_specific": 10
+    }
+  }
 }
