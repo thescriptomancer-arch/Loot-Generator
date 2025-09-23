@@ -924,23 +924,6 @@
       ]
     },
     {
-      "id": "uniq_ring_electric_ram",
-      "name": "Ring of Shooting Stars",
-      "category": "ring",
-      "price_gp": 50000,
-      "source_page": "DMG p.232",
-      "notes": "Night/shadow: dancing lights 1/h, light 2/night, ball lightning 1/night, shooting stars 3/week; Indoors/underground: faerie fire 2/day, spark shower 1/day",
-      "aura": "Strong evocation",
-      "required_caster_level": 12,
-      "required_feat": "Forge Ring",
-      "required_spells": [
-        "light",
-        "faerie fire",
-        "fireball",
-        "lightning bolt"
-      ]
-    },
-    {
       "id": "uniq_ring_jumping",
       "name": "Ring of Jumping",
       "category": "ring",
@@ -1344,20 +1327,6 @@
         "divine power"
       ],
       "required_spells_note": "Alternatively, creator may be a 7th-level druid"
-    },
-    {
-      "id": "uniq_telekinesis_ring",
-      "name": "Ring of Telekinesis",
-      "category": "ring",
-      "price_gp": 75000,
-      "source_page": "DMG p.232",
-      "notes": "Telekinesis on command",
-      "aura": "Moderate transmutation",
-      "required_caster_level": 9,
-      "required_feat": "Forge Ring",
-      "required_spells": [
-        "telekinesis"
-      ]
     },
     {
       "id": "uniq_trident_fish_command",
