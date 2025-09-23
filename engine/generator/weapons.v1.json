@@ -2,28 +2,308 @@
   "schema_version": "1.0",
   "category": "weapon",
   "steps": [
-    { "id": "base_item", "name": "Select Base Weapon", "kind": "select_base_item",
-      "inputs": { "from_table": "sources/PHB/items/weapons/weapons.core.json" },
-      "rules": { "allow_exotics": true } },
-    { "id": "masterwork", "name": "Masterwork Gate", "kind": "masterwork_gate",
-      "rules": { "require_masterwork_for_magic": true } },
-    { "id": "material", "name": "Select Special Material", "kind": "select_material",
-      "inputs": { "from_table": "sources/DMG/items/materials/materials.core.json" },
-      "rules": { "filter_by_item_composition": true } },
-    { "id": "size_shape", "name": "Apply Size/Shape", "kind": "size_shape", "rules": { "use_phb_size_profiles": true } },
-    { "id": "magic_core", "name": "Enhancement Bonus", "kind": "magic_core",
-      "weights": { "minor_medium_major": { "tiers": ["minor","medium","major"] }, "enhancement_distro": { "+1": 0.7, "+2": 0.25, "+3": 0.05 } },
-      "rules": { "effective_bonus_cap": 10 } },
-    { "id": "magic_specials", "name": "Weapon Special Abilities", "kind": "magic_special_abilities",
-      "inputs": { "from_table": "sources/DMG/items/magic/weapon_special_abilities.core.json" },
-      "rules": { "respect_min_enhancement": true, "sum_bonus_equiv_to_pricing": true, "split_by_category": ["weapon_melee","weapon_ranged"] } },
-    { "id": "int_check", "name": "Intelligent Item Check", "kind": "intelligent_item_check", "weights": { "chance_pct": 1 } },
-    { "id": "int_build", "name": "Build Intelligence", "kind": "intelligent_item_build",
-      "inputs": { "tables": "sources/DMG/items/magic/intelligent_item_tables.core.json" } },
-    { "id": "curse_check", "name": "Cursed Item Check", "kind": "cursed_item_check",
-      "inputs": { "tables": "sources/DMG/items/magic/cursed_item_tables.core.json" } },
-    { "id": "curse_apply", "name": "Apply Curse", "kind": "cursed_item_apply" },
-    { "id": "flavor", "name": "Item Flavor", "kind": "flavor" },
-    { "id": "desc", "name": "Item Description", "kind": "description_synth" }
+    {
+      "id": "tier_select",
+      "name": "Select Treasure Tier",
+      "kind": "select_base_item",
+      "inputs": {
+        "inline_choices": {
+          "tier": ["minor", "medium", "major"]
+        }
+      },
+      "weights": {
+        "tier": { "minor": 60, "medium": 30, "major": 10 }
+      },
+      "output_bindings": { "tier": "tier" }
+    },
+    {
+      "id": "base_item",
+      "name": "Select Base Weapon",
+      "kind": "select_base_item",
+      "inputs": {
+        "from_table": "sources/PHB/items/weapons/weapons.core.json"
+      },
+      "rules": {
+        "allow_simple": true,
+        "allow_martial": true,
+        "allow_exotics": true
+      },
+      "output_bindings": {
+        "base.item_id": "row.id",
+        "base.name": "row.name",
+        "base.category": "row.category",
+        "base.subcategory": "row.subcategory",
+        "base.cost_gp": "row.cost_gp",
+        "base.damage_s": "row.damage_s",
+        "base.damage_m": "row.damage_m",
+        "base.crit": "row.crit",
+        "base.range_inc_ft": "row.range_inc_ft",
+        "base.weight_lb": "row.weight_lb",
+        "base.material_composition": "row.material"
+      }
+    },
+    {
+      "id": "ammo_batch",
+      "name": "Ammunition Batching",
+      "kind": "select_base_item",
+      "inputs": {
+        "inline_choices": {
+          "count": [20, 50]
+        }
+      },
+      "weights": {
+        "count": { "20": 80, "50": 20 }
+      },
+      "rules": {
+        "apply_only_if_subcategory_is_ammunition": true
+      },
+      "output_bindings": {
+        "base.stack_count": "count"
+      }
+    },
+    {
+      "id": "masterwork",
+      "name": "Masterwork Gate",
+      "kind": "masterwork_gate",
+      "rules": {
+        "require_masterwork_for_magic": true,
+        "auto_masterwork_if_material_requires": true
+      },
+      "output_bindings": {
+        "quality.masterwork": true,
+        "cost.masterwork_add": 300
+      }
+    },
+    {
+      "id": "material",
+      "name": "Select Special Material",
+      "kind": "select_material",
+      "inputs": {
+        "from_table": "sources/DMG/items/materials/materials.core.json"
+      },
+      "weights": {
+        "special_material_chance_pct": { "minor": 10, "medium": 20, "major": 30 },
+        "material_weights_weapon": {
+          "mat_cold_iron": 30,
+          "mat_alchemical_silver": 25,
+          "mat_adamantine": 20,
+          "mat_mithral": 10,
+          "none": 15
+        },
+        "material_weights_ammunition": {
+          "mat_cold_iron": 35,
+          "mat_alchemical_silver": 35,
+          "mat_adamantine": 10,
+          "none": 20
+        }
+      },
+      "rules": {
+        "filter_by_item_composition": true,
+        "apply_stats_modifiers": true,
+        "apply_cost_modifiers": true,
+        "fallback_baseline_table": "sources/DMG/items/materials/material_composition_baselines.core.json"
+      },
+      "output_bindings": {
+        "material.id": "row.id",
+        "material.name": "row.name"
+      }
+    },
+    {
+      "id": "size_shape",
+      "name": "Apply Size and Shape",
+      "kind": "size_shape",
+      "rules": {
+        "use_phb_size_profiles": true,
+        "unusual_creatures_allowed": true
+      }
+    },
+    {
+      "id": "magic_core",
+      "name": "Determine Enhancement Bonus",
+      "kind": "magic_core",
+      "weights": {
+        "enhancement_by_tier": {
+          "minor": { "+1": 80, "+2": 18, "+3": 2 },
+          "medium": { "+1": 15, "+2": 70, "+3": 15 },
+          "major": { "+2": 25, "+3": 55, "+4": 18, "+5": 2 }
+        },
+        "special_ability_count_by_tier": {
+          "minor": { "0": 55, "1": 35, "2": 10 },
+          "medium": { "0": 15, "1": 55, "2": 25, "3": 5 },
+          "major": { "0": 5, "1": 35, "2": 40, "3": 18, "4": 2 }
+        }
+      },
+      "rules": {
+        "effective_bonus_cap": 10,
+        "min_enhancement_if_has_special_ability": 1
+      },
+      "output_bindings": {
+        "magic.enhancement": "result.enhancement",
+        "magic.special_slots": "result.special_count"
+      }
+    },
+    {
+      "id": "magic_specials",
+      "name": "Select Weapon Special Abilities",
+      "kind": "magic_special_abilities",
+      "inputs": {
+        "from_table": "sources/DMG/items/magic/weapon_special_abilities.core.json"
+      },
+      "weights": {
+        "by_tier_melee": {
+          "wpn_flaming": 12,
+          "wpn_frost": 12,
+          "wpn_shock": 12,
+          "wpn_bane_melee": 10,
+          "wpn_thundering": 6,
+          "wpn_keen": 8,
+          "wpn_merciful_melee": 6,
+          "wpn_mighty_cleaving": 5,
+          "wpn_defending": 4,
+          "wpn_ghost_touch_melee": 4,
+          "wpn_speed": 3,
+          "wpn_brilliant_energy": 2,
+          "wpn_dancing": 2,
+          "wpn_spell_storing": 4,
+          "wpn_wounding": 2,
+          "wpn_vicious": 4,
+          "wpn_vorpal": 1,
+          "wpn_holy_melee": 3,
+          "wpn_unholy_melee": 3,
+          "wpn_anarchic_melee": 3,
+          "wpn_axiomatic_melee": 3,
+          "wpn_flaming_burst": 2,
+          "wpn_icy_burst": 2,
+          "wpn_shocking_burst": 2,
+          "wpn_returning": 2,
+          "wpn_throwing": 2,
+          "wpn_ki_focus": 2
+        },
+        "by_tier_ranged": {
+          "wpn_flaming_ranged": 14,
+          "wpn_frost_ranged": 14,
+          "wpn_shock_ranged": 14,
+          "wpn_bane_ranged": 10,
+          "wpn_thundering": 5,
+          "wpn_distance": 8,
+          "wpn_seeking": 8,
+          "wpn_merciful_ranged": 6,
+          "wpn_ghost_touch_ranged": 4,
+          "wpn_flaming_burst_ranged": 2,
+          "wpn_icy_burst_ranged": 2,
+          "wpn_shocking_burst_ranged": 2,
+          "wpn_holy_ranged": 3,
+          "wpn_unholy_ranged": 3,
+          "wpn_anarchic_ranged": 3,
+          "wpn_axiomatic_ranged": 3
+        }
+      },
+      "rules": {
+        "respect_min_enhancement": true,
+        "sum_bonus_equiv_to_pricing": true,
+        "split_by_category": ["weapon_melee", "weapon_ranged"],
+        "handle_energy_burst_superset": true,
+        "alignment_conflicts": true
+      },
+      "output_bindings": {
+        "magic.abilities": "result.abilities",
+        "magic.effective_bonus_total": "result.effective_bonus_total"
+      }
+    },
+    {
+      "id": "int_check",
+      "name": "Intelligent Item Check",
+      "kind": "intelligent_item_check",
+      "weights": {
+        "chance_pct_by_tier": { "minor": 1, "medium": 2, "major": 5 }
+      },
+      "output_bindings": {
+        "intelligent.roll": "result.roll",
+        "intelligent.is_intelligent": "result.pass"
+      }
+    },
+    {
+      "id": "int_build",
+      "name": "Build Intelligence",
+      "kind": "intelligent_item_build",
+      "inputs": {
+        "tables": "sources/DMG/items/magic/intelligent_item_tables.core.json"
+      },
+      "rules": {
+        "enforce_alignment_constraints": true,
+        "compute_ego": true
+      },
+      "output_bindings": {
+        "intelligent.profile": "result.profile",
+        "intelligent.ego": "result.ego"
+      }
+    },
+    {
+      "id": "curse_check",
+      "name": "Cursed Item Check",
+      "kind": "cursed_item_check",
+      "inputs": {
+        "tables": "sources/DMG/items/magic/cursed_item_tables.core.json"
+      },
+      "weights": {
+        "curse_roll_pct": 5
+      },
+      "output_bindings": {
+        "cursed.roll": "result.roll",
+        "cursed.is_cursed": "result.pass"
+      }
+    },
+    {
+      "id": "curse_apply",
+      "name": "Apply Curse",
+      "kind": "cursed_item_apply",
+      "rules": {
+        "select_family_by_tier": true
+      },
+      "output_bindings": {
+        "cursed.details": "result.curse"
+      }
+    },
+    {
+      "id": "flavor",
+      "name": "Item Flavor",
+      "kind": "flavor",
+      "rules": {
+        "ai_flavor_allowed": true,
+        "tone": "evocative",
+        "respect_alignment": true,
+        "respect_material_theme": true
+      },
+      "output_bindings": {
+        "flavor.text": "result.text",
+        "flavor.tags": "result.tags"
+      }
+    },
+    {
+      "id": "desc",
+      "name": "Item Description Synthesis",
+      "kind": "description_synth",
+      "rules": {
+        "include_blocks": ["base", "material", "magic", "intelligence", "curse", "history"],
+        "omit_if_absent": true
+      },
+      "output_bindings": {
+        "description.text": "result.text"
+      }
+    },
+    {
+      "id": "pricing",
+      "name": "Pricing and Finalization",
+      "kind": "magic_core",
+      "rules": {
+        "effective_bonus_cap": 10,
+        "masterwork_add_if_missing": 300,
+        "weapon_magic_price_formula": "gp_from_effective_bonus"
+      },
+      "output_bindings": {
+        "pricing.total_gp": "result.total_gp",
+        "pricing.breakdown": "result.breakdown"
+      }
+    }
   ]
 }
