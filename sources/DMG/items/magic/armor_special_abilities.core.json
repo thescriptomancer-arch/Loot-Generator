@@ -3,64 +3,724 @@
   "source": "DMG v3.5",
   "chapter": "Magic Items",
   "section": "Armor & Shield Special Abilities",
-  "fields": ["id","name","category","costing","min_enhancement","stacking_rules","source"],
+  "fields": [
+    "id",
+    "name",
+    "category",
+    "costing",
+    "min_enhancement",
+    "stacking_rules",
+    "source",
+    "aura",
+    "required_caster_level",
+    "required_feat",
+    "required_spells"
+  ],
   "rows": [
-    ["arm_glamered","Glamered","armor",{"type":"flat_gp","gp":2700},1,"Cosmetic illusion; no mechanical stacking interactions","DMG Ch.7"],
-
-    ["arm_shadow","Shadow","armor",{"type":"flat_gp","gp":3750},1,"+5 competence on Hide; upgrades to Improved/Greater; don’t stack tiers","DMG Ch.7"],
-    ["arm_shadow_improved","Shadow, improved","armor",{"type":"flat_gp","gp":15000},1,"Replaces Shadow; +10 competence on Hide","DMG Ch.7"],
-    ["arm_shadow_greater","Shadow, greater","armor",{"type":"flat_gp","gp":33750},1,"Replaces Improved; +15 competence on Hide","DMG Ch.7"],
-
-    ["arm_silent_moves","Silent moves","armor",{"type":"flat_gp","gp":3750},1,"+5 competence on Move Silently; upgrades to Improved/Greater","DMG Ch.7"],
-    ["arm_silent_moves_improved","Silent moves, improved","armor",{"type":"flat_gp","gp":15000},1,"Replaces Silent moves; +10","DMG Ch.7"],
-    ["arm_silent_moves_greater","Silent moves, greater","armor",{"type":"flat_gp","gp":33750},1,"Replaces Improved; +15","DMG Ch.7"],
-
-    ["arm_slick","Slick","armor",{"type":"flat_gp","gp":3750},1,"+5 competence on Escape Artist; upgrades to Improved/Greater","DMG Ch.7"],
-    ["arm_slick_improved","Slick, improved","armor",{"type":"flat_gp","gp":15000},1,"Replaces Slick; +10","DMG Ch.7"],
-    ["arm_slick_greater","Slick, greater","armor",{"type":"flat_gp","gp":33750},1,"Replaces Improved; +15","DMG Ch.7"],
-
-    ["arm_fort_light","Fortification, light","armor",{"type":"bonus_equiv","bonus_equiv":1},1,"Does not stack with other fortification grades; choose one grade","DMG Ch.7"],
-    ["arm_fort_moderate","Fortification, moderate","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"Mutually exclusive with light/heavy","DMG Ch.7"],
-    ["arm_fort_heavy","Fortification, heavy","armor",{"type":"bonus_equiv","bonus_equiv":5},1,"Mutually exclusive with light/moderate","DMG Ch.7"],
-
-    ["arm_ghost_touch","Ghost touch","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"Functions normally against incorporeal; wearer fully protected as described","DMG Ch.7"],
-
-    ["arm_invulnerability","Invulnerability","armor",{"type":"bonus_equiv","bonus_equiv":5},1,"Provides DR as per DMG; counts toward +10 effective cap","DMG Ch.7"],
-
-    ["arm_spell_res_13","Spell resistance (13)","armor",{"type":"bonus_equiv","bonus_equiv":2},1,"Pick one SR tier only; tiers do not stack","DMG Ch.7"],
-    ["arm_spell_res_15","Spell resistance (15)","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"Pick one SR tier only; tiers do not stack","DMG Ch.7"],
-    ["arm_spell_res_17","Spell resistance (17)","armor",{"type":"bonus_equiv","bonus_equiv":4},1,"Pick one SR tier only; tiers do not stack","DMG Ch.7"],
-    ["arm_spell_res_19","Spell resistance (19)","armor",{"type":"bonus_equiv","bonus_equiv":5},1,"Pick one SR tier only; tiers do not stack","DMG Ch.7"],
-
-    ["arm_wild","Wild","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"Druid-friendly; functions while wild shaped; see DMG text","DMG Ch.7"],
-
-    ["arm_resist_acid_10","Energy resistance (acid 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
-    ["arm_resist_acid_20","Energy resistance (acid 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces acid 10","DMG Ch.7"],
-    ["arm_resist_acid_30","Energy resistance (acid 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces acid 20","DMG Ch.7"],
-
-    ["arm_resist_cold_10","Energy resistance (cold 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
-    ["arm_resist_cold_20","Energy resistance (cold 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces cold 10","DMG Ch.7"],
-    ["arm_resist_cold_30","Energy resistance (cold 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces cold 20","DMG Ch.7"],
-
-    ["arm_resist_elec_10","Energy resistance (electricity 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
-    ["arm_resist_elec_20","Energy resistance (electricity 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces electricity 10","DMG Ch.7"],
-    ["arm_resist_elec_30","Energy resistance (electricity 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces electricity 20","DMG Ch.7"],
-
-    ["arm_resist_fire_10","Energy resistance (fire 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
-    ["arm_resist_fire_20","Energy resistance (fire 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces fire 10","DMG Ch.7"],
-    ["arm_resist_fire_30","Energy resistance (fire 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces fire 20","DMG Ch.7"],
-
-    ["arm_resist_sonic_10","Energy resistance (sonic 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
-    ["arm_resist_sonic_20","Energy resistance (sonic 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces sonic 10","DMG Ch.7"],
-    ["arm_resist_sonic_30","Energy resistance (sonic 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces sonic 20","DMG Ch.7"],
-
-    ["shd_animated","Animated","shield",{"type":"bonus_equiv","bonus_equiv":2},1,"Shield defends on its own; frees hands; shield only","DMG Ch.7"],
-    ["shd_arrow_catching","Arrow catching","shield",{"type":"bonus_equiv","bonus_equiv":1},1,"Increases chance to intercept missiles; shield only","DMG Ch.7"],
-    ["shd_arrow_deflection","Arrow deflection","shield",{"type":"bonus_equiv","bonus_equiv":2},1,"Functions as the Deflect Arrows feat (with requirements); shield only","DMG Ch.7"],
-    ["shd_bashing","Bashing","shield",{"type":"bonus_equiv","bonus_equiv":1},1,"Increases shield bash damage; shield only","DMG Ch.7"],
-    ["shd_reflecting","Reflecting","shield",{"type":"bonus_equiv","bonus_equiv":5},1,"Reflects targeted spells as per DMG; shield only","DMG Ch.7"],
-
-    ["arm_ghost_touch_shield","Ghost touch","shield",{"type":"bonus_equiv","bonus_equiv":3},1,"Shield functions normally against incorporeal; shield only","DMG Ch.7"]
-
+    {
+      "id": "arm_glamered",
+      "name": "Glamered",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2700
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Cosmetic illusion; no mechanical stacking interactions",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "disguise self"
+      ]
+    },
+    {
+      "id": "arm_shadow",
+      "name": "Shadow",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 competence on Hide; upgrades to Improved/Greater; don’t stack tiers",
+      "source": "DMG Ch.7",
+      "aura": "Faint illusion",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "invisibility"
+      ]
+    },
+    {
+      "id": "arm_shadow_improved",
+      "name": "Shadow, improved",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Shadow; +10 competence on Hide",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "invisibility"
+      ]
+    },
+    {
+      "id": "arm_shadow_greater",
+      "name": "Shadow, greater",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 33750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Improved; +15 competence on Hide",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "invisibility"
+      ]
+    },
+    {
+      "id": "arm_silent_moves",
+      "name": "Silent moves",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 competence on Move Silently; upgrades to Improved/Greater",
+      "source": "DMG Ch.7",
+      "aura": "Faint illusion",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "silence"
+      ]
+    },
+    {
+      "id": "arm_silent_moves_improved",
+      "name": "Silent moves, improved",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Silent moves; +10",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "silence"
+      ]
+    },
+    {
+      "id": "arm_silent_moves_greater",
+      "name": "Silent moves, greater",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 33750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Improved; +15",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "silence"
+      ]
+    },
+    {
+      "id": "arm_slick",
+      "name": "Slick",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 competence on Escape Artist; upgrades to Improved/Greater",
+      "source": "DMG Ch.7",
+      "aura": "Faint conjuration",
+      "required_caster_level": 4,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "grease"
+      ]
+    },
+    {
+      "id": "arm_slick_improved",
+      "name": "Slick, improved",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Slick; +10",
+      "source": "DMG Ch.7",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "grease"
+      ]
+    },
+    {
+      "id": "arm_slick_greater",
+      "name": "Slick, greater",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 33750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Improved; +15",
+      "source": "DMG Ch.7",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "grease"
+      ]
+    },
+    {
+      "id": "arm_fort_light",
+      "name": "Fortification, light",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Does not stack with other fortification grades; choose one grade",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "arm_fort_moderate",
+      "name": "Fortification, moderate",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Mutually exclusive with light/heavy",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "arm_fort_heavy",
+      "name": "Fortification, heavy",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Mutually exclusive with light/moderate",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "arm_ghost_touch",
+      "name": "Ghost touch",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Functions normally against incorporeal; wearer fully protected as described",
+      "source": "DMG Ch.7",
+      "aura": "Strong transmutation",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "etherealness"
+      ]
+    },
+    {
+      "id": "arm_invulnerability",
+      "name": "Invulnerability",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Provides DR as per DMG; counts toward +10 effective cap",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration (and evocation if miracle)",
+      "required_caster_level": 18,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "stoneskin",
+        "wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "arm_spell_res_13",
+      "name": "Spell resistance (13)",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Pick one SR tier only; tiers do not stack",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_spell_res_15",
+      "name": "Spell resistance (15)",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Pick one SR tier only; tiers do not stack",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_spell_res_17",
+      "name": "Spell resistance (17)",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Pick one SR tier only; tiers do not stack",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_spell_res_19",
+      "name": "Spell resistance (19)",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Pick one SR tier only; tiers do not stack",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_wild",
+      "name": "Wild",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Druid-friendly; functions while wild shaped; see DMG text",
+      "source": "DMG Ch.7",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "baleful polymorph"
+      ]
+    },
+    {
+      "id": "arm_resist_acid_10",
+      "name": "Energy resistance (acid 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_acid_20",
+      "name": "Energy resistance (acid 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces acid 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_acid_30",
+      "name": "Energy resistance (acid 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces acid 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_cold_10",
+      "name": "Energy resistance (cold 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_cold_20",
+      "name": "Energy resistance (cold 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces cold 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_cold_30",
+      "name": "Energy resistance (cold 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces cold 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_elec_10",
+      "name": "Energy resistance (electricity 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_elec_20",
+      "name": "Energy resistance (electricity 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces electricity 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_elec_30",
+      "name": "Energy resistance (electricity 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces electricity 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_fire_10",
+      "name": "Energy resistance (fire 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_fire_20",
+      "name": "Energy resistance (fire 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces fire 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_fire_30",
+      "name": "Energy resistance (fire 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces fire 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_sonic_10",
+      "name": "Energy resistance (sonic 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_sonic_20",
+      "name": "Energy resistance (sonic 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces sonic 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_sonic_30",
+      "name": "Energy resistance (sonic 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces sonic 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "shd_animated",
+      "name": "Animated",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Shield defends on its own; frees hands; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Strong transmutation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "animate objects"
+      ]
+    },
+    {
+      "id": "shd_arrow_catching",
+      "name": "Arrow catching",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Increases chance to intercept missiles; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate abjuration",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "entropic shield"
+      ]
+    },
+    {
+      "id": "shd_arrow_deflection",
+      "name": "Arrow deflection",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Functions as the Deflect Arrows feat (with requirements); shield only",
+      "source": "DMG Ch.7",
+      "aura": "Faint abjuration",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "shield"
+      ]
+    },
+    {
+      "id": "shd_bashing",
+      "name": "Bashing",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Increases shield bash damage; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "bull's strength"
+      ]
+    },
+    {
+      "id": "shd_reflecting",
+      "name": "Reflecting",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Reflects targeted spells as per DMG; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 14,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "spell turning"
+      ]
+    },
+    {
+      "id": "arm_ghost_touch_shield",
+      "name": "Ghost touch",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Shield functions normally against incorporeal; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Strong transmutation",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "etherealness"
+      ]
+    }
   ]
 }
