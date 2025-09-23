@@ -1414,6 +1414,32 @@
       "required_spells": [
         "fly"
       ]
-    }
+    },
+    {
+    "id": "uniq_ring_swimming",
+    "name": "Ring of Swimming",
+    "category": "ring",
+    "price_gp": 2500,
+    "source_page": "DMG p.232",
+    "notes": "Continuously grants a +5 competence bonus on Swim checks.",
+    "aura": "Faint transmutation",
+    "required_caster_level": 2,
+    "required_feat": "Forge Ring",
+    "required_spells": [],
+    "required_spells_note": "Creator must have 5 ranks in the Swim skill"
+  },
+  {
+    "id": "uniq_ring_swimming_improved",
+    "name": "Ring of Swimming, Improved",
+    "category": "ring",
+    "price_gp": 10000,
+    "source_page": "DMG p.232",
+    "notes": "Continuously grants a +10 competence bonus on Swim checks.",
+    "aura": "Moderate transmutation",
+    "required_caster_level": 7,
+    "required_feat": "Forge Ring",
+    "required_spells": [],
+    "required_spells_note": "Creator must have 10 ranks in the Swim skill"
+  },
   ]
 }
