@@ -3,12 +3,43 @@
   "category": "armor",
   "steps": [
     {
-      "id": "base_item",
-      "name": "Select Base Armor/Shield",
+      "id": "tier_select",
+      "name": "Select Treasure Tier",
       "kind": "select_base_item",
-      "inputs": { "from_table": "sources/PHB/items/armor_shields/armor_shields.core.json" },
-      "weights": { "rarity": "core_weight" },
-      "rules": { "allow_shields": true, "allow_armor": true }
+      "inputs": {
+        "inline_choices": {
+          "tier": ["minor", "medium", "major"]
+        }
+      },
+      "weights": {
+        "tier": { "minor": 60, "medium": 30, "major": 10 }
+      },
+      "output_bindings": { "tier": "tier" }
+    },
+    {
+      "id": "base_item",
+      "name": "Select Base Armor or Shield",
+      "kind": "select_base_item",
+      "inputs": {
+        "from_table": "sources/PHB/items/armor_shields/armor_shields.core.json"
+      },
+      "rules": {
+        "allow_armor": true,
+        "allow_shields": true
+      },
+      "weights": {},
+      "output_bindings": {
+        "base.item_id": "row.id",
+        "base.category": "row.category",
+        "base.name": "row.name",
+        "base.base_gp": "row.cost_gp",
+        "base.ac_bonus": "row.ac_bonus",
+        "base.max_dex": "row.max_dex",
+        "base.acp": "row.acp",
+        "base.spell_fail_pct": "row.spell_fail_pct",
+        "base.weight_lb": "row.weight_lb",
+        "base.material_composition": "row.material"
+      }
     },
     {
       "id": "masterwork",
@@ -18,100 +49,267 @@
         "require_masterwork_for_magic": true,
         "auto_masterwork_if_material_requires": true
       },
-      "table_refs": ["DMG Masterwork Items"],
-      "output_bindings": { "quality.masterwork": true }
+      "output_bindings": {
+        "quality.masterwork": true,
+        "cost.masterwork_add": 150
+      }
     },
     {
       "id": "material",
       "name": "Select Special Material",
       "kind": "select_material",
-      "inputs": { "from_table": "sources/DMG/items/materials/materials.core.json" },
-      "weights": { "d%_special_substance": { "range_01_95": "standard", "range_96_100": "special_material" } },
+      "inputs": {
+        "from_table": "sources/DMG/items/materials/materials.core.json"
+      },
+      "weights": {
+        "special_material_chance_pct": { "minor": 5, "medium": 10, "major": 15 },
+        "material_weights_by_category": {
+          "armor": {
+            "mat_mithral": 45,
+            "mat_adamantine": 25,
+            "mat_dragonhide": 15,
+            "none": 15
+          },
+          "shield": {
+            "mat_mithral": 35,
+            "mat_darkwood": 35,
+            "mat_adamantine": 10,
+            "none": 20
+          }
+        }
+      },
       "rules": {
         "filter_by_item_composition": true,
         "apply_stats_modifiers": true,
-        "apply_cost_modifiers": true
+        "apply_cost_modifiers": true,
+        "fallback_baseline_table": "sources/DMG/items/materials/material_composition_baselines.core.json"
       },
-      "table_refs": ["DMG: Special Materials"],
-      "output_bindings": { "material": "row.id" }
+      "output_bindings": {
+        "material.id": "row.id",
+        "material.name": "row.name"
+      }
     },
     {
       "id": "size_shape",
-      "name": "Apply Size/Shape",
+      "name": "Apply Size and Shape",
       "kind": "size_shape",
-      "rules": { "use_phb_size_profiles": true, "unusual_creatures_allowed": true },
-      "table_refs": ["PHB: Armor for Unusual Creatures"]
+      "inputs": {
+        "from_rule": "sources/PHB/rules/armor_for_unusual_creatures.json"
+      },
+      "rules": {
+        "use_phb_size_profiles": true,
+        "unusual_creatures_allowed": true
+      }
     },
     {
       "id": "magic_core",
-      "name": "Enhancement Bonus Determination",
+      "name": "Determine Enhancement Bonus",
       "kind": "magic_core",
       "weights": {
-        "minor_medium_major": { "tiers": ["minor","medium","major"], "default": "minor" },
-        "enhancement_distro": { "+1": 0.7, "+2": 0.25, "+3": 0.05 }
+        "enhancement_by_tier": {
+          "minor": { "+1": 80, "+2": 18, "+3": 2 },
+          "medium": { "+1": 15, "+2": 70, "+3": 15 },
+          "major": { "+2": 25, "+3": 55, "+4": 18, "+5": 2 }
+        },
+        "special_ability_count_by_tier": {
+          "minor": { "0": 60, "1": 35, "2": 5 },
+          "medium": { "0": 20, "1": 60, "2": 18, "3": 2 },
+          "major": { "0": 5, "1": 40, "2": 40, "3": 15 }
+        }
       },
-      "rules": { "min_enhancement_if_has_special_ability": 1, "effective_bonus_cap": 10 },
-      "table_refs": ["DMG: Armor/Shields random generation & pricing"]
+      "rules": {
+        "effective_bonus_cap": 10,
+        "min_enhancement_if_has_special_ability": 1
+      },
+      "output_bindings": {
+        "magic.enhancement": "result.enhancement",
+        "magic.special_slots": "result.special_count"
+      }
     },
     {
       "id": "magic_specials",
-      "name": "Armor/Shield Special Abilities",
+      "name": "Select Special Abilities",
       "kind": "magic_special_abilities",
-      "inputs": { "from_table": "sources/DMG/items/magic/armor_special_abilities.core.json" },
+      "inputs": {
+        "from_table": "sources/DMG/items/magic/armor_special_abilities.core.json"
+      },
       "weights": {
-        "minor": {"Glamered": 25, "Fortification, light": 7, "Shadow": 20, "Silent moves": 20, "Energy resistance (10s)": 0},
-        "medium": {"Improved Shadow": 10, "Improved Silent moves": 10, "Energy resistance (10s)": 55, "Ghost touch": 5},
-        "major": {"Spell resistance": 6, "Energy resistance (20s/30s)": 40, "Fortification (higher grades)": 8}
+        "by_tier": {
+          "minor": {
+            "arm_glamered": 25,
+            "arm_shadow": 20,
+            "arm_silent_moves": 20,
+            "arm_slick": 15,
+            "arm_fort_light": 7,
+            "arm_resist_acid_10": 2,
+            "arm_resist_cold_10": 2,
+            "arm_resist_elec_10": 2,
+            "arm_resist_fire_10": 2,
+            "arm_resist_sonic_10": 2
+          },
+          "medium": {
+            "arm_shadow_improved": 10,
+            "arm_silent_moves_improved": 10,
+            "arm_ghost_touch": 6,
+            "arm_fort_moderate": 6,
+            "arm_resist_acid_10": 8,
+            "arm_resist_cold_10": 8,
+            "arm_resist_elec_10": 8,
+            "arm_resist_fire_10": 8,
+            "arm_resist_sonic_10": 8,
+            "arm_resist_acid_20": 6,
+            "arm_resist_cold_20": 6,
+            "arm_resist_elec_20": 6,
+            "arm_resist_fire_20": 6,
+            "arm_resist_sonic_20": 6
+          },
+          "major": {
+            "arm_shadow_greater": 8,
+            "arm_silent_moves_greater": 8,
+            "arm_spell_res_13": 5,
+            "arm_spell_res_15": 6,
+            "arm_spell_res_17": 7,
+            "arm_spell_res_19": 8,
+            "arm_fort_heavy": 6,
+            "arm_invulnerability": 4,
+            "arm_resist_acid_20": 6,
+            "arm_resist_cold_20": 6,
+            "arm_resist_elec_20": 6,
+            "arm_resist_fire_20": 6,
+            "arm_resist_sonic_20": 6,
+            "arm_resist_acid_30": 5,
+            "arm_resist_cold_30": 5,
+            "arm_resist_elec_30": 5,
+            "arm_resist_fire_30": 5,
+            "arm_resist_sonic_30": 5
+          }
+        },
+        "shield_overrides": {
+          "shd_animated": 12,
+          "shd_arrow_catching": 10,
+          "shd_arrow_deflection": 10,
+          "shd_bashing": 8,
+          "shd_reflecting": 2,
+          "arm_ghost_touch_shield": 6
+        }
       },
       "rules": {
         "respect_min_enhancement": true,
         "sum_bonus_equiv_to_pricing": true,
-        "disallow_conflicts": ["multiple_fortification_grades"]
+        "upgrade_families": [
+          ["arm_shadow", "arm_shadow_improved", "arm_shadow_greater"],
+          ["arm_silent_moves", "arm_silent_moves_improved", "arm_silent_moves_greater"],
+          ["arm_resist_acid_10", "arm_resist_acid_20", "arm_resist_acid_30"],
+          ["arm_resist_cold_10", "arm_resist_cold_20", "arm_resist_cold_30"],
+          ["arm_resist_elec_10", "arm_resist_elec_20", "arm_resist_elec_30"],
+          ["arm_resist_fire_10", "arm_resist_fire_20", "arm_resist_fire_30"],
+          ["arm_resist_sonic_10", "arm_resist_sonic_20", "arm_resist_sonic_30"]
+        ],
+        "mutual_exclusions": [
+          ["arm_fort_light", "arm_fort_moderate", "arm_fort_heavy"]
+        ],
+        "apply_shield_specific_when_category_is_shield": true
       },
-      "table_refs": ["DMG Table 7-2..7-6 overview"],
-      "output_bindings": { "special_abilities": "ids" }
+      "output_bindings": {
+        "magic.abilities": "result.abilities",
+        "magic.effective_bonus_total": "result.effective_bonus_total",
+        "pricing.flat_gp_add": "result.flat_gp_sum"
+      }
     },
     {
       "id": "int_check",
-      "name": "Intelligent Item Determination",
+      "name": "Intelligent Item Check",
       "kind": "intelligent_item_check",
-      "weights": { "chance_pct": 1 },
-      "rules": {},
-      "table_refs": ["DMG: Intelligent Items"]
+      "weights": {
+        "chance_pct_by_tier": { "minor": 1, "medium": 2, "major": 5 }
+      },
+      "output_bindings": {
+        "intelligent.roll": "result.roll",
+        "intelligent.is_intelligent": "result.pass"
+      }
     },
     {
       "id": "int_build",
-      "name": "Intelligent Item Build",
+      "name": "Build Intelligence",
       "kind": "intelligent_item_build",
-      "inputs": { "tables": "sources/DMG/items/magic/intelligent_item_tables.core.json" },
-      "rules": { "enforce_alignment_constraints": true, "compute_ego": true },
-      "table_refs": ["DMG: Intelligent Item tables"]
+      "inputs": {
+        "tables": "sources/DMG/items/magic/intelligent_item_tables.core.json"
+      },
+      "rules": {
+        "enforce_alignment_constraints": true,
+        "compute_ego": true
+      },
+      "output_bindings": {
+        "intelligent.profile": "result.profile",
+        "intelligent.ego": "result.ego"
+      }
     },
     {
       "id": "curse_check",
       "name": "Cursed Item Check",
       "kind": "cursed_item_check",
-      "inputs": { "tables": "sources/DMG/items/magic/cursed_item_tables.core.json" },
-      "rules": { "re_roll_secret": true }
+      "inputs": {
+        "tables": "sources/DMG/items/magic/cursed_item_tables.core.json"
+      },
+      "weights": {
+        "curse_roll_pct": 5
+      },
+      "output_bindings": {
+        "cursed.roll": "result.roll",
+        "cursed.is_cursed": "result.pass"
+      }
     },
     {
       "id": "curse_apply",
       "name": "Apply Curse",
       "kind": "cursed_item_apply",
-      "rules": { "family_selection": "weighted", "respect_substitute_specific_item": true },
-      "table_refs": ["DMG: Cursed Items"]
+      "rules": {
+        "select_family_by_tier": true
+      },
+      "output_bindings": {
+        "cursed.details": "result.curse"
+      }
     },
     {
       "id": "flavor",
       "name": "Item Flavor",
       "kind": "flavor",
-      "rules": { "ai_flavor_allowed": true, "tone": "evocative, non-mechanical", "respect_alignment": true }
+      "rules": {
+        "ai_flavor_allowed": true,
+        "tone": "evocative",
+        "respect_alignment": true,
+        "respect_material_theme": true
+      },
+      "output_bindings": {
+        "flavor.text": "result.text",
+        "flavor.tags": "result.tags"
+      }
     },
     {
       "id": "desc",
       "name": "Item Description Synthesis",
       "kind": "description_synth",
-      "rules": { "include_blocks": ["base","material","magic","intelligence","curse","history"], "omit_if_absent": true }
+      "rules": {
+        "include_blocks": ["base", "material", "magic", "intelligence", "curse", "history"],
+        "omit_if_absent": true
+      },
+      "output_bindings": {
+        "description.text": "result.text"
+      }
+    },
+    {
+      "id": "pricing",
+      "name": "Pricing and Finalization",
+      "kind": "magic_core",
+      "rules": {
+        "effective_bonus_cap": 10,
+        "masterwork_add_if_missing": 150,
+        "armor_magic_price_formula": "gp_from_effective_bonus_plus_flats"
+      },
+      "output_bindings": {
+        "pricing.total_gp": "result.total_gp",
+        "pricing.breakdown": "result.breakdown"
+      }
     }
   ]
 }
