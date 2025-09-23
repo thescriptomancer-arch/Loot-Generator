@@ -2,55 +2,910 @@
   "schema_version": "1.0",
   "source": "DMG v3.5",
   "chapter": "Magic Items",
-  "section": "Specific Items Index",
+  "section": "Unique Items Index",
   "fields": [
     "id",
     "name",
     "category",
+    "price_gp",
+    "aura",
+    "required_caster_level",
+    "required_feat",
+    "required_spells",
     "source_page",
-    "notes",
-    "price_gp"
+    "notes"
   ],
   "rows": [
     {
-      "id": "uniq_holy_avenger",
-      "name": "Holy Avenger",
+      "id": "uniq_adamantine_battleaxe",
+      "name": "Adamantine Battleaxe",
       "category": "weapon",
-      "source_page": "DMG Ch.7 (specific weapons)",
-      "notes": "Paladin iconic; alignment locks apply",
-      "price_gp": 0
+      "price_gp": 3010,
+      "aura": "No aura (nonmagical)",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": [],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": "Masterwork adamantine axe."
     },
     {
-      "id": "uniq_celestial_armor",
-      "name": "Celestial Armor",
-      "category": "armor",
-      "source_page": "DMG Ch.7 (specific armors)",
-      "notes": "Light armor with flight benefit",
-      "price_gp": 0
+      "id": "uniq_adamantine_dagger",
+      "name": "Adamantine Dagger",
+      "category": "weapon",
+      "price_gp": 3002,
+      "aura": "No aura (nonmagical)",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": [],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": "Masterwork adamantine dagger."
     },
     {
-      "id": "uniq_sun_blade",
-      "name": "Sun Blade",
+      "id": "uniq_assassins_dagger",
+      "name": "Assassin's Dagger",
       "category": "weapon",
-      "source_page": "DMG Ch.7 (specific weapons)",
-      "notes": "Bastard sword-like; vs undead",
-      "price_gp": 0
+      "price_gp": 18302,
+      "aura": "Moderate necromancy",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "slay living"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_dagger_of_venom",
+      "name": "Dagger of Venom",
+      "category": "weapon",
+      "price_gp": 8302,
+      "aura": "Faint necromancy",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "poison"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
     },
     {
       "id": "uniq_dwarven_thrower",
       "name": "Dwarven Thrower",
       "category": "weapon",
-      "source_page": "DMG Ch.7 (specific weapons)",
-      "notes": "Dwarves, throwing returns",
-      "price_gp": 0
+      "price_gp": 60312,
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": "Creator must be a dwarf of at least 10th level."
     },
     {
-      "id": "uniq_shield_animated",
-      "name": "Animated Shield",
+      "id": "uniq_flame_tongue",
+      "name": "Flame Tongue",
+      "category": "weapon",
+      "price_gp": 20715,
+      "aura": "Moderate evocation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "scorching ray",
+        "flame blade or flame strike or fireball"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_frost_brand",
+      "name": "Frost Brand",
+      "category": "weapon",
+      "price_gp": 54475,
+      "aura": "Strong evocation",
+      "required_caster_level": 14,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "ice storm",
+        "dispel magic",
+        "protection from energy"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_holy_avenger",
+      "name": "Holy Avenger",
+      "category": "weapon",
+      "price_gp": 120630,
+      "aura": "Strong abjuration",
+      "required_caster_level": 18,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "holy aura"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": "Creator must be good."
+    },
+    {
+      "id": "uniq_javelin_of_lightning",
+      "name": "Javelin of Lightning",
+      "category": "weapon",
+      "price_gp": 1500,
+      "aura": "Faint evocation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "lightning bolt"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": "Consumed on use."
+    },
+    {
+      "id": "uniq_life_drinker",
+      "name": "Life-Drinker",
+      "category": "weapon",
+      "price_gp": 40320,
+      "aura": "Strong necromancy",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "enervation"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_luck_blade_0_wish",
+      "name": "Luck Blade (0 wishes)",
+      "category": "weapon",
+      "price_gp": 22060,
+      "aura": "Strong evocation",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "wish or miracle"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_luck_blade_1_wish",
+      "name": "Luck Blade (1 wish)",
+      "category": "weapon",
+      "price_gp": 62360,
+      "aura": "Strong evocation",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "wish or miracle"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_luck_blade_2_wish",
+      "name": "Luck Blade (2 wishes)",
+      "category": "weapon",
+      "price_gp": 102660,
+      "aura": "Strong evocation",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "wish or miracle"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_luck_blade_3_wish",
+      "name": "Luck Blade (3 wishes)",
+      "category": "weapon",
+      "price_gp": 142960,
+      "aura": "Strong evocation",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "wish or miracle"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_mace_of_smiting",
+      "name": "Mace of Smiting",
+      "category": "weapon",
+      "price_gp": 75312,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "disintegrate"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_mace_of_terror",
+      "name": "Mace of Terror",
+      "category": "weapon",
+      "price_gp": 38552,
+      "aura": "Strong necromancy",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "fear"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_masterwork_cold_iron_longsword",
+      "name": "Masterwork Cold Iron Longsword",
+      "category": "weapon",
+      "price_gp": 330,
+      "aura": "No aura (nonmagical)",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": [],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_nine_lives_stealer",
+      "name": "Nine Lives Stealer",
+      "category": "weapon",
+      "price_gp": 23057,
+      "aura": "Strong necromancy [evil]",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "finger of death"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_oathbow",
+      "name": "Oathbow",
+      "category": "weapon",
+      "price_gp": 25600,
+      "aura": "Strong evocation",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": "Creator must be an elf."
+    },
+    {
+      "id": "uniq_rapier_of_puncturing",
+      "name": "Rapier of Puncturing",
+      "category": "weapon",
+      "price_gp": 50320,
+      "aura": "Strong necromancy",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "wail of the banshee"
+      ],
+      "source_page": "DMG Ch.7: Specific Weapons",
+      "notes": ""
+    },
+    {
+      "id": "uniq_banded_mail_of_luck",
+      "name": "Banded Mail of Luck",
+      "category": "armor",
+      "price_gp": 18900,
+      "aura": "Moderate enchantment",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [],
+      "source_page": "DMG Ch.7: Specific Armor",
+      "notes": "Creator must be a halfling."
+    },
+    {
+      "id": "uniq_breastplate_of_command",
+      "name": "Breastplate of Command",
+      "category": "armor",
+      "price_gp": 25400,
+      "aura": "Moderate enchantment",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "eagle's splendor"
+      ],
+      "source_page": "DMG Ch.7: Specific Armor",
+      "notes": ""
+    },
+    {
+      "id": "uniq_dwarven_plate",
+      "name": "Dwarven Plate",
+      "category": "armor",
+      "price_gp": 16500,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "nondetection"
+      ],
+      "source_page": "DMG Ch.7: Specific Armor",
+      "notes": ""
+    },
+    {
+      "id": "uniq_elven_chain",
+      "name": "Elven Chain",
+      "category": "armor",
+      "price_gp": 18150,
+      "aura": "Strong transmutation",
+      "required_caster_level": 16,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "fabricate"
+      ],
+      "source_page": "DMG Ch.7: Specific Armor",
+      "notes": ""
+    },
+    {
+      "id": "uniq_full_plate_of_speed",
+      "name": "Full Plate of Speed",
+      "category": "armor",
+      "price_gp": 54650,
+      "aura": "Strong transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "haste"
+      ],
+      "source_page": "DMG Ch.7: Specific Armor",
+      "notes": ""
+    },
+    {
+      "id": "uniq_mithral_shirt",
+      "name": "Mithral Shirt",
+      "category": "armor",
+      "price_gp": 1100,
+      "aura": "Faint illusion",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "disguise self"
+      ],
+      "source_page": "DMG Ch.7: Specific Armor",
+      "notes": ""
+    },
+    {
+      "id": "uniq_plate_armor_of_the_deep",
+      "name": "Plate Armor of the Deep",
+      "category": "armor",
+      "price_gp": 24650,
+      "aura": "Strong transmutation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "freedom of movement"
+      ],
+      "source_page": "DMG Ch.7: Specific Armor",
+      "notes": ""
+    },
+    {
+      "id": "uniq_absorbing_shield",
+      "name": "Absorbing Shield",
       "category": "shield",
-      "source_page": "DMG Ch.7 (specific shields)",
-      "notes": "Animated property",
-      "price_gp": 0
+      "price_gp": 50170,
+      "aura": "Strong abjuration",
+      "required_caster_level": 14,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "spell turning"
+      ],
+      "source_page": "DMG Ch.7: Specific Shields",
+      "notes": ""
+    },
+    {
+      "id": "uniq_casters_shield",
+      "name": "Caster's Shield",
+      "category": "shield",
+      "price_gp": 3153,
+      "aura": "Faint abjuration",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "secret page"
+      ],
+      "source_page": "DMG Ch.7: Specific Shields",
+      "notes": ""
+    },
+    {
+      "id": "uniq_darkwood_buckler",
+      "name": "Darkwood Buckler",
+      "category": "shield",
+      "price_gp": 205,
+      "aura": "No aura (nonmagical)",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": [],
+      "source_page": "DMG Ch.7: Specific Shields",
+      "notes": ""
+    },
+    {
+      "id": "uniq_darkwood_shield",
+      "name": "Darkwood Shield",
+      "category": "shield",
+      "price_gp": 257,
+      "aura": "No aura (nonmagical)",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": [],
+      "source_page": "DMG Ch.7: Specific Shields",
+      "notes": ""
+    },
+    {
+      "id": "uniq_lions_shield",
+      "name": "Lion's Shield",
+      "category": "shield",
+      "price_gp": 9170,
+      "aura": "Strong transmutation",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "animate objects"
+      ],
+      "source_page": "DMG Ch.7: Specific Shields",
+      "notes": ""
+    },
+    {
+      "id": "uniq_slaying_arrow",
+      "name": "Slaying Arrow",
+      "category": "ammunition",
+      "price_gp": 2282,
+      "aura": "Faint necromancy",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "circle of death"
+      ],
+      "source_page": "DMG Ch.7: Specific Ammunition",
+      "notes": "Choose designated foe at creation."
+    },
+    {
+      "id": "uniq_greater_slaying_arrow",
+      "name": "Greater Slaying Arrow",
+      "category": "ammunition",
+      "price_gp": 4057,
+      "aura": "Strong necromancy",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "finger of death"
+      ],
+      "source_page": "DMG Ch.7: Specific Ammunition",
+      "notes": "Choose designated foe at creation."
+    },
+    {
+      "id": "uniq_sleep_arrow",
+      "name": "Sleep Arrow",
+      "category": "ammunition",
+      "price_gp": 132,
+      "aura": "Faint enchantment",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "sleep"
+      ],
+      "source_page": "DMG Ch.7: Specific Ammunition",
+      "notes": ""
+    },
+    {
+      "id": "uniq_rod_absorption",
+      "name": "Rod of Absorption",
+      "category": "rod",
+      "price_gp": 50000,
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "spell turning"
+      ],
+      "source_page": "DMG Ch.7: Rods",
+      "notes": ""
+    },
+    {
+      "id": "uniq_rod_flame_extinguishing",
+      "name": "Rod of Flame Extinguishing",
+      "category": "rod",
+      "price_gp": 15000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "quench"
+      ],
+      "source_page": "DMG Ch.7: Rods",
+      "notes": ""
+    },
+    {
+      "id": "uniq_rod_flailing",
+      "name": "Rod of Flailing",
+      "category": "rod",
+      "price_gp": 50000,
+      "aura": "Moderate evocation",
+      "required_caster_level": 9,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "spiritual weapon"
+      ],
+      "source_page": "DMG Ch.7: Rods",
+      "notes": ""
+    },
+    {
+      "id": "uniq_rod_immovability",
+      "name": "Rod of Immovability",
+      "category": "rod",
+      "price_gp": 5000,
+      "aura": "Strong transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "levitate"
+      ],
+      "source_page": "DMG Ch.7: Rods",
+      "notes": ""
+    },
+    {
+      "id": "uniq_rod_lordly_might",
+      "name": "Rod of Lordly Might",
+      "category": "rod",
+      "price_gp": 70000,
+      "aura": "Strong transmutation",
+      "required_caster_level": 16,
+      "required_feat": "Craft Rod",
+      "required_spells": [],
+      "source_page": "DMG Ch.7: Rods",
+      "notes": ""
+    },
+    {
+      "id": "uniq_rod_rulership",
+      "name": "Rod of Rulership",
+      "category": "rod",
+      "price_gp": 60000,
+      "aura": "Strong enchantment [compulsion]",
+      "required_caster_level": 20,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "dominate person"
+      ],
+      "source_page": "DMG Ch.7: Rods",
+      "notes": ""
+    },
+    {
+      "id": "uniq_staff_of_power",
+      "name": "Staff of Power",
+      "category": "staff",
+      "price_gp": 211000,
+      "aura": "Strong varied",
+      "required_caster_level": 15,
+      "required_feat": "Craft Staff",
+      "required_spells": [
+        "magic missile",
+        "ray of enfeeblement (heightened)",
+        "continual flame",
+        "levitate",
+        "fireball (heightened)",
+        "lightning bolt (heightened)",
+        "cone of cold",
+        "hold monster",
+        "wall of force",
+        "globe of invulnerability"
+      ],
+      "source_page": "DMG Ch.7: Staves",
+      "notes": ""
+    },
+    {
+      "id": "uniq_ring_blinking",
+      "name": "Ring of Blinking",
+      "category": "ring",
+      "price_gp": 27000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "blink"
+      ],
+      "source_page": "DMG Ch.7: Rings",
+      "notes": ""
+    },
+    {
+      "id": "uniq_ring_chameleon_power",
+      "name": "Ring of Chameleon Power",
+      "category": "ring",
+      "price_gp": 12700,
+      "aura": "Faint illusion",
+      "required_caster_level": 3,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "disguise self"
+      ],
+      "source_page": "DMG Ch.7: Rings",
+      "notes": ""
+    },
+    {
+      "id": "uniq_ring_force_shield",
+      "name": "Ring of Force Shield",
+      "category": "ring",
+      "price_gp": 8500,
+      "aura": "Faint evocation",
+      "required_caster_level": 9,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "shield"
+      ],
+      "source_page": "DMG Ch.7: Rings",
+      "notes": ""
+    },
+    {
+      "id": "uniq_ring_invisibility",
+      "name": "Ring of Invisibility",
+      "category": "ring",
+      "price_gp": 20000,
+      "aura": "Moderate illusion",
+      "required_caster_level": 7,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "invisibility"
+      ],
+      "source_page": "DMG Ch.7: Rings",
+      "notes": ""
+    },
+    {
+      "id": "uniq_ring_ram",
+      "name": "Ring of the Ram",
+      "category": "ring",
+      "price_gp": 8600,
+      "aura": "Faint evocation",
+      "required_caster_level": 2,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "bull's strength"
+      ],
+      "source_page": "DMG Ch.7: Rings",
+      "notes": ""
+    },
+    {
+      "id": "uniq_bag_of_holding_i",
+      "name": "Bag of Holding (Type I)",
+      "category": "wondrous",
+      "price_gp": 2500,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "secret chest"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": "Holds 250 lb.; 30 cu. ft."
+    },
+    {
+      "id": "uniq_bag_of_holding_ii",
+      "name": "Bag of Holding (Type II)",
+      "category": "wondrous",
+      "price_gp": 5000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "secret chest"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": "Holds 500 lb.; 70 cu. ft."
+    },
+    {
+      "id": "uniq_bag_of_holding_iii",
+      "name": "Bag of Holding (Type III)",
+      "category": "wondrous",
+      "price_gp": 7500,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "secret chest"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": "Holds 1,000 lb.; 150 cu. ft."
+    },
+    {
+      "id": "uniq_bag_of_holding_iv",
+      "name": "Bag of Holding (Type IV)",
+      "category": "wondrous",
+      "price_gp": 10000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "secret chest"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": "Holds 1,500 lb.; 250 cu. ft."
+    },
+    {
+      "id": "uniq_boots_striding_springing",
+      "name": "Boots of Striding and Springing",
+      "category": "wondrous",
+      "price_gp": 5500,
+      "aura": "Faint transmutation",
+      "required_caster_level": 3,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "longstrider",
+        "jump"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_cloak_resistance_plus1",
+      "name": "Cloak of Resistance +1",
+      "category": "wondrous",
+      "price_gp": 1000,
+      "aura": "Faint abjuration",
+      "required_caster_level": 3,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "resistance"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_cloak_resistance_plus2",
+      "name": "Cloak of Resistance +2",
+      "category": "wondrous",
+      "price_gp": 4000,
+      "aura": "Faint abjuration",
+      "required_caster_level": 6,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "resistance"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_cloak_resistance_plus3",
+      "name": "Cloak of Resistance +3",
+      "category": "wondrous",
+      "price_gp": 9000,
+      "aura": "Moderate abjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "resistance"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_cloak_resistance_plus4",
+      "name": "Cloak of Resistance +4",
+      "category": "wondrous",
+      "price_gp": 16000,
+      "aura": "Moderate abjuration",
+      "required_caster_level": 12,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "resistance"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_cloak_resistance_plus5",
+      "name": "Cloak of Resistance +5",
+      "category": "wondrous",
+      "price_gp": 25000,
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "resistance"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_cloak_displacement_minor",
+      "name": "Cloak of Displacement (Minor)",
+      "category": "wondrous",
+      "price_gp": 24000,
+      "aura": "Moderate illusion",
+      "required_caster_level": 10,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "displacement"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": "20% miss chance."
+    },
+    {
+      "id": "uniq_cloak_displacement_major",
+      "name": "Cloak of Displacement (Major)",
+      "category": "wondrous",
+      "price_gp": 50000,
+      "aura": "Strong illusion",
+      "required_caster_level": 13,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "displacement"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": "50% miss chance."
+    },
+    {
+      "id": "uniq_cloak_elvenkind",
+      "name": "Cloak of Elvenkind",
+      "category": "wondrous",
+      "price_gp": 2500,
+      "aura": "Faint illusion",
+      "required_caster_level": 3,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "invisibility"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_cloak_etherealness",
+      "name": "Cloak of Etherealness",
+      "category": "wondrous",
+      "price_gp": 55000,
+      "aura": "Strong transmutation",
+      "required_caster_level": 13,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "ethereal jaunt"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_circlet_blasting_minor",
+      "name": "Circlet of Blasting (Minor)",
+      "category": "wondrous",
+      "price_gp": 6480,
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "searing light"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_circlet_blasting_major",
+      "name": "Circlet of Blasting (Major)",
+      "category": "wondrous",
+      "price_gp": 23520,
+      "aura": "Moderate evocation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "searing light"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
+    },
+    {
+      "id": "uniq_circlet_persuasion",
+      "name": "Circlet of Persuasion",
+      "category": "wondrous",
+      "price_gp": 4500,
+      "aura": "Faint enchantment",
+      "required_caster_level": 3,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": [
+        "eagle's splendor"
+      ],
+      "source_page": "DMG Ch.7: Wondrous Items",
+      "notes": ""
     }
   ]
 }
