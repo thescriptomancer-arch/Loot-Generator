@@ -5,11 +5,62 @@
   "section": "Armor & Shield Special Abilities",
   "fields": ["id","name","category","costing","min_enhancement","stacking_rules","source"],
   "rows": [
-    ["arm_glamered","Glamered","armor",{"type":"flat_gp","gp":2700},1,"", "DMG Table 7-5"],
-    ["arm_fort_light","Fortification, light","armor",{"type":"bonus_equiv","bonus_equiv":1},1,"Mutually exclusive with other fortification grades", "DMG Table 7-5"],
-    ["arm_shadow","Shadow","armor",{"type":"flat_gp","gp":3750},1,"Upgrades to Improved Shadow", "DMG Table 7-5"],
-    ["arm_silent_moves","Silent moves","armor",{"type":"flat_gp","gp":3750},1,"Upgrades to Improved Silent moves", "DMG Table 7-5"],
-    ["arm_resist_acid","Energy resistance (acid 10)","armor",{"type":"flat_gp","gp":18000},1,"Upgrades to 20/30 versions; counts as same family", "DMG Table 7-5"],
-    ["arm_ghost_touch","Ghost touch","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"", "DMG Table 7-5"]
+    ["arm_glamered","Glamered","armor",{"type":"flat_gp","gp":2700},1,"Cosmetic illusion; no mechanical stacking interactions","DMG Ch.7"],
+
+    ["arm_shadow","Shadow","armor",{"type":"flat_gp","gp":3750},1,"+5 competence on Hide; upgrades to Improved/Greater; don’t stack tiers","DMG Ch.7"],
+    ["arm_shadow_improved","Shadow, improved","armor",{"type":"flat_gp","gp":15000},1,"Replaces Shadow; +10 competence on Hide","DMG Ch.7"],
+    ["arm_shadow_greater","Shadow, greater","armor",{"type":"flat_gp","gp":33750},1,"Replaces Improved; +15 competence on Hide","DMG Ch.7"],
+
+    ["arm_silent_moves","Silent moves","armor",{"type":"flat_gp","gp":3750},1,"+5 competence on Move Silently; upgrades to Improved/Greater","DMG Ch.7"],
+    ["arm_silent_moves_improved","Silent moves, improved","armor",{"type":"flat_gp","gp":15000},1,"Replaces Silent moves; +10","DMG Ch.7"],
+    ["arm_silent_moves_greater","Silent moves, greater","armor",{"type":"flat_gp","gp":33750},1,"Replaces Improved; +15","DMG Ch.7"],
+
+    ["arm_slick","Slick","armor",{"type":"flat_gp","gp":3750},1,"+5 competence on Escape Artist; upgrades to Improved/Greater","DMG Ch.7"],
+    ["arm_slick_improved","Slick, improved","armor",{"type":"flat_gp","gp":15000},1,"Replaces Slick; +10","DMG Ch.7"],
+    ["arm_slick_greater","Slick, greater","armor",{"type":"flat_gp","gp":33750},1,"Replaces Improved; +15","DMG Ch.7"],
+
+    ["arm_fort_light","Fortification, light","armor",{"type":"bonus_equiv","bonus_equiv":1},1,"Does not stack with other fortification grades; choose one grade","DMG Ch.7"],
+    ["arm_fort_moderate","Fortification, moderate","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"Mutually exclusive with light/heavy","DMG Ch.7"],
+    ["arm_fort_heavy","Fortification, heavy","armor",{"type":"bonus_equiv","bonus_equiv":5},1,"Mutually exclusive with light/moderate","DMG Ch.7"],
+
+    ["arm_ghost_touch","Ghost touch","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"Functions normally against incorporeal; wearer fully protected as described","DMG Ch.7"],
+
+    ["arm_invulnerability","Invulnerability","armor",{"type":"bonus_equiv","bonus_equiv":5},1,"Provides DR as per DMG; counts toward +10 effective cap","DMG Ch.7"],
+
+    ["arm_spell_res_13","Spell resistance (13)","armor",{"type":"bonus_equiv","bonus_equiv":2},1,"Pick one SR tier only; tiers do not stack","DMG Ch.7"],
+    ["arm_spell_res_15","Spell resistance (15)","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"Pick one SR tier only; tiers do not stack","DMG Ch.7"],
+    ["arm_spell_res_17","Spell resistance (17)","armor",{"type":"bonus_equiv","bonus_equiv":4},1,"Pick one SR tier only; tiers do not stack","DMG Ch.7"],
+    ["arm_spell_res_19","Spell resistance (19)","armor",{"type":"bonus_equiv","bonus_equiv":5},1,"Pick one SR tier only; tiers do not stack","DMG Ch.7"],
+
+    ["arm_wild","Wild","armor",{"type":"bonus_equiv","bonus_equiv":3},1,"Druid-friendly; functions while wild shaped; see DMG text","DMG Ch.7"],
+
+    ["arm_resist_acid_10","Energy resistance (acid 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
+    ["arm_resist_acid_20","Energy resistance (acid 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces acid 10","DMG Ch.7"],
+    ["arm_resist_acid_30","Energy resistance (acid 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces acid 20","DMG Ch.7"],
+
+    ["arm_resist_cold_10","Energy resistance (cold 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
+    ["arm_resist_cold_20","Energy resistance (cold 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces cold 10","DMG Ch.7"],
+    ["arm_resist_cold_30","Energy resistance (cold 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces cold 20","DMG Ch.7"],
+
+    ["arm_resist_elec_10","Energy resistance (electricity 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
+    ["arm_resist_elec_20","Energy resistance (electricity 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces electricity 10","DMG Ch.7"],
+    ["arm_resist_elec_30","Energy resistance (electricity 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces electricity 20","DMG Ch.7"],
+
+    ["arm_resist_fire_10","Energy resistance (fire 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
+    ["arm_resist_fire_20","Energy resistance (fire 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces fire 10","DMG Ch.7"],
+    ["arm_resist_fire_30","Energy resistance (fire 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces fire 20","DMG Ch.7"],
+
+    ["arm_resist_sonic_10","Energy resistance (sonic 10)","armor",{"type":"flat_gp","gp":18000},1,"Choose one energy type per instance; tiers replace lower tiers","DMG Ch.7"],
+    ["arm_resist_sonic_20","Energy resistance (sonic 20)","armor",{"type":"flat_gp","gp":42000},1,"Replaces sonic 10","DMG Ch.7"],
+    ["arm_resist_sonic_30","Energy resistance (sonic 30)","armor",{"type":"flat_gp","gp":66000},1,"Replaces sonic 20","DMG Ch.7"],
+
+    ["shd_animated","Animated","shield",{"type":"bonus_equiv","bonus_equiv":2},1,"Shield defends on its own; frees hands; shield only","DMG Ch.7"],
+    ["shd_arrow_catching","Arrow catching","shield",{"type":"bonus_equiv","bonus_equiv":1},1,"Increases chance to intercept missiles; shield only","DMG Ch.7"],
+    ["shd_arrow_deflection","Arrow deflection","shield",{"type":"bonus_equiv","bonus_equiv":2},1,"Functions as the Deflect Arrows feat (with requirements); shield only","DMG Ch.7"],
+    ["shd_bashing","Bashing","shield",{"type":"bonus_equiv","bonus_equiv":1},1,"Increases shield bash damage; shield only","DMG Ch.7"],
+    ["shd_reflecting","Reflecting","shield",{"type":"bonus_equiv","bonus_equiv":5},1,"Reflects targeted spells as per DMG; shield only","DMG Ch.7"],
+
+    ["arm_ghost_touch_shield","Ghost touch","shield",{"type":"bonus_equiv","bonus_equiv":3},1,"Shield functions normally against incorporeal; shield only","DMG Ch.7"]
+
   ]
 }
