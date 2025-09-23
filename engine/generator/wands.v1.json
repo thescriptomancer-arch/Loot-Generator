@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "category": "wand",
+  "steps": [
+    {
+      "id": "tier_select",
+      "name": "Select Treasure Tier",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "tier": ["minor","medium","major"] } },
+      "weights": { "tier": { "minor": 60, "medium": 30, "major": 10 } },
+      "output_bindings": { "tier": "tier" }
+    },
+    {
+      "id": "spell_pool",
+      "name": "Build Eligible Spell Pool",
+      "kind": "select_base_item",
+      "inputs": { "from_table": "sources/PHB/spells/core/spells.master.json" },
+      "rules": {
+        "max_spell_level": 4,
+        "allow_classes": ["sorcerer_wizard","bard","cleric","druid","paladin","ranger"],
+        "allow_personal_and_touch": true,
+        "allow_object_or_creature_targets": true
+      },
+      "output_bindings": { "wand.eligible_spells": "rows" }
+    },
+    {
+      "id": "spell_pick",
+      "name": "Pick Spell",
+      "kind": "select_base_item",
+      "inputs": { "from_prev": "wand.eligible_spells" },
+      "weights": {
+        "by_level_bias": {
+          "minor": { "0": 0, "1": 60, "2": 30, "3": 10, "4": 0 },
+          "medium": { "0": 0, "1": 30, "2": 40, "3": 25, "4": 5 },
+          "major": { "0": 0, "1": 15, "2": 30, "3": 35, "4": 20 }
+        }
+      },
+      "rules": {
+        "use_tier_weights": true,
+        "dedupe_same_spell_id": true
+      },
+      "output_bindings": {
+        "spell.id": "row.id",
+        "spell.name": "row.name",
+        "spell.levels": "row.levels",
+        "spell.school": "row.school",
+        "spell.target": "row.target",
+        "spell.duration": "row.duration"
+      }
+    },
+    {
+      "id": "caster_level_select",
+      "name": "Determine Caster Class and CL",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "mode": ["minimum","weighted_above_min"] } },
+      "weights": { "mode": { "minimum": 85, "weighted_above_min": 15 } },
+      "rules": {
+        "class_preference_order": ["sorcerer_wizard","cleric","druid","bard","paladin","ranger"],
+        "min_cl_by_class_level": {
+          "sorcerer_wizard": { "1": 1, "2": 3, "3": 5, "4": 7 },
+          "cleric":           { "1": 1, "2": 3, "3": 5, "4": 7 },
+          "druid":            { "1": 1, "2": 3, "3": 5, "4": 7 },
+          "bard":             { "1": 1, "2": 4, "3": 7, "4": 10 },
+          "paladin":          { "1": 4, "2": 7, "3": 10, "4": 13 },
+          "ranger":           { "1": 4, "2": 7, "3": 10, "4": 13 }
+        },
+        "weighted_above_min_profile": { "delta_0": 70, "delta_1": 20, "delta_2": 10 },
+        "cap_max_cl": 20,
+        "resolve_spell_level_for_selected_class": true
+      },
+      "output_bindings": {
+        "wand.caster_class": "result.class",
+        "wand.caster_level": "result.cl",
+        "wand.spell_level_effective": "result.spell_level_for_class"
+      }
+    },
+    {
+      "id": "charges",
+      "name": "Set Charges",
+      "kind": "charges_roll",
+      "rules": {
+        "distribution": { "type": "triangular", "min": 1, "max": 50, "mode": 50 },
+        "rounding": "integer",
+        "cap_min": 1,
+        "cap_max": 50
+      },
+      "output_bindings": { "wand.charges": "result.charges" }
+    },
+    {
+      "id": "pricing",
+      "name": "Price Wand",
+      "kind": "magic_core",
+      "rules": {
+        "pricing_formula": "750 * spell_level * caster_level",
+        "use_effective_spell_level": true,
+        "multiply_by_charges_fraction_from": "wand.charges",
+        "charges_fraction_denominator": 50,
+        "rounding": "nearest_integer"
+      },
+      "output_bindings": {
+        "pricing.total_gp": "result.total_gp",
+        "pricing.breakdown": "result.breakdown"
+      }
+    },
+    {
+      "id": "int_check",
+      "name": "Intelligent Item Check",
+      "kind": "intelligent_item_check",
+      "weights": { "chance_pct_by_tier": { "minor": 0, "medium": 0, "major": 0 } },
+      "output_bindings": { "intelligent.is_intelligent": "result.pass" }
+    },
+    {
+      "id": "curse_check",
+      "name": "Cursed Item Check",
+      "kind": "cursed_item_check",
+      "inputs": { "tables": "sources/DMG/items/magic/cursed_item_tables.core.json" },
+      "weights": { "curse_roll_pct": 5 },
+      "output_bindings": { "cursed.roll": "result.roll", "cursed.is_cursed": "result.pass" }
+    },
+    {
+      "id": "curse_apply",
+      "name": "Apply Curse",
+      "kind": "cursed_item_apply",
+      "rules": { "select_family_by_tier": true },
+      "output_bindings": { "cursed.details": "result.curse" }
+    },
+    {
+      "id": "flavor",
+      "name": "Item Flavor",
+      "kind": "flavor",
+      "rules": {
+        "ai_flavor_allowed": true,
+        "tone": "arcane_or_divine",
+        "respect_spell_theme": true
+      },
+      "output_bindings": { "flavor.text": "result.text", "flavor.tags": "result.tags" }
+    },
+    {
+      "id": "desc",
+      "name": "Item Description Synthesis",
+      "kind": "description_synth",
+      "rules": { "include_blocks": ["spell","charges","pricing","curse","history"], "omit_if_absent": true },
+      "output_bindings": { "description.text": "result.text" }
+    }
+  ]
+}
