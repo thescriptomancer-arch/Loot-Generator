@@ -3,12 +3,54 @@
   "source": "DMG v3.5",
   "chapter": "Magic Items",
   "section": "Specific Items Index",
-  "fields": ["id","name","category","source_page","notes"],
+  "fields": [
+    "id",
+    "name",
+    "category",
+    "source_page",
+    "notes",
+    "price_gp"
+  ],
   "rows": [
-    ["uniq_holy_avenger","Holy Avenger","weapon","DMG Ch.7 (specific weapons)","Paladin iconic; alignment locks apply"],
-    ["uniq_celestial_armor","Celestial Armor","armor","DMG Ch.7 (specific armors)","Light armor with flight benefit"],
-    ["uniq_sun_blade","Sun Blade","weapon","DMG Ch.7 (specific weapons)","Bastard sword-like; vs undead"],
-    ["uniq_dwarven_thrower","Dwarven Thrower","weapon","DMG Ch.7 (specific weapons)","Dwarves, throwing returns"],
-    ["uniq_shield_animated","Animated Shield","shield","DMG Ch.7 (specific shields)","Animated property"]
+    {
+      "id": "uniq_holy_avenger",
+      "name": "Holy Avenger",
+      "category": "weapon",
+      "source_page": "DMG Ch.7 (specific weapons)",
+      "notes": "Paladin iconic; alignment locks apply",
+      "price_gp": 0
+    },
+    {
+      "id": "uniq_celestial_armor",
+      "name": "Celestial Armor",
+      "category": "armor",
+      "source_page": "DMG Ch.7 (specific armors)",
+      "notes": "Light armor with flight benefit",
+      "price_gp": 0
+    },
+    {
+      "id": "uniq_sun_blade",
+      "name": "Sun Blade",
+      "category": "weapon",
+      "source_page": "DMG Ch.7 (specific weapons)",
+      "notes": "Bastard sword-like; vs undead",
+      "price_gp": 0
+    },
+    {
+      "id": "uniq_dwarven_thrower",
+      "name": "Dwarven Thrower",
+      "category": "weapon",
+      "source_page": "DMG Ch.7 (specific weapons)",
+      "notes": "Dwarves, throwing returns",
+      "price_gp": 0
+    },
+    {
+      "id": "uniq_shield_animated",
+      "name": "Animated Shield",
+      "category": "shield",
+      "source_page": "DMG Ch.7 (specific shields)",
+      "notes": "Animated property",
+      "price_gp": 0
+    }
   ]
 }
