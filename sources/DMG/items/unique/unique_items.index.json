@@ -5251,7 +5251,7 @@
   "category": "wondrous item",
   "source_page": "",
   "notes": "As +1, but +3 inherent bonus to Charisma.",
-  "price_gp":": 82500,
+  "price_gp": 82500,
   "aura": "Strong evocation",
   "required_caster_level": 17,
   "required_feat": "Craft Wondrous Item",
