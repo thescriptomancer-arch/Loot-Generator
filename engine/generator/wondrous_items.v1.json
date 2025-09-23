@@ -6,9 +6,7 @@
       "id": "tier_select",
       "name": "Select Treasure Tier",
       "kind": "select_base_item",
-      "inputs": {
-        "inline_choices": { "tier": ["minor", "medium", "major"] }
-      },
+      "inputs": { "inline_choices": { "tier": ["minor","medium","major"] } },
       "weights": { "tier": { "minor": 60, "medium": 30, "major": 10 } },
       "output_bindings": { "tier": "tier" }
     },
@@ -23,19 +21,17 @@
       },
       "weights": {
         "slot": {
-          "head": 8, "face": 5, "throat": 8, "shoulders": 8, "torso": 6, "body": 4, "arms": 6, "hands": 8,
-          "ring": 14, "waist": 8, "feet": 8, "slotless": 7
+          "head": 8, "face": 5, "throat": 8, "shoulders": 8, "torso": 6, "body": 4,
+          "arms": 6, "hands": 8, "ring": 14, "waist": 8, "feet": 8, "slotless": 7
         }
       },
       "output_bindings": { "wondrous.slot": "slot" }
     },
     {
-      "id": "specific_or_procedural",
+      "id": "build_mode",
       "name": "Specific vs Procedural",
       "kind": "select_base_item",
-      "inputs": {
-        "inline_choices": { "mode": ["procedural","specific_from_index"] }
-      },
+      "inputs": { "inline_choices": { "mode": ["procedural","specific_from_index"] } },
       "weights": {
         "mode_by_tier": {
           "minor": { "procedural": 85, "specific_from_index": 15 },
@@ -50,9 +46,7 @@
       "id": "specific_pick",
       "name": "Pick Specific Wondrous Item",
       "kind": "select_base_item",
-      "inputs": {
-        "from_table": "sources/DMG/items/unique/unique_items.index.json"
-      },
+      "inputs": { "from_table": "sources/DMG/items/unique/unique_items.index.json" },
       "rules": {
         "only_if": { "wondrous.build_mode": "specific_from_index" },
         "filter_by_field_equals": { "category": "wondrous" },
@@ -69,72 +63,129 @@
       "name": "Determine Procedural Effects",
       "kind": "wondrous_effect_build",
       "inputs": {
-        "inline_templates": [
-          {
-            "id": "tmpl_endure_elements_continuous",
-            "name": "Endure Elements (continuous)",
-            "spell_id": "SPELL_ENDURE_ELEMENTS",
-            "spell_level": 1,
-            "caster_level": 1,
-            "activation": "continuous",
-            "duration_category": "twenty_four_hours",
-            "charges_per_day": null
-          },
-          {
-            "id": "tmpl_invisibility_3day",
-            "name": "Invisibility (3/day, command word)",
-            "spell_id": "SPELL_INVISIBILITY",
-            "spell_level": 2,
-            "caster_level": 3,
-            "activation": "command_word",
-            "duration_category": "minutes_per_level",
-            "charges_per_day": 3
-          },
-          {
-            "id": "tmpl_levitate_1day",
-            "name": "Levitate (1/day, command word)",
-            "spell_id": "SPELL_LEVITATE",
-            "spell_level": 2,
-            "caster_level": 3,
-            "activation": "command_word",
-            "duration_category": "minutes_per_level",
-            "charges_per_day": 1
-          },
-          {
-            "id": "tmpl_feather_fall_use",
-            "name": "Feather Fall (use-activated)",
-            "spell_id": "SPELL_FEATHER_FALL",
-            "spell_level": 1,
-            "caster_level": 1,
-            "activation": "use_activated",
-            "duration_category": "instantaneous",
-            "charges_per_day": null
-          }
-        ]
+        "from_table": "sources/DMG/items/wondrous/wondrous_effects.core.json"
       },
       "weights": {
         "template_by_tier": {
-          "minor": { "tmpl_endure_elements_continuous": 25, "tmpl_invisibility_3day": 20, "tmpl_levitate_1day": 18, "tmpl_feather_fall_use": 37 },
-          "medium": { "tmpl_endure_elements_continuous": 15, "tmpl_invisibility_3day": 35, "tmpl_levitate_1day": 25, "tmpl_feather_fall_use": 25 },
-          "major": { "tmpl_endure_elements_continuous": 10, "tmpl_invisibility_3day": 40, "tmpl_levitate_1day": 30, "tmpl_feather_fall_use": 20 }
+          "minor": {
+            "wond_endure_elements_continuous": 20,
+            "wond_feather_fall_use": 24,
+            "wond_invisibility_3day": 16,
+            "wond_levitate_1day": 18,
+            "wond_blink_1day": 6,
+            "wond_resist_energy_continuous_10": 10,
+            "wond_resist_energy_continuous_20": 0,
+            "wond_resist_energy_continuous_30": 0,
+            "wond_fly_1day": 6,
+            "wond_gaseous_form_1day": 4,
+            "wond_invisibility_purge_3day": 2,
+            "wond_protection_deflection_bonus": 22,
+            "wond_natural_armor_amulet": 16,
+            "wond_resistance_cloak": 22,
+            "wond_dexterity_gloves": 14,
+            "wond_strength_belt": 12,
+            "wond_intelligence_headband": 12,
+            "wond_see_invisibility_1day": 8,
+            "wond_true_seeing_1day": 0,
+            "wond_water_breathing_1day": 2
+          },
+          "medium": {
+            "wond_endure_elements_continuous": 10,
+            "wond_feather_fall_use": 10,
+            "wond_invisibility_3day": 20,
+            "wond_levitate_1day": 16,
+            "wond_blink_1day": 12,
+            "wond_resist_energy_continuous_10": 10,
+            "wond_resist_energy_continuous_20": 14,
+            "wond_resist_energy_continuous_30": 4,
+            "wond_fly_1day": 12,
+            "wond_gaseous_form_1day": 10,
+            "wond_invisibility_purge_3day": 10,
+            "wond_protection_deflection_bonus": 24,
+            "wond_natural_armor_amulet": 20,
+            "wond_resistance_cloak": 24,
+            "wond_dexterity_gloves": 20,
+            "wond_strength_belt": 20,
+            "wond_intelligence_headband": 20,
+            "wond_see_invisibility_1day": 12,
+            "wond_true_seeing_1day": 4,
+            "wond_water_breathing_1day": 8
+          },
+          "major": {
+            "wond_endure_elements_continuous": 5,
+            "wond_feather_fall_use": 4,
+            "wond_invisibility_3day": 18,
+            "wond_levitate_1day": 12,
+            "wond_blink_1day": 15,
+            "wond_resist_energy_continuous_10": 6,
+            "wond_resist_energy_continuous_20": 14,
+            "wond_resist_energy_continuous_30": 14,
+            "wond_fly_1day": 14,
+            "wond_gaseous_form_1day": 10,
+            "wond_invisibility_purge_3day": 12,
+            "wond_protection_deflection_bonus": 26,
+            "wond_natural_armor_amulet": 24,
+            "wond_resistance_cloak": 26,
+            "wond_dexterity_gloves": 24,
+            "wond_strength_belt": 24,
+            "wond_intelligence_headband": 24,
+            "wond_see_invisibility_1day": 14,
+            "wond_true_seeing_1day": 10,
+            "wond_water_breathing_1day": 10
+          }
+        },
+        "bonus_rolls_by_tier": {
+          "wond_protection_deflection_bonus": {
+            "minor": { "1": 65, "2": 25, "3": 10, "4": 0, "5": 0 },
+            "medium": { "1": 25, "2": 40, "3": 25, "4": 8, "5": 2 },
+            "major": { "1": 0, "2": 20, "3": 35, "4": 30, "5": 15 }
+          },
+          "wond_natural_armor_amulet": {
+            "minor": { "1": 55, "2": 30, "3": 15, "4": 0, "5": 0 },
+            "medium": { "1": 15, "2": 35, "3": 35, "4": 12, "5": 3 },
+            "major": { "1": 0, "2": 10, "3": 35, "4": 35, "5": 20 }
+          },
+          "wond_resistance_cloak": {
+            "minor": { "1": 70, "2": 25, "3": 5, "4": 0, "5": 0 },
+            "medium": { "1": 30, "2": 45, "3": 25, "4": 0, "5": 0 },
+            "major": { "1": 0, "2": 20, "3": 35, "4": 30, "5": 15 }
+          },
+          "wond_dexterity_gloves": {
+            "minor": { "2": 85, "4": 15, "6": 0 },
+            "medium": { "2": 30, "4": 55, "6": 15 },
+            "major": { "2": 0, "4": 45, "6": 55 }
+          },
+          "wond_strength_belt": {
+            "minor": { "2": 85, "4": 15, "6": 0 },
+            "medium": { "2": 30, "4": 55, "6": 15 },
+            "major": { "2": 0, "4": 45, "6": 55 }
+          },
+          "wond_intelligence_headband": {
+            "minor": { "2": 85, "4": 15, "6": 0 },
+            "medium": { "2": 30, "4": 55, "6": 15 },
+            "major": { "2": 0, "4": 45, "6": 55 }
+          }
         }
       },
       "rules": {
         "only_if": { "wondrous.build_mode": "procedural" },
-        "select_count_by_tier": { "minor": 1, "medium": 1, "major": 1 }
+        "select_count_by_tier": { "minor": 1, "medium": 1, "major": 1 },
+        "respect_slot_hints": true,
+        "slot_match_weight_multiplier": 2.0,
+        "param_energy_type_uniform": true,
+        "apply_bonus_rolls_if_formula_kind_is_bonus_squared": true
       },
       "output_bindings": {
         "procedural.effects": "result.effects",
-        "pricing.base_formulae": "result.formulae"
+        "pricing.formulae": "result.formulae",
+        "procedural.metadata": "result.metadata"
       }
     },
     {
       "id": "multiple_abilities",
       "name": "Multiple Different Abilities",
       "kind": "compound_ability_packaging",
-      "inputs": {
-        "inline_choices": { "add_count": [0,1,2] }
-      },
+      "inputs": { "inline_choices": { "add_count": [0,1,2] } },
       "weights": {
         "add_count_by_tier": {
           "minor": { "0": 85, "1": 15, "2": 0 },
@@ -157,9 +208,7 @@
       "id": "space_limitation",
       "name": "Space Limitation",
       "kind": "space_limitation_mod",
-      "inputs": {
-        "inline_choices": { "mode": ["standard","uncustomary","slotless"] }
-      },
+      "inputs": { "inline_choices": { "mode": ["standard","uncustomary","slotless"] } },
       "weights": {
         "mode_by_slot": {
           "slotless": { "standard": 0, "uncustomary": 0, "slotless": 100 },
@@ -181,10 +230,7 @@
       "name": "Intelligent Item Check",
       "kind": "intelligent_item_check",
       "weights": { "chance_pct_by_tier": { "minor": 1, "medium": 2, "major": 5 } },
-      "output_bindings": {
-        "intelligent.roll": "result.roll",
-        "intelligent.is_intelligent": "result.pass"
-      }
+      "output_bindings": { "intelligent.roll": "result.roll", "intelligent.is_intelligent": "result.pass" }
     },
     {
       "id": "int_build",
@@ -216,7 +262,7 @@
       "rules": {
         "ai_flavor_allowed": true,
         "tone": "evocative",
-        "respect_alignment": true
+        "respect_slot_and_effects": true
       },
       "output_bindings": { "flavor.text": "result.text", "flavor.tags": "result.tags" }
     },
@@ -224,7 +270,10 @@
       "id": "desc",
       "name": "Item Description Synthesis",
       "kind": "description_synth",
-      "rules": { "include_blocks": ["base","slot","procedural_effects","intelligence","curse","history"], "omit_if_absent": true },
+      "rules": {
+        "include_blocks": ["slot","procedural_effects","space_mode","intelligence","curse","pricing","history"],
+        "omit_if_absent": true
+      },
       "output_bindings": { "description.text": "result.text" }
     },
     {
@@ -247,7 +296,8 @@
           }
         },
         "apply_compound_multiplier": true,
-        "apply_space_multiplier": true
+        "apply_space_multiplier": true,
+        "support_bonus_squared": true
       },
       "output_bindings": {
         "pricing.total_gp": "result.total_gp",
