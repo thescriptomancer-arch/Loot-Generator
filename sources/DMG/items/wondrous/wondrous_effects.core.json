@@ -24,7 +24,11 @@
     [
       "wond_endure_elements_continuous",
       "Endure Elements (continuous)",
-      ["ring","cloak","slotless"],
+      [
+        "ring",
+        "cloak",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_ENDURE_ELEMENTS",
       1,
@@ -41,7 +45,12 @@
     [
       "wond_invisibility_3day",
       "Invisibility (3/day, command word)",
-      ["ring","cloak","hands","slotless"],
+      [
+        "ring",
+        "cloak",
+        "hands",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_INVISIBILITY",
       2,
@@ -58,7 +67,11 @@
     [
       "wond_levitate_1day",
       "Levitate (1/day, command word)",
-      ["boots","ring","slotless"],
+      [
+        "boots",
+        "ring",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_LEVITATE",
       2,
@@ -75,7 +88,11 @@
     [
       "wond_feather_fall_use",
       "Feather Fall (use-activated)",
-      ["cloak","ring","slotless"],
+      [
+        "cloak",
+        "ring",
+        "slotless"
+      ],
       "use_activated_spell",
       "SPELL_FEATHER_FALL",
       1,
@@ -92,7 +109,11 @@
     [
       "wond_blink_1day",
       "Blink (1/day, command word)",
-      ["ring","cloak","slotless"],
+      [
+        "ring",
+        "cloak",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_BLINK",
       3,
@@ -109,7 +130,11 @@
     [
       "wond_water_breathing_1day",
       "Water Breathing (1/day, command word)",
-      ["helm","ring","slotless"],
+      [
+        "helm",
+        "ring",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_WATER_BREATHING",
       3,
@@ -126,7 +151,11 @@
     [
       "wond_freedom_of_movement_1day",
       "Freedom of Movement (1/day, command word)",
-      ["ring","armor","slotless"],
+      [
+        "ring",
+        "armor",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_FREEDOM_OF_MOVEMENT",
       4,
@@ -143,7 +172,12 @@
     [
       "wond_see_invisibility_1day",
       "See Invisibility (1/day, command word)",
-      ["goggles","helm","ring","slotless"],
+      [
+        "goggles",
+        "helm",
+        "ring",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_SEE_INVISIBILITY",
       2,
@@ -160,7 +194,11 @@
     [
       "wond_true_seeing_1day",
       "True Seeing (1/day, command word)",
-      ["goggles","helm","slotless"],
+      [
+        "goggles",
+        "helm",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_TRUE_SEEING",
       6,
@@ -177,7 +215,13 @@
     [
       "wond_resist_energy_continuous_10",
       "Energy Resistance 10 (continuous)",
-      ["ring","belt","cloak","armor","slotless"],
+      [
+        "ring",
+        "belt",
+        "cloak",
+        "armor",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_RESIST_ENERGY",
       2,
@@ -189,12 +233,27 @@
       null,
       null,
       null,
-      {"magnitude": 10, "energy_type": ["acid","cold","electricity","fire","sonic"]}
+      {
+        "magnitude": 10,
+        "energy_type": [
+          "acid",
+          "cold",
+          "electricity",
+          "fire",
+          "sonic"
+        ]
+      }
     ],
     [
       "wond_resist_energy_continuous_20",
       "Energy Resistance 20 (continuous)",
-      ["ring","belt","cloak","armor","slotless"],
+      [
+        "ring",
+        "belt",
+        "cloak",
+        "armor",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_RESIST_ENERGY",
       2,
@@ -206,12 +265,27 @@
       null,
       null,
       null,
-      {"magnitude": 20, "energy_type": ["acid","cold","electricity","fire","sonic"]}
+      {
+        "magnitude": 20,
+        "energy_type": [
+          "acid",
+          "cold",
+          "electricity",
+          "fire",
+          "sonic"
+        ]
+      }
     ],
     [
       "wond_resist_energy_continuous_30",
       "Energy Resistance 30 (continuous)",
-      ["ring","belt","cloak","armor","slotless"],
+      [
+        "ring",
+        "belt",
+        "cloak",
+        "armor",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_RESIST_ENERGY",
       2,
@@ -223,12 +297,25 @@
       null,
       null,
       null,
-      {"magnitude": 30, "energy_type": ["acid","cold","electricity","fire","sonic"]}
+      {
+        "magnitude": 30,
+        "energy_type": [
+          "acid",
+          "cold",
+          "electricity",
+          "fire",
+          "sonic"
+        ]
+      }
     ],
     [
       "wond_fly_1day",
       "Fly (1/day, command word)",
-      ["boots","cloak","slotless"],
+      [
+        "boots",
+        "cloak",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_FLY",
       3,
@@ -245,7 +332,10 @@
     [
       "wond_gaseous_form_1day",
       "Gaseous Form (1/day, command word)",
-      ["cloak","slotless"],
+      [
+        "cloak",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_GASEOUS_FORM",
       3,
@@ -262,7 +352,10 @@
     [
       "wond_invisibility_purge_3day",
       "Invisibility Purge (3/day, command word)",
-      ["helm","slotless"],
+      [
+        "helm",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_INVISIBILITY_PURGE",
       3,
@@ -279,7 +372,10 @@
     [
       "wond_protection_deflection_bonus",
       "Deflection Bonus to AC",
-      ["ring","slotless"],
+      [
+        "ring",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -296,7 +392,10 @@
     [
       "wond_natural_armor_amulet",
       "Natural Armor Bonus",
-      ["throat","slotless"],
+      [
+        "throat",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -313,7 +412,10 @@
     [
       "wond_resistance_cloak",
       "Resistance Bonus on Saves",
-      ["shoulders","slotless"],
+      [
+        "shoulders",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -330,7 +432,10 @@
     [
       "wond_dexterity_gloves",
       "Enhancement Bonus to Dexterity",
-      ["hands","slotless"],
+      [
+        "hands",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -347,7 +452,10 @@
     [
       "wond_strength_belt",
       "Enhancement Bonus to Strength",
-      ["waist","slotless"],
+      [
+        "waist",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -364,7 +472,10 @@
     [
       "wond_intelligence_headband",
       "Enhancement Bonus to Intelligence",
-      ["head","slotless"],
+      [
+        "head",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -378,13 +489,13 @@
       4000,
       {}
     ],
-
-    /* === Added staples: ability/armor/skill/SR/movement/utility/fixed-price storage & sustenance === */
-
     [
       "wond_constitution_amulet",
       "Enhancement Bonus to Constitution",
-      ["throat","slotless"],
+      [
+        "throat",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -401,7 +512,10 @@
     [
       "wond_wisdom_periapt",
       "Enhancement Bonus to Wisdom",
-      ["throat","slotless"],
+      [
+        "throat",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -418,7 +532,10 @@
     [
       "wond_charisma_cloak",
       "Enhancement Bonus to Charisma",
-      ["shoulders","slotless"],
+      [
+        "shoulders",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -435,7 +552,10 @@
     [
       "wond_bracers_of_armor",
       "Armor Bonus (Bracers)",
-      ["arms","slotless"],
+      [
+        "arms",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -452,7 +572,13 @@
     [
       "wond_skill_bonus_generic",
       "Skill Bonus (single skill, competence)",
-      ["face","hands","waist","feet","slotless"],
+      [
+        "face",
+        "hands",
+        "waist",
+        "feet",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
@@ -464,13 +590,36 @@
       1,
       10,
       100,
-      {"skill": ["Spot","Listen","Hide","Move Silently","Climb","Swim","Jump","Search","Diplomacy","Sense Motive","Bluff","Use Magic Device","Tumble","Balance","Disable Device","Open Lock","Survival","Concentration"]}
+      {
+        "skill": [
+          "Spot",
+          "Listen",
+          "Hide",
+          "Move Silently",
+          "Climb",
+          "Swim",
+          "Jump",
+          "Search",
+          "Diplomacy",
+          "Sense Motive",
+          "Bluff",
+          "Use Magic Device",
+          "Tumble",
+          "Balance",
+          "Disable Device",
+          "Open Lock",
+          "Survival",
+          "Concentration"
+        ]
+      }
     ],
-
     [
       "wond_spell_resistance_13",
       "Spell Resistance 13 (continuous)",
-      ["shoulders","slotless"],
+      [
+        "shoulders",
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -482,12 +631,17 @@
       null,
       null,
       10000,
-      {"sr": 13}
+      {
+        "sr": 13
+      }
     ],
     [
       "wond_spell_resistance_15",
       "Spell Resistance 15 (continuous)",
-      ["shoulders","slotless"],
+      [
+        "shoulders",
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -499,12 +653,17 @@
       null,
       null,
       30000,
-      {"sr": 15}
+      {
+        "sr": 15
+      }
     ],
     [
       "wond_spell_resistance_17",
       "Spell Resistance 17 (continuous)",
-      ["shoulders","slotless"],
+      [
+        "shoulders",
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -516,12 +675,17 @@
       null,
       null,
       50000,
-      {"sr": 17}
+      {
+        "sr": 17
+      }
     ],
     [
       "wond_spell_resistance_19",
       "Spell Resistance 19 (continuous)",
-      ["shoulders","slotless"],
+      [
+        "shoulders",
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -533,12 +697,17 @@
       null,
       null,
       70000,
-      {"sr": 19}
+      {
+        "sr": 19
+      }
     ],
     [
       "wond_spell_resistance_21",
       "Spell Resistance 21 (continuous)",
-      ["shoulders","slotless"],
+      [
+        "shoulders",
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -550,12 +719,17 @@
       null,
       null,
       90000,
-      {"sr": 21}
+      {
+        "sr": 21
+      }
     ],
     [
       "wond_spell_resistance_23",
       "Spell Resistance 23 (continuous)",
-      ["shoulders","slotless"],
+      [
+        "shoulders",
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -567,12 +741,17 @@
       null,
       null,
       110000,
-      {"sr": 23}
+      {
+        "sr": 23
+      }
     ],
     [
       "wond_spell_resistance_25",
       "Spell Resistance 25 (continuous)",
-      ["shoulders","slotless"],
+      [
+        "shoulders",
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -584,13 +763,17 @@
       null,
       null,
       130000,
-      {"sr": 25}
+      {
+        "sr": 25
+      }
     ],
-
     [
       "wond_air_walk_1day",
       "Air Walk (1/day, command word)",
-      ["boots","slotless"],
+      [
+        "boots",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_AIR_WALK",
       4,
@@ -607,7 +790,10 @@
     [
       "wond_water_walk_1day",
       "Water Walk (1/day, command word)",
-      ["boots","slotless"],
+      [
+        "boots",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_WATER_WALK",
       3,
@@ -624,7 +810,10 @@
     [
       "wond_spider_climb_3day",
       "Spider Climb (3/day, command word)",
-      ["boots","slotless"],
+      [
+        "boots",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_SPIDER_CLIMB",
       2,
@@ -641,7 +830,11 @@
     [
       "wond_darkvision_continuous",
       "Darkvision (continuous)",
-      ["goggles","helm","slotless"],
+      [
+        "goggles",
+        "helm",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_DARKVISION",
       2,
@@ -658,7 +851,11 @@
     [
       "wond_tongues_continuous",
       "Tongues (continuous)",
-      ["throat","helm","slotless"],
+      [
+        "throat",
+        "helm",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_TONGUES",
       3,
@@ -675,7 +872,11 @@
     [
       "wond_comprehend_languages_continuous",
       "Comprehend Languages (continuous)",
-      ["throat","helm","slotless"],
+      [
+        "throat",
+        "helm",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_COMPREHEND_LANGUAGES",
       1,
@@ -692,7 +893,11 @@
     [
       "wond_nondetection_continuous",
       "Nondetection (continuous)",
-      ["throat","helm","slotless"],
+      [
+        "throat",
+        "helm",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_NONDETECTION",
       3,
@@ -709,7 +914,10 @@
     [
       "wond_detect_thoughts_3day",
       "Detect Thoughts (3/day, command word)",
-      ["helm","slotless"],
+      [
+        "helm",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_DETECT_THOUGHTS",
       2,
@@ -726,7 +934,10 @@
     [
       "wond_detect_magic_continuous",
       "Detect Magic (continuous)",
-      ["helm","slotless"],
+      [
+        "helm",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_DETECT_MAGIC",
       0,
@@ -743,7 +954,10 @@
     [
       "wond_locate_object_3day",
       "Locate Object (3/day, command word)",
-      ["helm","slotless"],
+      [
+        "helm",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_LOCATE_OBJECT",
       2,
@@ -760,7 +974,11 @@
     [
       "wond_pass_without_trace_continuous",
       "Pass without Trace (continuous)",
-      ["boots","cloak","slotless"],
+      [
+        "boots",
+        "cloak",
+        "slotless"
+      ],
       "continuous_spell",
       "SPELL_PASS_WITHOUT_TRACE",
       1,
@@ -777,7 +995,10 @@
     [
       "wond_dimension_door_1day",
       "Dimension Door (1/day, command word)",
-      ["cloak","slotless"],
+      [
+        "cloak",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_DIMENSION_DOOR",
       4,
@@ -794,7 +1015,11 @@
     [
       "wond_teleport_3day",
       "Teleport (3/day, command word)",
-      ["boots","cloak","slotless"],
+      [
+        "boots",
+        "cloak",
+        "slotless"
+      ],
       "command_word_spell",
       "SPELL_TELEPORT",
       5,
@@ -808,11 +1033,12 @@
       null,
       {}
     ],
-
     [
       "wond_bag_of_holding_I",
       "Bag of Holding I (fixed capacity)",
-      ["slotless"],
+      [
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -824,12 +1050,17 @@
       null,
       null,
       2500,
-      {"capacity_lb": 250, "volume_cuft": 30}
+      {
+        "capacity_lb": 250,
+        "volume_cuft": 30
+      }
     ],
     [
       "wond_bag_of_holding_II",
       "Bag of Holding II (fixed capacity)",
-      ["slotless"],
+      [
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -841,12 +1072,17 @@
       null,
       null,
       5000,
-      {"capacity_lb": 500, "volume_cuft": 70}
+      {
+        "capacity_lb": 500,
+        "volume_cuft": 70
+      }
     ],
     [
       "wond_bag_of_holding_III",
       "Bag of Holding III (fixed capacity)",
-      ["slotless"],
+      [
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -858,12 +1094,17 @@
       null,
       null,
       7500,
-      {"capacity_lb": 1000, "volume_cuft": 150}
+      {
+        "capacity_lb": 1000,
+        "volume_cuft": 150
+      }
     ],
     [
       "wond_bag_of_holding_IV",
       "Bag of Holding IV (fixed capacity)",
-      ["slotless"],
+      [
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -875,12 +1116,17 @@
       null,
       null,
       10000,
-      {"capacity_lb": 1500, "volume_cuft": 250}
+      {
+        "capacity_lb": 1500,
+        "volume_cuft": 250
+      }
     ],
     [
       "wond_portable_hole",
       "Portable Hole (fixed capacity)",
-      ["slotless"],
+      [
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -892,12 +1138,17 @@
       null,
       null,
       20000,
-      {"capacity_lb": 10000, "volume_cuft": 283}
+      {
+        "capacity_lb": 10000,
+        "volume_cuft": 283
+      }
     ],
     [
       "wond_handy_haversack",
       "Handy Haversack (fixed capacity)",
-      ["slotless"],
+      [
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -909,12 +1160,17 @@
       null,
       null,
       2000,
-      {"pockets": 3}
+      {
+        "pockets": 3
+      }
     ],
     [
       "wond_ring_of_sustenance_like",
       "Sustenance (no food/sleep; fixed price)",
-      ["ring","slotless"],
+      [
+        "ring",
+        "slotless"
+      ],
       "fixed_price",
       "",
       null,
@@ -931,7 +1187,10 @@
     [
       "wond_amulet_mighty_fists",
       "Enhancement to Natural/Unarmed Attacks (Amulet of Mighty Fists-like)",
-      ["throat","slotless"],
+      [
+        "throat",
+        "slotless"
+      ],
       "bonus_squared",
       "",
       null,
