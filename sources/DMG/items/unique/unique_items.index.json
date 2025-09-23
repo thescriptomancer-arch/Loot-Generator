@@ -233,6 +233,1166 @@
       ]
     },
     {
+      "id": "uniq_friend_shield_pair",
+      "name": "Friend Shield (pair)",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Sold/works as a pair.",
+      "price_gp": 50000.0,
+      "aura": "Moderate abjuration",
+      "required_caster_level": 10,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "shield other"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_animal_friendship",
+      "name": "Ring of Animal Friendship",
+      "category": "ring",
+      "source_page": "DMG p.231",
+      "notes": "",
+      "price_gp": 10800.0,
+      "aura": "Faint enchantment",
+      "required_caster_level": 3,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "charm animal"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_blinking",
+      "name": "Ring of Blinking",
+      "category": "ring",
+      "source_page": "DMG p.231",
+      "notes": "",
+      "price_gp": 27000.0,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "blink"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_chameleon_power",
+      "name": "Ring of Chameleon Power",
+      "category": "ring",
+      "source_page": "DMG p.231",
+      "notes": "",
+      "price_gp": 12700.0,
+      "aura": "Faint illusion",
+      "required_caster_level": 3,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "disguise self",
+        "invisibility"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_climbing",
+      "name": "Ring of Climbing",
+      "category": "ring",
+      "source_page": "DMG p.231",
+      "notes": "Creator must have 5 ranks in Climb.",
+      "price_gp": 2500.0,
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Forge Ring",
+      "required_spells": []
+    },
+    {
+      "id": "uniq_ring_of_climbing_improved",
+      "name": "Ring of Climbing, Improved",
+      "category": "ring",
+      "source_page": "DMG p.231",
+      "notes": "Creator must have 10 ranks in Climb.",
+      "price_gp": 10000.0,
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Forge Ring",
+      "required_spells": []
+    },
+    {
+      "id": "uniq_ring_of_counterspells",
+      "name": "Ring of Counterspells",
+      "category": "ring",
+      "source_page": "DMG p.231",
+      "notes": "",
+      "price_gp": 4000.0,
+      "aura": "Moderate evocation",
+      "required_caster_level": 11,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "imbue with spell ability"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_djinni_calling",
+      "name": "Ring of Djinni Calling",
+      "category": "ring",
+      "source_page": "DMG p.231–232",
+      "notes": "",
+      "price_gp": 125000.0,
+      "aura": "Strong conjuration",
+      "required_caster_level": 17,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "gate"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_elemental_command_air",
+      "name": "Ring of Elemental Command (Air)",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Plus all appropriate spells; appears as ring of feather falling until activated.",
+      "price_gp": 200000.0,
+      "aura": "Strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "summon monster VI"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_elemental_command_earth",
+      "name": "Ring of Elemental Command (Earth)",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Plus all appropriate spells; appears as ring of meld into stone until activated.",
+      "price_gp": 200000.0,
+      "aura": "Strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "summon monster VI"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_elemental_command_fire",
+      "name": "Ring of Elemental Command (Fire)",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Plus all appropriate spells; appears as major ring of energy resistance (fire) until activated.",
+      "price_gp": 200000.0,
+      "aura": "Strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "summon monster VI"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_elemental_command_water",
+      "name": "Ring of Elemental Command (Water)",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Plus all appropriate spells; appears as ring of water walking until activated.",
+      "price_gp": 200000.0,
+      "aura": "Strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "summon monster VI"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_energy_resistance_greater",
+      "name": "Ring of Energy Resistance (greater)",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Choose energy type.",
+      "price_gp": 44000.0,
+      "aura": "Moderate abjuration",
+      "required_caster_level": 11,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "resist energy"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_energy_resistance_major",
+      "name": "Ring of Energy Resistance (major)",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Choose energy type.",
+      "price_gp": 28000.0,
+      "aura": "Faint abjuration",
+      "required_caster_level": 7,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "resist energy"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_energy_resistance_minor",
+      "name": "Ring of Energy Resistance (minor)",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Choose acid, cold, electricity, fire, or sonic.",
+      "price_gp": 12000.0,
+      "aura": "Faint abjuration",
+      "required_caster_level": 3,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "resist energy"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_evasion",
+      "name": "Ring of Evasion",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "",
+      "price_gp": 25000.0,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "jump"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_feather_falling",
+      "name": "Ring of Feather Falling",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "",
+      "price_gp": 2200.0,
+      "aura": "Faint transmutation",
+      "required_caster_level": 1,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "feather fall"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_force_shield",
+      "name": "Ring of Force Shield",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Functions as weightless heavy shield; no ACP/ASF.",
+      "price_gp": 8500.0,
+      "aura": "Moderate evocation",
+      "required_caster_level": 9,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "wall of force"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_freedom_of_movement",
+      "name": "Ring of Freedom of Movement",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "",
+      "price_gp": 40000.0,
+      "aura": "Moderate abjuration",
+      "required_caster_level": 7,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "freedom of movement"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_invisibility",
+      "name": "Ring of Invisibility",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "",
+      "price_gp": 20000.0,
+      "aura": "Faint illusion",
+      "required_caster_level": 3,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "invisibility"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_jumping",
+      "name": "Ring of Jumping",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Creator must have 5 ranks in Jump.",
+      "price_gp": 2500.0,
+      "aura": "Faint transmutation",
+      "required_caster_level": 2,
+      "required_feat": "Forge Ring",
+      "required_spells": []
+    },
+    {
+      "id": "uniq_ring_of_jumping_improved",
+      "name": "Ring of Jumping, Improved",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Creator must have 10 ranks in Jump.",
+      "price_gp": 10000.0,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Forge Ring",
+      "required_spells": []
+    },
+    {
+      "id": "uniq_ring_of_mind_shielding",
+      "name": "Ring of Mind Shielding",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "",
+      "price_gp": 8000.0,
+      "aura": "Faint abjuration",
+      "required_caster_level": 3,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "nondetection"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_protection_1",
+      "name": "Ring of Protection +1",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Caster level must be at least 3× ring bonus.",
+      "price_gp": 2000.0,
+      "aura": "Faint abjuration",
+      "required_caster_level": 5,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "shield of faith"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_protection_2",
+      "name": "Ring of Protection +2",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Caster level must be at least 3× ring bonus.",
+      "price_gp": 8000.0,
+      "aura": "Faint abjuration",
+      "required_caster_level": 5,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "shield of faith"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_protection_3",
+      "name": "Ring of Protection +3",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Caster level must be at least 3× ring bonus.",
+      "price_gp": 18000.0,
+      "aura": "Faint abjuration",
+      "required_caster_level": 5,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "shield of faith"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_protection_4",
+      "name": "Ring of Protection +4",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Caster level must be at least 3× ring bonus.",
+      "price_gp": 32000.0,
+      "aura": "Faint abjuration",
+      "required_caster_level": 5,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "shield of faith"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_protection_5",
+      "name": "Ring of Protection +5",
+      "category": "ring",
+      "source_page": "DMG p.232",
+      "notes": "Caster level must be at least 3× ring bonus.",
+      "price_gp": 50000.0,
+      "aura": "Faint abjuration",
+      "required_caster_level": 5,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "shield of faith"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_regeneration",
+      "name": "Ring of Regeneration",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 90000.0,
+      "aura": "Strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "regenerate"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_shooting_stars",
+      "name": "Ring of Shooting Stars",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 50000.0,
+      "aura": "Strong evocation",
+      "required_caster_level": 12,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "light",
+        "faerie fire",
+        "fireball",
+        "lightning bolt"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_spell_storing",
+      "name": "Ring of Spell Storing",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 50000.0,
+      "aura": "Moderate evocation",
+      "required_caster_level": 9,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "imbue with spell ability"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_spell_storing_major",
+      "name": "Ring of Spell Storing (major)",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 200000.0,
+      "aura": "Strong evocation",
+      "required_caster_level": 17,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "imbue with spell ability"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_spell_storing_minor",
+      "name": "Ring of Spell Storing (minor)",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 18000.0,
+      "aura": "Faint evocation",
+      "required_caster_level": 5,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "imbue with spell ability"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_spell_turning",
+      "name": "Ring of Spell Turning",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 98280.0,
+      "aura": "Strong abjuration",
+      "required_caster_level": 13,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "spell turning"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_sustenance",
+      "name": "Ring of Sustenance",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 2500.0,
+      "aura": "Faint conjuration",
+      "required_caster_level": 5,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "create food and water"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_swimming",
+      "name": "Ring of Swimming",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "Creator must have 5 ranks in Swim.",
+      "price_gp": 2500.0,
+      "aura": "Faint transmutation",
+      "required_caster_level": 2,
+      "required_feat": "Forge Ring",
+      "required_spells": []
+    },
+    {
+      "id": "uniq_ring_of_swimming_improved",
+      "name": "Ring of Swimming, Improved",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "Creator must have 10 ranks in Swim.",
+      "price_gp": 10000.0,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Forge Ring",
+      "required_spells": []
+    },
+    {
+      "id": "uniq_ring_of_telekinesis",
+      "name": "Ring of Telekinesis",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 75000.0,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 9,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "telekinesis"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_the_ram",
+      "name": "Ring of the Ram",
+      "category": "ring",
+      "source_page": "DMG p.232–233",
+      "notes": "",
+      "price_gp": 8600.0,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 9,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "bull's strength",
+        "telekinesis"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_three_wishes",
+      "name": "Ring of Three Wishes",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "Three rubies; each stores one wish.",
+      "price_gp": 97950.0,
+      "aura": "Strong evocation",
+      "required_caster_level": 20,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_water_walking",
+      "name": "Ring of Water Walking",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 15000.0,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 9,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "water walk"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_wizardry_i",
+      "name": "Ring of Wizardry I",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 20000.0,
+      "aura": "Moderate (no school)",
+      "required_caster_level": 11,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "limited wish"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_wizardry_ii",
+      "name": "Ring of Wizardry II",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 40000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 14,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "limited wish"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_wizardry_iii",
+      "name": "Ring of Wizardry III",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 70000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "limited wish"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_wizardry_iv",
+      "name": "Ring of Wizardry IV",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 100000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 20,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "limited wish"
+      ]
+    },
+    {
+      "id": "uniq_ring_of_x_ray_vision",
+      "name": "Ring of X-Ray Vision",
+      "category": "ring",
+      "source_page": "DMG p.233",
+      "notes": "",
+      "price_gp": 25000.0,
+      "aura": "Moderate divination",
+      "required_caster_level": 6,
+      "required_feat": "Forge Ring",
+      "required_spells": [
+        "true seeing"
+      ]
+    },
+    {
+      "id": "uniq_immovable_rod",
+      "name": "Immovable Rod",
+      "category": "rod",
+      "source_page": "DMG p.235",
+      "notes": "",
+      "price_gp": 5000.0,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "levitate"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_empower",
+      "name": "Metamagic Rod (Empower)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 32500.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Empower Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_enlarge",
+      "name": "Metamagic Rod (Enlarge)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 11000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Enlarge Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_extend",
+      "name": "Metamagic Rod (Extend)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 11000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Extend Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_greater_empower",
+      "name": "Metamagic Rod (Greater, Empower)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 73000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Empower Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_greater_enlarge",
+      "name": "Metamagic Rod (Greater, Enlarge)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 24500.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Enlarge Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_greater_extend",
+      "name": "Metamagic Rod (Greater, Extend)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 24500.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Extend Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_greater_maximize",
+      "name": "Metamagic Rod (Greater, Maximize)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 121500.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Maximize Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_greater_quicken",
+      "name": "Metamagic Rod (Greater, Quicken)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 170000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Quicken Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_greater_silent",
+      "name": "Metamagic Rod (Greater, Silent)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 24500.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Silent Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_lesser_empower",
+      "name": "Metamagic Rod (Lesser, Empower)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 9000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Empower Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_lesser_enlarge",
+      "name": "Metamagic Rod (Lesser, Enlarge)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 3000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Enlarge Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_lesser_extend",
+      "name": "Metamagic Rod (Lesser, Extend)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 3000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Extend Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_lesser_maximize",
+      "name": "Metamagic Rod (Lesser, Maximize)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 14000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Maximize Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_lesser_quicken",
+      "name": "Metamagic Rod (Lesser, Quicken)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 35000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Quicken Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_lesser_silent",
+      "name": "Metamagic Rod (Lesser, Silent)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 3000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Silent Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_maximize",
+      "name": "Metamagic Rod (Maximize)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 54000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Maximize Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_quicken",
+      "name": "Metamagic Rod (Quicken)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 75500.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Quicken Spell"
+      ]
+    },
+    {
+      "id": "uniq_metamagic_rod_silent",
+      "name": "Metamagic Rod (Silent)",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 11000.0,
+      "aura": "Strong (no school)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Silent Spell"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_absorption",
+      "name": "Rod of Absorption",
+      "category": "rod",
+      "source_page": "DMG p.234",
+      "notes": "",
+      "price_gp": 50000.0,
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "spell turning"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_alertness",
+      "name": "Rod of Alertness",
+      "category": "rod",
+      "source_page": "DMG p.234",
+      "notes": "",
+      "price_gp": 85000.0,
+      "aura": "Moderate abjuration/divination/enchantment/evocation",
+      "required_caster_level": 11,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "alarm",
+        "detect chaos",
+        "detect evil",
+        "detect good",
+        "detect law",
+        "detect magic",
+        "discern lies",
+        "light",
+        "see invisibility",
+        "prayer",
+        "animate objects"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_cancellation",
+      "name": "Rod of Cancellation",
+      "category": "rod",
+      "source_page": "DMG p.234",
+      "notes": "",
+      "price_gp": 11000.0,
+      "aura": "Strong abjuration",
+      "required_caster_level": 17,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "Mordenkainen’s disjunction"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_enemy_detection",
+      "name": "Rod of Enemy Detection",
+      "category": "rod",
+      "source_page": "DMG p.234",
+      "notes": "",
+      "price_gp": 23500.0,
+      "aura": "Moderate divination",
+      "required_caster_level": 10,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "true seeing"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_flailing",
+      "name": "Rod of Flailing",
+      "category": "rod",
+      "source_page": "DMG p.234",
+      "notes": "",
+      "price_gp": 50000.0,
+      "aura": "Moderate enchantment",
+      "required_caster_level": 9,
+      "required_feat": "Craft Rod; Craft Magic Arms and Armor",
+      "required_spells": [
+        "bless"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_flame_extinguishing",
+      "name": "Rod of Flame Extinguishing",
+      "category": "rod",
+      "source_page": "DMG p.234–235",
+      "notes": "",
+      "price_gp": 15000.0,
+      "aura": "Strong transmutation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "pyrotechnics"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_lordly_might",
+      "name": "Rod of Lordly Might",
+      "category": "rod",
+      "source_page": "DMG p.235–236",
+      "notes": "",
+      "price_gp": 70000.0,
+      "aura": "Strong enchantment/evocation/necromancy/transmutation",
+      "required_caster_level": 19,
+      "required_feat": "Craft Rod; Craft Magic Arms and Armor",
+      "required_spells": [
+        "inflict light wounds",
+        "bull's strength",
+        "flame blade",
+        "hold person",
+        "fear"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_metal_and_mineral_detection",
+      "name": "Rod of Metal and Mineral Detection",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 10500.0,
+      "aura": "Moderate divination",
+      "required_caster_level": 9,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "locate object"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_negation",
+      "name": "Rod of Negation",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "Or miracle instead of limited wish.",
+      "price_gp": 37000.0,
+      "aura": "Strong varied",
+      "required_caster_level": 15,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "dispel magic",
+        "limited wish"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_python",
+      "name": "Rod of Python",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "Creator must be good.",
+      "price_gp": 13000.0,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Rod; Craft Magic Arms and Armor",
+      "required_spells": [
+        "baleful polymorph"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_rulership",
+      "name": "Rod of Rulership",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 60000.0,
+      "aura": "Strong enchantment",
+      "required_caster_level": 20,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "mass charm monster"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_security",
+      "name": "Rod of Security",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 61000.0,
+      "aura": "Strong conjuration",
+      "required_caster_level": 20,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "gate"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_splendor",
+      "name": "Rod of Splendor",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 25000.0,
+      "aura": "Strong conjuration/transmutation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "eagle's splendor",
+        "fabricate",
+        "major creation"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_the_viper",
+      "name": "Rod of the Viper",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "Creator must be evil.",
+      "price_gp": 19000.0,
+      "aura": "Moderate necromancy",
+      "required_caster_level": 10,
+      "required_feat": "Craft Rod; Craft Magic Arms and Armor",
+      "required_spells": [
+        "poison"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_thunder_and_lightning",
+      "name": "Rod of Thunder and Lightning",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 33000.0,
+      "aura": "Moderate evocation",
+      "required_caster_level": 9,
+      "required_feat": "Craft Rod; Craft Magic Arms and Armor",
+      "required_spells": [
+        "lightning bolt",
+        "shout"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_withering",
+      "name": "Rod of Withering",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "",
+      "price_gp": 25000.0,
+      "aura": "Strong necromancy",
+      "required_caster_level": 13,
+      "required_feat": "Craft Rod; Craft Magic Arms and Armor",
+      "required_spells": [
+        "contagion"
+      ]
+    },
+    {
+      "id": "uniq_rod_of_wonder",
+      "name": "Rod of Wonder",
+      "category": "rod",
+      "source_page": "DMG p.236",
+      "notes": "Creator must be chaotic.",
+      "price_gp": 12000.0,
+      "aura": "Moderate enchantment",
+      "required_caster_level": 10,
+      "required_feat": "Craft Rod",
+      "required_spells": [
+        "confusion"
+      ]
+    },
+    {
       "id": "uniq_absorbing_shield",
       "name": "Absorbing Shield",
       "category": "shield",
@@ -256,7 +1416,7 @@
       "aura": null,
       "required_caster_level": null,
       "required_feat": null,
-      "required_spells": null
+      "required_spells": []
     },
     {
       "id": "uniq_caster_s_shield",
