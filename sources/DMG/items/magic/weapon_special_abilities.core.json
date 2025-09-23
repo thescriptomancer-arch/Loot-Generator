@@ -3,77 +3,826 @@
   "source": "DMG v3.5",
   "chapter": "Magic Items",
   "section": "Weapon Special Abilities",
-  "fields": ["id","name","category","costing","min_enhancement","stacking_rules","source"],
+  "fields": [
+    "id",
+    "name",
+    "category",
+    "costing",
+    "min_enhancement",
+    "stacking_rules",
+    "source",
+    "aura",
+    "required_caster_level",
+    "required_feat",
+    "required_spells"
+  ],
   "rows": [
-    ["wpn_anarchic_melee","Anarchic","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; chaotic only; conflicts with lawful/axiomatic/holy/unholy","DMG Ch.7"],
-    ["wpn_anarchic_ranged","Anarchic","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; chaotic only; conflicts with lawful/axiomatic/holy/unholy","DMG Ch.7"],
-
-    ["wpn_axiomatic_melee","Axiomatic","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; lawful only; conflicts with chaotic/anarchic/holy/unholy","DMG Ch.7"],
-    ["wpn_axiomatic_ranged","Axiomatic","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; lawful only; conflicts with chaotic/anarchic/holy/unholy","DMG Ch.7"],
-
-    ["wpn_bane_melee","Bane","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Choose creature type/subtype at creation; applies to that foe","DMG Ch.7"],
-    ["wpn_bane_ranged","Bane","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Choose creature type/subtype at creation; applies to that foe","DMG Ch.7"],
-    ["wpn_bane_ammo","Bane","ammunition",{"type":"bonus_equiv","bonus_equiv":1},1,"Choose creature type/subtype at creation; applies to that foe","DMG Ch.7"],
-
-    ["wpn_brilliant_energy","Brilliant energy","weapon_melee",{"type":"bonus_equiv","bonus_equiv":4},1,"Negates armor/natural armor; no effect vs constructs/undead/objects; cannot be on ammunition","DMG Ch.7"],
-
-    ["wpn_dancing","Dancing","weapon_melee",{"type":"bonus_equiv","bonus_equiv":4},1,"Weapon can fight on its own briefly; melee only","DMG Ch.7"],
-
-    ["wpn_defending","Defending","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Can shift enhancement to AC as a dodge bonus; melee only","DMG Ch.7"],
-
-    ["wpn_distance","Distance","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Range increment ×2; ranged only","DMG Ch.7"],
-
-    ["wpn_disruption","Disruption","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Bludgeoning only; destroys undead on failed save","DMG Ch.7"],
-
-    ["wpn_flaming","Flaming","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds fire damage; melee or ammunition (use separate ammo row if needed)","DMG Ch.7"],
-    ["wpn_flaming_ranged","Flaming","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds fire damage to ranged attacks; also valid for ammunition","DMG Ch.7"],
-    ["wpn_flaming_burst","Flaming burst","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Flaming (includes it); reroll if Flaming already present when randomly generating","DMG Ch.7"],
-    ["wpn_flaming_burst_ranged","Flaming burst","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Flaming (includes it); ranged only; reroll duplicate","DMG Ch.7"],
-
-    ["wpn_frost","Frost","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds cold damage; melee or ammunition (use separate ammo row if needed)","DMG Ch.7"],
-    ["wpn_frost_ranged","Frost","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds cold damage to ranged attacks; also valid for ammunition","DMG Ch.7"],
-    ["wpn_icy_burst","Icy burst","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Frost (includes it); reroll duplicate","DMG Ch.7"],
-    ["wpn_icy_burst_ranged","Icy burst","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Frost (includes it); reroll duplicate","DMG Ch.7"],
-
-    ["wpn_ghost_touch_melee","Ghost touch","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Fully effective vs incorporeal; melee only","DMG Ch.7"],
-    ["wpn_ghost_touch_ranged","Ghost touch","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Fully effective vs incorporeal; ranged only","DMG Ch.7"],
-
-    ["wpn_holy_melee","Holy","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; good only; conflicts with unholy/anarchic/axiomatic","DMG Ch.7"],
-    ["wpn_holy_ranged","Holy","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; good only; conflicts with unholy/anarchic/axiomatic","DMG Ch.7"],
-
-    ["wpn_unholy_melee","Unholy","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; evil only; conflicts with holy/anarchic/axiomatic","DMG Ch.7"],
-    ["wpn_unholy_ranged","Unholy","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Alignment-gated; evil only; conflicts with holy/anarchic/axiomatic","DMG Ch.7"],
-
-    ["wpn_keen","Keen","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Slashing or piercing melee only; does not stack with Improved Critical","DMG Ch.7"],
-
-    ["wpn_ki_focus","Ki focus","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Allows use of ki strike–like effects; melee only","DMG Ch.7"],
-
-    ["wpn_merciful_melee","Merciful","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Converts to nonlethal and adds damage; toggle as command","DMG Ch.7"],
-    ["wpn_merciful_ranged","Merciful","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Converts to nonlethal and adds damage; ranged","DMG Ch.7"],
-
-    ["wpn_mighty_cleaving","Mighty cleaving","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Grants one extra Cleave attempt per round; melee only","DMG Ch.7"],
-
-    ["wpn_returning","Returning","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Thrown weapons only; returns to wielder","DMG Ch.7"],
-
-    ["wpn_seeking","Seeking","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Ignores concealment miss chance (non-total); ranged only","DMG Ch.7"],
-
-    ["wpn_shock","Shock","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds electricity damage; melee or ammunition (use separate ammo row if needed)","DMG Ch.7"],
-    ["wpn_shock_ranged","Shock","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":1},1,"Adds electricity damage to ranged attacks; also valid for ammunition","DMG Ch.7"],
-    ["wpn_shocking_burst","Shocking burst","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Shock (includes it); reroll duplicate","DMG Ch.7"],
-    ["wpn_shocking_burst_ranged","Shocking burst","weapon_ranged",{"type":"bonus_equiv","bonus_equiv":2},1,"Supersets Shock (includes it); reroll duplicate","DMG Ch.7"],
-
-    ["wpn_spell_storing","Spell storing","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Holds and delivers a spell (up to 3rd) on hit; melee only","DMG Ch.7"],
-
-    ["wpn_speed","Speed","weapon_melee",{"type":"bonus_equiv","bonus_equiv":3},1,"Grants an extra attack when making a full attack; melee","DMG Ch.7"],
-
-    ["wpn_thundering","Thundering","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"On a critical, adds sonic damage and may deafen","DMG Ch.7"],
-
-    ["wpn_throwing","Throwing","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Allows melee weapon to be thrown (10 ft. increment unless noted)","DMG Ch.7"],
-
-    ["wpn_vicious","Vicious","weapon_melee",{"type":"bonus_equiv","bonus_equiv":1},1,"Extra damage to target and to wielder","DMG Ch.7"],
-
-    ["wpn_vorpal","Vorpal","weapon_melee",{"type":"bonus_equiv","bonus_equiv":5},1,"Slashing only; decapitation on crit; cannot apply to ranged/ammo","DMG Ch.7"],
-
-    ["wpn_wounding","Wounding","weapon_melee",{"type":"bonus_equiv","bonus_equiv":2},1,"Deals bleed (Con damage) on hit; melee only","DMG Ch.7"]
+    {
+      "id": "wpn_anarchic_melee",
+      "name": "Anarchic",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Alignment-gated; chaotic only; conflicts with lawful/axiomatic/holy/unholy",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation [chaotic]",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chaos hammer"
+      ]
+    },
+    {
+      "id": "wpn_anarchic_ranged",
+      "name": "Anarchic",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Alignment-gated; chaotic only; conflicts with lawful/axiomatic/holy/unholy",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation [chaotic]",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chaos hammer"
+      ]
+    },
+    {
+      "id": "wpn_axiomatic_melee",
+      "name": "Axiomatic",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Alignment-gated; lawful only; conflicts with chaotic/anarchic/holy/unholy",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation [lawful]",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "order's wrath"
+      ]
+    },
+    {
+      "id": "wpn_axiomatic_ranged",
+      "name": "Axiomatic",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Alignment-gated; lawful only; conflicts with chaotic/anarchic/holy/unholy",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation [lawful]",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "order's wrath"
+      ]
+    },
+    {
+      "id": "wpn_bane_melee",
+      "name": "Bane",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose creature type/subtype at creation; applies to that foe",
+      "source": "DMG Ch.7",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "summon monster I"
+      ]
+    },
+    {
+      "id": "wpn_bane_ranged",
+      "name": "Bane",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose creature type/subtype at creation; applies to that foe",
+      "source": "DMG Ch.7",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "summon monster I"
+      ]
+    },
+    {
+      "id": "wpn_bane_ammo",
+      "name": "Bane",
+      "category": "ammunition",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose creature type/subtype at creation; applies to that foe",
+      "source": "DMG Ch.7",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "summon monster I"
+      ]
+    },
+    {
+      "id": "wpn_brilliant_energy",
+      "name": "Brilliant energy",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Negates armor/natural armor; no effect vs constructs/undead/objects; cannot be on ammunition",
+      "source": "DMG Ch.7",
+      "aura": "Strong transmutation",
+      "required_caster_level": 16,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "gaseous form",
+        "continual flame"
+      ]
+    },
+    {
+      "id": "wpn_dancing",
+      "name": "Dancing",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Weapon can fight on its own briefly; melee only",
+      "source": "DMG Ch.7",
+      "aura": "Strong transmutation",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "animate objects"
+      ]
+    },
+    {
+      "id": "wpn_defending",
+      "name": "Defending",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Can shift enhancement to AC as a dodge bonus; melee only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate abjuration",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "shield",
+        "shield of faith"
+      ]
+    },
+    {
+      "id": "wpn_distance",
+      "name": "Distance",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Range increment ×2; ranged only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate divination",
+      "required_caster_level": 6,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "clairaudience/clairvoyance"
+      ]
+    },
+    {
+      "id": "wpn_disruption",
+      "name": "Disruption",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Bludgeoning only; destroys undead on failed save",
+      "source": "DMG Ch.7",
+      "aura": "Strong conjuration",
+      "required_caster_level": 14,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "heal"
+      ]
+    },
+    {
+      "id": "wpn_flaming",
+      "name": "Flaming",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Adds fire damage; melee or ammunition (use separate ammo row if needed)",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade",
+        "flame strike",
+        "fireball"
+      ]
+    },
+    {
+      "id": "wpn_flaming_ranged",
+      "name": "Flaming",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Adds fire damage to ranged attacks; also valid for ammunition",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade",
+        "flame strike",
+        "fireball"
+      ]
+    },
+    {
+      "id": "wpn_flaming_burst",
+      "name": "Flaming burst",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Supersets Flaming (includes it); reroll if Flaming already present when randomly generating",
+      "source": "DMG Ch.7",
+      "aura": "Strong evocation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade",
+        "flame strike",
+        "fireball"
+      ]
+    },
+    {
+      "id": "wpn_flaming_burst_ranged",
+      "name": "Flaming burst",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Supersets Flaming (includes it); ranged only; reroll duplicate",
+      "source": "DMG Ch.7",
+      "aura": "Strong evocation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade",
+        "flame strike",
+        "fireball"
+      ]
+    },
+    {
+      "id": "wpn_frost",
+      "name": "Frost",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Adds cold damage; melee or ammunition (use separate ammo row if needed)",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal",
+        "ice storm"
+      ]
+    },
+    {
+      "id": "wpn_frost_ranged",
+      "name": "Frost",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Adds cold damage to ranged attacks; also valid for ammunition",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal",
+        "ice storm"
+      ]
+    },
+    {
+      "id": "wpn_icy_burst",
+      "name": "Icy burst",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Supersets Frost (includes it); reroll duplicate",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal",
+        "ice storm"
+      ]
+    },
+    {
+      "id": "wpn_icy_burst_ranged",
+      "name": "Icy burst",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Supersets Frost (includes it); reroll duplicate",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal",
+        "ice storm"
+      ]
+    },
+    {
+      "id": "wpn_ghost_touch_melee",
+      "name": "Ghost touch",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Fully effective vs incorporeal; melee only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "plane shift"
+      ]
+    },
+    {
+      "id": "wpn_ghost_touch_ranged",
+      "name": "Ghost touch",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Fully effective vs incorporeal; ranged only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "plane shift"
+      ]
+    },
+    {
+      "id": "wpn_holy_melee",
+      "name": "Holy",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Alignment-gated; good only; conflicts with unholy/anarchic/axiomatic",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation [good]",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "holy smite"
+      ]
+    },
+    {
+      "id": "wpn_holy_ranged",
+      "name": "Holy",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Alignment-gated; good only; conflicts with unholy/anarchic/axiomatic",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation [good]",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "holy smite"
+      ]
+    },
+    {
+      "id": "wpn_unholy_melee",
+      "name": "Unholy",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Alignment-gated; evil only; conflicts with holy/anarchic/axiomatic",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation [evil]",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "unholy blight"
+      ]
+    },
+    {
+      "id": "wpn_unholy_ranged",
+      "name": "Unholy",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Alignment-gated; evil only; conflicts with holy/anarchic/axiomatic",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation [evil]",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "unholy blight"
+      ]
+    },
+    {
+      "id": "wpn_keen",
+      "name": "Keen",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Slashing or piercing melee only; does not stack with Improved Critical",
+      "source": "DMG Ch.7",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "keen edge"
+      ]
+    },
+    {
+      "id": "wpn_ki_focus",
+      "name": "Ki focus",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Allows use of ki strike–like effects; melee only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "wpn_merciful_melee",
+      "name": "Merciful",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Converts to nonlethal and adds damage; toggle as command",
+      "source": "DMG Ch.7",
+      "aura": "Faint conjuration",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cure light wounds"
+      ]
+    },
+    {
+      "id": "wpn_merciful_ranged",
+      "name": "Merciful",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Converts to nonlethal and adds damage; ranged",
+      "source": "DMG Ch.7",
+      "aura": "Faint conjuration",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cure light wounds"
+      ]
+    },
+    {
+      "id": "wpn_mighty_cleaving",
+      "name": "Mighty cleaving",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Grants one extra Cleave attempt per round; melee only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "divine power"
+      ]
+    },
+    {
+      "id": "wpn_returning",
+      "name": "Returning",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Thrown weapons only; returns to wielder",
+      "source": "DMG Ch.7",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "telekinesis"
+      ]
+    },
+    {
+      "id": "wpn_seeking",
+      "name": "Seeking",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Ignores concealment miss chance (non-total); ranged only",
+      "source": "DMG Ch.7",
+      "aura": "Strong divination",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "true seeing"
+      ]
+    },
+    {
+      "id": "wpn_shock",
+      "name": "Shock",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Adds electricity damage; melee or ammunition (use separate ammo row if needed)",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning",
+        "lightning bolt"
+      ]
+    },
+    {
+      "id": "wpn_shock_ranged",
+      "name": "Shock",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Adds electricity damage to ranged attacks; also valid for ammunition",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning",
+        "lightning bolt"
+      ]
+    },
+    {
+      "id": "wpn_shocking_burst",
+      "name": "Shocking burst",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Supersets Shock (includes it); reroll duplicate",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning",
+        "lightning bolt"
+      ]
+    },
+    {
+      "id": "wpn_shocking_burst_ranged",
+      "name": "Shocking burst",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Supersets Shock (includes it); reroll duplicate",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning",
+        "lightning bolt"
+      ]
+    },
+    {
+      "id": "wpn_spell_storing",
+      "name": "Spell storing",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Holds and delivers a spell (up to 3rd) on hit; melee only",
+      "source": "DMG Ch.7",
+      "aura": "Strong evocation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "wpn_speed",
+      "name": "Speed",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Grants an extra attack when making a full attack; melee",
+      "source": "DMG Ch.7",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "haste"
+      ]
+    },
+    {
+      "id": "wpn_thundering",
+      "name": "Thundering",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "On a critical, adds sonic damage and may deafen",
+      "source": "DMG Ch.7",
+      "aura": "Faint necromancy",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "blindness/deafness"
+      ]
+    },
+    {
+      "id": "wpn_throwing",
+      "name": "Throwing",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Allows melee weapon to be thrown (10 ft. increment unless noted)",
+      "source": "DMG Ch.7",
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "magic stone"
+      ]
+    },
+    {
+      "id": "wpn_vicious",
+      "name": "Vicious",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Extra damage to target and to wielder",
+      "source": "DMG Ch.7",
+      "aura": "Moderate necromancy",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "enervation"
+      ]
+    },
+    {
+      "id": "wpn_vorpal",
+      "name": "Vorpal",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Slashing only; decapitation on crit; cannot apply to ranged/ammo",
+      "source": "DMG Ch.7",
+      "aura": "Strong necromancy and transmutation",
+      "required_caster_level": 18,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "circle of death",
+        "keen edge"
+      ]
+    },
+    {
+      "id": "wpn_wounding",
+      "name": "Wounding",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Deals bleed (Con damage) on hit; melee only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "Mordenkainen's sword"
+      ]
+    }
   ]
 }
