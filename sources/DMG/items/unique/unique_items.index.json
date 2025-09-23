@@ -1410,5 +1410,1507 @@
     "required_spells": [],
     "required_spells_note": "Creator must have 10 ranks in the Swim skill"
   },
+   {
+    "id": "uniq_staff_of_abjuration",
+    "name": "Staff of Abjuration",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: shield(1), resist energy(1), dispel magic(1), lesser globe of invulnerability(2), dismissal(2), repulsion(3).",
+    "price_gp": 65000,
+    "aura": "Strong abjuration",
+    "required_caster_level": 13,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "shield",
+      "resist energy",
+      "dispel magic",
+      "lesser globe of invulnerability",
+      "dismissal",
+      "repulsion"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_charming",
+    "name": "Staff of Charming",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: charm person(1), charm monster(2).",
+    "price_gp": 16500,
+    "aura": "Moderate enchantment",
+    "required_caster_level": 8,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "charm person",
+      "charm monster"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_conjuration",
+    "name": "Staff of Conjuration",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: unseen servant(1), summon swarm(1), stinking cloud(1), minor creation(2), cloudkill(2), summon monster VI(3).",
+    "price_gp": 65000,
+    "aura": "Strong conjuration",
+    "required_caster_level": 13,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "unseen servant",
+      "summon swarm",
+      "stinking cloud",
+      "minor creation",
+      "cloudkill",
+      "summon monster VI"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_defense",
+    "name": "Staff of Defense",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: shield(1), shield of faith(1), shield other(1), shield of law(3).",
+    "price_gp": 58250,
+    "aura": "Strong abjuration",
+    "required_caster_level": 15,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "shield",
+      "shield of faith",
+      "shield other",
+      "shield of law"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_divination",
+    "name": "Staff of Divination",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: detect secret doors(1), locate object(1), tongues(1), locate creature(2), prying eyes(2), true seeing(3).",
+    "price_gp": 73500,
+    "aura": "Strong divination",
+    "required_caster_level": 13,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "detect secret doors",
+      "locate object",
+      "tongues",
+      "locate creature",
+      "prying eyes",
+      "true seeing"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_earth_and_stone",
+    "name": "Staff of Earth and Stone",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: passwall(1), move earth(1).",
+    "price_gp": 80500,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 11,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "passwall",
+      "move earth"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_enchantment",
+    "name": "Staff of Enchantment",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: sleep(1), Tasha’s hideous laughter(1), suggestion(1), crushing despair(2), mind fog(2), mass suggestion(3).",
+    "price_gp": 65000,
+    "aura": "Strong enchantment",
+    "required_caster_level": 13,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "sleep",
+      "Tasha’s hideous laughter",
+      "suggestion",
+      "crushing despair",
+      "mind fog",
+      "mass suggestion"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_evocation",
+    "name": "Staff of Evocation",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: magic missile(1), shatter(1), fireball(1), ice storm(2), wall of force(2), chain lightning(3).",
+    "price_gp": 65000,
+    "aura": "Strong evocation",
+    "required_caster_level": 13,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "magic missile",
+      "shatter",
+      "fireball",
+      "ice storm",
+      "wall of force",
+      "chain lightning"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_fire",
+    "name": "Staff of Fire",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: burning hands(1), fireball(1), wall of fire(2).",
+    "price_gp": 17750,
+    "aura": "Moderate evocation",
+    "required_caster_level": 8,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "burning hands",
+      "fireball",
+      "wall of fire"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_frost",
+    "name": "Staff of Frost",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: ice storm(1), wall of ice(1), cone of cold(2).",
+    "price_gp": 56250,
+    "aura": "Moderate evocation",
+    "required_caster_level": 10,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "ice storm",
+      "wall of ice",
+      "cone of cold"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_healing",
+    "name": "Staff of Healing",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: lesser restoration(1), cure serious wounds(1), remove blindness/deafness(2), remove disease(3).",
+    "price_gp": 27750,
+    "aura": "Moderate conjuration",
+    "required_caster_level": 8,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "lesser restoration",
+      "cure serious wounds",
+      "remove blindness/deafness",
+      "remove disease"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_illusion",
+    "name": "Staff of Illusion",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: disguise self(1), mirror image(1), major image(1), rainbow pattern(2), persistent image(2), mislead(3).",
+    "price_gp": 65000,
+    "aura": "Strong illusion",
+    "required_caster_level": 13,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "disguise self",
+      "mirror image",
+      "major image",
+      "rainbow pattern",
+      "persistent image",
+      "mislead"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_illumination",
+    "name": "Staff of Illumination",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: dancing lights(1), flare(1), daylight(2), sunburst(3).",
+    "price_gp": 48250,
+    "aura": "Strong evocation",
+    "required_caster_level": 15,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "dancing lights",
+      "flare",
+      "daylight",
+      "sunburst"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_life",
+    "name": "Staff of Life",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: heal(1), raise dead(5).",
+    "price_gp": 155750,
+    "aura": "Moderate conjuration",
+    "required_caster_level": 11,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "heal",
+      "resurrection"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_necromancy",
+    "name": "Staff of Necromancy",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: cause fear(1), ghoul touch(1), halt undead(1), enervation(2), waves of fatigue(2), circle of death(3).",
+    "price_gp": 65000,
+    "aura": "Strong necromancy",
+    "required_caster_level": 13,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "cause fear",
+      "ghoul touch",
+      "halt undead",
+      "enervation",
+      "waves of fatigue",
+      "circle of death"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_passage",
+    "name": "Staff of Passage",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: dimension door(1), passwall(1), phase door(2), greater teleport(2), astral projection(2).",
+    "price_gp": 170500,
+    "aura": "Strong varied",
+    "required_caster_level": 17,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "dimension door",
+      "passwall",
+      "phase door",
+      "greater teleport",
+      "astral projection"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_power",
+    "name": "Staff of Power",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "+2 quarterstaff; +2 luck bonus to AC/saves; retributive strike. Spells: magic missile(1), ray of enfeeblement (heightened to 5th)(1), continual flame(1), levitate(1), lightning bolt (heightened to 5th)(1), fireball (heightened to 5th)(1), cone of cold(2), hold monster(2), wall of force (hemisphere only)(2), globe of invulnerability(2).",
+    "price_gp": 211000,
+    "aura": "Strong varied",
+    "required_caster_level": 15,
+    "required_feat": "Craft Staff; Craft Magic Arms and Armor",
+    "required_spells": [
+      "magic missile",
+      "ray of enfeeblement",
+      "continual flame",
+      "levitate",
+      "lightning bolt",
+      "fireball",
+      "cone of cold",
+      "hold monster",
+      "wall of force",
+      "globe of invulnerability"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_size_alteration",
+    "name": "Staff of Size Alteration",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: enlarge person(1), reduce person(1), shrink item(1), mass enlarge person(1), mass reduce person(1).",
+    "price_gp": 29000,
+    "aura": "Faint conjuration",
+    "required_caster_level": 8,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "enlarge person",
+      "reduce person",
+      "shrink item",
+      "enlarge person, mass",
+      "reduce person, mass"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_swarming_insects",
+    "name": "Staff of Swarming Insects",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: summon swarm(1), insect plague(3).",
+    "price_gp": 24750,
+    "aura": "Moderate conjuration",
+    "required_caster_level": 9,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "summon swarm",
+      "insect plague"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_transmutation",
+    "name": "Staff of Transmutation",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "Spells: expeditious retreat(1), alter self(1), blink(1), polymorph(2), baleful polymorph(2), disintegrate(3).",
+    "price_gp": 65000,
+    "aura": "Strong transmutation",
+    "required_caster_level": 13,
+    "required_feat": "Craft Staff",
+    "required_spells": [
+      "expeditious retreat",
+      "alter self",
+      "blink",
+      "polymorph",
+      "baleful polymorph",
+      "disintegrate"
+    ]
+  },
+  {
+    "id": "uniq_staff_of_the_woodlands",
+    "name": "Staff of the Woodlands",
+    "category": "staff",
+    "source_page": "DMG p.TBD",
+    "notes": "+2 quarterstaff; pass without trace at will. Spells: charm animal(1), speak with animals(1), barkskin(2), wall of thorns(3), summon nature’s ally VI(3), animate plants(4).",
+    "price_gp": 101250,
+    "aura": "Moderate varied",
+    "required_caster_level": 13,
+    "required_feat": "Craft Staff; Craft Magic Arms and Armor",
+    "required_spells": [
+      "charm animal",
+      "speak with animals",
+      "barkskin",
+      "wall of thorns",
+      "summon nature’s ally VI",
+      "animate plants"
+    ]
+  },
+  {
+      "id": "uniq_amulet_of_health_2",
+      "name": "Amulet of Health +2",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 4000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["bear's endurance"]
+    },
+    {
+      "id": "uniq_amulet_of_health_4",
+      "name": "Amulet of Health +4",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 16000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["bear's endurance"]
+    },
+    {
+      "id": "uniq_amulet_of_health_6",
+      "name": "Amulet of Health +6",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 36000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["bear's endurance"]
+    },
+    {
+      "id": "uniq_amulet_of_mighty_fists_1",
+      "name": "Amulet of Mighty Fists +1",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 6000,
+      "aura": "Faint evocation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["greater magic fang"]
+    },
+    {
+      "id": "uniq_amulet_of_mighty_fists_2",
+      "name": "Amulet of Mighty Fists +2",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 24000,
+      "aura": "Faint evocation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["greater magic fang"]
+    },
+    {
+      "id": "uniq_amulet_of_mighty_fists_3",
+      "name": "Amulet of Mighty Fists +3",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 54000,
+      "aura": "Faint evocation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["greater magic fang"]
+    },
+    {
+      "id": "uniq_amulet_of_mighty_fists_4",
+      "name": "Amulet of Mighty Fists +4",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 96000,
+      "aura": "Faint evocation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["greater magic fang"]
+    },
+    {
+      "id": "uniq_amulet_of_mighty_fists_5",
+      "name": "Amulet of Mighty Fists +5",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 150000,
+      "aura": "Faint evocation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["greater magic fang"]
+    },
+    {
+      "id": "uniq_amulet_of_natural_armor_1",
+      "name": "Amulet of Natural Armor +1",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 2000,
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["barkskin"]
+    },
+    {
+      "id": "uniq_amulet_of_natural_armor_2",
+      "name": "Amulet of Natural Armor +2",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 8000,
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["barkskin"]
+    },
+    {
+      "id": "uniq_amulet_of_natural_armor_3",
+      "name": "Amulet of Natural Armor +3",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 18000,
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["barkskin"]
+    },
+    {
+      "id": "uniq_amulet_of_natural_armor_4",
+      "name": "Amulet of Natural Armor +4",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 32000,
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["barkskin"]
+    },
+    {
+      "id": "uniq_amulet_of_natural_armor_5",
+      "name": "Amulet of Natural Armor +5",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least three times the amulet’s bonus.",
+      "price_gp": 50000,
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["barkskin"]
+    },
+    {
+      "id": "uniq_amulet_of_the_planes",
+      "name": "Amulet of the Planes",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 120000,
+      "aura": "Strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["plane shift"]
+    },
+    {
+      "id": "uniq_amulet_of_proof_against_detection_and_location",
+      "name": "Amulet of Proof against Detection and Location",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Functions as nondetection (DC 19 caster level check to overcome).",
+      "price_gp": 35000,
+      "aura": "Moderate abjuration",
+      "required_caster_level": 8,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["nondetection"]
+    },
+    {
+      "id": "uniq_apparatus_of_kwalish",
+      "name": "Apparatus of Kwalish",
+      "category": "wondrous",
+      "source_page": "DMG p.249",
+      "notes": "Also requires Knowledge (architecture and engineering) 8 ranks.",
+      "price_gp": 90000,
+      "aura": "Strong evocation and transmutation",
+      "required_caster_level": 19,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["animate objects", "continual flame"]
+    },
+    {
+      "id": "uniq_bag_of_holding_type_i",
+      "name": "Bag of Holding (Type I)",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Holds up to 250 lb.; volume limit 30 cu. ft. External weight 15 lb.",
+      "price_gp": 2500,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["Leomund's secret chest"]
+    },
+    {
+      "id": "uniq_bag_of_holding_type_ii",
+      "name": "Bag of Holding (Type II)",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Holds up to 500 lb.; volume limit 70 cu. ft. External weight 25 lb.",
+      "price_gp": 5000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["Leomund's secret chest"]
+    },
+    {
+      "id": "uniq_bag_of_holding_type_iii",
+      "name": "Bag of Holding (Type III)",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Holds up to 1,000 lb.; volume limit 150 cu. ft. External weight 35 lb.",
+      "price_gp": 7400,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["Leomund's secret chest"]
+    },
+    {
+      "id": "uniq_bag_of_holding_type_iv",
+      "name": "Bag of Holding (Type IV)",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Holds up to 1,500 lb.; volume limit 250 cu. ft. External weight 60 lb.",
+      "price_gp": 10000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["Leomund's secret chest"]
+    },
+    {
+      "id": "uniq_bag_of_tricks_gray",
+      "name": "Bag of Tricks (Gray)",
+      "category": "wondrous",
+      "source_page": "DMG p.251",
+      "notes": "Up to ten animals per week; one at a time; random.",
+      "price_gp": 900,
+      "aura": "Faint conjuration",
+      "required_caster_level": 3,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["summon nature's ally II"]
+    },
+    {
+      "id": "uniq_bag_of_tricks_rust",
+      "name": "Bag of Tricks (Rust)",
+      "category": "wondrous",
+      "source_page": "DMG p.251",
+      "notes": "Up to ten animals per week; one at a time; random.",
+      "price_gp": 3000,
+      "aura": "Faint conjuration",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["summon nature's ally III"]
+    },
+    {
+      "id": "uniq_bag_of_tricks_tan",
+      "name": "Bag of Tricks (Tan)",
+      "category": "wondrous",
+      "source_page": "DMG p.251",
+      "notes": "Up to ten animals per week; one at a time; random.",
+      "price_gp": 6300,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["summon nature's ally V"]
+    },
+    {
+      "id": "uniq_bead_of_force",
+      "name": "Bead of Force",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 3000,
+      "aura": "Moderate evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["Otiluke's resilient sphere"]
+    },
+    {
+      "id": "uniq_belt_monks",
+      "name": "Belt, Monk’s",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Also grants +1 daily Stunning Fist use; non-monks gain AC and unarmed damage of 5th-level monk.",
+      "price_gp": 13000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["righteous might", "Tenser's transformation"]
+    },
+    {
+      "id": "uniq_belt_of_dwarvenkind",
+      "name": "Belt of Dwarvenkind",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator must be a dwarf. Grants darkvision 60 ft., stonecunning, Con +2, and save bonuses to non-dwarves.",
+      "price_gp": 14900,
+      "aura": "Moderate divination",
+      "required_caster_level": 12,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["tongues"]
+    },
+    {
+      "id": "uniq_belt_of_giant_strength_4",
+      "name": "Belt of Giant Strength +4",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 16000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["bull's strength"]
+    },
+    {
+      "id": "uniq_belt_of_giant_strength_6",
+      "name": "Belt of Giant Strength +6",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 36000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["bull's strength"]
+    },
+    {
+      "id": "uniq_boat_folding",
+      "name": "Boat, Folding",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator must have Craft (shipmaking) 2 ranks. Three command words toggle box/boat/ship.",
+      "price_gp": 7200,
+      "aura": "Faint transmutation",
+      "required_caster_level": 6,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["fabricate"]
+    },
+    {
+      "id": "uniq_boccobs_blessed_book",
+      "name": "Boccob’s Blessed Book",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 12500,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["secret page"]
+    },
+    {
+      "id": "uniq_boots_of_elvenkind",
+      "name": "Boots of Elvenkind",
+      "category": "wondrous",
+      "source_page": "DMG p.250",
+      "notes": "Grants +5 competence bonus on Move Silently checks; creator must be an elf.",
+      "price_gp": 2500,
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": []
+    },
+    {
+      "id": "uniq_boots_of_levitation",
+      "name": "Boots of Levitation",
+      "category": "wondrous",
+      "source_page": "DMG p.250",
+      "notes": "",
+      "price_gp": 7500,
+      "aura": "Faint transmutation",
+      "required_caster_level": 3,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["levitate"]
+    },
+    {
+      "id": "uniq_boots_of_speed",
+      "name": "Boots of Speed",
+      "category": "wondrous",
+      "source_page": "DMG p.250",
+      "notes": "",
+      "price_gp": 12000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["haste"]
+    },
+    {
+      "id": "uniq_boots_of_striding_and_springing",
+      "name": "Boots of Striding and Springing",
+      "category": "wondrous",
+      "source_page": "DMG p.250",
+      "notes": "Also requires creator to have 5 ranks in Jump.",
+      "price_gp": 5500,
+      "aura": "Faint transmutation",
+      "required_caster_level": 3,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["longstrider"]
+    },
+    {
+      "id": "uniq_boots_of_teleportation",
+      "name": "Boots of Teleportation",
+      "category": "wondrous",
+      "source_page": "DMG p.250",
+      "notes": "",
+      "price_gp": 49000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["teleport"]
+    },
+    {
+      "id": "uniq_boots_of_the_winterlands",
+      "name": "Boots of the Winterlands",
+      "category": "wondrous",
+      "source_page": "DMG p.250",
+      "notes": "",
+      "price_gp": 2500,
+      "aura": "Faint abjuration and transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["cat's grace", "endure elements", "pass without trace"]
+    },
+    {
+      "id": "uniq_boots_winged",
+      "name": "Boots, Winged",
+      "category": "wondrous",
+      "source_page": "DMG p.250",
+      "notes": "",
+      "price_gp": 16000,
+      "aura": "Faint transmutation",
+      "required_caster_level": 5,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["fly"]
+    },
+    {
+      "id": "uniq_bottle_of_air",
+      "name": "Bottle of Air",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 7250,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["water breathing"]
+    },
+    {
+      "id": "uniq_bowl_of_commanding_water_elementals",
+      "name": "Bowl of Commanding Water Elementals",
+      "category": "wondrous",
+      "source_page": "DMG p.251",
+      "notes": "",
+      "price_gp": 100000,
+      "aura": "Strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["summon monster VI", "summon monster VII"]
+    },
+    {
+      "id": "uniq_bracelet_of_friends",
+      "name": "Bracelet of Friends",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 19000,
+      "aura": "Strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["refuge"]
+    },
+    {
+      "id": "uniq_bracers_of_archery_greater",
+      "name": "Bracers of Archery, Greater",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 25000,
+      "aura": "Moderate transmutation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Wondrous Item, Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "uniq_bracers_of_archery_lesser",
+      "name": "Bracers of Archery, Lesser",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 5000,
+      "aura": "Faint transmutation",
+      "required_caster_level": 4,
+      "required_feat": "Craft Wondrous Item, Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "uniq_bracers_of_armor_1",
+      "name": "Bracers of Armor +1",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least twice the bracers’ bonus.",
+      "price_gp": 1000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["mage armor"]
+    },
+    {
+      "id": "uniq_bracers_of_armor_2",
+      "name": "Bracers of Armor +2",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least twice the bracers’ bonus.",
+      "price_gp": 4000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["mage armor"]
+    },
+    {
+      "id": "uniq_bracers_of_armor_3",
+      "name": "Bracers of Armor +3",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least twice the bracers’ bonus.",
+      "price_gp": 9000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["mage armor"]
+    },
+    {
+      "id": "uniq_bracers_of_armor_4",
+      "name": "Bracers of Armor +4",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least twice the bracers’ bonus.",
+      "price_gp": 16000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["mage armor"]
+    },
+    {
+      "id": "uniq_bracers_of_armor_5",
+      "name": "Bracers of Armor +5",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least twice the bracers’ bonus.",
+      "price_gp": 25000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["mage armor"]
+    },
+    {
+      "id": "uniq_bracers_of_armor_6",
+      "name": "Bracers of Armor +6",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least twice the bracers’ bonus.",
+      "price_gp": 36000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["mage armor"]
+    },
+    {
+      "id": "uniq_bracers_of_armor_7",
+      "name": "Bracers of Armor +7",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least twice the bracers’ bonus.",
+      "price_gp": 49000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["mage armor"]
+    },
+    {
+      "id": "uniq_bracers_of_armor_8",
+      "name": "Bracers of Armor +8",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "Creator’s caster level must be at least twice the bracers’ bonus.",
+      "price_gp": 64000,
+      "aura": "Moderate conjuration",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["mage armor"]
+    },
+    {
+      "id": "uniq_brazier_of_commanding_fire_elementals",
+      "name": "Brazier of Commanding Fire Elementals",
+      "category": "wondrous",
+      "source_page": "DMG p.251",
+      "notes": "",
+      "price_gp": 100000,
+      "aura": "Strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["summon monster VI", "summon monster VII"]
+    },
+    {
+      "id": "uniq_brooch_of_shielding",
+      "name": "Brooch of Shielding",
+      "category": "wondrous",
+      "source_page": "DMG p.248",
+      "notes": "",
+      "price_gp": 1500,
+      "aura": "Faint abjuration",
+      "required_caster_level": 1,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": ["shield"]
+    },
+   {
+    "id": "uniq_broom_of_flying",
+    "name": "Broom of Flying",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Flies up to 9 hours/day; 200 lb at 40 ft, 400 lb at 30 ft; can travel unattended to known destination within ~300 yards; speed 40 ft without rider.",
+    "price_gp": 17000.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 9,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "overland flight",
+      "permanency"
+    ]
+  },
+  {
+    "id": "uniq_candle_of_invocation",
+    "name": "Candle of Invocation",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Aligned; allies within 30 ft gain +2 morale to attacks/saves/skills when alignment matches; matching cleric counts as +2 levels for spells/day while burning; can be consumed to cast gate.",
+    "price_gp": 8400.0,
+    "aura": "Strong conjuration",
+    "required_caster_level": 17,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "gate"
+    ]
+  },
+  {
+    "id": "uniq_candle_of_truth",
+    "name": "Candle of Truth",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Creates 5-ft-radius zone of truth (DC 13) for 1 hour while burning; snuffing ruins the candle.",
+    "price_gp": 2500.0,
+    "aura": "Faint enchantment",
+    "required_caster_level": 3,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "zone of truth"
+    ]
+  },
+  {
+    "id": "uniq_cape_of_the_mountebank",
+    "name": "Cape of the Mountebank",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "1/day dimension door; leaves smoke cloud at origin and destination.",
+    "price_gp": 10080.0,
+    "aura": "Moderate conjuration",
+    "required_caster_level": 9,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "dimension door"
+    ]
+  },
+  {
+    "id": "uniq_carpet_of_flying_5_ft_by_5_ft",
+    "name": "Carpet of Flying (5 ft. by 5 ft.)",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Capacity 200 lb; speed 40 ft; average maneuverability; can hover; carrying up to double capacity reduces speed to 30 ft.",
+    "price_gp": 20000.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 10,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "overland flight",
+      "permanency"
+    ]
+  },
+  {
+    "id": "uniq_carpet_of_flying_5_ft_by_10_ft",
+    "name": "Carpet of Flying (5 ft. by 10 ft.)",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Capacity 400 lb; speed 40 ft; average maneuverability; can hover; carrying up to double capacity reduces speed to 30 ft.",
+    "price_gp": 35000.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 10,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "overland flight",
+      "permanency"
+    ]
+  },
+  {
+    "id": "uniq_carpet_of_flying_10_ft_by_10_ft",
+    "name": "Carpet of Flying (10 ft. by 10 ft.)",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Capacity 800 lb; speed 40 ft; average maneuverability; can hover; carrying up to double capacity reduces speed to 30 ft.",
+    "price_gp": 60000.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 10,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "overland flight",
+      "permanency"
+    ]
+  },
+  {
+    "id": "uniq_censer_of_controlling_air_elementals",
+    "name": "Censer of Controlling Air Elementals",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Lighting incense and speaking words summons 1 Large air elemental (as summon monster VI); with incense of meditation, summons an elder air elemental (as summon monster IX). Only one elemental at a time.",
+    "price_gp": 100000.0,
+    "aura": "Strong conjuration",
+    "required_caster_level": 17,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "summon monster VI",
+      "summon monster IX"
+    ]
+  },
+  {
+    "id": "uniq_chaos_diamond",
+    "name": "Chaos Diamond",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Each listed power usable 1d4/day. Nonchaotic possessor gains a negative level while possessed.",
+    "price_gp": 160000.0,
+    "aura": "Strong varied",
+    "required_caster_level": 19,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "cloak of chaos",
+      "magic circle against law",
+      "random action",
+      "word of chaos"
+    ]
+  },
+  {
+    "id": "uniq_chime_of_interruption",
+    "name": "Chime of Interruption",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Struck 1/10 minutes; resonates 3 minutes; casters within 30 ft require Concentration check DC 15 + spell level for verbal-component spells.",
+    "price_gp": 16800.0,
+    "aura": "Moderate evocation",
+    "required_caster_level": 7,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "shout"
+    ]
+  },
+  {
+    "id": "uniq_chime_of_opening",
+    "name": "Chime of Opening",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Opens/loosens targets in 1 round; 10 total uses; also dispels hold portal and arcane lock by casters <15th; silenced if under silence.",
+    "price_gp": 3000.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 11,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "knock"
+    ]
+  },
+  {
+    "id": "uniq_circlet_of_blasting_minor",
+    "name": "Circlet of Blasting, Minor",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "1/day searing light (3d8).",
+    "price_gp": 6480.0,
+    "aura": "Faint evocation",
+    "required_caster_level": 6,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "searing light"
+    ]
+  },
+  {
+    "id": "uniq_circlet_of_blasting_major",
+    "name": "Circlet of Blasting, Major",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "1/day maximized searing light (5d8 → 40).",
+    "price_gp": 23760.0,
+    "aura": "Strong evocation",
+    "required_caster_level": 17,
+    "required_feat": "Craft Wondrous Item; Maximize Spell",
+    "required_spells": [
+      "searing light"
+    ]
+  },
+  {
+    "id": "uniq_circlet_of_persuasion",
+    "name": "Circlet of Persuasion",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "+3 competence bonus on all Charisma-based checks.",
+    "price_gp": 4500.0,
+    "aura": "Faint transmutation",
+    "required_caster_level": 5,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "eagle’s splendor"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_arachnida",
+    "name": "Cloak of Arachnida",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Spider climb effect; immunity to web entrapment; move through webs at half speed; 1/day cast web; +2 luck vs spider poison.",
+    "price_gp": 14000.0,
+    "aura": "Faint conjuration and transmutation",
+    "required_caster_level": 6,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "spider climb",
+      "web"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_the_bat",
+    "name": "Cloak of the Bat",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "+5 competence on Hide; hang from ceilings; fly as spell or polymorph to bat in darkness only; flight power then must recharge over like period.",
+    "price_gp": 26000.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 7,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "fly",
+      "polymorph"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_charisma_2",
+    "name": "Cloak of Charisma +2",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "+2 enhancement to Charisma.",
+    "price_gp": 4000.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 8,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "eagle’s splendor"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_charisma_4",
+    "name": "Cloak of Charisma +4",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "+4 enhancement to Charisma.",
+    "price_gp": 16000.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 8,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "eagle’s splendor"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_charisma_6",
+    "name": "Cloak of Charisma +6",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "+6 enhancement to Charisma.",
+    "price_gp": 36000.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 8,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "eagle’s splendor"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_displacement_minor",
+    "name": "Cloak of Displacement, Minor",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Constant 20% miss chance (as displacement).",
+    "price_gp": 24000.0,
+    "aura": "Faint illusion",
+    "required_caster_level": 3,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "displacement"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_displacement_major",
+    "name": "Cloak of Displacement, Major",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "As displacement; total 15 rounds/day, split as desired.",
+    "price_gp": 50000.0,
+    "aura": "Moderate illusion",
+    "required_caster_level": 7,
+    "required_feat": "Craft Wondrous Item; Extend Spell",
+    "required_spells": [
+      "displacement"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_elvenkind",
+    "name": "Cloak of Elvenkind",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "+5 competence on Hide; creator must be an elf.",
+    "price_gp": 2500.0,
+    "aura": "Faint illusion",
+    "required_caster_level": 3,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "invisibility"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_etherealness",
+    "name": "Cloak of Etherealness",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Ethereal jaunt on command; up to 10 minutes/day, dismissible.",
+    "price_gp": 55000.0,
+    "aura": "Strong transmutation",
+    "required_caster_level": 15,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "ethereal jaunt"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_the_manta_ray",
+    "name": "Cloak of the Manta Ray",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "+3 natural armor; swim 60 ft; underwater breathing; tail spine attack 1d6 as secondary; arms can be freed without losing swim speed.",
+    "price_gp": 7200.0,
+    "aura": "Moderate transmutation",
+    "required_caster_level": 9,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "polymorph",
+      "water breathing"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_resistance_1",
+    "name": "Cloak of Resistance +1",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Grants resistance bonus on all saves; creator level must be at least 3× bonus.",
+    "price_gp": 1000.0,
+    "aura": "Faint abjuration",
+    "required_caster_level": 5,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "resistance"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_resistance_2",
+    "name": "Cloak of Resistance +2",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Grants resistance bonus on all saves; creator level must be at least 3× bonus.",
+    "price_gp": 4000.0,
+    "aura": "Faint abjuration",
+    "required_caster_level": 5,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "resistance"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_resistance_3",
+    "name": "Cloak of Resistance +3",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Grants resistance bonus on all saves; creator level must be at least 3× bonus.",
+    "price_gp": 9000.0,
+    "aura": "Faint abjuration",
+    "required_caster_level": 5,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "resistance"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_resistance_4",
+    "name": "Cloak of Resistance +4",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Grants resistance bonus on all saves; creator level must be at least 3× bonus.",
+    "price_gp": 16000.0,
+    "aura": "Faint abjuration",
+    "required_caster_level": 5,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "resistance"
+    ]
+  },
+  {
+    "id": "uniq_cloak_of_resistance_5",
+    "name": "Cloak of Resistance +5",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Grants resistance bonus on all saves; creator level must be at least 3× bonus.",
+    "price_gp": 25000.0,
+    "aura": "Faint abjuration",
+    "required_caster_level": 5,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "resistance"
+    ]
+  },
+  {
+    "id": "uniq_crystal_ball",
+    "name": "Crystal Ball",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "Scrying device; Will DC 16 negates for target.",
+    "price_gp": 42000.0,
+    "aura": "Moderate divination",
+    "required_caster_level": 10,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "scrying"
+    ]
+  },
+  {
+    "id": "uniq_crystal_ball_see_invisibility",
+    "name": "Crystal Ball (See Invisibility)",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "As crystal ball; includes see invisibility.",
+    "price_gp": 50000.0,
+    "aura": "Moderate divination",
+    "required_caster_level": 10,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "scrying",
+      "see invisibility"
+    ]
+  },
+  {
+    "id": "uniq_crystal_ball_detect_thoughts",
+    "name": "Crystal Ball (Detect Thoughts)",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "As crystal ball; includes detect thoughts (Will DC 13).",
+    "price_gp": 51000.0,
+    "aura": "Moderate divination",
+    "required_caster_level": 10,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "scrying",
+      "detect thoughts"
+    ]
+  },
+  {
+    "id": "uniq_crystal_ball_telepathy",
+    "name": "Crystal Ball (Telepathy)",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "As crystal ball; telepathic communication and 1/day suggestion (DC 14).",
+    "price_gp": 70000.0,
+    "aura": "Moderate divination",
+    "required_caster_level": 10,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "scrying",
+      "suggestion"
+    ]
+  },
+  {
+    "id": "uniq_crystal_ball_true_seeing",
+    "name": "Crystal Ball (True Seeing)",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "As crystal ball; includes true seeing.",
+    "price_gp": 80000.0,
+    "aura": "Moderate divination",
+    "required_caster_level": 10,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "scrying",
+      "true seeing"
+    ]
+  },
+  {
+    "id": "uniq_cube_of_force",
+    "name": "Cube of Force",
+    "category": "wondrous",
+    "source_page": null,
+    "notes": "10-ft cube personal wall of force; 36 charges renewed daily; face modes with charge/minute and speed limits; high damage drains extra charges.",
+    "price_gp": 62000.0,
+    "aura": "Moderate evocation",
+    "required_caster_level": 10,
+    "required_feat": "Craft Wondrous Item",
+    "required_spells": [
+      "wall of force"
+    ]
+  }
   ]
 }
