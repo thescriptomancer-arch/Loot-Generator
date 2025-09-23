@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "category": "ring",
+  "steps": [
+    {
+      "id": "tier_select",
+      "name": "Select Treasure Tier",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "tier": ["minor","medium","major"] } },
+      "weights": { "tier": { "minor": 50, "medium": 35, "major": 15 } },
+      "output_bindings": { "tier": "tier" }
+    },
+    {
+      "id": "build_mode",
+      "name": "Specific vs Procedural",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "mode": ["procedural","specific_from_index"] } },
+      "weights": {
+        "mode_by_tier": {
+          "minor": { "procedural": 85, "specific_from_index": 15 },
+          "medium": { "procedural": 75, "specific_from_index": 25 },
+          "major": { "procedural": 70, "specific_from_index": 30 }
+        }
+      },
+      "rules": { "use_tier_weights": true },
+      "output_bindings": { "ring.build_mode": "mode" }
+    },
+    {
+      "id": "specific_pick",
+      "name": "Pick Specific Ring",
+      "kind": "select_base_item",
+      "inputs": { "from_table": "sources/DMG/items/unique/unique_items.index.json" },
+      "rules": {
+        "only_if": { "ring.build_mode": "specific_from_index" },
+        "filter_by_field_equals": { "category": "ring" },
+        "skip_if_table_missing": true
+      },
+      "output_bindings": {
+        "specific.id": "row.id",
+        "specific.name": "row.name",
+        "specific.source_page": "row.source_page"
+      }
+    },
+    {
+      "id": "slot",
+      "name": "Assign Slot",
+      "kind": "select_base_item",
+      "inputs": { "inline_choices": { "slot": ["ring"] } },
+      "weights": { "slot": { "ring": 100 } },
+      "output_bindings": { "ring.slot": "slot" }
+    },
+    {
+      "id": "effects_determine",
+      "name": "Determine Procedural Effects",
+      "kind": "ring_effect_build",
+      "inputs": {
+        "inline_templates": [
+          {
+            "id": "ring_endure_elements_continuous",
+            "name": "Endure Elements (continuous)",
+            "spell_id": "SPELL_ENDURE_ELEMENTS",
+            "spell_level": 1,
+            "caster_level": 1,
+            "activation": "continuous",
+            "duration_category": "twenty_four_hours",
+            "charges_per_day": null,
+            "formula_kind": "continuous_spell"
+          },
+          {
+            "id": "ring_invisibility_3day",
+            "name": "Invisibility (3/day, command word)",
+            "spell_id": "SPELL_INVISIBILITY",
+            "spell_level": 2,
+            "caster_level": 3,
+            "activation": "command_word",
+            "duration_category": "minutes_per_level",
+            "charges_per_day": 3,
+            "formula_kind": "command_word_spell"
+          },
+          {
+            "id": "ring_blink_1day",
+            "name": "Blink (1/day, command word)",
+            "spell_id": "SPELL_BLINK",
+            "spell_level": 3,
+            "caster_level": 5,
+            "activation": "command_word",
+            "duration_category": "rounds_per_level",
+            "charges_per_day": 1,
+            "formula_kind": "command_word_spell"
+          },
+          {
+            "id": "ring_feather_fall_use",
+            "name": "Feather Fall (use-activated)",
+            "spell_id": "SPELL_FEATHER_FALL",
+            "spell_level": 1,
+            "caster_level": 1,
+            "activation": "use_activated",
+            "duration_category": "instantaneous",
+            "charges_per_day": null,
+            "formula_kind": "use_activated_spell"
+          },
+          {
+            "id": "ring_protection_bonus",
+            "name": "Deflection Bonus to AC",
+            "bonus_type": "deflection",
+            "bonus_min": 1,
+            "bonus_max": 5,
+            "formula_kind": "bonus_squared",
+            "coeff_gp": 2000
+          },
+          {
+            "id": "ring_energy_resistance_continuous",
+            "name": "Energy Resistance (continuous)",
+            "spell_id": "SPELL_RESIST_ENERGY",
+            "spell_level": 2,
+            "caster_level_choices": [
+              { "cl": 3, "magnitude": 10 },
+              { "cl": 7, "magnitude": 20 },
+              { "cl": 11, "magnitude": 30 }
+            ],
+            "activation": "continuous",
+            "duration_category": "ten_minutes_per_level",
+            "charges_per_day": null,
+            "formula_kind": "continuous_spell",
+            "param_select": { "energy_type": ["acid","cold","electricity","fire","sonic"] }
+          },
+          {
+            "id": "ring_water_breathing_1day",
+            "name": "Water Breathing (1/day, command word)",
+            "spell_id": "SPELL_WATER_BREATHING",
+            "spell_level": 3,
+            "caster_level": 5,
+            "activation": "command_word",
+            "duration_category": "hours_per_level",
+            "charges_per_day": 1,
+            "formula_kind": "command_word_spell"
+          },
+          {
+            "id": "ring_freedom_of_movement_1day",
+            "name": "Freedom of Movement (1/day, command word)",
+            "spell_id": "SPELL_FREEDOM_OF_MOVEMENT",
+            "spell_level": 4,
+            "caster_level": 7,
+            "activation": "command_word",
+            "duration_category": "minutes_per_level",
+            "charges_per_day": 1,
+            "formula_kind": "command_word_spell"
+          }
+        ]
+      },
+      "weights": {
+        "template_by_tier": {
+          "minor": {
+            "ring_endure_elements_continuous": 22,
+            "ring_invisibility_3day": 16,
+            "ring_blink_1day": 6,
+            "ring_feather_fall_use": 24,
+            "ring_protection_bonus": 22,
+            "ring_energy_resistance_continuous": 8,
+            "ring_water_breathing_1day": 2,
+            "ring_freedom_of_movement_1day": 0
+          },
+          "medium": {
+            "ring_endure_elements_continuous": 10,
+            "ring_invisibility_3day": 20,
+            "ring_blink_1day": 12,
+            "ring_feather_fall_use": 10,
+            "ring_protection_bonus": 24,
+            "ring_energy_resistance_continuous": 16,
+            "ring_water_breathing_1day": 6,
+            "ring_freedom_of_movement_1day": 2
+          },
+          "major": {
+            "ring_endure_elements_continuous": 5,
+            "ring_invisibility_3day": 18,
+            "ring_blink_1day": 15,
+            "ring_feather_fall_use": 4,
+            "ring_protection_bonus": 26,
+            "ring_energy_resistance_continuous": 20,
+            "ring_water_breathing_1day": 6,
+            "ring_freedom_of_movement_1day": 6
+          }
+        },
+        "protection_bonus_by_tier": {
+          "minor": { "1": 65, "2": 25, "3": 10, "4": 0, "5": 0 },
+          "medium": { "1": 25, "2": 40, "3": 25, "4": 8, "5": 2 },
+          "major": { "1": 0, "2": 20, "3": 35, "4": 30, "5": 15 }
+        },
+        "resist_energy_cl_choice_by_tier": {
+          "minor": { "3": 75, "7": 25, "11": 0 },
+          "medium": { "3": 35, "7": 50, "11": 15 },
+          "major": { "3": 10, "7": 45, "11": 45 }
+        }
+      },
+      "rules": {
+        "only_if": { "ring.build_mode": "procedural" },
+        "select_count_by_tier": { "minor": 1, "medium": 1, "major": 1 }
+      },
+      "output_bindings": {
+        "procedural.effects": "result.effects",
+        "pricing.formulae": "result.formulae",
+        "procedural.metadata": "result.metadata"
+      }
+    },
+    {
+      "id": "multiple_abilities",
+      "name": "Multiple Different Abilities",
+      "kind": "compound_ability_packaging",
+      "inputs": { "inline_choices": { "add_count": [0,1,2] } },
+      "weights": {
+        "add_count_by_tier": {
+          "minor": { "0": 90, "1": 10, "2": 0 },
+          "medium": { "0": 70, "1": 25, "2": 5 },
+          "major": { "0": 55, "1": 35, "2": 10 }
+        }
+      },
+      "rules": {
+        "only_if": { "ring.build_mode": "procedural" },
+        "pairing_strategy": "lower_priced_abilities_get_multiplier",
+        "multiplier_slot_items": 1.5
+      },
+      "output_bindings": {
+        "procedural.additional_effects": "result.added",
+        "pricing.compound_multiplier_applied": "result.multiplier_applied"
+      }
+    },
+    {
+      "id": "int_check",
+      "name": "Intelligent Item Check",
+      "kind": "intelligent_item_check",
+      "weights": { "chance_pct_by_tier": { "minor": 1, "medium": 2, "major": 4 } },
+      "output_bindings": { "intelligent.is_intelligent": "result.pass" }
+    },
+    {
+      "id": "int_build",
+      "name": "Build Intelligence",
+      "kind": "intelligent_item_build",
+      "inputs": { "tables": "sources/DMG/items/magic/intelligent_item_tables.core.json" },
+      "rules": { "enforce_alignment_constraints": true, "compute_ego": true },
+      "output_bindings": { "intelligent.profile": "result.profile", "intelligent.ego": "result.ego" }
+    },
+    {
+      "id": "curse_check",
+      "name": "Cursed Item Check",
+      "kind": "cursed_item_check",
+      "inputs": { "tables": "sources/DMG/items/magic/cursed_item_tables.core.json" },
+      "weights": { "curse_roll_pct": 5 },
+      "output_bindings": { "cursed.roll": "result.roll", "cursed.is_cursed": "result.pass" }
+    },
+    {
+      "id": "curse_apply",
+      "name": "Apply Curse",
+      "kind": "cursed_item_apply",
+      "rules": { "select_family_by_tier": true },
+      "output_bindings": { "cursed.details": "result.curse" }
+    },
+    {
+      "id": "flavor",
+      "name": "Item Flavor",
+      "kind": "flavor",
+      "rules": {
+        "ai_flavor_allowed": true,
+        "tone": "evocative",
+        "respect_spell_theme": true
+      },
+      "output_bindings": { "flavor.text": "result.text", "flavor.tags": "result.tags" }
+    },
+    {
+      "id": "desc",
+      "name": "Item Description Synthesis",
+      "kind": "description_synth",
+      "rules": { "include_blocks": ["slot","procedural_effects","intelligence","curse","pricing","history"], "omit_if_absent": true },
+      "output_bindings": { "description.text": "result.text" }
+    },
+    {
+      "id": "pricing",
+      "name": "Pricing and Finalization",
+      "kind": "magic_core",
+      "rules": {
+        "formulas": {
+          "command_word_factor": 1800,
+          "use_activated_factor": 2000,
+          "continuous_factor": 2000,
+          "charges_per_day_divisor": 5.0,
+          "duration_multipliers": {
+            "rounds_per_level": 4.0,
+            "minutes_per_level": 2.0,
+            "ten_minutes_per_level": 1.5,
+            "hours_per_level": 1.0,
+            "twenty_four_hours": 2.0,
+            "instantaneous": 2.0
+          }
+        },
+        "apply_compound_multiplier": true,
+        "support_bonus_squared": true
+      },
+      "output_bindings": {
+        "pricing.total_gp": "result.total_gp",
+        "pricing.breakdown": "result.breakdown"
+      }
+    }
+  ]
+}
