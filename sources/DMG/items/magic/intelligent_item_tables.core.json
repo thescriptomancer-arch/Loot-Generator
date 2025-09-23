@@ -4,16 +4,157 @@
   "chapter": "Magic Items",
   "section": "Intelligent Items",
   "tables": {
-    "int_wis_cha_capabilities": "DMG Table 7-30",
-    "alignment": "DMG: Intelligent Item Alignment",
-    "communication_senses": "DMG: Item Communication & Senses",
-    "lesser_powers": "DMG: Intelligent Item Lesser Powers",
-    "greater_powers": "DMG: Intelligent Item Greater Powers",
-    "special_purpose": "DMG: Special Purpose",
-    "purpose_power": "DMG: Dedicated Power"
+    "alignment": {
+      "fields": ["id", "name", "weights_minor", "weights_medium", "weights_major"],
+      "rows": [
+        ["LG", "Lawful Good", 11, 11, 11],
+        ["NG", "Neutral Good", 11, 11, 11],
+        ["CG", "Chaotic Good", 11, 11, 11],
+        ["LN", "Lawful Neutral", 11, 11, 11],
+        ["N",  "Neutral", 12, 12, 12],
+        ["CN", "Chaotic Neutral", 11, 11, 11],
+        ["LE", "Lawful Evil", 11, 11, 11],
+        ["NE", "Neutral Evil", 11, 11, 11],
+        ["CE", "Chaotic Evil", 11, 11, 11]
+      ]
+    },
+
+    "ability_score_bands": {
+      "fields": ["id", "int_min", "int_max", "wis_min", "wis_max", "cha_min", "cha_max", "lesser_powers", "greater_powers", "languages_known", "ego_adj"],
+      "rows": [
+        ["band_10_12", 10, 12, 10, 12, 10, 12, 1, 0, 1, 0],
+        ["band_13_14", 13, 14, 10, 14, 10, 14, 2, 0, 2, 1],
+        ["band_15_16", 15, 16, 12, 16, 12, 16, 2, 1, 3, 2],
+        ["band_17_18", 17, 18, 14, 18, 14, 18, 3, 1, 4, 3],
+        ["band_19_20", 19, 20, 16, 20, 16, 20, 3, 2, 4, 4]
+      ]
+    },
+
+    "communication": {
+      "fields": ["id", "name", "min_int", "weights_minor", "weights_medium", "weights_major", "ego_value"],
+      "rows": [
+        ["comm_empathy",   "Empathy",           10, 60, 40, 30, 0],
+        ["comm_speech",    "Speech",            12, 30, 40, 40, 1],
+        ["comm_telepathy", "Telepathy 120 ft.", 14, 10, 20, 30, 2]
+      ]
+    },
+
+    "senses": {
+      "fields": ["id", "name", "range_ft", "weights_minor", "weights_medium", "weights_major", "ego_value"],
+      "rows": [
+        ["sense_darkvision_60", "Darkvision", 60, 40, 35, 30, 1],
+        ["sense_hearing",       "Keen hearing", 0, 30, 25, 20, 1],
+        ["sense_blindsense_30", "Blindsense", 30, 10, 20, 25, 1],
+        ["sense_lifesense_30",  "Life sense", 30, 5, 10, 15, 1],
+        ["sense_see_invisibility", "See invisibility", 0, 15, 20, 25, 1]
+      ]
+    },
+
+    "lesser_powers": {
+      "fields": ["id", "name", "effect_type", "spell_id", "usage", "weights_minor", "weights_medium", "weights_major", "ego_value"],
+      "rows": [
+        ["lp_detect_magic_at_will",  "Detect Magic",       "spell_like", "SPELL_DETECT_MAGIC",       "at_will", 30, 25, 15, 1],
+        ["lp_light_at_will",         "Light",              "spell_like", "SPELL_LIGHT",              "at_will", 25, 20, 10, 1],
+        ["lp_detect_evil_3day",      "Detect Evil",        "spell_like", "SPELL_DETECT_EVIL",        "3_per_day", 15, 12, 8, 1],
+        ["lp_detect_good_3day",      "Detect Good",        "spell_like", "SPELL_DETECT_GOOD",        "3_per_day", 15, 12, 8, 1],
+        ["lp_detect_law_3day",       "Detect Law",         "spell_like", "SPELL_DETECT_LAW",         "3_per_day", 10, 10, 8, 1],
+        ["lp_detect_chaos_3day",     "Detect Chaos",       "spell_like", "SPELL_DETECT_CHAOS",       "3_per_day", 10, 10, 8, 1],
+        ["lp_detect_undead_3day",    "Detect Undead",      "spell_like", "SPELL_DETECT_UNDEAD",      "3_per_day", 12, 12, 10, 1],
+        ["lp_detect_poison_3day",    "Detect Poison",      "spell_like", "SPELL_DETECT_POISON",      "3_per_day", 12, 12, 10, 1],
+        ["lp_read_magic_at_will",    "Read Magic",         "spell_like", "SPELL_READ_MAGIC",         "at_will", 20, 15, 10, 1],
+        ["lp_comprehend_lang_1day",  "Comprehend Languages","spell_like", "SPELL_COMPREHEND_LANGUAGES","1_per_day", 12, 15, 12, 1],
+        ["lp_bless_1day",            "Bless",              "spell_like", "SPELL_BLESS",              "1_per_day", 10, 12, 12, 1],
+        ["lp_cure_light_wounds_1day","Cure Light Wounds",  "spell_like", "SPELL_CURE_LIGHT_WOUNDS",  "1_per_day", 8, 10, 12, 1]
+      ]
+    },
+
+    "greater_powers": {
+      "fields": ["id", "name", "effect_type", "spell_id", "usage", "weights_minor", "weights_medium", "weights_major", "ego_value", "notes"],
+      "rows": [
+        ["gp_invisibility_3day",   "Invisibility",       "spell_like", "SPELL_INVISIBILITY",       "3_per_day", 4, 8, 10, 2, ""],
+        ["gp_see_invisibility",    "See Invisibility",   "spell_like", "SPELL_SEE_INVISIBILITY",   "at_will",   4, 8, 10, 2, ""],
+        ["gp_levitate_1day",       "Levitate",           "spell_like", "SPELL_LEVITATE",           "1_per_day", 3, 7, 9, 2, ""],
+        ["gp_fly_1day",            "Fly",                "spell_like", "SPELL_FLY",                "1_per_day", 2, 5, 8, 2, ""],
+        ["gp_telekinesis_1day",    "Telekinesis",        "spell_like", "SPELL_TELEKINESIS",        "1_per_day", 1, 3, 6, 2, ""],
+        ["gp_daylight_1day",       "Daylight",           "spell_like", "SPELL_DAYLIGHT",           "1_per_day", 4, 6, 8, 2, ""],
+        ["gp_haste_1day",          "Haste",              "spell_like", "SPELL_HASTE",              "1_per_day", 2, 5, 7, 2, ""],
+        ["gp_slow_1day",           "Slow",               "spell_like", "SPELL_SLOW",               "1_per_day", 2, 5, 7, 2, ""],
+        ["gp_cure_serious_1day",   "Cure Serious Wounds","spell_like", "SPELL_CURE_SERIOUS_WOUNDS","1_per_day", 1, 3, 5, 2, ""],
+        ["gp_dispel_magic_3day",   "Dispel Magic",       "spell_like", "SPELL_DISPEL_MAGIC",       "3_per_day", 3, 7, 9, 2, ""],
+        ["gp_true_seeing_1day",    "True Seeing",        "spell_like", "SPELL_TRUE_SEEING",        "1_per_day", 0, 2, 4, 2, ""],
+        ["gp_plane_shift_1week",   "Plane Shift",        "spell_like", "SPELL_PLANE_SHIFT",        "1_per_week", 0, 1, 2, 2, ""]
+      ]
+    },
+
+    "special_purpose": {
+      "fields": ["id", "name", "target_archetype", "weights_minor", "weights_medium", "weights_major"],
+      "rows": [
+        ["sp_purge_undead",      "Defeat or destroy undead", "undead", 10, 12, 14],
+        ["sp_purge_dragons",     "Defeat or destroy dragons", "dragon", 8, 10, 12],
+        ["sp_purge_arcane",      "Defeat or humble arcane spellcasters", "arcane_caster", 8, 10, 12],
+        ["sp_purge_divine",      "Defeat or humble divine spellcasters", "divine_caster", 8, 10, 12],
+        ["sp_purge_outsiders",   "Defeat or banish evil outsiders", "evil_outsider", 8, 10, 12],
+        ["sp_protect_innocent",  "Protect innocents and smite oppressors", "oppressor", 10, 12, 14],
+        ["sp_overthrow_tyrants", "Overthrow tyrants and unjust rulers", "tyrant", 8, 10, 12],
+        ["sp_destroy_constructs","Destroy constructs", "construct", 6, 8, 10],
+        ["sp_cleanse_aberrant",  "Cleanse aberrations", "aberration", 6, 8, 10]
+      ]
+    },
+
+    "dedicated_powers": {
+      "fields": ["id", "name", "assoc_purpose_ids", "effect_type", "spell_id", "usage", "ego_value"],
+      "rows": [
+        ["dp_smite_3day",      "Smite purpose", ["sp_purge_undead","sp_purge_dragons","sp_purge_outsiders","sp_protect_innocent","sp_overthrow_tyrants"], "special", "", "3_per_day", 4],
+        ["dp_bane_aura",       "Bane aura vs purpose", ["sp_purge_undead","sp_purge_dragons","sp_destroy_constructs","sp_cleanse_aberrant"], "special", "", "constant", 4],
+        ["dp_dimensional_anchor","Dimensional Anchor vs purpose", ["sp_purge_outsiders"], "spell_like", "SPELL_DIMENSIONAL_ANCHOR", "3_per_day", 4],
+        ["dp_dismissal_1day",  "Dismissal vs purpose", ["sp_purge_outsiders"], "spell_like", "SPELL_DISMISSAL", "1_per_day", 4],
+        ["dp_hold_person_3day","Hold Person vs purpose", ["sp_purge_arcane","sp_purge_divine","sp_overthrow_tyrants"], "spell_like", "SPELL_HOLD_PERSON", "3_per_day", 4],
+        ["dp_sunburst_1day",   "Sunburst vs undead", ["sp_purge_undead"], "spell_like", "SPELL_SUNBURST", "1_per_day", 4],
+        ["dp_shatter_3day",    "Shatter vs constructs", ["sp_destroy_constructs"], "spell_like", "SPELL_SHATTER", "3_per_day", 4],
+        ["dp_true_seeing_vs",  "True Seeing against purpose", ["sp_purge_arcane","sp_purge_divine","sp_purge_outsiders","sp_overthrow_tyrants"], "spell_like", "SPELL_TRUE_SEEING", "1_per_day", 4]
+      ]
+    }
   },
-  "ego_formula": "DMG text: Ego combines enhancement, abilities, communication/senses, powers, special purpose.",
-  "behavior_notes": "Items act on owner’s initiative; can activate powers; may impose negative levels on misaligned wielders; contested control via Ego vs wielder; items may act against owners under conflict.",
-  "source_pages": "DMG Ch.7, Intelligent Items",
-  "references": ["DMG tables & text"]
+
+  "ego_scoring": {
+    "base_from_enhancement": true,
+    "per_special_ability_bonus_equiv": 1,
+    "communication_ego": {
+      "comm_empathy": 0,
+      "comm_speech": 1,
+      "comm_telepathy": 2
+    },
+    "senses_ego_per_sense": 1,
+    "lesser_power_ego_each": 1,
+    "greater_power_ego_each": 2,
+    "special_purpose_ego": 4,
+    "dedicated_power_ego": 4
+  },
+
+  "roll_profiles": {
+    "minor": {
+      "alignment_table": "alignment",
+      "band_weights": [["band_10_12", 55], ["band_13_14", 30], ["band_15_16", 10], ["band_17_18", 5]],
+      "communication_table": "communication",
+      "senses_table": "senses",
+      "lesser_count_overrides": null,
+      "greater_count_overrides": null
+    },
+    "medium": {
+      "alignment_table": "alignment",
+      "band_weights": [["band_10_12", 35], ["band_13_14", 35], ["band_15_16", 20], ["band_17_18", 10]],
+      "communication_table": "communication",
+      "senses_table": "senses",
+      "lesser_count_overrides": null,
+      "greater_count_overrides": null
+    },
+    "major": {
+      "alignment_table": "alignment",
+      "band_weights": [["band_10_12", 25], ["band_13_14", 35], ["band_15_16", 25], ["band_17_18", 15]],
+      "communication_table": "communication",
+      "senses_table": "senses",
+      "lesser_count_overrides": null,
+      "greater_count_overrides": null
+    }
+  }
 }
