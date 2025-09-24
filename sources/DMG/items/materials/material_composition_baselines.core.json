@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG",
+  "chapter": "Special Materials",
+  "section": "Material Composition Baselines (Stub, token-aligned)",
+  "fields": [
+    "id",
+    "material_composition",
+    "applies_to",
+    "item_filters",
+    "notes"
+  ],
+  "rows": [
+    [
+      "comp_metal_general",
+      "metal_only",
+      [
+        "weapon",
+        "armor",
+        "shield",
+        "ammunition"
+      ],
+      {
+        "include_categories": [
+          "weapon",
+          "armor",
+          "shield",
+          "ammunition"
+        ]
+      },
+      "Use when base item is primarily metal."
+    ],
+    [
+      "comp_wood_general",
+      "wooden_only",
+      [
+        "weapon",
+        "shield",
+        "staff"
+      ],
+      {
+        "include_item_names": [
+          "club",
+          "quarterstaff",
+          "wooden shield",
+          "greatclub"
+        ]
+      },
+      "Use when base item is primarily wood."
+    ],
+    [
+      "comp_leather_general",
+      "leather_only",
+      [
+        "armor"
+      ],
+      {
+        "include_item_names": [
+          "padded",
+          "leather",
+          "studded leather",
+          "hide"
+        ]
+      },
+      "Use for flexible leather/hide armors."
+    ],
+    [
+      "comp_textile_general",
+      "textile_only",
+      [
+        "wondrous",
+        "armor"
+      ],
+      {
+        "include_item_names": [
+          "robe"
+        ]
+      },
+      "Textile baseline for robes / garments."
+    ],
+    [
+      "comp_stone_capable",
+      "stone_capable_only",
+      [
+        "weapon",
+        "ammunition"
+      ],
+      {
+        "include_item_names": [
+          "club",
+          "spear",
+          "javelin",
+          "sling bullet",
+          "arrow",
+          "bolt"
+        ],
+        "notes": "TODO: confirm exact primitives per DMG"
+      },
+      "Primitive-capable bases where stone substitution is rules-legal."
+    ]
+  ]
+}
