@@ -3,10 +3,16 @@
   "source": "MIC",
   "chapter": "Special Magic Item Rules",
   "section": "Augment Crystals",
-  "fields": ["id","name","applies_to","tier","min_enhancement","effect_tags","price_gp","notes","source_page"],
-  "rows": [
-    ["mic_crystal_true_death_least","Crystal of True Death (Least)",["weapon"],"least",1,["vs_undead"],1000,"Requires magical weapon.","MIC p. ???"],
-    ["mic_crystal_true_death_lesser","Crystal of True Death (Lesser)",["weapon"],"lesser",2,["vs_undead"],5000,"","MIC p. ???"],
-    ["mic_crystal_true_death_greater","Crystal of True Death (Greater)",["weapon"],"greater",3,["vs_undead"],10000,"","MIC p. ???"]
-  ]
+  "fields": [
+    "id",
+    "name",
+    "applies_to",
+    "tier",
+    "min_enhancement",
+    "effect_tags",
+    "price_gp",
+    "notes",
+    "source_page"
+  ],
+  "rows": []
 }
