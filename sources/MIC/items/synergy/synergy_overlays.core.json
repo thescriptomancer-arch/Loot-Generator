@@ -14,5 +14,98 @@
     "notes",
     "source_page"
   ],
-  "rows": []
+  "rows": [
+    {
+      "id": "mic_syn_agility_improved",
+      "applies_to": "armor",
+      "requires_all_properties": [
+        "mic_arm_agility"
+      ],
+      "grants_effect_tags": [
+        "improved_agility"
+      ],
+      "price_add_gp": 4000,
+      "effective_bonus_add": 0,
+      "stacking_rules": "Requires Agility; upgrades the save bonus to +3.",
+      "notes": "As agility but grants +3 resistance on Reflex saves.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_agility_greater",
+      "applies_to": "armor",
+      "requires_all_properties": [
+        "mic_arm_agility",
+        "mic_syn_agility_improved"
+      ],
+      "grants_effect_tags": [
+        "greater_agility"
+      ],
+      "price_add_gp": 8000,
+      "effective_bonus_add": 0,
+      "stacking_rules": "Requires Improved Agility; upgrades the save bonus to +5.",
+      "notes": "As agility but grants +5 resistance on Reflex saves.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_anchoring_greater",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "mic_arm_anchoring"
+      ],
+      "grants_effect_tags": [
+        "greater_anchoring"
+      ],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Adds +1 effective bonus; total with base is +2; grants +10 vs bull rush/overrun/trip.",
+      "notes": "As anchoring but +10 enhancement vs bull rush/overrun/trip.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_blurring_greater",
+      "applies_to": "armor",
+      "requires_all_properties": [
+        "mic_arm_blurring"
+      ],
+      "grants_effect_tags": [
+        "greater_blurring"
+      ],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Adds +1 effective bonus; duration becomes 10 minutes; activation unlimited/day.",
+      "notes": "As blurring but 10-minute duration and unlimited activations per day.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_balance_improved",
+      "applies_to": "armor",
+      "requires_all_properties": [
+        "mic_arm_balance"
+      ],
+      "grants_effect_tags": [
+        "improved_balance"
+      ],
+      "price_add_gp": 11250,
+      "effective_bonus_add": 0,
+      "stacking_rules": "Requires Balance; upgrades competence bonus on Balance checks to +10.",
+      "notes": "As balance, but +10 competence bonus on Balance checks.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_balance_greater",
+      "applies_to": "armor",
+      "requires_all_properties": [
+        "mic_arm_balance",
+        "mic_syn_balance_improved"
+      ],
+      "grants_effect_tags": [
+        "greater_balance"
+      ],
+      "price_add_gp": 18750,
+      "effective_bonus_add": 0,
+      "stacking_rules": "Requires Improved Balance; upgrades competence bonus on Balance checks to +15.",
+      "notes": "As balance, but +15 competence bonus on Balance checks.",
+      "source_page": "MIC Ch.1"
+    }
+  ]
 }
