@@ -24,6 +24,22 @@
         "sources/PHB/spells/core/lists.ranger.json",
         "sources/PHB/spells/core/lists.sorcerer_wizard.json"
       ]
+    },
+    {
+      "book": "DMG v3.5",
+      "roots": [
+        "sources/DMG/items"
+      ],
+      "load_order": [
+        "sources/DMG/items/materials/materials.core.json",
+        "sources/DMG/items/materials/material_composition_baselines.core.json",
+        "sources/DMG/items/wondrous/wondrous_effects.core.json",
+        "sources/DMG/items/unique/unique_items.index.json",
+        "sources/DMG/items/magic/weapon_special_abilities.core.json",
+        "sources/DMG/items/magic/armor_special_abilities.core.json",
+        "sources/DMG/items/intelligent/intelligent_item_tables.core.json",
+        "sources/DMG/items/cursed/cursed_item_tables.core.json"
+      ]
     }
   ]
 }
