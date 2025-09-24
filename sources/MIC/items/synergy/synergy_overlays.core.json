@@ -541,6 +541,61 @@
     "stacking_rules": "Requires Screaming; adds +1 effective bonus.",
     "notes": "Functions as Screaming; on crit deals extra sonic (x2:1d8; x3:2d8; x4:3d8). Continuous and applies even if Screaming isn't currently active. Projectile weapons pass to ammo.",
     "source_page": "MIC Ch.1"
+  },
+    {
+    "id": "mic_syn_soulbound_greater",
+    "applies_to": "weapon",
+    "requires_all_properties": ["mic_weap_soulbound"],
+    "grants_effect_tags": ["soulbound_greater", "essentia_capacity_4", "enhancement_via_essentia_up_to_+5"],
+    "price_add_gp": 0,
+    "effective_bonus_add": 2,
+    "stacking_rules": "Requires Soulbound; adds +2 effective bonus.",
+    "notes": "Functions as Soulbound; increases essentia capacity to 4 (from 2) and allows enhancement bonus from essentia up to +5 (from +3).",
+    "source_page": "MIC Ch.1"
+  },
+  {
+    "id": "mic_syn_soulbreaker",
+    "applies_to": "weapon",
+    "requires_all_properties": ["mic_weap_enervating"],
+    "grants_effect_tags": ["soulbreaker", "negative_levels_persist"],
+    "price_add_gp": 0,
+    "effective_bonus_add": 1,
+    "stacking_rules": "Requires Enervating; adds +1 effective bonus.",
+    "notes": "Functions as Enervating; negative levels from hits do not fade in 1 hour—after 24 hours each requires a DC 18 Fort save or becomes actual level loss.",
+    "source_page": "MIC Ch.1"
+  },
+  {
+    "id": "mic_syn_souldrinking",
+    "applies_to": "weapon",
+    "requires_all_properties": ["mic_weap_enervating"],
+    "grants_effect_tags": ["souldrinking", "temp_hp_on_crit", "melee_damage_morale_bonus_on_crit"],
+    "price_add_gp": 0,
+    "effective_bonus_add": 1,
+    "stacking_rules": "Requires Enervating; adds +1 effective bonus.",
+    "notes": "Functions as Enervating; on a critical hit vs a living creature you gain 5 temp HP and +2 morale to melee damage rolls for 10 minutes (temp HP don’t stack).",
+    "source_page": "MIC Ch.1"
+  },
+  {
+    "id": "mic_syn_stunning",
+    "applies_to": "weapon",
+    "requires_all_properties": ["mic_weap_screaming"],
+    "grants_effect_tags": ["stunning_on_crit"],
+    "price_add_gp": 0,
+    "effective_bonus_add": 1,
+    "stacking_rules": "Requires Screaming; adds +1 effective bonus.",
+    "notes": "Functions as Screaming; on a critical hit the target must succeed on DC 17 Fort save or be stunned for 1 round. Projectile weapons pass to ammo.",
+    "source_page": "MIC Ch.1"
+  },
+  {
+    "id": "mic_syn_unholy_surge",
+    "applies_to": "weapon",
+    "requires_all_properties": ["mic_weap_unholy"],
+    "grants_effect_tags": ["unholy_surge", "extra_damage_vs_good", "per_day_uses_based_on_cha"],
+    "price_add_gp": 0,
+    "effective_bonus_add": 1,
+    "stacking_rules": "Requires Unholy; adds +1 effective bonus.",
+    "notes": "Functions as Unholy; on a successful melee hit you may (swift) emit an unholy burst dealing +3d6 damage to a good-aligned target. Usable 1 + Cha bonus times/day; wasted on non-good targets.",
+    "source_page": "MIC Ch.1"
   }
   ]
 }
