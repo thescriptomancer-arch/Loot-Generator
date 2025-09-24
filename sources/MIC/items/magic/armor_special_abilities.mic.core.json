@@ -16,5 +16,314 @@
     "required_feat",
     "required_spells"
   ],
-  "rows": []
+  "rows": [
+    {
+      "id": "mic_arm_acidic",
+      "name": "Acidic",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Deals 2d4 acid per full round to grapplers/objects in continuous contact; no damage for <1 round contact; item immune.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate conjuration (DC 18)",
+      "required_caster_level": 6,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "Melf's acid arrow"
+      ]
+    },
+    {
+      "id": "mic_arm_agility",
+      "name": "Agility",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 500
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+1 resistance bonus on Reflex saves.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cat's grace",
+        "resistance"
+      ]
+    },
+    {
+      "id": "mic_arm_anchoring",
+      "name": "Anchoring",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 enhancement bonus to resist bull rush, overrun, trip.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "bull's strength"
+      ]
+    },
+    {
+      "id": "mic_arm_aporter",
+      "name": "Aporter",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 20000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "2/day dimension door (self + equipment) to visualized spot within 800 ft; standard action; mental activation.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate conjuration (DC 20)",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "dimension door"
+      ]
+    },
+    {
+      "id": "mic_shield_averted",
+      "name": "Averter",
+      "category": "shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 13000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "3/day standard action: enemies seeing shield DC 14 Will or cannot approach within 30 ft for 3 rounds (mind-affecting compulsion).",
+      "source": "MIC Ch.1",
+      "aura": "Faint enchantment (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "suggestion",
+        "aversion (EPH 79)"
+      ]
+    },
+    {
+      "id": "mic_arm_axeblock",
+      "name": "Axeblock",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "DR 5/bludgeoning or piercing (turns away slashing).",
+      "source": "MIC Ch.1",
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "stoneskin"
+      ]
+    },
+    {
+      "id": "mic_arm_balance",
+      "name": "Balance",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 competence bonus on Balance checks.",
+      "source": "MIC Ch.1",
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "balancing lorecall (SC 23)"
+      ]
+    },
+    {
+      "id": "mic_arm_bane_blind",
+      "name": "Bane Blind",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "3/day swift: imperceptible to designated creature type/subtype for 10 rounds or until you attack; nonmagical senses cannot detect you.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate illusion (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "greater invisibility"
+      ]
+    },
+    {
+      "id": "mic_arm_beastskin",
+      "name": "Beastskin",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "When using wild shape, expend +1 use to transform armor to same type fitted for new form; weight adjusts; proficiency carries over.",
+      "source": "MIC Ch.1",
+      "aura": "Strong transmutation (DC 21)",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "ironwood"
+      ]
+    },
+    {
+      "id": "mic_arm_blinking",
+      "name": "Blinking",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "1/day standard command: blink for 1 minute.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate transmutation (DC 20)",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "blink"
+      ]
+    },
+    {
+      "id": "mic_arm_blueshine",
+      "name": "Blueshine",
+      "category": "armor_metal",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 1500
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Armor never tarnishes; immune to acid and rust; +2 competence on Hide checks.",
+      "source": "MIC Ch.1",
+      "aura": "Strong abjuration (DC 21)",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "Craft (alchemy) 5 ranks"
+      ]
+    },
+    {
+      "id": "mic_arm_blurring",
+      "name": "Blurring",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift command: blur for 5 rounds; 3/day.",
+      "source": "MIC Ch.1",
+      "aura": "Faint illusion (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "blur"
+      ]
+    },
+    {
+      "id": "mic_arm_buoyant",
+      "name": "Buoyant",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 4000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "No armor check penalty on Swim checks; +2 competence bonus on Swim checks.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "swim (SC 217)"
+      ]
+    },
+    {
+      "id": "mic_arm_called",
+      "name": "Called",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Standard command: call armor/shield from anywhere on same plane; appears donned or in/adjacent square; loses call if worn by another since last worn.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate conjuration (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "teleport"
+      ]
+    },
+    {
+      "id": "mic_arm_commander",
+      "name": "Commander",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+2 competence Diplomacy; allies within 30 ft get +1 morale Will; wearer -5 Hide (in addition to ACP).",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "eagle's splendor"
+      ]
+    },
+    {
+      "id": "mic_arm_daylight",
+      "name": "Daylight",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift command: daylight up to 30 min/day, not continuous; can deactivate with swift.",
+      "source": "MIC Ch.1",
+      "aura": "Faint evocation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "daylight"
+      ]
+    },
+    {
+      "id": "mic_arm_death_ward",
+      "name": "Death Ward",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Immediate mental: ignore one death effect or negative energy effect; 1/day.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate necromancy (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "death ward"
+      ]
+    }
+  ]
 }
