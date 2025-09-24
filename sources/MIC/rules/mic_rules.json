@@ -1,12 +1,14 @@
 {
-  "schema_version":"1.0",
-  "source":"MIC",
-  "chapter":"Using Magic Items",
-  "section":"General",
+  "schema_version": "1.0",
+  "source": "MIC",
+  "chapter": "Using Magic Items",
+  "section": "General",
   "rules": {
     "augment_crystals_require_magical_item": true,
     "augment_crystals_min_enhancement_respected": true,
     "runestaffs_use_spell_slots_instead_of_charges": true,
-    "relics_require_prereqs": true
+    "relics_require_prereqs": true,
+    "synergy_properties_postprocess": true,
+    "sets_are_equipment_layer_only": true
   }
 }
