@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0",
+  "source":"MIC",
+  "chapter":"Specific Items",
+  "section":"MIC Specific Items",
+  "fields":["id","name","category","price_gp","source_page","notes"],
+  "rows":[
+    ["uniq_mic_example_weapon","Example Weapon","weapon",18000,"MIC p. ???",""],
+    ["uniq_mic_example_cloak","Example Cloak","wondrous",4000,"MIC p. ???",""],
+    ["uniq_mic_runestaff_ember","Runestaff of Ember","staff",27000,"MIC p. ???","Runestaff pricing; see rules."]
+  ]
+}
