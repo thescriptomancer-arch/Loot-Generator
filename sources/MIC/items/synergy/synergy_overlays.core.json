@@ -106,6 +106,254 @@
       "stacking_rules": "Requires Improved Balance; upgrades competence bonus on Balance checks to +15.",
       "notes": "As balance, but +15 competence bonus on Balance checks.",
       "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_healing_greater",
+      "applies_to": "armor",
+      "requires_all_properties": [
+        "mic_arm_healing"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 24000,
+      "effective_bonus_add": 0,
+      "stacking_rules": "",
+      "notes": "Greater Healing: heals 3d8+15; 2/day.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_stamina_improved",
+      "applies_to": "armor",
+      "requires_all_properties": [
+        "mic_arm_stamina"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 4000,
+      "effective_bonus_add": 0,
+      "stacking_rules": "",
+      "notes": "Improved Stamina: +3 resistance bonus on Fortitude saves.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_stamina_greater",
+      "applies_to": "armor",
+      "requires_all_properties": [
+        "mic_arm_stamina",
+        "mic_syn_stamina_improved"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 8000,
+      "effective_bonus_add": 0,
+      "stacking_rules": "",
+      "notes": "Greater Stamina: +5 resistance bonus on Fortitude saves.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_soulbound_greater",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "mic_arm_soulbound"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Greater Soulbound: essentia capacity 4; max enhancement +5.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_acid_10",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_acid_10"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_acid_20",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_acid_20"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_acid_30",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_acid_30"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_cold_10",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_cold_10"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_cold_20",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_cold_20"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_cold_30",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_cold_30"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_elec_10",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_elec_10"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_elec_20",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_elec_20"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_elec_30",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_elec_30"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_fire_10",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_fire_10"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_fire_20",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_fire_20"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_fire_30",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_fire_30"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_sonic_10",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_sonic_10"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_sonic_20",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_sonic_20"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_defense__arm_resist_sonic_30",
+      "applies_to": "armor_or_shield",
+      "requires_all_properties": [
+        "arm_resist_sonic_30"
+      ],
+      "grants_effect_tags": [],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "",
+      "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
+      "source_page": "MIC Ch.1"
     }
   ]
 }
