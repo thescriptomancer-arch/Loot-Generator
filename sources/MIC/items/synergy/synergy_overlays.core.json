@@ -1,10 +1,18 @@
 {
-  "schema_version":"1.0",
-  "source":"MIC",
-  "chapter":"Special Magic Item Rules",
-  "section":"Synergy Overlays",
-  "fields":["id","applies_to","requires_all_properties","grants_effect_tags","price_add_gp","effective_bonus_add","notes","source_page"],
-  "rows":[
-    ["mic_syn_example","weapon",["mic_prop_example","keen"],["crit_boost"],2000,0,"Only if both properties present.","MIC p. ???"]
-  ]
+  "schema_version": "1.0",
+  "source": "MIC",
+  "chapter": "Special Magic Item Rules",
+  "section": "Synergy Overlays",
+  "fields": [
+    "id",
+    "applies_to",
+    "requires_all_properties",
+    "grants_effect_tags",
+    "price_add_gp",
+    "effective_bonus_add",
+    "stacking_rules",
+    "notes",
+    "source_page"
+  ],
+  "rows": []
 }
