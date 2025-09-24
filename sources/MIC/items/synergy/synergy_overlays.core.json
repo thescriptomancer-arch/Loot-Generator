@@ -508,6 +508,39 @@
       "stacking_rules": "Requires Profane; adds +1 effective bonus.",
       "notes": "Functions as Profane; on crit deals extra negative energy (x2:1d10; x3:2d10; x4:3d10), or double vs good outsiders (2d10/4d10/6d10). Burst is continuous and applies even if Profane isn't currently active. Non-undead wielders take 1d4 Con damage (or Cha if no Con). Projectile weapons pass to ammo.",
       "source_page": "MIC Ch.1"
-    }
+    },
+    {
+    "id": "mic_syn_psychokinetic_burst",
+    "applies_to": "weapon",
+    "requires_all_properties": ["mic_weap_psychokinetic"],
+    "grants_effect_tags": ["psychokinetic_burst", "force_on_crit"],
+    "price_add_gp": 0,
+    "effective_bonus_add": 1,
+    "stacking_rules": "Requires Psychokinetic; adds +1 effective bonus.",
+    "notes": "Functions as Psychokinetic; on crit deals extra force (x2:1d6; x3:2d6; x4:3d6). Extra damage is not reduced by DR and affects incorporeal targets even through miss chance. Continuous; applies even if Psychokinetic isn't currently active. Projectile weapons pass to ammo.",
+    "source_page": "MIC Ch.1"
+  },
+  {
+    "id": "mic_syn_sacred_burst",
+    "applies_to": "weapon",
+    "requires_all_properties": ["mic_weap_sacred"],
+    "grants_effect_tags": ["sacred_burst", "positive_energy_on_crit"],
+    "price_add_gp": 0,
+    "effective_bonus_add": 1,
+    "stacking_rules": "Requires Sacred; adds +1 effective bonus.",
+    "notes": "Functions as Sacred; on crit deals extra positive energy (x2:1d10; x3:2d10; x4:3d10), or double vs evil outsiders (2d10/4d10/6d10). Continuous and applies even if Sacred isn't currently active. If wielder is undead, burst deals 1d4 Cha damage to the wielder. Projectile weapons pass to ammo.",
+    "source_page": "MIC Ch.1"
+  },
+  {
+    "id": "mic_syn_screaming_burst",
+    "applies_to": "weapon",
+    "requires_all_properties": ["mic_weap_screaming"],
+    "grants_effect_tags": ["screaming_burst", "sonic_on_crit"],
+    "price_add_gp": 0,
+    "effective_bonus_add": 1,
+    "stacking_rules": "Requires Screaming; adds +1 effective bonus.",
+    "notes": "Functions as Screaming; on crit deals extra sonic (x2:1d8; x3:2d8; x4:3d8). Continuous and applies even if Screaming isn't currently active. Projectile weapons pass to ammo.",
+    "source_page": "MIC Ch.1"
+  }
   ]
 }
