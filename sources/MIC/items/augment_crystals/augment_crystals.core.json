@@ -1,18 +1,843 @@
 {
   "schema_version": "1.0",
   "source": "MIC",
-  "chapter": "Special Magic Item Rules",
-  "section": "Augment Crystals",
+  "chapter": "Armor and Shield Augment Crystals",
+  "section": "Armor/Shield Augment Crystals (least/lesser/greater)",
   "fields": [
     "id",
     "name",
-    "applies_to",
+    "crystal_slot",
     "tier",
-    "min_enhancement",
-    "effect_tags",
     "price_gp",
-    "notes",
+    "aura",
+    "required_caster_level",
+    "activation",
+    "effects_summary",
+    "required_feat",
+    "required_spells",
     "source_page"
   ],
-  "rows": []
+  "rows": [
+    {
+      "id": "mic_crystal_energy_protection_acid_least",
+      "name": "Clasp of Energy Protection (Acid, Least)",
+      "crystal_slot": "shield",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 5 vs acid (shield bearer). Becomes inert after preventing 25 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_acid_lesser",
+      "name": "Clasp of Energy Protection (Acid, Lesser)",
+      "crystal_slot": "shield",
+      "tier": "lesser",
+      "price_gp": 1500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 10 vs acid (shield bearer). Becomes inert after preventing 50 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_acid_greater",
+      "name": "Clasp of Energy Protection (Acid, Greater)",
+      "crystal_slot": "shield",
+      "tier": "greater",
+      "price_gp": 3000,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 15 vs acid (shield bearer). Becomes inert after preventing 75 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_cold_least",
+      "name": "Clasp of Energy Protection (Cold, Least)",
+      "crystal_slot": "shield",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 5 vs cold (shield bearer). Becomes inert after preventing 25 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_cold_lesser",
+      "name": "Clasp of Energy Protection (Cold, Lesser)",
+      "crystal_slot": "shield",
+      "tier": "lesser",
+      "price_gp": 1500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 10 vs cold (shield bearer). Becomes inert after preventing 50 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_cold_greater",
+      "name": "Clasp of Energy Protection (Cold, Greater)",
+      "crystal_slot": "shield",
+      "tier": "greater",
+      "price_gp": 3000,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 15 vs cold (shield bearer). Becomes inert after preventing 75 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_electricity_least",
+      "name": "Clasp of Energy Protection (Electricity, Least)",
+      "crystal_slot": "shield",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 5 vs electricity (shield bearer). Becomes inert after preventing 25 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_electricity_lesser",
+      "name": "Clasp of Energy Protection (Electricity, Lesser)",
+      "crystal_slot": "shield",
+      "tier": "lesser",
+      "price_gp": 1500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 10 vs electricity (shield bearer). Becomes inert after preventing 50 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_electricity_greater",
+      "name": "Clasp of Energy Protection (Electricity, Greater)",
+      "crystal_slot": "shield",
+      "tier": "greater",
+      "price_gp": 3000,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 15 vs electricity (shield bearer). Becomes inert after preventing 75 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_fire_least",
+      "name": "Clasp of Energy Protection (Fire, Least)",
+      "crystal_slot": "shield",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 5 vs fire (shield bearer). Becomes inert after preventing 25 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_fire_lesser",
+      "name": "Clasp of Energy Protection (Fire, Lesser)",
+      "crystal_slot": "shield",
+      "tier": "lesser",
+      "price_gp": 1500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 10 vs fire (shield bearer). Becomes inert after preventing 50 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_fire_greater",
+      "name": "Clasp of Energy Protection (Fire, Greater)",
+      "crystal_slot": "shield",
+      "tier": "greater",
+      "price_gp": 3000,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 15 vs fire (shield bearer). Becomes inert after preventing 75 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_sonic_least",
+      "name": "Clasp of Energy Protection (Sonic, Least)",
+      "crystal_slot": "shield",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 5 vs sonic (shield bearer). Becomes inert after preventing 25 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_sonic_lesser",
+      "name": "Clasp of Energy Protection (Sonic, Lesser)",
+      "crystal_slot": "shield",
+      "tier": "lesser",
+      "price_gp": 1500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 10 vs sonic (shield bearer). Becomes inert after preventing 50 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_energy_protection_sonic_greater",
+      "name": "Clasp of Energy Protection (Sonic, Greater)",
+      "crystal_slot": "shield",
+      "tier": "greater",
+      "price_gp": 3000,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Grants resistance 15 vs sonic (shield bearer). Becomes inert after preventing 75 damage (resets daily).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_adamant_armor_least",
+      "name": "Crystal of Adamant Armor (Least)",
+      "crystal_slot": "armor_or_shield",
+      "tier": "least",
+      "price_gp": 300,
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "activation": "—",
+      "effects_summary": "Improves hardness of attached armor or shield by +2.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "diamondsteel (SC 64)"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_adamant_armor_lesser",
+      "name": "Crystal of Adamant Armor (Lesser)",
+      "crystal_slot": "armor_or_shield",
+      "tier": "lesser",
+      "price_gp": 1400,
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "activation": "—",
+      "effects_summary": "Improves hardness of attached armor or shield by +5.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "diamondsteel (SC 64)"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_adamant_armor_greater",
+      "name": "Crystal of Adamant Armor (Greater)",
+      "crystal_slot": "armor_or_shield",
+      "tier": "greater",
+      "price_gp": 3400,
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "activation": "—",
+      "effects_summary": "Improves hardness of attached armor or shield by +10.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "diamondsteel (SC 64)"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_adaptation_least",
+      "name": "Crystal of Adaptation (Least)",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Moderate necromancy (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—",
+      "effects_summary": "Protects from temperature extremes (as endure elements).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "death ward",
+        "endure elements",
+        "protection from chaos",
+        "protection from evil",
+        "protection from good",
+        "protection from law"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_adaptation_lesser",
+      "name": "Crystal of Adaptation (Lesser)",
+      "crystal_slot": "armor",
+      "tier": "lesser",
+      "price_gp": 1500,
+      "aura": "Moderate necromancy (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—",
+      "effects_summary": "As least; also protected from all alignment traits of any plane (DMG 149).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "death ward",
+        "endure elements",
+        "protection from chaos",
+        "protection from evil",
+        "protection from good",
+        "protection from law"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_adaptation_greater",
+      "name": "Crystal of Adaptation (Greater)",
+      "crystal_slot": "armor",
+      "tier": "greater",
+      "price_gp": 3000,
+      "aura": "Moderate necromancy (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—",
+      "effects_summary": "As lesser; also protected from positive- and negative-dominant planar traits (DMG 149).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "death ward",
+        "endure elements",
+        "protection from chaos",
+        "protection from evil",
+        "protection from good",
+        "protection from law"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_aquatic_action_least",
+      "name": "Crystal of Aquatic Action (Least)",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 250,
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Armor imposes no armor check penalty on your Swim checks.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "freedom of movement",
+        "water breathing"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_aquatic_action_lesser",
+      "name": "Crystal of Aquatic Action (Lesser)",
+      "crystal_slot": "armor",
+      "tier": "lesser",
+      "price_gp": 1000,
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "As least; also gain a Swim speed equal to 1/2 your land speed (round down to nearest 5 ft).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "freedom of movement",
+        "water breathing"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_aquatic_action_greater",
+      "name": "Crystal of Aquatic Action (Greater)",
+      "crystal_slot": "armor",
+      "tier": "greater",
+      "price_gp": 3000,
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "As lesser; also no penalties on attacks or movement underwater (as freedom of movement) and you can breathe water as easily as air.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "freedom of movement",
+        "water breathing"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_arrow_deflection_least",
+      "name": "Crystal of Arrow Deflection (Least)",
+      "crystal_slot": "shield",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Faint divination (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "+2 bonus to AC against ranged attacks.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "shield"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_arrow_deflection_lesser",
+      "name": "Crystal of Arrow Deflection (Lesser)",
+      "crystal_slot": "shield",
+      "tier": "lesser",
+      "price_gp": 2500,
+      "aura": "Faint divination (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "+5 bonus to AC against ranged attacks.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "shield"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_arrow_deflection_greater",
+      "name": "Crystal of Arrow Deflection (Greater)",
+      "crystal_slot": "shield",
+      "tier": "greater",
+      "price_gp": 5000,
+      "aura": "Faint divination (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "+10 bonus to AC against ranged attacks; also deflect one ranged attack per round as if with Deflect Arrows feat.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "shield"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_bent_sight",
+      "name": "Crystal of Bent Sight",
+      "crystal_slot": "shield",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Faint divination (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "You can avert your eyes against gaze attacks without incurring the normal miss chance on your attacks against that creature.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "clairaudience/clairvoyance"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_glancing_blows_least",
+      "name": "Crystal of Glancing Blows (Least)",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—",
+      "effects_summary": "Grants +2 competence bonus on grapple checks to prevent a grapple from being initiated (not on other grapple checks).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "freedom of movement"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_glancing_blows_lesser",
+      "name": "Crystal of Glancing Blows (Lesser)",
+      "crystal_slot": "armor",
+      "tier": "lesser",
+      "price_gp": 3000,
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—",
+      "effects_summary": "As least; bonus is +5 on grapple checks to prevent a grapple from being initiated.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "freedom of movement"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_glancing_blows_greater",
+      "name": "Crystal of Glancing Blows (Greater)",
+      "crystal_slot": "armor",
+      "tier": "greater",
+      "price_gp": 5000,
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—",
+      "effects_summary": "As least; bonus is +10 on grapple checks to prevent a grapple from being initiated.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "freedom of movement"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_lifekeeping_least",
+      "name": "Crystal of Lifekeeping (Least)",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 200,
+      "aura": "Moderate necromancy (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—; greater: immediate mental action reroll 1/day on failed save vs listed effects",
+      "effects_summary": "+1 competence bonus on saves vs energy drain, inflict spells, death spells, and death effects.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "death ward"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_lifekeeping_lesser",
+      "name": "Crystal of Lifekeeping (Lesser)",
+      "crystal_slot": "armor",
+      "tier": "lesser",
+      "price_gp": 1000,
+      "aura": "Moderate necromancy (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—; greater: immediate mental action reroll 1/day on failed save vs listed effects",
+      "effects_summary": "+3 competence bonus on saves vs energy drain, inflict spells, death spells, and death effects.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "death ward"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_lifekeeping_greater",
+      "name": "Crystal of Lifekeeping (Greater)",
+      "crystal_slot": "armor",
+      "tier": "greater",
+      "price_gp": 5000,
+      "aura": "Moderate necromancy (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—; greater: immediate mental action reroll 1/day on failed save vs listed effects",
+      "effects_summary": "+5 competence bonus on saves vs energy drain, inflict spells, death spells, and death effects; 1/day immediate mental action to reroll a failed save vs any of these effects.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "death ward"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_mind_cloaking_least",
+      "name": "Crystal of Mind Cloaking (Least)",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—; greater: immediate mental action reroll 1/day on failed save vs mind‑affecting",
+      "effects_summary": "+1 competence bonus on saves vs mind‑affecting spells and abilities.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resistance"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_mind_cloaking_lesser",
+      "name": "Crystal of Mind Cloaking (Lesser)",
+      "crystal_slot": "armor",
+      "tier": "lesser",
+      "price_gp": 4000,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—; greater: immediate mental action reroll 1/day on failed save vs mind‑affecting",
+      "effects_summary": "+3 competence bonus on saves vs mind‑affecting spells and abilities.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resistance"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_mind_cloaking_greater",
+      "name": "Crystal of Mind Cloaking (Greater)",
+      "crystal_slot": "armor",
+      "tier": "greater",
+      "price_gp": 10000,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—; greater: immediate mental action reroll 1/day on failed save vs mind‑affecting",
+      "effects_summary": "+5 competence bonus on saves vs mind‑affecting; 1/day immediate mental action to reroll a failed save vs a mind‑affecting effect.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resistance"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_screening_least",
+      "name": "Crystal of Screening (Least)",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 400,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Imposes –2 penalty on touch attacks against you made by incorporeal creatures.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "mage armor"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_screening_lesser",
+      "name": "Crystal of Screening (Lesser)",
+      "crystal_slot": "armor",
+      "tier": "lesser",
+      "price_gp": 1000,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Imposes –5 penalty on touch attacks against you made by incorporeal creatures.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "mage armor"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_screening_greater",
+      "name": "Crystal of Screening (Greater)",
+      "crystal_slot": "armor",
+      "tier": "greater",
+      "price_gp": 3000,
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Imposes –10 penalty on touch attacks against you made by incorporeal creatures.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "mage armor"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_stamina_least",
+      "name": "Crystal of Stamina (Least)",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 300,
+      "aura": "Moderate conjuration (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—; greater: immediate mental action reroll 1/day on failed save vs poison/disease",
+      "effects_summary": "+1 competence bonus on saves vs disease and poison.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "neutralize poison",
+        "remove disease"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_stamina_lesser",
+      "name": "Crystal of Stamina (Lesser)",
+      "crystal_slot": "armor",
+      "tier": "lesser",
+      "price_gp": 900,
+      "aura": "Moderate conjuration (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—; greater: immediate mental action reroll 1/day on failed save vs poison/disease",
+      "effects_summary": "+3 competence bonus on saves vs disease and poison.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "neutralize poison",
+        "remove disease"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_stamina_greater",
+      "name": "Crystal of Stamina (Greater)",
+      "crystal_slot": "armor",
+      "tier": "greater",
+      "price_gp": 2700,
+      "aura": "Moderate conjuration (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—; greater: immediate mental action reroll 1/day on failed save vs poison/disease",
+      "effects_summary": "+5 competence bonus on saves vs disease and poison; 1/day immediate mental action to reroll a failed save vs poison or disease.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "neutralize poison",
+        "remove disease"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_iron_ward_diamond_least",
+      "name": "Iron Ward Diamond (Least)",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Moderate evocation (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—",
+      "effects_summary": "DR 1/— until 10 damage prevented (then inert until next day). Stacks with similar DR sources.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "stoneskin"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_iron_ward_diamond_lesser",
+      "name": "Iron Ward Diamond (Lesser)",
+      "crystal_slot": "armor",
+      "tier": "lesser",
+      "price_gp": 2000,
+      "aura": "Moderate evocation (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—",
+      "effects_summary": "DR 3/— until 30 damage prevented (then inert). Functions only when attached to medium or heavy armor.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "stoneskin"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_iron_ward_diamond_greater",
+      "name": "Iron Ward Diamond (Greater)",
+      "crystal_slot": "armor",
+      "tier": "greater",
+      "price_gp": 8000,
+      "aura": "Moderate evocation (DC 18)",
+      "required_caster_level": 7,
+      "activation": "—",
+      "effects_summary": "DR 5/— until 50 damage prevented (then inert). Functions only when attached to heavy armor.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "stoneskin"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_restful",
+      "name": "Restful Crystal",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Faint enchantment (DC 17)",
+      "required_caster_level": 5,
+      "activation": "—",
+      "effects_summary": "Sleeping in armor with this crystal does not make you fatigued.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "sleep"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_rubicund_frenzy_least",
+      "name": "Rubicund Frenzy (Least)",
+      "crystal_slot": "armor",
+      "tier": "least",
+      "price_gp": 500,
+      "aura": "Moderate enchantment (DC 20)",
+      "required_caster_level": 11,
+      "activation": "—",
+      "effects_summary": "While at or below 1/2 maximum hit points, gain +1 morale bonus on weapon damage rolls and saves vs fear (living creatures only).",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "heroism"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_rubicund_frenzy_lesser",
+      "name": "Rubicund Frenzy (Lesser)",
+      "crystal_slot": "armor",
+      "tier": "lesser",
+      "price_gp": 2000,
+      "aura": "Moderate enchantment (DC 20)",
+      "required_caster_level": 11,
+      "activation": "—",
+      "effects_summary": "As least, but bonus is +3.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "heroism"
+      ],
+      "source_page": "MIC p. ???"
+    },
+    {
+      "id": "mic_crystal_rubicund_frenzy_greater",
+      "name": "Rubicund Frenzy (Greater)",
+      "crystal_slot": "armor",
+      "tier": "greater",
+      "price_gp": 6000,
+      "aura": "Moderate enchantment (DC 20)",
+      "required_caster_level": 11,
+      "activation": "—",
+      "effects_summary": "As least, but bonus is +5.",
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "heroism"
+      ],
+      "source_page": "MIC p. ???"
+    }
+  ]
 }
