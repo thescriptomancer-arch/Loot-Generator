@@ -349,6 +349,34 @@
       "required_spells": [
         "create undead"
       ]
+    },
+    {
+      "id": "uniq_wrapped_tower",
+      "name": "Wrapped Tower",
+      "category": "shield",
+      "price_gp": 6180,
+      "source_page": "MIC p. ???",
+      "notes": "+1 tower shield; 1/day immediate while using total cover: viewers in front must Will DC 16 or be paralyzed with fear for 1d4 rounds. (Prereq also calls out Knowledge (religion) 5 ranks.)",
+      "aura": "Strong necromancy (DC 21)",
+      "required_caster_level": 12,
+      "required_feat": "",
+      "required_spells": [
+        "create undead"
+      ]
+    },
+    {
+      "id": "uniq_zombie_hide_armor",
+      "name": "Zombie Hide Armor",
+      "category": "armor",
+      "price_gp": 16165,
+      "source_page": "MIC p. ???",
+      "notes": "+1 hide; grants damage reduction 5/slashing. (Prereq also calls out Knowledge (religion) 5 ranks.)",
+      "aura": "Faint necromancy (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "",
+      "required_spells": [
+        "animate dead"
+      ]
     }
   ]
 }
