@@ -497,6 +497,17 @@
       "stacking_rules": "Requires Ghost Touch; adds +1 effective bonus.",
       "notes": "Functions as Ghost Touch; when it damages an incorporeal creature, that target loses its 50% incorporeal miss chance and 50% chance to ignore spells for 1 round (retains other incorporeal benefits).",
       "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_profane_burst",
+      "applies_to": "weapon",
+      "requires_all_properties": ["mic_weap_profane"],
+      "grants_effect_tags": ["profane_burst", "negative_energy_on_crit"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Profane; adds +1 effective bonus.",
+      "notes": "Functions as Profane; on crit deals extra negative energy (x2:1d10; x3:2d10; x4:3d10), or double vs good outsiders (2d10/4d10/6d10). Burst is continuous and applies even if Profane isn't currently active. Non-undead wielders take 1d4 Con damage (or Cha if no Con). Projectile weapons pass to ammo.",
+      "source_page": "MIC Ch.1"
     }
   ]
 }
