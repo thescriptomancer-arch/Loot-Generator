@@ -1,13 +1,15 @@
 {
-  "schema_version":"1.0",
-  "source":"MIC",
-  "chapter":"Magic Item Sets",
-  "section":"Sets",
-  "fields":["id","name","piece_ids","thresholds","notes","source_page"],
-  "rows":[
-    ["mic_set_regalia_hero","Regalia of the Hero",
-      ["uniq_mic_regalia_boots","uniq_mic_regalia_cloak","uniq_mic_regalia_belt"],
-      [{"pieces":2,"grants_tags":["regalia_2pc_bonus"]},{"pieces":3,"grants_tags":["regalia_3pc_bonus"]}],
-      "Bonuses applied by character-equipment layer.","MIC p. ???"]
-  ]
+  "schema_version": "1.0",
+  "source": "MIC",
+  "chapter": "Magic Item Sets",
+  "section": "Sets",
+  "fields": [
+    "id",
+    "name",
+    "piece_ids",
+    "thresholds",
+    "notes",
+    "source_page"
+  ],
+  "rows": []
 }
