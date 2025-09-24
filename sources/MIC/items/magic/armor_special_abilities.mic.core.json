@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "source": "MIC",
+  "chapter": "Magic Items",
+  "section": "Armor & Shield Special Abilities (MIC)",
+  "fields": [
+    "id",
+    "name",
+    "category",
+    "costing",
+    "min_enhancement",
+    "stacking_rules",
+    "source",
+    "aura",
+    "required_caster_level",
+    "required_feat",
+    "required_spells"
+  ],
+  "rows": []
+}
