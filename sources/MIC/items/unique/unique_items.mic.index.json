@@ -146,6 +146,209 @@
       "required_spells": [
         "create undead"
       ]
+    },
+    {
+      "id": "uniq_hawkfeather_armor",
+      "name": "Hawkfeather Armor",
+      "category": "armor",
+      "price_gp": 12175,
+      "source_page": "MIC p. ???",
+      "notes": "+1 studded leather; continuous +5 competence Spot; 1/day +4 Cha for 9 minutes; 3/day wings: fly 60 ft (good) for 5 rounds; functions in wild shape; nonmetal (druids not prohibited).",
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "",
+      "required_spells": [
+        "eagle's splendor",
+        "wild shape"
+      ]
+    },
+    {
+      "id": "uniq_kyton_armor",
+      "name": "Kyton Armor",
+      "category": "armor",
+      "price_gp": 13100,
+      "source_page": "MIC p. ???",
+      "notes": "+1 mithral shirt; swift command: one of five dangling chains makes 1 melee attack vs adjacent target (uses your BAB), 1d6 bludgeoning (no Str to damage); treated as magic weapon with enhancement = armor's enhancement bonus to AC.",
+      "aura": "Moderate transmutation (DC 20)",
+      "required_caster_level": 11,
+      "required_feat": "",
+      "required_spells": [
+        "animate objects"
+      ]
+    },
+    {
+      "id": "uniq_millennial_chainmail",
+      "name": "Millennial Chainmail",
+      "category": "armor",
+      "price_gp": 8150,
+      "source_page": "MIC p. ???",
+      "notes": "relic: worship Corellon Larethian; usable by CG/CN/NG; functions as +1 mithral chainmail (light armor; Max Dex +8, ACP –2, ASF 15%). Relic power: fast healing 3 while in brighter than shadowy illumination.",
+      "aura": "Strong conjuration (DC 25)",
+      "required_caster_level": 20,
+      "required_feat": "Sanctify Relic",
+      "required_spells": [
+        "regenerate"
+      ]
+    },
+    {
+      "id": "uniq_mithralmist_shirt",
+      "name": "Mithralmist Shirt",
+      "category": "armor",
+      "price_gp": 3400,
+      "source_page": "MIC p. ???",
+      "notes": "+1 mithral shirt; up to 7/day swift mental: fill your space with billowing silver mist granting concealment while you concentrate (max 10 rounds).",
+      "aura": "Moderate conjuration (DC 18)",
+      "required_caster_level": 6,
+      "required_feat": "",
+      "required_spells": [
+        "obscuring mist"
+      ]
+    },
+    {
+      "id": "uniq_owlfeather_armor",
+      "name": "Owlfeather Armor",
+      "category": "armor",
+      "price_gp": 8160,
+      "source_page": "MIC p. ???",
+      "notes": "+1 leather; +2 competence Listen & Move Silently; 1/day +4 Wis for 9 minutes; 2/day +5 competence Spot for 10 minutes (only in shadowy illumination); 3/day wings: fly 40 ft (good) for 5 rounds; functions in wild shape.",
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "",
+      "required_spells": [
+        "owl's wisdom",
+        "wild shape"
+      ]
+    },
+    {
+      "id": "uniq_overhead_shield",
+      "name": "Overhead Shield",
+      "category": "shield",
+      "price_gp": 24170,
+      "source_page": "MIC p. ???",
+      "notes": "+1 heavy steel shield; 1/day standard command: horizontal wall of force (20‑ft radius) hovers 5 ft above you and moves with you, blocking attacks from above (incl. catapult missiles, indirect fire). While active you gain no AC from the shield (arm raised).",
+      "aura": "Moderate evocation (DC 20)",
+      "required_caster_level": 10,
+      "required_feat": "",
+      "required_spells": [
+        "wall of force"
+      ]
+    },
+    {
+      "id": "uniq_serpent_armor",
+      "name": "Serpent Armor",
+      "category": "armor",
+      "price_gp": 12160,
+      "source_page": "MIC p. ???",
+      "notes": "+1 leather; +1 resistance on Reflex saves; grants Combat Reflexes feat.",
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "",
+      "required_spells": [
+        "cat's grace"
+      ]
+    },
+    {
+      "id": "uniq_shield_of_mercy",
+      "name": "Shield of Mercy",
+      "category": "shield",
+      "price_gp": 2170,
+      "source_page": "MIC p. ???",
+      "notes": "+1 heavy steel shield; standard command: expend a smite attempt to heal by touch an amount equal to the smite’s extra damage; if also wearing an item that grants an enhancement bonus to Wisdom, add that bonus to healing.",
+      "aura": "Faint conjuration/transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "",
+      "required_spells": [
+        "cure moderate wounds",
+        "owl's wisdom"
+      ]
+    },
+    {
+      "id": "uniq_shield_of_the_resolute",
+      "name": "Shield of the Resolute",
+      "category": "shield",
+      "price_gp": 5520,
+      "source_page": "MIC p. ???",
+      "notes": "relic: worship Moradin; lawful good/neutral good/lawful neutral only; functions as +1 heavy mithral shield with light fortification. Relic power: frighten/shaken gaze vs goblinoids and giants within 30 ft (Will DC 17), 2 rounds; special gaze rules per DMG; once failed, no further effect for 24h.",
+      "aura": "Strong necromancy (DC 25)",
+      "required_caster_level": 20,
+      "required_feat": "Sanctify Relic",
+      "required_spells": [
+        "fear",
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "uniq_shield_of_the_severed_hand",
+      "name": "Shield of the Severed Hand",
+      "category": "shield",
+      "price_gp": 4657,
+      "source_page": "MIC p. ???",
+      "notes": "relic: worship Gruumsh; functions as +2 heavy wooden shield for CE/CN/NE. Relic power (immediate): bull rush the adjacent melee attacker with +4 Strength check bonus; no AoO; you can’t fall prone or follow.",
+      "aura": "Strong evocation (DC 25)",
+      "required_caster_level": 20,
+      "required_feat": "Sanctify Relic",
+      "required_spells": [
+        "Bigby's forceful hand"
+      ]
+    },
+    {
+      "id": "uniq_tigerskin_armor",
+      "name": "Tigerskin Armor",
+      "category": "armor",
+      "price_gp": 17100,
+      "source_page": "MIC p. ???",
+      "notes": "+1 mithral shirt; +2 competence on Climb, Hide, Jump, Move Silently; 1/day +4 Dex for 9 minutes; 2/day scent for 5 rounds; 3/day claws (two primary 1d4 each, +5 ft reach; or single secondary; can attack with both at end of a charge) 5 rounds; functions in wild shape; druids not prohibited.",
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "",
+      "required_spells": [
+        "cat's grace",
+        "wild shape"
+      ]
+    },
+    {
+      "id": "uniq_vampire_hide_armor",
+      "name": "Vampire Hide Armor",
+      "category": "armor",
+      "price_gp": 21175,
+      "source_page": "MIC p. ???",
+      "notes": "+1 studded leather; damage reduction 5/silver or magic.",
+      "aura": "Strong necromancy (DC 21)",
+      "required_caster_level": 12,
+      "required_feat": "",
+      "required_spells": [
+        "create undead"
+      ]
+    },
+    {
+      "id": "uniq_wight_armor",
+      "name": "Wight Armor",
+      "category": "armor",
+      "price_gp": 14175,
+      "source_page": "MIC p. ???",
+      "notes": "+1 shadow studded leather; standard command 3/day: target (or self) is imperceptible to undead (hide from undead) for 1 hour; target also gains darkvision 60 ft while affected.",
+      "aura": "Moderate transmutation (DC 18)",
+      "required_caster_level": 6,
+      "required_feat": "",
+      "required_spells": [
+        "darkvision",
+        "hide from undead"
+      ]
+    },
+    {
+      "id": "uniq_wight_hide_shield",
+      "name": "Wight Hide Shield",
+      "category": "shield",
+      "price_gp": 9159,
+      "source_page": "MIC p. ???",
+      "notes": "+1 light steel shield; on shield bash vs living target, Fort DC 14 or target gains 1 negative level (max 3/day from the shield).",
+      "aura": "Strong necromancy (DC 21)",
+      "required_caster_level": 12,
+      "required_feat": "",
+      "required_spells": [
+        "create undead"
+      ]
     }
   ]
 }
