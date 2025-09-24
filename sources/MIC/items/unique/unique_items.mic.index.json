@@ -15,5 +15,137 @@
     "required_feat",
     "required_spells"
   ],
-  "rows": []
+  "rows": [
+    {
+      "id": "uniq_armor_of_the_fallen_leaves",
+      "name": "Armor of the Fallen Leaves",
+      "category": "armor",
+      "price_gp": 17350,
+      "source_page": "MIC p. ???",
+      "notes": "relic: worship Obad-Hai; +1 wild breastplate for neutral alignments; nonmetallic (druids OK). Relic Power 1/day: gaseous form up to 30 minutes (2/day if 6th-level divine slot or True Believer + 11 HD). Activation standard (command).",
+      "aura": "Strong transmutation (DC 25)",
+      "required_caster_level": 20,
+      "required_feat": "Sanctify Relic",
+      "required_spells": [
+        "baleful polymorph",
+        "gust of wind"
+      ]
+    },
+    {
+      "id": "uniq_barricade_buckler",
+      "name": "Barricade Buckler",
+      "category": "shield",
+      "price_gp": 4165,
+      "source_page": "MIC p. ???",
+      "notes": "+1 buckler; 3/day swift: transform into 5-ft-by-5-ft vertical wall of force for 1 minute; second command word returns to buckler.",
+      "aura": "Moderate evocation (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "",
+      "required_spells": [
+        "wall of force"
+      ]
+    },
+    {
+      "id": "uniq_bearskin_armor",
+      "name": "Bearskin Armor",
+      "category": "armor",
+      "price_gp": 14350,
+      "source_page": "MIC p. ???",
+      "notes": "+1 breastplate; +2 competence on grapple checks; 1/day +4 enhancement Con for 9 minutes; 2/day scent for 5 rounds; 3/day claws (two primary 1d6 each, +5 ft reach, or single secondary) for 5 rounds; functions in wild shape.",
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "",
+      "required_spells": [
+        "bear's endurance"
+      ]
+    },
+    {
+      "id": "uniq_dragonrider_armor",
+      "name": "Dragonrider Armor",
+      "category": "armor",
+      "price_gp": 18300,
+      "source_page": "MIC p. ???",
+      "notes": "+1 dragonhide full plate made from cast-off scales; resistance 10 vs the dragon’s breath energy type; +5 competence on Ride when riding dragons; auto feather fall if falling >5 ft.",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "",
+      "required_spells": [
+        "cat's grace"
+      ]
+    },
+    {
+      "id": "uniq_earthplate_armor",
+      "name": "Earthplate Armor",
+      "category": "armor",
+      "price_gp": 41650,
+      "source_page": "MIC p. ???",
+      "notes": "+1 full plate; 1/day stoneskin (90 minutes or 90 hp); tremorsense 5 ft while stoneskin active.",
+      "aura": "Moderate conjuration (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor OR Bind Elemental (ECS 51)",
+      "required_spells": [
+        "planar binding",
+        "stoneskin"
+      ]
+    },
+    {
+      "id": "uniq_electric_eel_hide",
+      "name": "Electric Eel Hide",
+      "category": "armor",
+      "price_gp": 14165,
+      "source_page": "MIC p. ???",
+      "notes": "+1 buoyant slick hide; standard mental 3/day electricity shield 5 rounds (hitters take 1d6 electricity); while active: melee touch 5d6 electricity, or if underwater burst 2d6 electricity to adjacent creatures (ends shield).",
+      "aura": "Moderate abjuration (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "",
+      "required_spells": [
+        "freedom of movement",
+        "grease",
+        "shocking grasp"
+      ]
+    },
+    {
+      "id": "uniq_exoskeleton_armor",
+      "name": "Exoskeleton Armor",
+      "category": "armor",
+      "price_gp": 21350,
+      "source_page": "MIC p. ???",
+      "notes": "+1 breastplate; damage reduction 5/bludgeoning.",
+      "aura": "Faint necromancy (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "",
+      "required_spells": [
+        "animate dead"
+      ]
+    },
+    {
+      "id": "uniq_foxhide_armor",
+      "name": "Foxhide Armor",
+      "category": "armor",
+      "price_gp": 10160,
+      "source_page": "MIC p. ???",
+      "notes": "+1 leather; +2 competence on Hide and Move Silently; 1/day +4 enhancement Int for 9 minutes; 2/day scent for 5 rounds; 3/day pass without trace (also grants woodland stride-like movement at normal speed for 1 hour); functions in wild shape.",
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "",
+      "required_spells": [
+        "fox's cunning",
+        "pass without trace"
+      ]
+    },
+    {
+      "id": "uniq_ghoul_shell_armor",
+      "name": "Ghoul Shell Armor",
+      "category": "armor",
+      "price_gp": 10160,
+      "source_page": "MIC p. ???",
+      "notes": "+1 leather; 3/day touch attacks replicate ghoul touch (Fort DC 15 negates). Activation: standard (mental).",
+      "aura": "Strong necromancy (DC 21)",
+      "required_caster_level": 12,
+      "required_feat": "",
+      "required_spells": [
+        "create undead"
+      ]
+    }
+  ]
 }
