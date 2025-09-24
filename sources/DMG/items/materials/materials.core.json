@@ -1,123 +1,267 @@
 {
   "schema_version": "1.0",
-  "source": "DMG v3.5",
-  "chapter": "Magic Items",
-  "section": "Special Materials",
-  "fields": ["id", "name", "applies_to", "cost_mod", "stats_mod", "constraints", "source"],
+  "source": "DMG",
+  "chapter": "Special Materials",
+  "section": "Core (rebuilt, detailed, with Bronze)",
+  "fields": [
+    "id",
+    "name",
+    "applies_to",
+    "cost_mod",
+    "stats_mod",
+    "constraints",
+    "source"
+  ],
   "rows": [
     [
       "mat_adamantine",
       "Adamantine",
-      ["weapon", "armor", "ammunition", "metal_only"],
+      [
+        "weapon",
+        "armor",
+        "shield",
+        "ammunition",
+        "metal_only"
+      ],
       {
-        "weapon": { "add": 3000 },
-        "ammunition_each": { "add": 60 },
-        "armor_light": { "add": 5000 },
-        "armor_medium": { "add": 10000 },
-        "armor_heavy": { "add": 15000 }
+        "weapon": {
+          "add": 3000
+        },
+        "ammunition_each": {
+          "add": 60
+        },
+        "armor_light": {
+          "add": 5000
+        },
+        "armor_medium": {
+          "add": 10000
+        },
+        "armor_heavy": {
+          "add": 15000
+        }
       },
       {
-        "dr_by_armor_category": { "light": "1/-", "medium": "2/-", "heavy": "3/-" },
         "hardness": 20,
         "hp_per_inch": 40
       },
       {
         "always_masterwork": true,
-        "notes": "Armor grants DR by category; ammunition priced per piece; only items normally made of metal."
-      },
-      "DMG p.283"
-    ],
-    [
-      "mat_mithral",
-      "Mithral",
-      ["weapon", "armor", "shield", "metal_only"],
-      {
-        "weapon_tier_add": { "light": 500, "one_handed": 1000, "two_handed": 1500 },
-        "shield": { "add": 1000 },
-        "armor_light": { "add": 1000 },
-        "armor_medium": { "add": 4000 },
-        "armor_heavy": { "add": 9000 }
-      },
-      {
-        "weight_mult": 0.5,
-        "acp_adj": 3,
-        "max_dex_adj": 2,
-        "spell_fail_adj_pct": -10,
-        "counts_as_lighter_for_movement": true
-      },
-      {
-        "always_masterwork": true,
-        "notes": "Armor counts as one category lighter for movement and proficiency interactions."
+        "weapon_bypass_hardness_below": 20,
+        "dr_by_armor_category": {
+          "light": "1/-",
+          "medium": "2/-",
+          "heavy": "3/-"
+        },
+        "notes": "Only items normally made of metal. Steel items gain ~+33% HP when made of adamantine."
       },
       "DMG p.283"
     ],
     [
       "mat_darkwood",
       "Darkwood",
-      ["wooden_only", "shield"],
+      [
+        "weapon",
+        "ammunition",
+        "shield",
+        "wooden_only"
+      ],
       {
         "per_lb_add": 10
       },
       {
         "weight_mult": 0.5,
-        "acp_adj": 2,
         "hardness": 5,
         "hp_per_inch": 10
       },
       {
         "always_masterwork": true,
-        "notes": "Wooden or mostly wooden items only; shields reduce ACP by 2."
+        "shield_acp_adj": 2,
+        "notes": "Wooden or mostly wooden items only. Shields lessen ACP by 2."
       },
       "DMG p.283"
     ],
     [
       "mat_dragonhide",
       "Dragonhide",
-      ["armor"],
+      [
+        "armor",
+        "shield",
+        "leather_only",
+        "non_metal_only"
+      ],
       {
-        "armor_multiplier_on_masterwork": 2.0
+        "armor_cost_mult_on_masterwork_base": 2.0
       },
       {
         "hardness": 10,
         "hp_per_inch": 10
       },
       {
-        "always_masterwork": true,
-        "eligible_armors": ["hide", "scale_mail", "breastplate", "splint_mail", "banded_mail", "half_plate", "full_plate"],
-        "notes": "Nonmetal; costs double what masterwork armor of that type costs; crafting time is unchanged."
+        "druid_ok": true,
+        "notes": "Costs double what masterwork armor of that type costs."
       },
       "DMG p.283"
     ],
     [
-      "mat_alchemical_silver",
-      "Alchemical Silver",
-      ["weapon", "ammunition", "metal_only"],
+      "mat_cold_iron",
+      "Iron, Cold",
+      [
+        "weapon",
+        "ammunition",
+        "metal_only"
+      ],
       {
-        "weapon_tier_add": { "light": 90, "one_handed": 180, "two_handed": 270 },
-        "ammunition_each": { "add": 2 }
+        "weapon_cost_multiplier": 2.0,
+        "ammunition_cost_multiplier": 2.0,
+        "magic_weapon_extra_cost": 2000,
+        "double_weapon_half_only_cost_mult": 1.5
       },
       {
-        "damage_penalty": -1
+        "hardness": 10,
+        "hp_per_inch": 30
       },
       {
-        "notes": "Overcomes DR/silver where applicable; applied to suitable metal weapons and ammunition."
+        "notes": "Metal-only. Forged at lower temperature to preserve properties. Enhancing costs +2,000 gp."
       },
       "DMG p.284"
     ],
     [
-      "mat_cold_iron",
-      "Cold Iron",
-      ["weapon", "ammunition", "metal_only"],
+      "mat_mithral",
+      "Mithral",
+      [
+        "weapon",
+        "armor",
+        "shield",
+        "metal_only",
+        "other_items"
+      ],
       {
-        "weapon_cost_multiplier": 2.0,
-        "ammunition_cost_multiplier": 2.0,
-        "magic_weapon_extra_cost": 2000
+        "armor_light": {
+          "add": 1000
+        },
+        "armor_medium": {
+          "add": 4000
+        },
+        "armor_heavy": {
+          "add": 9000
+        },
+        "shield": {
+          "add": 1000
+        },
+        "other_items": {
+          "per_lb_add": 500
+        }
       },
-      {},
       {
-        "notes": "Forged at lower temperatures; any magic enhancement on a cold iron weapon costs an additional 2000 gp beyond normal magic costs."
+        "weight_mult": 0.5,
+        "acp_adj": 3,
+        "spell_failure_adj_pct": -10,
+        "hardness": 15,
+        "hp_per_inch": 30
+      },
+      {
+        "always_masterwork": true,
+        "treat_armor_as_lighter_category": 1,
+        "notes": "Heavy→Medium, Medium→Light for movement/limitations; light remains light."
       },
       "DMG p.284"
+    ],
+    [
+      "mat_alchemical_silver",
+      "Silver, Alchemical",
+      [
+        "weapon",
+        "ammunition",
+        "metal_only"
+      ],
+      {
+        "ammunition_each": {
+          "add": 2
+        },
+        "weapon": {
+          "light": {
+            "add": 20
+          },
+          "one_handed": {
+            "add": 90
+          },
+          "two_handed": {
+            "add": 180
+          },
+          "double_one_head": {
+            "add": 90
+          },
+          "double_both_heads": {
+            "add": 180
+          }
+        }
+      },
+      {
+        "hardness": 8,
+        "hp_per_inch": 10
+      },
+      {
+        "damage_penalty": -1,
+        "minimum_damage": 1,
+        "not_applicable_to": [
+          "adamantine",
+          "cold iron",
+          "mithral"
+        ],
+        "notes": "On hit, -1 damage (minimum 1)."
+      },
+      "DMG p.284"
+    ],
+    [
+      "mat_stone",
+      "Stone",
+      [
+        "weapon",
+        "ammunition",
+        "stone_capable_only",
+        "non_metal_only"
+      ],
+      {},
+      {
+        "hardness": 8,
+        "hp_per_inch": 20
+      },
+      {
+        "fragile_break_on_weapon_critical_failure": true,
+        "notes": "Primitive-capable bases only; breaks on weapon critical failure. Verify allowed base list."
+      },
+      "DMG p. ???"
+    ],
+    [
+      "mat_bronze",
+      "Bronze",
+      [
+        "weapon",
+        "armor",
+        "shield",
+        "metal_only"
+      ],
+      {},
+      {
+        "hardness": 9,
+        "hp_per_inch": 20
+      },
+      {
+        "weapon_attack_penalty": -1,
+        "damage_penalty": -1,
+        "minimum_damage": 1,
+        "shield_hardness": 9,
+        "shield_hp_by_size": {
+          "small": 7,
+          "large": 14
+        },
+        "breastplate_overrides": {
+          "armor_bonus_adj": -1,
+          "max_dex_bonus_adj": 1
+        },
+        "notes": "Weapons: -1 attack and damage (min 1). Shields: same AC/cost/weight as steel, hardness 9, small 7 HP, large 14 HP. Bronze breastplate +4 AC (−1), Max Dex +4 (+1)."
+      },
+      "DMG p. ???"
     ]
   ]
 }
