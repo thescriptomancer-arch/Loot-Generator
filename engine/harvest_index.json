@@ -40,6 +40,18 @@
         "sources/DMG/items/intelligent/intelligent_item_tables.core.json",
         "sources/DMG/items/cursed/cursed_item_tables.core.json"
       ]
-    }
+    },
+    {
+  "book": "MIC v3.5",
+  "roots": ["sources/MIC"],
+  "load_order": [
+    "sources/MIC/items/augment_crystals/augment_crystals.core.json",
+    "sources/MIC/items/magic/magic_special_abilities.mic.core.json",
+    "sources/MIC/items/synergy/synergy_overlays.core.json",
+    "sources/MIC/items/sets/item_sets.core.json",
+    "sources/MIC/items/unique/unique_items.mic.index.json",
+    "sources/MIC/rules/mic_rules.json"
+  ]
+}
   ]
 }
