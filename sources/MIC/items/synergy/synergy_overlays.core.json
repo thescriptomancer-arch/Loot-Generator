@@ -354,6 +354,149 @@
       "stacking_rules": "",
       "notes": "Energy Defense: while active, attackers take 1d6+10 energy damage of the prerequisite resistance’s type on a hit; 3/day, 5 rounds; immediate command. Prereq spells: fire shield, resist energy.",
       "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_acidic_burst",
+      "applies_to": "weapon",
+      "requires_all_properties": ["mic_weap_corrosive"],
+      "grants_effect_tags": ["acidic_burst", "acid_on_crit"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Corrosive; adds +1 effective bonus.",
+      "notes": "Functions as Corrosive; on crit deals extra acid (x2:1d10; x3:2d10; x4:3d10). Continuous, even if Corrosive not currently active. Projectile weapons pass to ammo.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_desiccating_burst",
+      "applies_to": "weapon",
+      "requires_all_properties": ["mic_weap_desiccating"],
+      "grants_effect_tags": ["desiccating_burst", "fatigue_on_crit"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Desiccating; adds +1 effective bonus.",
+      "notes": "On crit deals extra damage (x2:1d8; x3:2d8; x4:3d8); doubled vs plants and water-subtype elementals; also fatigues target for 8 hours (or until it drinks ~1 gallon). Continuous; projectile weapons pass to ammo.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_dislocator_great",
+      "applies_to": "weapon",
+      "requires_all_properties": ["mic_weap_dislocator"],
+      "grants_effect_tags": ["dislocator_great", "teleport_on_hit"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Dislocator; adds +1 effective bonus.",
+      "notes": "As Dislocator but teleports struck target up to 30 ft (Will DC 20 negates). Inherits base usage limit (3/day). Projectile weapons pass to ammo.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_dispelling_greater",
+      "applies_to": "weapon",
+      "requires_all_properties": ["mic_weap_dispelling"],
+      "grants_effect_tags": ["greater_dispelling_on_hit"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Dispelling; adds +1 effective bonus.",
+      "notes": "On hit may trigger targeted greater dispel magic (3/day).",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_surge__corrosive",
+      "applies_to": "weapon",
+      "requires_all_properties": ["mic_weap_corrosive"],
+      "grants_effect_tags": ["energy_surge_acid"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Corrosive; adds +1 effective bonus.",
+      "notes": "Melee only. Swift command on a hit to add +3d6 acid; uses/day = 1 + Con mod. Prereq need not be active; one activation per day per wielder; a weapon can have multiple surge types (one per prereq).",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_surge__flaming",
+      "applies_to": "weapon",
+      "requires_all_properties": ["weap_flaming"],
+      "grants_effect_tags": ["energy_surge_fire"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Flaming; adds +1 effective bonus.",
+      "notes": "Melee only. Swift command on a hit to add +3d6 fire; uses/day = 1 + Con mod. Prereq need not be active; one activation per day per wielder; a weapon can have multiple surge types (one per prereq).",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_surge__frost",
+      "applies_to": "weapon",
+      "requires_all_properties": ["weap_frost"],
+      "grants_effect_tags": ["energy_surge_cold"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Frost; adds +1 effective bonus.",
+      "notes": "Melee only. Swift command on a hit to add +3d6 cold; uses/day = 1 + Con mod. Prereq need not be active; one activation per day per wielder; a weapon can have multiple surge types (one per prereq).",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_energy_surge__shock",
+      "applies_to": "weapon",
+      "requires_all_properties": ["weap_shock"],
+      "grants_effect_tags": ["energy_surge_electricity"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Shock; adds +1 effective bonus.",
+      "notes": "Melee only. Swift command on a hit to add +3d6 electricity; uses/day = 1 + Con mod. Prereq need not be active; one activation per day per wielder; a weapon can have multiple surge types (one per prereq).",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_fiercebane",
+      "applies_to": "weapon",
+      "requires_all_properties": ["weap_bane"],
+      "grants_effect_tags": ["fiercebane", "bane_crit_bonus", "glow_near_designated_foe"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Bane; adds +1 effective bonus.",
+      "notes": "Acts as Bane vs designated type/subtype; on crit deals extra (x2:1d10; x3:2d10; x4:3d10). Glows within 60 ft of designated foe; hums on hits.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_ghost_strike",
+      "applies_to": "weapon",
+      "requires_all_properties": ["weap_ghost_touch"],
+      "grants_effect_tags": ["ghost_strike", "sneak_crit_vs_undead"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Ghost Touch; adds +1 effective bonus.",
+      "notes": "Functions as Ghost Touch; sneak attacks and critical hits affect undead as if living.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_holy_surge",
+      "applies_to": "weapon",
+      "requires_all_properties": ["weap_holy"],
+      "grants_effect_tags": ["holy_surge", "holy_burst_command"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Holy; adds +1 effective bonus.",
+      "notes": "Melee only. Functions as Holy; on a hit may emit a holy burst vs evil (+3d6). Uses/day = 1 + Cha mod; wasted vs non-evil; one activation per day per wielder.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_illusion_theft",
+      "applies_to": "weapon",
+      "requires_all_properties": ["mic_weap_illusion_bane"],
+      "grants_effect_tags": ["illusion_theft", "store_dispelled_illusion"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 2,
+      "stacking_rules": "Requires Illusion Bane; adds +2 effective bonus.",
+      "notes": "As Illusion Bane; first illusion dispelled is stored (like spell storing but illusions only, any level, not cast-into, and can be discharged without a hit). Stored spell’s duration is frozen until activation; must dispel another illusion to recharge.",
+      "source_page": "MIC Ch.1"
+    },
+    {
+      "id": "mic_syn_incorporeal_binding",
+      "applies_to": "weapon",
+      "requires_all_properties": ["weap_ghost_touch"],
+      "grants_effect_tags": ["incorporeal_binding", "anchor_incorporeal"],
+      "price_add_gp": 0,
+      "effective_bonus_add": 1,
+      "stacking_rules": "Requires Ghost Touch; adds +1 effective bonus.",
+      "notes": "Functions as Ghost Touch; when it damages an incorporeal creature, that target loses its 50% incorporeal miss chance and 50% chance to ignore spells for 1 round (retains other incorporeal benefits).",
+      "source_page": "MIC Ch.1"
     }
   ]
 }
