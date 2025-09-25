@@ -1581,7 +1581,7 @@
     "required_spells": ["haste"]
   },
   {
-    "id": "uniq_belt_of_the_champion",
+    "id": "uniq_belt_of_the_champion_relic",
     "name": "Belt of the Champion [Relic]",
     "category": "wondrous",
     "price_gp": 4500,
