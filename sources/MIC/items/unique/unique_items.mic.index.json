@@ -17,8 +17,8 @@
   ],
   "rows": [
     {
-      "id": "uniq_armor_of_the_fallen_leaves",
-      "name": "Armor of the Fallen Leaves",
+      "id": "uniq_armor_of_the_fallen_leaves_relic",
+      "name": "Armor of the Fallen Leaves [Relic]",
       "category": "armor",
       "price_gp": 17350,
       "source_page": "MIC p. ???",
@@ -177,8 +177,8 @@
       ]
     },
     {
-      "id": "uniq_millennial_chainmail",
-      "name": "Millennial Chainmail",
+      "id": "uniq_millennial_chainmail_relic",
+      "name": "Millennial Chainmail [Relic]",
       "category": "armor",
       "price_gp": 8150,
       "source_page": "MIC p. ???",
@@ -263,8 +263,8 @@
       ]
     },
     {
-      "id": "uniq_shield_of_the_resolute",
-      "name": "Shield of the Resolute",
+      "id": "uniq_shield_of_the_resolute_relic",
+      "name": "Shield of the Resolute [Relic]",
       "category": "shield",
       "price_gp": 5520,
       "source_page": "MIC p. ???",
@@ -279,8 +279,8 @@
       ]
     },
     {
-      "id": "uniq_shield_of_the_severed_hand",
-      "name": "Shield of the Severed Hand",
+      "id": "uniq_shield_of_the_severed_hand_relic",
+      "name": "Shield of the Severed Hand [Relic]",
       "category": "shield",
       "price_gp": 4657,
       "source_page": "MIC p. ???",
@@ -403,8 +403,8 @@
 "required_spells": ["entangle"]
 },
 {
-"id": "uniq_axe_of_ancestral_virtue",
-"name": "Axe of Ancestral Virtue",
+"id": "uniq_axe_of_ancestral_virtue_relic",
+"name": "Axe of Ancestral Virtue [Relic]",
 "category": "weapon",
 "price_gp": 8530,
 "source_page": "MIC p. ???",
@@ -463,8 +463,8 @@
 "required_spells": ["sculpt sound"]
 },
 {
-"id": "uniq_bow_of_the_wintermoon",
-"name": "Bow of the Wintermoon",
+"id": "uniq_bow_of_the_wintermoon_relic",
+"name": "Bow of the Wintermoon [Relic]",
 "category": "weapon",
 "price_gp": 3400,
 "source_page": "MIC p. ???",
@@ -487,8 +487,8 @@
 "required_spells": ["polymorph any object"]
 },
 {
-"id": "uniq_chain_of_obeisance",
-"name": "Chain of Obeisance",
+"id": "uniq_chain_of_obeisance_relic",
+"name": "Chain of Obeisance [Relic]",
 "category": "weapon",
 "price_gp": 20400,
 "source_page": "MIC p. ???",
@@ -499,8 +499,8 @@
 "required_spells": ["dominate monster"]
 },
 {
-"id": "uniq_chromatic_rod",
-"name": "Chromatic Rod",
+"id": "uniq_chromatic_rod_relic",
+"name": "Chromatic Rod [Relic]",
 "category": "weapon",
 "price_gp": 12308,
 "source_page": "MIC p. ???",
@@ -523,8 +523,8 @@
 "required_spells": []
 },
 {
-"id": "uniq_cudgel_that_never_forgets",
-"name": "Cudgel That Never Forgets",
+"id": "uniq_cudgel_that_never_forgets_relic",
+"name": "Cudgel That Never Forgets [Relic]",
 "category": "weapon",
 "price_gp": 20312,
 "source_page": "MIC p. ???",
@@ -547,8 +547,8 @@
 "required_spells": ["remove fear"]
 },
 {
-"id": "uniq_dagger_of_denial",
-"name": "Dagger of Denial",
+"id": "uniq_dagger_of_denial_relic",
+"name": "Dagger of Denial [Relic]",
 "category": "weapon",
 "price_gp": 20302,
 "source_page": "MIC p. ???",
@@ -559,8 +559,8 @@
 "required_spells": ["arcane eye", "detect magic", "detect scrying", "greater dispel magic"]
 },
 {
-"id": "uniq_dawnstar",
-"name": "Dawnstar",
+"id": "uniq_dawnstar_relic",
+"name": "Dawnstar [Relic]",
 "category": "weapon",
 "price_gp": 9308,
 "source_page": "MIC p. ???",
@@ -667,8 +667,8 @@
 "required_spells": ["ghost trap"]
 },
 {
-"id": "uniq_hooked_hammer_of_the_hearthfire",
-"name": "Hooked Hammer of the Hearthfire",
+"id": "uniq_hooked_hammer_of_the_hearthfire_relic",
+"name": "Hooked Hammer of the Hearthfire [Relic]",
 "category": "weapon",
 "price_gp": 5120,
 "source_page": "MIC p. ???",
@@ -739,8 +739,8 @@
 "required_spells": ["fireball", "telekinesis"]
 },
 {
-"id": "uniq_morningstar_of_the_many",
-"name": "Morningstar of the Many",
+"id": "uniq_morningstar_of_the_many_relic",
+"name": "Morningstar of the Many [Relic]",
 "category": "weapon",
 "price_gp": 7308,
 "source_page": "MIC p. ???",
@@ -775,8 +775,8 @@
 "required_spells": ["haste", "protection from arrows", "Tenser's transformation"]
 },
     {
-"id": "uniq_rapier_of_desperate_measures",
-"name": "Rapier of Desperate Measures",
+"id": "uniq_rapier_of_desperate_measures_relic",
+"name": "Rapier of Desperate Measures [Relic]",
 "category": "weapon",
 "price_gp": 9320,
 "source_page": "MIC p. ???",
@@ -787,8 +787,8 @@
 "required_spells": ["keen edge"]
 },
 {
-"id": "uniq_rapier_of_unerring_direction",
-"name": "Rapier of Unerring Direction",
+"id": "uniq_rapier_of_unerring_direction_relic",
+"name": "Rapier of Unerring Direction [Relic]",
 "category": "weapon",
 "price_gp": 9320,
 "source_page": "MIC p. ???",
@@ -799,8 +799,8 @@
 "required_spells": ["true seeing"]
 },
 {
-"id": "uniq_raptor_arrow",
-"name": "Raptor Arrow",
+"id": "uniq_raptor_arrow_relic",
+"name": "Raptor Arrow [Relic]",
 "category": "ammunition",
 "price_gp": 6006,
 "source_page": "MIC p. ???",
@@ -871,8 +871,8 @@
 "required_spells": ["break enchantment"]
 },
 {
-"id": "uniq_rod_of_the_recluse",
-"name": "Rod of the Recluse",
+"id": "uniq_rod_of_the_recluse_relic",
+"name": "Rod of the Recluse [Relic]",
 "category": "weapon",
 "price_gp": 9305,
 "source_page": "MIC p. ???",
@@ -919,8 +919,8 @@
 "required_spells": ["blink"]
 },
 {
-"id": "uniq_ruby_blade",
-"name": "Ruby Blade",
+"id": "uniq_ruby_blade_relic",
+"name": "Ruby Blade [Relic]",
 "category": "weapon",
 "price_gp": 20302,
 "source_page": "MIC p. ???",
@@ -943,8 +943,8 @@
 "required_spells": ["symbol of pain"]
 },
 {
-"id": "uniq_skewer_of_gnomes",
-"name": "Skewer-of-Gnomes",
+"id": "uniq_skewer_of_gnomes_relic",
+"name": "Skewer-of-Gnomes [Relic]",
 "category": "weapon",
 "price_gp": 9302,
 "source_page": "MIC p. ???",
@@ -955,8 +955,8 @@
 "required_spells": ["unholy blight"]
 },
 {
-"id": "uniq_spear_of_retribution",
-"name": "Spear of Retribution",
+"id": "uniq_spear_of_retribution_relic",
+"name": "Spear of Retribution [Relic]",
 "category": "weapon",
 "price_gp": 9302,
 "source_page": "MIC p. ???",
@@ -991,8 +991,8 @@
 "required_spells": ["Melf's acid arrow", "web"]
 },
 {
-"id": "uniq_staff_of_the_unyielding_oak",
-"name": "Staff of the Unyielding Oak",
+"id": "uniq_staff_of_the_unyielding_oak_relic",
+"name": "Staff of the Unyielding Oak [Relic]",
 "category": "weapon",
 "price_gp": 5600,
 "source_page": "MIC p. ???",
@@ -1027,8 +1027,8 @@
 "required_spells": ["sound burst"]
 },
 {
-"id": "uniq_sword_of_mighty_thews",
-"name": "Sword of Mighty Thews",
+"id": "uniq_sword_of_mighty_thews_relic",
+"name": "Sword of Mighty Thews [Relic]",
 "category": "weapon",
 "price_gp": 9350,
 "source_page": "MIC p. ???",
@@ -1039,8 +1039,8 @@
 "required_spells": ["antidragon aura"]
 },
 {
-"id": "uniq_sword_of_virtue_beyond_reproach",
-"name": "Sword of Virtue Beyond Reproach",
+"id": "uniq_sword_of_virtue_beyond_reproach_relic",
+"name": "Sword of Virtue Beyond Reproach [Relic]",
 "category": "weapon",
 "price_gp": 9315,
 "source_page": "MIC p. ???",
@@ -2822,12 +2822,11 @@
     "category": "wondrous",
     "price_gp": 5000,
     "source_page": "MIC p. ???",
-    "notes": "Swift (command): Select energy resistance 5 (acid, cold, electricity, or fire) while worn; only functions for chaotic evil, neutral evil, or chaotic neutral wearers. Relic Power: gain fly speed 60 ft (average) as dragon wings for up to 2 hours/day (split as desired) and increase chosen energy resistance to 20.",
-    "aura": "Strong transmutation (DC 25)",
+    "notes": "relic: worship Tiamat. Functions for chaotic evil, neutral evil, or chaotic neutral wearers. While worn, grants resistance 5 to one chosen energy type (acid, cold, electricity, or fire); you can select or change the energy type with a command. Relic power: the cloak unfurls into dragon wings that grant fly 60 ft. (average) for up to 2 hours/day (split as desired), and the chosen energy resistance increases to 20. To use the relic power, sacrifice a 6th-level divine spell slot or have True Believer and at least 11 HD. Activation: swift (command) to select/change energy type; relic power also activated by command.",
+    "aura": "Strong; (DC 25) transmutation",
     "required_caster_level": 20,
-    "required_feat": "Craft Wondrous Item",
-    "required_spells": ["polymorph", "resist energy"],
-    "additional_prereq_notes": "Relic: requires Sanctify Relic and worship of Tiamat; to use relic power, either sacrifice a 6th-level divine spell slot or have True Believer and at least 11 HD."
+    "required_feat": "Craft Wondrous Item; Sanctify Relic",
+    "required_spells": ["polymorph", "resist energy"]
   },
   {
     "id": "uniq_dreaming_blindfold",
@@ -2936,13 +2935,12 @@
     "category": "wondrous",
     "price_gp": 6000,
     "source_page": "MIC p. ???",
-    "notes": "Functions only for chaotic evil, neutral evil, or chaotic neutral wearers. Allows coup de grace as a standard action (instead of full-round). Relic Power: each time you successfully perform a coup de grace, gain +1 morale bonus on melee attack and damage rolls and 1 temporary hit point per level for 5 minutes; stacks up to +5 and 5 temp HP/level.",
-    "aura": "Strong transmutation (DC 25)",
+    "notes": "relic: worship Erythnul. Functions for chaotic evil, neutral evil, or chaotic neutral wearers. While worn, you can attempt a coup de grace as a standard action (instead of a full-round action). Relic power: each time you successfully perform a coup de grace, you gain a +1 morale bonus on melee attack rolls and damage rolls and 1 temporary hit point per level for 5 minutes; these benefits stack up to +5 and 5 temp hp/level. To use the relic power, sacrifice a 5th-level divine spell slot or have True Believer and at least 9 HD. Activation: —; see text.",
+    "aura": "Strong; (DC 25) transmutation",
     "required_caster_level": 20,
-    "required_feat": "Craft Wondrous Item",
-    "required_spells": ["bear's endurance"],
-    "additional_prereq_notes": "Relic: requires Sanctify Relic and worship of Erythnul; to use relic power, either sacrifice a 5th-level divine spell slot or have True Believer and at least 9 HD."
-  },
+    "required_feat": "Craft Wondrous Item; Sanctify Relic",
+    "required_spells": ["bear's endurance"]
+  }
   {
     "id": "uniq_eyes_of_expanded_vision",
     "name": "Eyes of Expanded Vision",
