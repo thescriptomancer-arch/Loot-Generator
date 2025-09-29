@@ -7362,6 +7362,410 @@
     "normal": "5,250 gp, 420 XP, 11 days",
     "greater": "12,150 gp, 972 XP, 25 days"
   }
-}
+},
+{
+  "id": "uniq_mirror_of_suggestion",
+  "name": "Mirror of Suggestion",
+  "category": "wondrous item (held)",
+  "price_gp": 3600,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) enchantment",
+  "activation": "Standard (command)",
+  "weight_lb": 0.5,
+  "effects": [
+    "Held so a creature within 30 ft sees its reflection (gaze attack): Will DC 14 or subject to wielder’s suggestion.",
+    "2/day; each activation affects only one creature.",
+    "Wielder is immune."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["suggestion or psionic suggestion (EPH 133)"]
+  },
+  "cost_to_create": "1,800 gp, 144 XP, 4 days"
+},
+{
+  "id": "uniq_mirror_of_time_hop",
+  "name": "Mirror of Time Hop",
+  "category": "wondrous item (held)",
+  "price_gp": 9000,
+  "item_level": 12,
+  "body_slot": "— (held)",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) conjuration",
+  "activation": "Standard (command)",
+  "weight_lb": 0.5,
+  "effects": [
+    "Held so a creature within 30 ft sees its reflection (gaze attack): Will DC 14 or pushed 5 rounds forward in time.",
+    "Target disappears, then reappears in same position/orientation/condition; effects resume; can act normally on next turn after return.",
+    "2/day; each activation affects only one creature.",
+    "Wielder is immune."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["dimension door or time hop (EPH 137)"]
+  },
+  "cost_to_create": "4,500 gp, 360 XP, 9 days"
+},
+{
+  "id": "uniq_noble_pennon",
+  "name": "Noble Pennon",
+  "category": "wondrous item (standard/held)",
+  "price_gp": 5000,
+  "item_level": 9,
+  "body_slot": "—; see text",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) enchantment",
+  "activation": "Immediate (mental)",
+  "effects": [
+    "Attunes to a paladin or knight (PH2 24); displays bearer’s arms; transfer only willingly or on owner’s death.",
+    "Can be attached to lance, carried by follower, or flown as a standard; mounting is a standard action.",
+    "While within 60 ft of owner: knight’s challenge save DC +1; smite evil deals +2 damage.",
+    "3 charges/day (renew at dawn): activate for 3 rounds of morale bonus on Fortitude or Will (chosen on activation): 1 charge +2; 2 charges +3; 3 charges +4."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["heroism"]
+  },
+  "cost_to_create": "2,500 gp, 200 XP, 5 days"
+},
+{
+  "id": "uniq_ollamh_harp",
+  "name": "Ollamh Harp",
+  "category": "wondrous item (instrument, held)",
+  "price_gp": 50100,
+  "item_level": 18,
+  "body_slot": "— (held)",
+  "required_caster_level": 17,
+  "aura": "Strong; (DC 23) transmutation",
+  "activation": "— and standard (command)",
+  "weight_lb": 3,
+  "effects": [
+    "Masterwork; +2 circumstance bonus on Perform (string instruments).",
+    "If you have ≥14 ranks in Perform (string instruments): 1/day each control weather, eyebite, repulsion.",
+    "If held without ≥14 ranks: bestows one negative level while held (no actual level loss; can’t be removed while held)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["control weather", "eyebite", "repulsion"],
+    "other": ["bard"]
+  },
+  "cost_to_create": "25,000 gp (plus 100 gp masterwork harp), 2,000 XP, 51 days"
+},
+{
+  "id": "uniq_orb_of_blinding",
+  "name": "Orb of Blinding",
+  "category": "wondrous item (held)",
+  "price_gp": 5000,
+  "item_level": 9,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) illusion",
+  "activation": "Standard (command)",
+  "effects": [
+    "Emits a brilliant burst in a 15-ft cone; creatures blinded 1 round (Fort DC 16 negates).",
+    "3/day, but not in consecutive rounds."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["color spray"]
+  },
+  "cost_to_create": "2,500 gp, 200 XP, 5 days"
+},
+{
+  "id": "uniq_orb_environmental_adaptation",
+  "name": "Orb of Environmental Adaptation",
+  "category": "wondrous item (held)",
+  "price_gp": 2000,
+  "item_level": 6,
+  "body_slot": "— (held); see text",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) abjuration",
+  "activation": "Standard (command)",
+  "effects": [
+    "Creates a sphere centered on you (radius selectable 5–30 ft; change as a move action).",
+    "Creatures/objects inside take no harm from hot/cold between –50°F and 140°F; equipment protected.",
+    "Functions up to 7 consecutive days, then dormant 7 days."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["endure elements"]
+  },
+  "cost_to_create": "1,000 gp, 80 XP, 2 days"
+},
+{
+  "id": "uniq_orb_of_mental_renewal",
+  "name": "Orb of Mental Renewal",
+  "category": "wondrous item (held)",
+  "price_gp": 3100,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) conjuration",
+  "activation": "Standard (command)",
+  "weight_lb": 1,
+  "effects": [
+    "3 charges/day (renew at dawn). Touch target (or self) while holding orb to heal mental ability damage:",
+    "1 charge: heal 4 points to Int/Wis/Cha (choose one) OR 2 points to all three.",
+    "2 charges: heal 6 points to Int/Wis/Cha (choose one) OR 3 points to all three.",
+    "3 charges: heal 8 points to Int/Wis/Cha (choose one) OR 4 points to all three."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["lesser restoration"]
+  },
+  "cost_to_create": "1,550 gp, 124 XP, 4 days"
+},
+{
+  "id": "uniq_pearl_of_brain_lock",
+  "name": "Pearl of Brain Lock",
+  "category": "wondrous item (thrown, single-use)",
+  "price_gp": 900,
+  "item_level": 4,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) enchantment",
+  "activation": "Standard (thrown)",
+  "effects": [
+    "Ranged touch (range inc. 10 ft); on hit target Will DC 13 or dazed for 3 rounds (mind-affecting).",
+    "Flying/Swimming targets may move to safety instead of being dazed while moving; then dazed for remaining duration.",
+    "Expended on use."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["daze monster or brain lock (EPH 81)"]
+  },
+  "cost_to_create": "450 gp, 36 XP, 1 day"
+},
+{
+  "id": "uniq_pearl_of_breath_crisis",
+  "name": "Pearl of Breath Crisis",
+  "category": "wondrous item (thrown, single-use)",
+  "price_gp": 2000,
+  "item_level": 6,
+  "body_slot": "— (held)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) enchantment",
+  "activation": "Standard (thrown)",
+  "effects": [
+    "Ranged touch (range inc. 10 ft); if struck humanoid fails Will DC 14, it must spend a standard action each round for 5 rounds to breathe.",
+    "At end of any turn it doesn’t take a breath: Fort DC 14 or begin to suffocate (drop to 0 hp and potentially die per DMG 304) while duration continues.",
+    "If effect ends before death, suffocation condition ends.",
+    "Expended on use."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["suggestion or crisis of breath (EPH 89)"]
+  },
+  "cost_to_create": "1,000 gp, 80 XP, 2 days"
+},
+{
+  "id": "uniq_personal_oasis",
+  "name": "Personal Oasis",
+  "category": "wondrous item (held)",
+  "price_gp": 4600,
+  "item_level": 9,
+  "body_slot": "— (held)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) conjuration, evocation",
+  "activation": "Standard (command)",
+  "weight_lb": 3,
+  "effects": [
+    "Unrolls a 10×10 ft blanket; on activation, produces a 5×10 ft tent, a campfire, a bowl of dates, and a gallon of cool water.",
+    "Tent functions as Leomund’s tiny hut; fire burns continuously; dates feed one person for a day.",
+    "Speak command again to roll back up.",
+    "1/day for up to 10 hours."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["create food and water", "Leomund's tiny hut", "produce flame"]
+  },
+  "cost_to_create": "2,300 gp, 184 XP, 5 days"
+},
+{
+  "id": "uniq_pipes_of_frenzied_revelry",
+  "name": "Pipes of Frenzied Revelry [Relic]",
+  "category": "wondrous item (relic, held)",
+  "price_gp": 3100,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 20,
+  "aura": "Strong; (DC 25) enchantment",
+  "activation": "Standard (manipulation)",
+  "effects": [
+    "If CN, N, CG, or CE: +5 competence bonus on Perform (wind instruments) checks while playing.",
+    "Relic Power (Perform (wind instruments) DC 25 each round while playing): creatures within 30 ft Will DC 16 or confused; on ‘attack’ result they instead make a mild amorous advance. Effect persists while you play each round and end your turn within 30 ft; interruption or failed check then resuming allows new saves; creatures that save are immune for 24 hours."
+  ],
+  "relic_attunement": "Worship Olidammara and either sacrifice a 5th-level divine spell slot or have the True Believer feat and at least 9 HD.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item", "Sanctify Relic"],
+    "spells": ["confusion"]
+  },
+  "cost_to_create": "1,550 gp, 124 XP, 4 days"
+},
+{
+  "id": "uniq_porcupine_elixir",
+  "name": "Porcupine Elixir",
+  "category": "wondrous item (consumable)",
+  "price_gp": 800,
+  "item_level": 3,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) transmutation",
+  "activation": "Standard (manipulation)",
+  "effects": [
+    "+1 enhancement bonus to existing natural armor (12 hours).",
+    "Quills sprout (through light or hide armor; blocked by heavier armor); successful grapple attack deals 1d6 piercing damage.",
+    "Duration 12 hours."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["alter self"],
+    "skills": ["Craft (alchemy) 5 ranks"]
+  },
+  "cost_to_create": "400 gp, 32 XP, 1 day"
+},
+{
+  "id": "uniq_portable_foxhole",
+  "name": "Portable Foxhole",
+  "category": "wondrous item (held)",
+  "price_gp": 5000,
+  "item_level": 9,
+  "body_slot": "— (held)",
+  "required_caster_level": 11,
+  "aura": "Moderate; (DC 20) transmutation",
+  "activation": "Standard (command)",
+  "effects": [
+    "Placed on flat surface creates a shallow extradimensional pit 5 ft square and 3 ft deep.",
+    "Provides cover against ranged attacks.",
+    "Picking it up (standard action) dumps contents harmlessly into the square it occupied."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["move earth"]
+  },
+  "cost_to_create": "2,500 gp, 200 XP, 5 days"
+},
+{
+  "id": "uniq_powder_black_veil",
+  "name": "Powder of the Black Veil",
+  "category": "wondrous item (thrown, consumable)",
+  "price_gp": 750,
+  "item_level": 3,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) necromancy",
+  "activation": "Standard (thrown)",
+  "effects": [
+    "Creates a 10-ft spread, 10-ft-high cloud centered on you for 2d4 rounds (does not move with you).",
+    "Creatures other than you in/entering the cloud are blinded while inside and for 1d4 rounds after leaving (Will DC 13 negates).",
+    "Expended on use."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["blindness/deafness"]
+  },
+  "cost_to_create": "375 gp, 30 XP, 1 day"
+},
+{
+  "id": "uniq_psychoactive_skin_general",
+  "name": "Psychoactive Skin (General Rules)",
+  "category": "wondrous item (psionic skin)",
+  "effects": [
+    "Don as a standard (mental) action; unfolds to surround a Medium or smaller wearer, covering wearer and equipment while allowing normal senses and breathing.",
+    "Held items or specifically excluded items aren’t covered.",
+    "Up to three skins can be worn at once; only the outermost is active in a given round.",
+    "Change active layer as a standard (mental) action to bring a lower layer to the surface."
+  ]
+},
+{
+  "id": "uniq_skin_of_the_celestial",
+  "name": "Skin of the Celestial",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 6000,
+  "item_level": 10,
+  "body_slot": "—",
+  "required_caster_level": 10,
+  "aura": "Moderate; (DC 20) transmutation",
+  "activation": "Swift (mental)",
+  "weight_lb": 2,
+  "effects": [
+    "For 7 rounds: DR 5/magic; darkvision 60 ft; resist acid 10, cold 10, electricity 10; SR 15.",
+    "Smite Evil (Su) once during duration: extra 10 damage on a successful melee attack vs evil (wasted if target not evil or attack misses).",
+    "1/day; falls dormant until next dawn after duration ends."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["lesser holy transformation (SC 116) or planar apotheosis (CP 93)"]
+  },
+  "cost_to_create": "3,000 gp, 240 XP, 6 days"
+},
+{
+  "id": "uniq_skin_of_celestial_embrace",
+  "name": "Skin of Celestial Embrace",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 24000,
+  "item_level": 15,
+  "body_slot": "—",
+  "required_caster_level": 15,
+  "aura": "Strong; (DC 22) transmutation",
+  "activation": "Swift (mental)",
+  "weight_lb": 2,
+  "effects": [
+    "For 15 rounds: +4 Fort saves vs poison; DR 10/magic; darkvision 60 ft; immunity to disease; resist acid 10, cold 10, electricity 10; SR 25.",
+    "Gain feathered wings; fly at twice base land speed (good).",
+    "Smite Evil (Su) once during duration: extra 15 damage on a successful melee attack vs evil (wasted if target not evil or attack misses).",
+    "1/day; falls dormant until next dawn after duration ends."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["holy transformation (SC 116) or planar embrace (CP 94)"]
+  },
+  "cost_to_create": "12,000 gp, 960 XP, 24 days"
+},
+{
+  "id": "uniq_skin_of_the_chameleon",
+  "name": "Skin of the Chameleon",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 15000,
+  "item_level": 14,
+  "body_slot": "—",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) evocation",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "Continuously grants +10 competence bonus on Hide checks by adjusting color/texture to surroundings."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["darkness or chameleon (EPH 82)"]
+  },
+  "cost_to_create": "7,500 gp, 600 XP, 15 days"
+},
+{
+  "id": "uniq_skin_of_the_claw",
+  "name": "Skin of the Claw",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 12000,
+  "item_level": 13,
+  "body_slot": "—",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "Swift (mental)",
+  "weight_lb": 2,
+  "effects": [
+    "Benefits only a psychic warrior.",
+    "Transform hands into claws: two primary natural claw attacks (Medium 1d6 + Str).",
+    "Cannot combine these claw attacks with other weapon/natural weapon attacks in the same full attack.",
+    "Revert hands with another swift (mental) action."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["claws of the bear (SC 47) or claws of the beast (EPH 83)"]
+  },
+  "cost_to_create": "—, —, 12 days"
+},
   ]
 }
