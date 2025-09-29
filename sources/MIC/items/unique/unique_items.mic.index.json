@@ -6836,6 +6836,532 @@
   "required_feat": "Craft Wondrous Item",
   "required_spells": ["summon monster III"],
   "cost_to_create": "6,000 gp, 480 XP, 12 days"
+},
+{
+  "id": "uniq_fochlucan_bandore",
+  "name": "Fochlucan Bandore",
+  "category": "wondrous item (instrument)",
+  "source_page": "MIC p. ???",
+  "price_gp": 1350,
+  "item_level": 5,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) evocation, transmutation",
+  "activation": "— and standard (command)",
+  "weight_lb": 3,
+  "notes": "Masterwork bandore grants +2 circumstance bonus on Perform (string instruments). If you have ≥2 ranks in Perform (string instruments), 1/day each: flare, light, mending, message.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["flare", "light", "mending", "message"],
+    "other": ["bard"]
+  },
+  "cost_to_create": "675 gp (+100 gp masterwork), 54 XP, 2 days"
+},
+{
+  "id": "uniq_glitter_stone",
+  "name": "Glitter Stone",
+  "category": "wondrous item (thrown/ammunition)",
+  "source_page": "MIC p. ???",
+  "price_gp": 450,
+  "item_level": 3,
+  "body_slot": "— (held); see text",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) conjuration",
+  "activation": "Standard (thrown) or — (ammunition)",
+  "notes": "Thrown (range inc. 10 ft) or slung as ranged touch; on impact explodes in 10-ft-radius burst. Invisible creatures in area are coated and visible for 3 rounds; targets take –40 penalty on Hide while coated.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["glitterdust"]
+  },
+  "cost_to_create": "225 gp, 18 XP, 1 day"
+},
+{
+  "id": "uniq_globe_of_sunlight",
+  "name": "Globe of Sunlight",
+  "category": "wondrous item (thrown, single-use)",
+  "source_page": "MIC p. ???",
+  "price_gp": 6000,
+  "item_level": 10,
+  "body_slot": "— (held)",
+  "required_caster_level": 15,
+  "aura": "Strong; (DC 22) evocation",
+  "activation": "Standard (thrown)",
+  "weight_lb": 1,
+  "notes": "Thrown up to 50 ft; detonates as sunburst (Reflex DC 22 partial) but with 40-ft radius. Expended on use.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["sunburst"]
+  },
+  "cost_to_create": "3,000 gp, 240 XP, 6 days"
+},
+{
+  "id": "uniq_glyph_seal",
+  "name": "Glyph Seal",
+  "category": "wondrous item",
+  "source_page": "MIC p. ???",
+  "price_gp": 1000,
+  "item_level": 4,
+  "body_slot": "— (held)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "Standard (manipulation)",
+  "notes": "Key by casting any arcane/divine spell of up to 2nd level while holding it. After pressing the keyed seal to a surface, it functions as the spell glyph function of glyph of warding. Detect/Disable DC 30; Search DC 30 to find. After triggering, the empty seal can be retrieved and reused; you can always remove any seal you keyed and activated.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["glyph of warding"]
+  },
+  "cost_to_create": "500 gp, 40 XP, 1 day"
+},
+{
+  "id": "uniq_glyph_seal_greater",
+  "name": "Glyph Seal, Greater",
+  "category": "wondrous item",
+  "source_page": "MIC p. ???",
+  "price_gp": 4000,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 11,
+  "aura": "Moderate; (DC 20) transmutation",
+  "activation": "Standard (manipulation)",
+  "notes": "As glyph seal, except: can be keyed with any spell of 5th level or higher; functions as greater glyph of warding; Detect/Disable DC 33; Search DC 33 to find.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["greater glyph of warding"]
+  },
+  "cost_to_create": "2,000 gp, 160 XP, 4 days"
+},
+{
+  "id": "uniq_hammersphere",
+  "name": "Hammersphere",
+  "category": "wondrous item (held)",
+  "source_page": "MIC p. ???",
+  "price_gp": 1500,
+  "item_level": 5,
+  "body_slot": "— (held)",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) transmutation",
+  "activation": "Standard (command)",
+  "weight_lb": 0.5,
+  "notes": "1/day conjures a hammer as spiritual weapon (without concentration) that deals 3d6 damage on a hit.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["greater magic weapon", "spiritual weapon"]
+  },
+  "cost_to_create": "750 gp, 60 XP, 2 days"
+},
+{
+  "id": "uniq_harrow_rod",
+  "name": "Harrow Rod",
+  "category": "wondrous item (held)",
+  "source_page": "MIC p. ???",
+  "price_gp": 14000,
+  "item_level": 14,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) conjuration",
+  "activation": "Standard (command)",
+  "weight_lb": 3,
+  "notes": "Sprays a 30-ft cone dealing 9d6 acid damage (Reflex DC 17 half). 3/day.",
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["Melf's acid arrow"]
+  },
+  "cost_to_create": "7,000 gp, 560 XP, 14 days"
+},
+{
+  "id": "uniq_healing_salve",
+  "name": "Healing Salve",
+  "category": "wondrous item (consumable)",
+  "source_page": "MIC p. ???",
+  "price_gp": 2250,
+  "item_level": 6,
+  "body_slot": "— (held)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) conjuration",
+  "activation": "Standard (manipulation)",
+  "weight_lb": 1,
+  "notes": "Single application heals 1d8+1; double heals 2d8+3; triple heals 3d8+5. Each application is a standard action. Jar holds 10 single applications.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["cure serious wounds"]
+  },
+  "cost_to_create": "1,175 gp, 90 XP, 3 days"
+},
+{
+  "id": "uniq_horn_of_plenty",
+  "name": "Horn of Plenty",
+  "category": "wondrous item (held)",
+  "source_page": "MIC p. ???",
+  "price_gp": 12000,
+  "item_level": 13,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) conjuration",
+  "activation": "Standard (manipulation)",
+  "weight_lb": 2,
+  "notes": "1/day produces heroes’ feast for twelve participants.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["heroes' feast"]
+  },
+  "cost_to_create": "6,000 gp, 480 XP, 12 days"
+},
+{
+  "id": "uniq_icy_strand_of_the_north",
+  "name": "Icy Strand of the North",
+  "category": "wondrous item (thrown)",
+  "source_page": "MIC p. ???",
+  "price_gp": 2500,
+  "item_level": 7,
+  "body_slot": "— (held)",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) evocation",
+  "activation": "Standard (thrown)",
+  "weight_lb": 1,
+  "notes": "Detach and throw a crystal up to 80 ft; on arrival it creates sleet storm (opaque crystals, x2) or ice storm (transparent crystals, x4) centered at endpoint.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["ice storm", "sleet storm"]
+  },
+  "cost_to_create": "1,250 gp, 100 XP, 3 days"
+},
+{
+  "id": "uniq_incense_of_concentration",
+  "name": "Incense of Concentration",
+  "category": "wondrous item (consumable)",
+  "source_page": "MIC p. ???",
+  "price_gp": 250,
+  "item_level": 2,
+  "body_slot": "—",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) transmutation",
+  "activation": "Standard (manipulation)",
+  "notes": "Burn while preparing spells to prepare one extra 1st-level spell for the day. Only one exposure benefits you per 24 hours.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["Rary's mnemonic enhancer"]
+  },
+  "cost_to_create": "125 gp, 10 XP, 1 day"
+},
+{
+  "id": "uniq_infinite_scrollcase",
+  "name": "Infinite Scrollcase",
+  "category": "wondrous item (held)",
+  "source_page": "MIC p. ???",
+  "price_gp": 2800,
+  "item_level": 7,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) conjuration",
+  "activation": "Move (manipulation); see text",
+  "weight_lb": 3,
+  "notes": "Holds up to 50 scrolls. On activation, desired scroll unfurls through slit, ready to cast. +4 competence on Concentration to cast that scroll defensively. If BAB ≥ +1, can retrieve a scroll as part of a move action (as drawing a weapon).",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["Leomund's secret chest"]
+  },
+  "cost_to_create": "1,400 gp, 112 XP, 3 days"
+},
+{
+  "id": "uniq_jumping_caltrops",
+  "name": "Jumping Caltrops",
+  "category": "wondrous item (held)",
+  "source_page": "MIC p. ???",
+  "price_gp": 250,
+  "item_level": 2,
+  "body_slot": "— (held)",
+  "required_caster_level": 11,
+  "aura": "Moderate; (DC 20) transmutation",
+  "activation": "Standard (command)",
+  "weight_lb": 2,
+  "notes": "Act as normal caltrops; each round at start of your turn, if no targets in their square, move 5 ft toward nearest enemy (random among ties). Upon entering an occupied square they attack as caltrops. Can move for 5 rounds after activation, then become normal caltrops until next dawn.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["animate objects"]
+  },
+  "cost_to_create": "125 gp, 10 XP, 1 day"
+},
+{
+  "id": "uniq_lens_of_the_desert",
+  "name": "Lens of the Desert",
+  "category": "wondrous item (held)",
+  "source_page": "MIC p. ???",
+  "price_gp": 20000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) evocation",
+  "activation": "Standard (command)",
+  "notes": "Creates a beam equivalent to sunbeam. 3/day.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["sunbeam"]
+  },
+  "cost_to_create": "10,000 gp, 800 XP, 20 days"
+},
+{
+  "id": "uniq_life_ring",
+  "name": "Life Ring",
+  "category": "wondrous item (held)",
+  "source_page": "MIC p. ???",
+  "price_gp": 400,
+  "item_level": 2,
+  "body_slot": "— (held)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "Standard (manipulation)",
+  "weight_lb": 5,
+  "notes": "Break the twine to activate. Grants feather fall to the next four creatures touching it within 10 rounds. Each subject’s duration equals rounds remaining when touched. After duration, ring is inert.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item", "Extend Spell"],
+    "spells": ["feather fall"]
+  },
+  "cost_to_create": "200 gp, 16 XP, 1 day"
+},
+{
+  "id": "uniq_mac_fuirmidh_cithern",
+  "name": "Mac-Fuirmidh Cithern",
+  "category": "wondrous item (instrument)",
+  "source_page": "MIC p. ???",
+  "price_gp": 2100,
+  "item_level": 6,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) conjuration, enchantment",
+  "activation": "— and standard (command)",
+  "weight_lb": 3,
+  "notes": "Masterwork cithern grants +2 circumstance bonus on Perform (string instruments). If you have ≥4 ranks in Perform (string instruments), 1/day each: cure light wounds, mage armor, sleep.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["cure light wounds", "mage armor", "sleep"],
+    "other": ["bard"]
+  },
+  "cost_to_create": "1,000 gp (+100 gp masterwork), 80 XP, 2 days"
+},
+{
+  "id": "uniq_magic_bedroll",
+  "name": "Magic Bedroll",
+  "category": "wondrous item",
+  "source_page": "MIC p. ???",
+  "price_gp": 500,
+  "item_level": 3,
+  "body_slot": "—",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) conjuration, enchantment",
+  "activation": "Full-round (manipulation); see text",
+  "weight_lb": 6,
+  "notes": "While lying in it, benefit from endure elements. After sleeping 8 hours, recover 1 hp/level in addition to normal recovery. Getting into or out of the bedroll is a full-round action.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["cure light wounds", "endure elements"]
+  },
+  "cost_to_create": "250 gp, 20 XP, 1 day"
+},
+{
+  "id": "uniq_magic_siphon",
+  "name": "Magic Siphon",
+  "category": "wondrous item (held)",
+  "source_page": "MIC p. ???",
+  "price_gp": 25000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 20,
+  "aura": "Strong; (DC 25) abjuration",
+  "activation": "Standard (command)",
+  "weight_lb": 3,
+  "notes": "Drains magical energy from existing spell effects. When activated, each adjacent creature is affected as by a targeted greater dispel magic. 1/day.",
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["greater dispel magic"]
+  },
+  "cost_to_create": "12,500 gp, 1,000 XP, 25 days"
+},
+{
+  "id": "uniq_map_of_unseen_lands_relic",
+  "name": "Map of Unseen Lands [Relic]",
+  "category": "wondrous item (relic)",
+  "source_page": "MIC p. ???",
+  "price_gp": 5200,
+  "item_level": 10,
+  "body_slot": "— (held)",
+  "required_caster_level": 20,
+  "aura": "Strong; (DC 25) evocation",
+  "activation": "— and standard (command)",
+  "notes": "While held by NG, LG, CG, or N creature: +5 competence bonus on Knowledge (geography) and Survival checks. Relic Power (1/day): spend 2 minutes to redraw, mapping terrain within 10-mile radius with total accuracy (no underground). Priority: major terrain (labeled if widely known); structures >5,000 sq ft (named specifically or generally); structures key to travel (bridges, dungeon entrances, portals; labeled if unusual); lairs of CR 12+ (by creature type only).",
+  "relic_attunement": "Worship Yondalla and either sacrifice a 5th-level divine spell slot or have True Believer and at least 9 HD.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item", "Sanctify Relic"],
+    "spells": ["discern location"]
+  },
+  "cost_to_create": "2,700 gp, 208 XP, 6 days"
+},
+{
+  "id": "uniq_memento_magica",
+  "name": "Memento Magica",
+  "category": "wondrous item",
+  "source_page": "MIC p. ???",
+  "prices_gp": {
+    "1st": 1500,
+    "2nd": 6000,
+    "3rd": 13500,
+    "4th": 24000,
+    "5th": 37500,
+    "6th": 54000,
+    "7th": 73500,
+    "8th": 96000,
+    "9th": 121500
+  },
+  "item_levels": {
+    "1st": 5,
+    "2nd": 10,
+    "3rd": 14,
+    "4th": 15,
+    "5th": 17,
+    "6th": 18,
+    "7th": 19,
+    "8th": 20,
+    "9th": 22
+  },
+  "body_slot": "—",
+  "required_caster_level": 17,
+  "aura": "Strong; (DC 23) transmutation",
+  "activation": "Standard (command)",
+  "notes": "1/day, regain one previously used spell slot of the item’s level. Only affects spontaneous casters; no effect for prepared casters.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "other": ["Ability to spontaneously cast spells of the spell level to be regained"]
+  },
+  "costs_to_create": {
+    "1st": "750 gp, 60 XP, 2 days",
+    "2nd": "3,000 gp, 240 XP, 6 days",
+    "3rd": "6,750 gp, 540 XP, 14 days",
+    "4th": "12,000 gp, 960 XP, 24 days",
+    "5th": "18,750 gp, 1,500 XP, 38 days",
+    "6th": "27,000 gp, 2,160 XP, 54 days",
+    "7th": "36,750 gp, 2,940 XP, 74 days",
+    "8th": "48,000 gp, 3,840 XP, 96 days",
+    "9th": "60,750 gp, 4,860 XP, 122 days"
+  }
+},
+{
+  "id": "uniq_metamagic_rod_chaining",
+  "name": "Metamagic Rod (Chaining)",
+  "category": "rod (held)",
+  "source_page": "MIC p. ???",
+  "prices_gp": {
+    "lesser": 14000,
+    "normal": 54000,
+    "greater": 121500
+  },
+  "item_levels": {
+    "lesser": 14,
+    "normal": 18,
+    "greater": 22
+  },
+  "body_slot": "— (held)",
+  "required_caster_level": 17,
+  "aura": "Strong; (DC 23) no school",
+  "activation": "—",
+  "weight_lb": 3,
+  "notes": "3/day you can cast a spell as though affected by the Chain Spell feat.",
+  "prerequisites": {
+    "feats": ["Craft Rod", "Chain Spell (CAr 76)"]
+  },
+  "costs_to_create": {
+    "lesser": "7,000 gp, 560 XP, 14 days",
+    "normal": "27,000 gp, 2,160 XP, 54 days",
+    "greater": "60,750 gp, 4,860 XP, 122 days"
+  }
+},
+{
+  "id": "uniq_metamagic_rod_reach",
+  "name": "Metamagic Rod (Reach)",
+  "category": "rod (held)",
+  "source_page": "MIC p. ???",
+  "prices_gp": {
+    "lesser": 9000,
+    "normal": 32500,
+    "greater": 73000
+  },
+  "item_levels": {
+    "lesser": 12,
+    "normal": 16,
+    "greater": 19
+  },
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) transmutation",
+  "activation": "—",
+  "weight_lb": 1,
+  "notes": "3/day you can cast a spell as though affected by the Reach Spell feat.",
+  "prerequisites": {
+    "feats": ["Craft Rod", "Reach Spell (CD 84)"]
+  },
+  "costs_to_create": {
+    "lesser": "4,500 gp, 360 XP, 9 days",
+    "normal": "16,250 gp, 1,300 XP, 33 days",
+    "greater": "36,500 gp, 2,920 XP, 73 days"
+  }
+},
+{
+  "id": "uniq_metamagic_rod_sculpting",
+  "name": "Metamagic Rod (Sculpting)",
+  "category": "rod (held)",
+  "source_page": "MIC p. ???",
+  "prices_gp": {
+    "lesser": 3000,
+    "normal": 11000,
+    "greater": 24500
+  },
+  "item_levels": {
+    "lesser": 7,
+    "normal": 13,
+    "greater": 15
+  },
+  "body_slot": "— (held)",
+  "required_caster_level": 17,
+  "aura": "Strong; (DC 23) no school",
+  "activation": "—",
+  "weight_lb": 3,
+  "notes": "3/day you can cast a spell as though affected by the Sculpt Spell feat.",
+  "prerequisites": {
+    "feats": ["Craft Rod", "Sculpt Spell (CAr 83)"]
+  },
+  "costs_to_create": {
+    "lesser": "1,500 gp, 120 XP, 3 days",
+    "normal": "5,500 gp, 440 XP, 11 days",
+    "greater": "12,250 gp, 980 XP, 25 days"
+  }
+},
+{
+  "id": "uniq_metamagic_rod_substitution",
+  "name": "Metamagic Rod (Substitution)",
+  "category": "rod (held)",
+  "source_page": "MIC p. ???",
+  "prices_gp": {
+    "lesser": 2700,
+    "normal": 10500,
+    "greater": 24300
+  },
+  "item_levels": {
+    "lesser": 7,
+    "normal": 13,
+    "greater": 15
+  },
+  "body_slot": "— (held)",
+  "required_caster_level": 17,
+  "aura": "Strong; (DC 23) no school",
+  "activation": "—",
+  "weight_lb": 3,
+  "notes": "Four versions exist (acid, cold, electricity, fire). 3/day you can cast a spell as though using the appropriate Energy Substitution feat.",
+  "prerequisites": {
+    "feats": ["Craft Rod", "Energy Substitution (CAr 79) for the appropriate energy type"]
+  },
+  "costs_to_create": {
+    "lesser": "1,350 gp, 108 XP, 3 days",
+    "normal": "5,250 gp, 420 XP, 11 days",
+    "greater": "12,150 gp, 972 XP, 25 days"
+  }
 }
   ]
 }
