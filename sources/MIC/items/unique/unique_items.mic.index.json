@@ -7767,5 +7767,692 @@
   },
   "cost_to_create": "—, —, 12 days"
 },
+{
+  "id": "uniq_skin_of_the_defender",
+  "name": "Skin of the Defender",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 32000,
+  "item_level": 16,
+  "body_slot": "—",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "Continuously grants +4 enhancement bonus to your natural armor bonus (creatures without natural armor treat as +0)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["barkskin or thicken skin (EPH 137)"]
+  },
+  "cost_to_create": "16,000 gp, 1,280 XP, 32 days"
+},
+{
+  "id": "uniq_skin_of_ectoplasmic_armor",
+  "name": "Skin of Ectoplasmic Armor",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 6000,
+  "item_level": 10,
+  "body_slot": "—",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) conjuration",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "+8 armor bonus; max Dex +2; armor check penalty –6; arcane spell failure 25%.",
+    "Treated as light armor for class features and movement."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["mage armor or inertial armor (EPH 113)"]
+  },
+  "cost_to_create": "3,000 gp, 240 XP, 6 days"
+},
+{
+  "id": "uniq_skin_of_the_fiend",
+  "name": "Skin of the Fiend",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 6000,
+  "item_level": 10,
+  "body_slot": "—",
+  "required_caster_level": 10,
+  "aura": "Moderate; (DC 20) transmutation",
+  "activation": "Swift (mental)",
+  "weight_lb": 2,
+  "effects": [
+    "For 7 rounds: DR 5/magic; darkvision 60 ft; resistance cold 10 and fire 10; SR 15.",
+    "Smite Good (Su) once during duration: extra 10 damage on a successful melee attack vs a good foe (wasted if target not good or attack misses).",
+    "1/day; falls dormant until the following dawn."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["lesser infernal transformation (SC 122) or planar apotheosis (CP 93)"]
+  },
+  "cost_to_create": "3,000 gp, 240 XP, 6 days"
+},
+{
+  "id": "uniq_skin_of_fiendish_embrace",
+  "name": "Skin of Fiendish Embrace",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 24000,
+  "item_level": 15,
+  "body_slot": "—",
+  "required_caster_level": 15,
+  "aura": "Strong; (DC 22) transmutation",
+  "activation": "Swift (mental)",
+  "weight_lb": 2,
+  "effects": [
+    "For 15 rounds: DR 10/magic; darkvision 60 ft; immunity to poison; resist acid 10, cold 10, electricity 10, fire 10; SR 25.",
+    "Gain batlike wings: fly at base land speed (average).",
+    "Gain two primary claw attacks (Medium: 1d6).",
+    "Smite Good (Su) once during duration: extra 15 damage on a successful melee attack vs a good foe (wasted if target not good or attack misses).",
+    "1/day; falls dormant until the following dawn."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["infernal transformation (SC 122) or planar embrace (CP 94)"]
+  },
+  "cost_to_create": "12,000 gp, 960 XP, 24 days"
+},
+{
+  "id": "uniq_skin_of_fiery_response",
+  "name": "Skin of Fiery Response",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 60000,
+  "item_level": 18,
+  "body_slot": "—",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) evocation",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "Each round, the first melee or ranged attack made against you triggers a targeted blast at the attacker at the start of your next turn (if you can identify the attacker and have line of sight/effect up to 40 ft).",
+    "Ranged touch attack uses BAB + (Dex modifier or key ability modifier of your highest-level spellcasting class, your choice); on hit deals 4d6+4 fire damage.",
+    "Does not target hidden/invisible attackers you cannot identify."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["scorching ray or energy retort (EPH 137)"]
+  },
+  "cost_to_create": "30,000 gp, 2,400 XP, 60 days"
+},
+{
+  "id": "uniq_skin_of_the_hero",
+  "name": "Skin of the Hero",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 77000,
+  "item_level": 19,
+  "body_slot": "—",
+  "required_caster_level": 18,
+  "aura": "Strong; (DC 24) no school",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "Continuously grants +3 deflection bonus to AC, +3 resistance bonus on saving throws, and +3 enhancement bonus on attack rolls."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["limited wish or bend reality (EPH 80)"]
+  },
+  "cost_to_create": "38,500 gp, 3,080 XP, 77 days"
+},
+{
+  "id": "uniq_skin_of_iron",
+  "name": "Skin of Iron",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 40000,
+  "item_level": 17,
+  "body_slot": "—",
+  "required_caster_level": 15,
+  "aura": "Strong; (DC 22) transmutation",
+  "activation": "Swift (mental)",
+  "weight_lb": 2,
+  "effects": [
+    "Grants iron body for 15 minutes.",
+    "Falls dormant until the following dawn after duration ends."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["iron body"]
+  },
+  "cost_to_create": "20,000 gp, 1,600 XP, 40 days"
+},
+{
+  "id": "uniq_skin_of_nimbleness",
+  "name": "Skin of Nimbleness",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 15000,
+  "item_level": 14,
+  "body_slot": "—",
+  "required_caster_level": 8,
+  "aura": "Moderate; (DC 19) transmutation",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "Continuously grants a +10 competence bonus on Tumble checks."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "skills": ["Tumble 10 ranks"]
+  },
+  "cost_to_create": "7,500 gp, 600 XP, 15 days"
+},
+{
+  "id": "uniq_skin_of_power_damping",
+  "name": "Skin of Power Damping",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 10000,
+  "item_level": 12,
+  "body_slot": "—",
+  "required_caster_level": 11,
+  "aura": "Moderate; (DC 20) abjuration",
+  "activation": "Immediate (mental)",
+  "weight_lb": 2,
+  "effects": [
+    "When activated, for 1 round all numeric effects of any spell, SLA, power, or psi-like ability that affects you are minimized (for you only).",
+    "3/day; falls dormant until the following dawn after each use."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["antimagic field or damp power (CP 82)"]
+  },
+  "cost_to_create": "5,000 gp, 400 XP, 10 days"
+},
+{
+  "id": "uniq_skin_of_the_psion",
+  "name": "Skin of the Psion",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 90000,
+  "item_level": 20,
+  "body_slot": "—",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) abjuration",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "Grants 7 additional power points per day.",
+    "Grants spell resistance 21."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["spell resistance or power resistance (EPH 124)"]
+  },
+  "cost_to_create": "45,000 gp, 3,600 XP, 90 days"
+},
+{
+  "id": "uniq_skin_of_the_spider",
+  "name": "Skin of the Spider",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 40000,
+  "item_level": 17,
+  "body_slot": "—",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "— and Standard (mental)",
+  "weight_lb": 2,
+  "effects": [
+    "Continuously grants +10 competence bonus on Climb checks.",
+    "Automatically adjusts equilibrium to surfaces: move (not run) across water, quicksand, or a spider’s web at normal speed.",
+    "3/day: fire a glob of goo at a Medium or smaller target within 30 ft (ranged touch). On hit, target is entangled 5 rounds (Str DC 20 or Escape Artist DC 20 to escape)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["water walk or body equilibrium (EPH 124)", "web or entangling ectoplasm (EPH 104)"],
+    "skills": ["Climb 10 ranks"]
+  },
+  "cost_to_create": "20,000 gp, 1,600 XP, 40 days"
+},
+{
+  "id": "uniq_skin_of_the_troll",
+  "name": "Skin of the Troll",
+  "category": "wondrous item (psychoactive skin)",
+  "price_gp": 61000,
+  "item_level": 18,
+  "body_slot": "—",
+  "required_caster_level": 17,
+  "aura": "Strong; (DC 23) conjuration",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "Heals 5 hp per minute.",
+    "Not effective against damage from starvation, thirst, or suffocation.",
+    "Regrows lost body portions and allows reattachment of severed limbs.",
+    "No effect if you lack a Constitution score."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["regenerate or true metabolism (EPH 124)"]
+  },
+  "cost_to_create": "30,500 gp, 2,440 XP, 61 days"
+},
+{
+  "id": "uniq_quiver_of_energy",
+  "name": "Quiver of Energy",
+  "category": "wondrous item",
+  "price_gp": 15000,
+  "item_level": 14,
+  "body_slot": "—",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) evocation",
+  "activation": "—",
+  "weight_lb": 1,
+  "effects": [
+    "Holds up to 20 arrows or bolts.",
+    "Imbues stored projectiles (left for at least 1 round) with extra 1d6 acid, cold, electricity, or fire damage (type set per quiver).",
+    "Extra damage is lost after the attack or 1 round after drawing, whichever comes first.",
+    "Weight is 3 lb. when full."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["energy missile (CP 88) or lightning bolt, ice storm, fireball, or Melf's acid arrow"]
+  },
+  "cost_to_create": "7,500 gp, 600 XP, 15 days"
+},
+{
+  "id": "uniq_radiant_sphere",
+  "name": "Radiant Sphere",
+  "category": "wondrous item (held)",
+  "price_gp": 3500,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 11,
+  "aura": "Moderate; (DC 20) evocation",
+  "activation": "See text",
+  "weight_lb": 1,
+  "effects": [
+    "Continuously sheds bright light in 20 ft (and shadowy illumination 20 ft beyond) as long as ≥1 charge remains.",
+    "Has 3 charges (renew at dawn). Standard action to fire a 60-ft ray (ranged touch) vs undead:",
+    "1 charge: 4d6 damage to target undead.",
+    "2 charges: 6d6 damage to target undead.",
+    "3 charges: 6d6 to target undead and 2d6 to each undead within 10 ft (no save).",
+    "Recharge by expending a daily use of turn undead or sacrificing a spell with the light descriptor (full-round action); each adds 1 charge up to 3."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["daylight", "searing light", "turn undead"]
+  },
+  "cost_to_create": "1,750 gp, 140 XP, 4 days"
+},
+{
+  "id": "uniq_replenishing_skin",
+  "name": "Replenishing Skin",
+  "category": "wondrous item (held)",
+  "price_gp": 1000,
+  "item_level": 4,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) conjuration",
+  "activation": "—",
+  "weight_lb": 4,
+  "effects": [
+    "When emptied, slowly refills with cool, pure water over 1d4 hours."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["create water"]
+  },
+  "cost_to_create": "500 gp, 40 XP, 1 day"
+},
+{
+  "id": "uniq_rhino_elixir",
+  "name": "Rhino Elixir",
+  "category": "wondrous item (consumable)",
+  "price_gp": 1600,
+  "item_level": 5,
+  "body_slot": "—",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) transmutation",
+  "activation": "Standard (manipulation)",
+  "effects": [
+    "+3 enhancement bonus to existing natural armor; +1 bonus on melee damage rolls.",
+    "Duration 12 hours."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["alter self"],
+    "skills": ["Craft (alchemy) 5 ranks"]
+  },
+  "cost_to_create": "800 gp, 64 XP, 2 days"
+},
+{
+  "id": "uniq_rod_of_bodily_restoration",
+  "name": "Rod of Bodily Restoration",
+  "category": "wondrous item (held)",
+  "price_gp": 3100,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) conjuration",
+  "activation": "Standard (command and manipulation)",
+  "weight_lb": 4,
+  "effects": [
+    "Touch (or self while holding). 3 charges/day (renew at dawn) to heal physical ability damage:",
+    "1 charge: heal 4 points to Str/Dex/Con (choose one) OR 2 points to all three.",
+    "2 charges: heal 6 points to Str/Dex/Con (choose one) OR 3 points to all three.",
+    "3 charges: heal 8 points to Str/Dex/Con (choose one) OR 4 points to all three."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["lesser restoration"]
+  },
+  "cost_to_create": "1,550 gp, 124 XP, 4 days"
+},
+{
+  "id": "uniq_rod_of_escape",
+  "name": "Rod of Escape",
+  "category": "wondrous item (held)",
+  "price_gp": 3500,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) transmutation",
+  "activation": "Standard (command)",
+  "weight_lb": 2,
+  "effects": [
+    "Use jump and knock each 2/day.",
+    "1/day create a 5-ft-radius spherical ward that repels open/nonmagical water-based liquids (not creatures), allowing you to enter or cross water and remain dry; generates fresh air; lasts 10 minutes."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["control water", "jump", "knock"]
+  },
+  "cost_to_create": "1,750 gp, 70 XP, 4 days"
+},
+{
+  "id": "uniq_rod_of_force",
+  "name": "Rod of Force",
+  "category": "wondrous item (held)",
+  "price_gp": 60000,
+  "item_level": 18,
+  "body_slot": "— (held)",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) evocation",
+  "activation": "See text",
+  "weight_lb": 1,
+  "effects": [
+    "5/day choose one on activation:",
+    "Blade of Force (swift): 3-ft glowing blade functions as +1 brilliant energy longsword for 10 rounds.",
+    "Blast of Force (standard): ray to 100 ft (ranged touch) dealing 10d6 damage.",
+    "Wall of Force (standard): as the spell."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["magic missile", "Mordenkainen's sword", "wall of force"]
+  },
+  "cost_to_create": "30,000 gp, 2,400 XP, 60 days"
+},
+{
+  "id": "uniq_rod_of_frost",
+  "name": "Rod of Frost",
+  "category": "wondrous item (held)",
+  "price_gp": 1400,
+  "item_level": 5,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) evocation",
+  "activation": "Standard (command)",
+  "weight_lb": 5,
+  "effects": [
+    "3/day: fire a 30-ft line of frost (2d6 cold, Reflex DC 14 half); extinguishes natural fires; freezes open water in the area to 1-ft depth (supports a Large creature); ice melts normally."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["ray of frost"]
+  },
+  "cost_to_create": "700 gp, 56 XP, 2 days"
+},
+{
+  "id": "uniq_rod_of_fumbling",
+  "name": "Rod of Fumbling",
+  "category": "wondrous item (held)",
+  "price_gp": 2300,
+  "item_level": 6,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) enchantment",
+  "activation": "Swift (command)",
+  "effects": [
+    "Chosen creature within 30 ft must immediately drop all held items (no action); Will DC 15 negates.",
+    "2/day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["command"]
+  },
+  "cost_to_create": "1,150 gp, 92 XP, 3 days"
+},
+{
+  "id": "uniq_rod_of_grievous_wounds",
+  "name": "Rod of Grievous Wounds",
+  "category": "wondrous item (held)",
+  "price_gp": 2000,
+  "item_level": 6,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) necromancy",
+  "activation": "Standard (command)",
+  "weight_lb": 3,
+  "effects": [
+    "On activation, deals 1d8+5 damage to each adjacent creature that has fewer than its full normal hit points.",
+    "5/day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["mass inflict light wounds"]
+  },
+  "cost_to_create": "1,000 gp, 80 XP, 2 days"
+},
+{
+  "id": "uniq_rod_of_reversal_relic",
+  "name": "Rod of Reversal [Relic]",
+  "category": "wondrous item (relic, held)",
+  "price_gp": 10000,
+  "item_level": 12,
+  "body_slot": "— (held)",
+  "required_caster_level": 20,
+  "aura": "Strong; (DC 25) abjuration",
+  "activation": "Standard (command) and —",
+  "weight_lb": 5,
+  "effects": [
+    "If N, NG, NE, CN, or LN: command to reflect the next 3 levels of spells that target you (as a lesser spell turning) — 3/day.",
+    "Rod changes color based on school of spell turned (Abjuration blue; Conjuration yellow; Divination indigo; Enchantment green; Evocation red; Illusion violet; Necromancy black; Transmutation orange)."
+  ],
+  "relic_power": "Reflects next 9 levels of spells cast at you when activated and continuously grants Improved Counterspell.",
+  "relic_attunement": "Worship Boccob and either sacrifice an 8th-level divine spell slot or have the True Believer feat and at least 15 HD.",
+  "prerequisites": {
+    "feats": ["Craft Rod", "Sanctify Relic"],
+    "spells": ["spell turning"]
+  },
+  "cost_to_create": "5,000 gp, 400 XP, 10 days"
+},
+{
+  "id": "uniq_rod_of_silence",
+  "name": "Rod of Silence",
+  "category": "wondrous item (held)",
+  "price_gp": 4000,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) evocation",
+  "activation": "— and Standard (command)",
+  "weight_lb": 2,
+  "effects": [
+    "+4 bonus on saving throws vs effects with the sonic descriptor or that deal sonic damage while held.",
+    "1/day: surround yourself with a silence effect that only affects you; can dismiss as a free (mental) action on your turn.",
+    "1/day: create a shout effect (can’t use while silence is active)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["shout", "silence", "resistance"]
+  },
+  "cost_to_create": "2,000 gp, 160 XP, 4 days"
+},
+{
+  "id": "uniq_rod_of_sliding",
+  "name": "Rod of Sliding",
+  "category": "wondrous item (held)",
+  "price_gp": 1400,
+  "item_level": 5,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) transmutation",
+  "activation": "Standard (command)",
+  "weight_lb": 3,
+  "effects": [
+    "Push a target creature 5 ft farther away or pull it 5 ft closer (target within 30 ft; must end in an unoccupied square); movement doesn’t provoke AoO.",
+    "Unwilling target: Will DC 11 negates.",
+    "3/day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["slide (SC 191)"]
+  },
+  "cost_to_create": "700 gp, 56 XP, 2 days"
+},
+{
+  "id": "uniq_rod_of_sure_striking",
+  "name": "Rod of Sure Striking",
+  "category": "wondrous item (held)",
+  "price_gp": 4000,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) divination",
+  "activation": "Standard (command)",
+  "weight_lb": 3,
+  "effects": [
+    "Every ally adjacent to you gains a +5 insight bonus on its next attack roll (must occur before the beginning of your next turn).",
+    "3/day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["true strike"]
+  },
+  "cost_to_create": "2,000 gp, 160 XP, 4 days"
+},
+{
+  "id": "uniq_rod_of_transposition",
+  "name": "Rod of Transposition",
+  "category": "wondrous item (held)",
+  "price_gp": 6000,
+  "item_level": 10,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) conjuration",
+  "activation": "Standard (command)",
+  "weight_lb": 3,
+  "effects": [
+    "Exchange positions with another creature within 30 ft; unwilling creature Will DC 13 negates.",
+    "3/day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["baleful transposition (SC 23)"]
+  },
+  "cost_to_create": "3,000 gp, 240 XP, 6 days"
+},
+{
+  "id": "uniq_rod_of_undead_mastery",
+  "name": "Rod of Undead Mastery",
+  "category": "wondrous item (held)",
+  "price_gp": 10000,
+  "item_level": 12,
+  "body_slot": "— (held)",
+  "required_caster_level": 10,
+  "aura": "Moderate; (DC 20) evocation",
+  "activation": "—",
+  "weight_lb": 3,
+  "effects": [
+    "While held, you can control twice as many Hit Dice of undead as normal."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["desecrate"]
+  },
+  "cost_to_create": "5,000 gp, 400 XP, 10 days"
+},
+{
+  "id": "uniq_rod_of_viscid_globs",
+  "name": "Rod of Viscid Globs",
+  "category": "wondrous item (held)",
+  "price_gp": 2000,
+  "item_level": 6,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) transmutation",
+  "activation": "Standard (command)",
+  "weight_lb": 2,
+  "effects": [
+    "Fires a sphere of sticky material that acts like a tanglefoot bag (range up to 100 ft; splash weapon).",
+    "3/day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "spells": ["entangle"]
+  },
+  "cost_to_create": "1,000 gp, 80 XP, 2 days"
+},
+{
+  "id": "uniq_rope_of_climbing_superior",
+  "name": "Rope of Climbing, Superior",
+  "category": "wondrous item (held)",
+  "price_gp": 5500,
+  "item_level": 10,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) transmutation",
+  "activation": "Standard (command)",
+  "weight_lb": 3,
+  "effects": [
+    "As rope of climbing (DMG 266), plus grants a +5 circumstance bonus on Climb checks made to ascend it."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["animate rope"]
+  },
+  "cost_to_create": "2,750 gp, 220 XP, 6 days"
+},
+{
+  "id": "uniq_rope_of_stone",
+  "name": "Rope of Stone",
+  "category": "wondrous item (held)",
+  "price_gp": 800,
+  "item_level": 3,
+  "body_slot": "— (held)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "Swift (command)",
+  "weight_lb": 5,
+  "effects": [
+    "50-ft silk rope becomes as hard as stone (hardness 8, 15 hp) yet remains climbable; retains exact shape when hardened (adds +5 to Escape Artist DC to slip free).",
+    "Second command word returns rope to normal composition.",
+    "If the rope is ever broken in either form, it is destroyed."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["stone shape"]
+  },
+  "cost_to_create": "400 gp, 32 XP, 1 day"
+},
+{
+  "id": "uniq_runestaff_of_abjuration",
+  "name": "Runestaff of Abjuration",
+  "category": "staff (held)",
+  "price_gp": 32000,
+  "item_level": 16,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) abjuration",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day (by expending a prepared arcane spell or arcane slot of the same level or higher) cast: dismissal; dispel magic; lesser globe of invulnerability; repulsion; resist energy; shield."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["dismissal", "dispel magic", "lesser globe of invulnerability", "repulsion", "resist energy", "shield"]
+  },
+  "cost_to_create": "16,000 gp, 1,280 XP, 32 days"
+},
   ]
 }
