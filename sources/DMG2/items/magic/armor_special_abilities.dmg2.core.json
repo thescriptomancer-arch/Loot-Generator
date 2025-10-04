@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG II",
+  "chapter": "Specific Magic Options",
+  "section": "Armor Special Abilities (Chapter 7)",
+  "fields": [
+    "id",
+    "name",
+    "category",
+    "costing",
+    "min_enhancement",
+    "stacking_rules",
+    "source",
+    "aura",
+    "required_caster_level",
+    "required_feat",
+    "required_spells"
+  ],
+  "rows": [
+    {
+      "id": "dmg2_arm_energy_defense",
+      "name": "Energy defense",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires energy resistance on the same armor; +2 to existing resistance; 1/day immediate or standard preactivation; melee attackers take 1d6+10 of that energy type (reach weapons exempt); lasts 10 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_arm_energy_immunity",
+      "name": "Energy immunity",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose energy type on activation; 1/day; lockout 24h.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate abjuration and evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "fire shield",
+        "resist energy"
+      ]
+    },
+    {
+      "id": "dmg2_arm_fortifying_defense_light",
+      "name": "Fortifying defense, light",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corresponding fortification. When fortification negates a crit/sneak, target must make DC 20 Will save or cannot crit or sneak attack any target for 1d4 rounds; threats are normal hits (no confirmation).",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "dmg2_arm_fortifying_defense_moderate",
+      "name": "Fortifying defense, moderate",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corresponding fortification. When fortification negates a crit/sneak, target must make DC 20 Will save or cannot crit or sneak attack any target for 1d4 rounds; threats are normal hits (no confirmation).",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "dmg2_arm_fortifying_defense_heavy",
+      "name": "Fortifying defense, heavy",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corresponding fortification. When fortification negates a crit/sneak, target must make DC 20 Will save or cannot crit or sneak attack any target for 1d4 rounds; threats are normal hits (no confirmation).",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "dmg2_arm_slippery_mind",
+      "name": "Slippery mind",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 45000
+      },
+      "min_enhancement": 0,
+      "stacking_rules": "Grants second saving throw 1 round after failing a save vs. enchantment; no effect if wearer already has slippery mind class feature.",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "mind blank"
+      ]
+    },
+    {
+      "id": "dmg2_arm_slippery_aura",
+      "name": "Slippery aura",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 45000
+      },
+      "min_enhancement": 0,
+      "stacking_rules": "Synergy: requires slippery mind on the same armor. Standard action; allies within 10 ft gain slippery mind for 10 minutes; 1/day.",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "mind blank"
+      ]
+    },
+    {
+      "id": "dmg2_arm_spell_trapping",
+      "name": "Spell trapping",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires spell resistance on the same armor. When a targeted spell fails to overcome SR, store it (up to 5th level, 1/day) and later release it; armor's SR is +2 higher.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG II",
+  "chapter": "Templates",
+  "section": "Weapon & Armor Templates (Chapter 7)",
+  "fields": [
+    "id",
+    "name",
+    "applies_to",
+    "cost_mod",
+    "stats_mod",
+    "constraints",
+    "source"
+  ],
+  "rows": [
+    [
+      "mat_dmg2_feycraft",
+      "Feycraft",
+      [
+        "weapon",
+        "armor",
+        "shield"
+      ],
+      {
+        "weapon": {
+          "add": 1500
+        },
+        "armor_light": {
+          "add": 500
+        },
+        "armor_medium": {
+          "add": 500
+        },
+        "shield": {
+          "add": 500
+        }
+      },
+      {
+        "weight_mult": 0.9,
+        "spell_fail_adj_pct": -5
+      },
+      {
+        "notes": "Armor: light/medium only; Shields: wooden shields; mithral heavy armor counts as medium for eligibility. Weapon damage treated as one size smaller; Weapon Finesse interactions as per DMG II."
+      },
+      "DMG II Ch.7 Templates"
+    ],
+    [
+      "mat_dmg2_fireshaped",
+      "Fireshaped",
+      [
+        "weapon",
+        "armor",
+        "shield",
+        "metal_only"
+      ],
+      {
+        "weapon": {
+          "add": 800
+        },
+        "armor": {
+          "add": 300
+        },
+        "shield": {
+          "add": 300
+        }
+      },
+      {},
+      {
+        "notes": "Weapons require metallic cutting edge. Aesthetic flame, torch-equivalent light."
+      },
+      "DMG II Ch.7 Templates"
+    ],
+    [
+      "mat_dmg2_githcraft",
+      "Githcraft",
+      [
+        "weapon",
+        "armor",
+        "shield"
+      ],
+      {
+        "weapon": {
+          "add": 900
+        },
+        "armor": {
+          "add": 600
+        },
+        "shield": {
+          "add": 600
+        }
+      },
+      {
+        "spell_fail_adj_pct": -5
+      },
+      {
+        "notes": "Creator must be githyanki; crafted on the Astral Plane. +1 Concentration (armor/shield); +1 damage vs psionic creatures (weapons)."
+      },
+      "DMG II Ch.7 Templates"
+    ],
+    [
+      "mat_dmg2_gloryborn",
+      "Gloryborn",
+      [
+        "weapon",
+        "armor",
+        "shield"
+      ],
+      {
+        "weapon": {
+          "add": 600
+        },
+        "armor": {
+          "add": 150
+        },
+        "shield": {
+          "add": 150
+        }
+      },
+      {},
+      {
+        "notes": "+1 damage on charge (weapons); +1 AC while charging (armor/shield) until start of next turn; crafted on Ysgard by a native smith."
+      },
+      "DMG II Ch.7 Templates"
+    ],
+    [
+      "mat_dmg2_hellforged",
+      "Hellforged",
+      [
+        "weapon",
+        "armor",
+        "shield"
+      ],
+      {
+        "weapon": {
+          "add": 1500
+        },
+        "armor": {
+          "add": 1000
+        },
+        "shield": {
+          "add": 1000
+        }
+      },
+      {
+        "acp_adj": 1,
+        "max_dex_adj": -1,
+        "spell_fail_adj_pct": 5
+      },
+      {
+        "notes": "+1 hardness/+5 hp (not encoded as absolute); armor: +1 AC when adjacent to an ally (shields excluded); weapons: +1 damage vs a foe you flank; crafted on the Nine Hells; good user –1 attack."
+      },
+      "DMG II Ch.7 Templates"
+    ],
+    [
+      "mat_dmg2_pitspawned",
+      "Pitspawned",
+      [
+        "weapon",
+        "armor",
+        "shield"
+      ],
+      {
+        "weapon": {
+          "add": 1000
+        },
+        "armor": {
+          "add": 600
+        },
+        "shield": {
+          "add": 600
+        }
+      },
+      {},
+      {
+        "notes": "Armor: melee attackers take 1 damage (not subject to DR; does not stack across multiple pitspawned items). Weapons: +2 to confirm critical hits. Crafted on the Abyss; good user –1 attack."
+      },
+      "DMG II Ch.7 Templates"
+    ],
+    [
+      "mat_dmg2_soulforged",
+      "Soulforged",
+      [
+        "weapon",
+        "armor",
+        "shield"
+      ],
+      {
+        "weapon": {
+          "add": 800
+        },
+        "armor": {
+          "add": 400
+        },
+        "shield": {
+          "add": 400
+        }
+      },
+      {},
+      {
+        "notes": "+1 hardness/+5 hp (not encoded as absolute). Armor: +2 to resist bull rush or trip. Weapons: +2 damage vs a charging foe. Crafted on Celestia by a native smith."
+      },
+      "DMG II Ch.7 Templates"
+    ]
+  ]
+}

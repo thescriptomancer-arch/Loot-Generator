@@ -1,0 +1,997 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG II",
+  "chapter": "Specific Magic Options",
+  "section": "Weapon Special Abilities (Chapter 7)",
+  "fields": [
+    "id",
+    "name",
+    "category",
+    "costing",
+    "min_enhancement",
+    "stacking_rules",
+    "source",
+    "aura",
+    "required_caster_level",
+    "required_feat",
+    "required_spells"
+  ],
+  "rows": [
+    {
+      "id": "dmg2_wpn_corrosive_melee",
+      "name": "Corrosive",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Toggle; on-hit +1d6 acid. Ranged weapons pass to ammunition.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_corrosive_ranged",
+      "name": "Corrosive",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Toggle; on-hit +1d6 acid. Ranged weapons pass to ammunition.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_acidic_burst_melee",
+      "name": "Acidic burst",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "As corrosive plus extra acid on critical hit.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_acidic_burst_ranged",
+      "name": "Acidic burst",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "As corrosive plus extra acid on critical hit.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_caustic_surge_melee",
+      "name": "Caustic surge",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift action after a successful melee attack; add +2d6 acid on that hit; uses/day keyed to Con modifier.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_icy_surge_melee",
+      "name": "Icy surge",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift action after a successful melee attack; add +2d6 cold; uses/day keyed to Cha modifier.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_lightning_surge_melee",
+      "name": "Lightning surge",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift action after a successful melee attack; add +2d6 electricity; uses/day keyed to Cha modifier.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_holy_surge_melee",
+      "name": "Holy surge",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift action after a successful melee attack; add +2d6 damage vs evil only; uses/day keyed to Cha modifier.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_unholy_surge_melee",
+      "name": "Unholy surge",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift action after a successful melee attack; add +2d6 damage vs good only; uses/day keyed to Cha modifier.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_defensive_surge_melee",
+      "name": "Defensive surge",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift action after a successful melee attack; +2 AC while using Combat Expertise or fighting defensively; +4 AC while total defense; uses/day keyed to Cha modifier.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_sudden_stunning_melee",
+      "name": "Sudden stunning",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift action after a successful melee attack; target Reflex DC = 10 + 1/2 wielder level + Cha mod; stunned 1d4+1 rounds on failed save.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_illusion_bane_melee",
+      "name": "Illusion bane",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 7000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "1/day ignore miss chance from illusions; may attempt to dispel illusion(s) on target (or by touch) with 1d20+10.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_illusion_bane_ranged",
+      "name": "Illusion bane",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 7000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "1/day ignore miss chance from illusions; may attempt to dispel illusion(s) on target (or by touch) with 1d20+10.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_illusion_theft_melee",
+      "name": "Illusion theft",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires Illusion bane. When you dispel an illusion via Illusion bane, you can store it for later use.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_illusion_theft_ranged",
+      "name": "Illusion theft",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires Illusion bane. When you dispel an illusion via Illusion bane, you can store it for later use.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_incorporeal_binding_melee",
+      "name": "Incorporeal binding",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires ghost touch. On hit vs an incorporeal target, target loses incorporeal miss chance for 1 round.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_incorporeal_binding_ranged",
+      "name": "Incorporeal binding",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires ghost touch. On hit vs an incorporeal target, target loses incorporeal miss chance for 1 round.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_wpn_air_elemental_power_large_melee",
+      "name": "Air elemental power (Large)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires shock or shocking burst. 1/day standard action to summon a air elemental for up to 11 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning or lightning bolt",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_air_elemental_power_large_ranged",
+      "name": "Air elemental power (Large)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires shock or shocking burst. 1/day standard action to summon a air elemental for up to 11 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning or lightning bolt",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_air_elemental_power_huge_melee",
+      "name": "Air elemental power (Huge)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires shock or shocking burst. 1/day standard action to summon a air elemental for up to 13 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning or lightning bolt",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_air_elemental_power_huge_ranged",
+      "name": "Air elemental power (Huge)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires shock or shocking burst. 1/day standard action to summon a air elemental for up to 13 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning or lightning bolt",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_air_elemental_power_greater_melee",
+      "name": "Air elemental power (Greater)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires shock or shocking burst. 1/day standard action to summon a air elemental for up to 15 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning or lightning bolt",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_air_elemental_power_greater_ranged",
+      "name": "Air elemental power (Greater)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires shock or shocking burst. 1/day standard action to summon a air elemental for up to 15 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning or lightning bolt",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_air_elemental_power_elder_melee",
+      "name": "Air elemental power (Elder)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires shock or shocking burst. 1/day standard action to summon a air elemental for up to 17 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning or lightning bolt",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_air_elemental_power_elder_ranged",
+      "name": "Air elemental power (Elder)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires shock or shocking burst. 1/day standard action to summon a air elemental for up to 17 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "call lightning or lightning bolt",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_earth_elemental_power_large_melee",
+      "name": "Earth elemental power (Large)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corrosive or acidic burst. 1/day standard action to summon a earth elemental for up to 11 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "acid fog or Melf’s acid arrow",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_earth_elemental_power_large_ranged",
+      "name": "Earth elemental power (Large)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corrosive or acidic burst. 1/day standard action to summon a earth elemental for up to 11 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "acid fog or Melf’s acid arrow",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_earth_elemental_power_huge_melee",
+      "name": "Earth elemental power (Huge)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corrosive or acidic burst. 1/day standard action to summon a earth elemental for up to 13 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "acid fog or Melf’s acid arrow",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_earth_elemental_power_huge_ranged",
+      "name": "Earth elemental power (Huge)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corrosive or acidic burst. 1/day standard action to summon a earth elemental for up to 13 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "acid fog or Melf’s acid arrow",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_earth_elemental_power_greater_melee",
+      "name": "Earth elemental power (Greater)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corrosive or acidic burst. 1/day standard action to summon a earth elemental for up to 15 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "acid fog or Melf’s acid arrow",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_earth_elemental_power_greater_ranged",
+      "name": "Earth elemental power (Greater)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corrosive or acidic burst. 1/day standard action to summon a earth elemental for up to 15 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "acid fog or Melf’s acid arrow",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_earth_elemental_power_elder_melee",
+      "name": "Earth elemental power (Elder)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corrosive or acidic burst. 1/day standard action to summon a earth elemental for up to 17 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "acid fog or Melf’s acid arrow",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_earth_elemental_power_elder_ranged",
+      "name": "Earth elemental power (Elder)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corrosive or acidic burst. 1/day standard action to summon a earth elemental for up to 17 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "acid fog or Melf’s acid arrow",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_fire_elemental_power_large_melee",
+      "name": "Fire elemental power (Large)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires flaming or flaming burst. 1/day standard action to summon a fire elemental for up to 11 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade or flame strike or fireball",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_fire_elemental_power_large_ranged",
+      "name": "Fire elemental power (Large)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires flaming or flaming burst. 1/day standard action to summon a fire elemental for up to 11 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade or flame strike or fireball",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_fire_elemental_power_huge_melee",
+      "name": "Fire elemental power (Huge)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires flaming or flaming burst. 1/day standard action to summon a fire elemental for up to 13 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade or flame strike or fireball",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_fire_elemental_power_huge_ranged",
+      "name": "Fire elemental power (Huge)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires flaming or flaming burst. 1/day standard action to summon a fire elemental for up to 13 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade or flame strike or fireball",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_fire_elemental_power_greater_melee",
+      "name": "Fire elemental power (Greater)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires flaming or flaming burst. 1/day standard action to summon a fire elemental for up to 15 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade or flame strike or fireball",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_fire_elemental_power_greater_ranged",
+      "name": "Fire elemental power (Greater)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires flaming or flaming burst. 1/day standard action to summon a fire elemental for up to 15 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade or flame strike or fireball",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_fire_elemental_power_elder_melee",
+      "name": "Fire elemental power (Elder)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires flaming or flaming burst. 1/day standard action to summon a fire elemental for up to 17 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade or flame strike or fireball",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_fire_elemental_power_elder_ranged",
+      "name": "Fire elemental power (Elder)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires flaming or flaming burst. 1/day standard action to summon a fire elemental for up to 17 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "flame blade or flame strike or fireball",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_water_elemental_power_large_melee",
+      "name": "Water elemental power (Large)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires frost or icy burst. 1/day standard action to summon a water elemental for up to 11 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal or ice storm",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_water_elemental_power_large_ranged",
+      "name": "Water elemental power (Large)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires frost or icy burst. 1/day standard action to summon a water elemental for up to 11 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal or ice storm",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_water_elemental_power_huge_melee",
+      "name": "Water elemental power (Huge)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires frost or icy burst. 1/day standard action to summon a water elemental for up to 13 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal or ice storm",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_water_elemental_power_huge_ranged",
+      "name": "Water elemental power (Huge)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires frost or icy burst. 1/day standard action to summon a water elemental for up to 13 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal or ice storm",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_water_elemental_power_greater_melee",
+      "name": "Water elemental power (Greater)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires frost or icy burst. 1/day standard action to summon a water elemental for up to 15 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal or ice storm",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_water_elemental_power_greater_ranged",
+      "name": "Water elemental power (Greater)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires frost or icy burst. 1/day standard action to summon a water elemental for up to 15 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal or ice storm",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_water_elemental_power_elder_melee",
+      "name": "Water elemental power (Elder)",
+      "category": "weapon_melee",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires frost or icy burst. 1/day standard action to summon a water elemental for up to 17 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal or ice storm",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    },
+    {
+      "id": "dmg2_wpn_water_elemental_power_elder_ranged",
+      "name": "Water elemental power (Elder)",
+      "category": "weapon_ranged",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires frost or icy burst. 1/day standard action to summon a water elemental for up to 17 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate or strong conjuration",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "chill metal or ice storm",
+        "summon monster VI (Large)",
+        "summon monster VII (Huge)",
+        "summon monster VIII (Greater)",
+        "summon monster IX (Elder)"
+      ]
+    }
+  ]
+}
