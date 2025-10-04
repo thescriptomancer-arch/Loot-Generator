@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "source": "MIC v3.5",
+  "chapter": "Augment Crystals",
+  "section": "Adapter for material-style selection",
+  "fields": [
+    "id",
+    "name",
+    "applies_to",
+    "cost_mod",
+    "stats_mod",
+    "constraints",
+    "source"
+  ],
+  "rows": []
+}
