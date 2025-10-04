@@ -9777,8 +9777,321 @@
     "spells": ["lightning bolt"]
   },
   "cost_to_create": "2,175 gp, 174 XP, 5 days"
+},
+{
+  "id": "uniq_stunning_spike",
+  "name": "Stunning Spike",
+  "category": "wondrous item (held)",
+  "price_gp": 9000,
+  "item_level": 12,
+  "body_slot": "— (held)",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) enchantment",
+  "activation": "Standard (manipulation)",
+  "weight_lb": 0.5,
+  "effects": [
+    "After planting, becomes invisible 1 round later.",
+    "When a creature comes within 10 ft, bursts into fragments; all creatures in 20-ft radius are stunned 1 round (Will DC 20 negates); spike destroyed.",
+    "While still visible in the first round, any creature can remove it (standard action) to make it harmless and reusable."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["symbol of stunning"]
+  },
+  "cost_to_create": "4,500 gp, 360 XP, 9 days"
+},
+{
+  "id": "uniq_summoners_totem",
+  "name": "Summoner's Totem",
+  "category": "wondrous item (held)",
+  "price_gp": 3100,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) conjuration",
+  "activation": "—; see text",
+  "weight_lb": 2,
+  "effects": [
+    "When you summon a single animal with summon nature's ally, you can cast another spell targeting that creature as a swift action.",
+    "The second spell must be 3rd level or lower, target only the summoned creature, and have a casting time no longer than 1 standard action; expends the spell/slot as normal."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["speak with animals", "summon nature's ally II"]
+  },
+  "cost_to_create": "1,550 gp, 124 XP, 4 days"
+},
+{
+  "id": "uniq_survival_pouch",
+  "name": "Survival Pouch",
+  "category": "wondrous item (held)",
+  "price_gp": 3300,
+  "item_level": 8,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) conjuration",
+  "activation": "Standard (manipulation)",
+  "weight_lb": 5,
+  "effects": [
+    "5/day: draw one of the following; each lasts 8 hours (or as noted): trail rations (1 Medium, 1 day); waterskin with 2 gallons (disappears if emptied); tent and two Medium bedrolls; 50-ft hempen rope; shovel; a 2-ft-square campfire (can be split into 8 torches, each 1 hour, reducing remaining campfire time); composite shortbow (+1 Str) with 20 arrows (bow disappears 1 round after last arrow drawn); a mule with tack (as a summoned creature; will not fight)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["major creation"]
+  },
+  "cost_to_create": "1,650 gp, 132 XP, 4 days"
+},
+{
+  "id": "uniq_talisman_of_the_disk",
+  "name": "Talisman of the Disk",
+  "category": "wondrous item (held)",
+  "price_gp": 500,
+  "item_level": 3,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) transmutation",
+  "activation": "Standard (command)",
+  "effects": [
+    "Creates a Tenser's floating disk that holds 300 lb, lasts up to 3 hours (or until dismissed), and must remain within 30 ft.",
+    "If you wear a magic item that grants an enhancement bonus to Strength, the disk's capacity increases by 100 lb per point of that bonus."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["bull's strength", "Tenser's floating disk"]
+  },
+  "cost_to_create": "250 gp, 20 XP, 1 day"
+},
+{
+  "id": "uniq_talisman_undead_mastery",
+  "name": "Talisman of Undead Mastery",
+  "category": "wondrous item (held)",
+  "price_gp": 3000,
+  "item_level": 7,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) necromancy",
+  "activation": "Swift (mental)",
+  "effects": [
+    "Has 3 charges/day; spend when you make a turn/rebuke undead check before the end of your turn.",
+    "1 charge: +2 effective turning level; 2 charges: +3; 3 charges: +4 (for that single check)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["command undead"]
+  },
+  "cost_to_create": "1,500 gp, 120 XP, 3 days"
+},
+{
+  "id": "uniq_talisman_undying_fortitude",
+  "name": "Talisman of Undying Fortitude",
+  "category": "wondrous item (held)",
+  "price_gp": 8000,
+  "item_level": 11,
+  "body_slot": "— (held)",
+  "required_caster_level": 15,
+  "aura": "Strong; (DC 22) necromancy",
+  "activation": "Swift (command)",
+  "effects": [
+    "For 3 rounds: gain immunities of the undead—poison; sleep; paralysis; stunning; disease; death effects; critical hits; nonlethal damage; physical ability damage; ability drain; energy drain; fatigue; exhaustion; death from massive damage; and any effect requiring a Fortitude save; you also do not need to breathe.",
+    "2/day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["veil of undeath (SC 229)"]
+  },
+  "cost_to_create": "4,000 gp, 320 XP, 8 days"
+},
+{
+  "id": "uniq_tanglepatch",
+  "name": "Tanglepatch",
+  "category": "wondrous item (held, consumable)",
+  "price_gp": 200,
+  "item_level": 2,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) transmutation",
+  "activation": "Standard (thrown)",
+  "weight_lb": 1,
+  "effects": [
+    "Thrown up to 50 ft; creates entangle centered on impact for 5 rounds.",
+    "Single use; expended on activation."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["entangle"]
+  },
+  "cost_to_create": "100 gp, 8 XP, 1 day"
+},
+{
+  "id": "uniq_thorn_pouch",
+  "name": "Thorn Pouch",
+  "category": "wondrous item",
+  "price_gp": 4400,
+  "item_level": 9,
+  "body_slot": "—",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) conjuration",
+  "activation": "Swift (manipulation)",
+  "weight_lb": 1,
+  "effects": [
+    "Has 5 charges/day. Draw a thorn (hand in pouch) to create one of the following (duration 9 rounds):",
+    "1 charge—entangle; 3 charges—spike growth; 5 charges—wall of thorns.",
+    "Drop the thorn in your space or an adjacent square; effect begins 1 round later. If not dropped within 1 round, it vanishes with no effect."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["entangle", "spike growth", "wall of thorns"]
+  },
+  "cost_to_create": "2,200 gp, 176 XP, 5 days"
+},
+{
+  "id": "uniq_tome_ancient_lore_relic",
+  "name": "Tome of Ancient Lore [Relic]",
+  "category": "wondrous item (relic)",
+  "price_gp": 5500,
+  "item_level": 10,
+  "body_slot": "—",
+  "required_caster_level": 20,
+  "aura": "Strong; (DC 25) transmutation",
+  "activation": "1 hour; see text",
+  "weight_lb": 2,
+  "effects": [
+    "If you are N, NG, NE, LN, or CN: studying for 1 hour grants a +5 competence bonus on Knowledge (arcana) and Spellcraft checks made that day (in addition to spell preparation time)."
+  ],
+  "relic_power": "While preparing arcane spells, use the tome to prepare one spell not in your spellbook: 50% chance to find any arcane spell of the highest level you can cast; 100% chance for any other spell you can cast. Functions 1/day.",
+  "relic_attunement": "Worship Boccob and either sacrifice a 5th-level divine spell slot or have the True Believer feat and at least 9 HD.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item", "Sanctify Relic"],
+    "spells": ["secret page"]
+  },
+  "cost_to_create": "2,750 gp, 220 XP, 6 days"
+},
+{
+  "id": "uniq_tome_stilled_tongue_relic",
+  "name": "Tome of the Stilled Tongue [Relic]",
+  "category": "wondrous item (relic)",
+  "price_gp": 7500,
+  "item_level": 11,
+  "body_slot": "—",
+  "required_caster_level": 20,
+  "aura": "Strong; (DC 25) transmutation",
+  "activation": "See text",
+  "weight_lb": 5,
+  "effects": [
+    "If you are NE, CE, LE, or N: reveals instructions for creating a lich’s phylactery and provides 500 blank spell pages functioning like Boccob’s blessed book."
+  ],
+  "relic_power": "1/hour of prescribed mental exercises increases your effective caster level for all spells by 1 for 24 hours, but reduces your full normal hit point total by 1 per character level while in effect. 1/day.",
+  "relic_attunement": "Worship Vecna and either sacrifice a 5th-level divine spell slot or have the True Believer feat and at least 9 HD.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item", "Sanctify Relic", "Scribe Scroll"],
+    "spells": ["secret page"]
+  },
+  "cost_to_create": "3,750 gp, 300 XP, 8 days"
+},
+{
+  "id": "uniq_tome_worldly_memory",
+  "name": "Tome of Worldly Memory",
+  "category": "wondrous item (held)",
+  "price_gp": 1500,
+  "item_level": 5,
+  "body_slot": "— (held)",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) transmutation",
+  "activation": "1 minute or 1 standard action; see text",
+  "weight_lb": 1,
+  "effects": [
+    "3/day: studying for 1 minute grants a +5 competence bonus on a single Knowledge check.",
+    "If you have at least 5 ranks in that Knowledge skill, you can peruse as a standard action instead."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["fox's cunning"]
+  },
+  "cost_to_create": "750 gp, 60 XP, 2 days"
+},
+{
+  "id": "uniq_tomebound_eye_boccob",
+  "name": "Tomebound Eye of Boccob",
+  "category": "wondrous item",
+  "price_gp": 7000,
+  "item_level": 11,
+  "body_slot": "—",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) enchantment",
+  "activation": "Standard (command)",
+  "effects": [
+    "Affix to a wizard’s spellbook; 3 charges/day, spent while preparing wizard spells to grant competence bonuses on caster level checks to overcome spell resistance: +4 (1 charge), +6 (2 charges), or +8 (3 charges).",
+    "Charges may be split among spells. A spellbook can have only one such eye, and you can’t benefit from more than one per day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "other": ["Ability to prepare 3rd-level arcane spells"]
+  },
+  "cost_to_create": "3,500 gp, 280 XP, 7 days"
+},
+{
+  "id": "uniq_troll_gut_rope",
+  "name": "Troll Gut Rope",
+  "category": "wondrous item (held)",
+  "price_gp": 500,
+  "item_level": 3,
+  "body_slot": "— (held)",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) conjuration",
+  "activation": "Standard (command)",
+  "weight_lb": 7,
+  "effects": [
+    "Once per day command the 50-ft rope to grow up to an additional 350 ft; extra length decays after 12 hours.",
+    "If the large end knot is untied or cut open, the magic is destroyed."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["minor creation"]
+  },
+  "cost_to_create": "250 gp, 20 XP, 1 day"
+},
+{
+  "id": "uniq_truelight_lantern",
+  "name": "Truelight Lantern",
+  "category": "wondrous item (held)",
+  "price_gp": 36000,
+  "item_level": 17,
+  "body_slot": "— (held)",
+  "required_caster_level": 11,
+  "aura": "Moderate; (DC 20) divination",
+  "activation": "— and Standard (command)",
+  "weight_lb": 3,
+  "effects": [
+    "Continuously sheds bright light as continual flame.",
+    "On command word “reveal” (in Celestial): 60-ft cone of bright illumination (plus 60-ft shadowy) in which everything is seen as by true seeing for 10 minutes.",
+    "Normally 1/day; each true seeing spell cast into the lantern grants one additional activation that day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["true seeing"]
+  },
+  "cost_to_create": "18,000 gp, 1,440 XP, 36 days"
+},
+{
+  "id": "uniq_wilding_clasp",
+  "name": "Wilding Clasp",
+  "category": "wondrous item",
+  "price_gp": 4000,
+  "item_level": 8,
+  "body_slot": "—",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "—",
+  "effects": [
+    "Attach to any worn item; prevents that item from melding into your body when you use wild shape (if the form can reasonably wear it).",
+    "The item remains fully functional in your new form."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "other": ["wild shape"]
+  },
+  "cost_to_create": "2,000 gp, 160 XP, 4 days"
 }
-
 
   ]
 }
