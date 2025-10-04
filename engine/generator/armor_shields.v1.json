@@ -8,13 +8,23 @@
       "kind": "select_base_item",
       "inputs": {
         "inline_choices": {
-          "tier": ["minor", "medium", "major"]
+          "tier": [
+            "minor",
+            "medium",
+            "major"
+          ]
         }
       },
       "weights": {
-        "tier": { "minor": 60, "medium": 30, "major": 10 }
+        "tier": {
+          "minor": 60,
+          "medium": 30,
+          "major": 10
+        }
       },
-      "output_bindings": { "tier": "tier" }
+      "output_bindings": {
+        "tier": "tier"
+      }
     },
     {
       "id": "base_item",
@@ -62,7 +72,11 @@
         "from_table": "sources/DMG/items/materials/materials.core.json"
       },
       "weights": {
-        "special_material_chance_pct": { "minor": 5, "medium": 10, "major": 15 },
+        "special_material_chance_pct": {
+          "minor": 5,
+          "medium": 10,
+          "major": 15
+        },
         "material_weights_by_category": {
           "armor": {
             "mat_mithral": 45,
@@ -90,6 +104,55 @@
       }
     },
     {
+      "id": "template",
+      "name": "Select Template (DMG II)",
+      "kind": "select_material",
+      "inputs": {
+        "from_table": "sources/DMG2/items/materials/materials.dmg2.templates.core.json"
+      },
+      "weights": {
+        "template_chance_pct": {
+          "minor": 10,
+          "medium": 20,
+          "major": 30
+        }
+      },
+      "rules": {
+        "filter_by_item_composition": true,
+        "apply_stats_modifiers": true,
+        "apply_cost_modifiers": true,
+        "fallback_baseline_table": "sources/DMG/items/materials/material_composition_baselines.core.json"
+      },
+      "output_bindings": {
+        "template.id": "row.id",
+        "template.name": "row.name"
+      }
+    },
+    {
+      "id": "augment_crystal",
+      "name": "Attach Augment Crystal (MIC)",
+      "kind": "select_material",
+      "inputs": {
+        "from_table": "sources/MIC/items/augment_crystals/augment_crystals.materialized.core.json"
+      },
+      "weights": {
+        "chance_pct": {
+          "minor": 12,
+          "medium": 18,
+          "major": 24
+        }
+      },
+      "rules": {
+        "filter_by_item_composition": true,
+        "apply_cost_modifiers": true,
+        "apply_stats_modifiers": false
+      },
+      "output_bindings": {
+        "augment_crystal.id": "row.id",
+        "augment_crystal.name": "row.name"
+      }
+    },
+    {
       "id": "size_shape",
       "name": "Apply Size and Shape",
       "kind": "size_shape",
@@ -107,14 +170,41 @@
       "kind": "magic_core",
       "weights": {
         "enhancement_by_tier": {
-          "minor": { "+1": 80, "+2": 18, "+3": 2 },
-          "medium": { "+1": 15, "+2": 70, "+3": 15 },
-          "major": { "+2": 25, "+3": 55, "+4": 18, "+5": 2 }
+          "minor": {
+            "+1": 80,
+            "+2": 18,
+            "+3": 2
+          },
+          "medium": {
+            "+1": 15,
+            "+2": 70,
+            "+3": 15
+          },
+          "major": {
+            "+2": 25,
+            "+3": 55,
+            "+4": 18,
+            "+5": 2
+          }
         },
         "special_ability_count_by_tier": {
-          "minor": { "0": 60, "1": 35, "2": 5 },
-          "medium": { "0": 20, "1": 60, "2": 18, "3": 2 },
-          "major": { "0": 5, "1": 40, "2": 40, "3": 15 }
+          "minor": {
+            "0": 60,
+            "1": 35,
+            "2": 5
+          },
+          "medium": {
+            "0": 20,
+            "1": 60,
+            "2": 18,
+            "3": 2
+          },
+          "major": {
+            "0": 5,
+            "1": 40,
+            "2": 40,
+            "3": 15
+          }
         }
       },
       "rules": {
@@ -131,7 +221,7 @@
       "name": "Select Special Abilities",
       "kind": "magic_special_abilities",
       "inputs": {
-        "from_table": "sources/DMG/items/magic/armor_special_abilities.core.json"
+        "from_table": "sources/ALL/items/magic/armor_special_abilities.all.core.json"
       },
       "weights": {
         "by_tier": {
@@ -197,16 +287,48 @@
         "respect_min_enhancement": true,
         "sum_bonus_equiv_to_pricing": true,
         "upgrade_families": [
-          ["arm_shadow", "arm_shadow_improved", "arm_shadow_greater"],
-          ["arm_silent_moves", "arm_silent_moves_improved", "arm_silent_moves_greater"],
-          ["arm_resist_acid_10", "arm_resist_acid_20", "arm_resist_acid_30"],
-          ["arm_resist_cold_10", "arm_resist_cold_20", "arm_resist_cold_30"],
-          ["arm_resist_elec_10", "arm_resist_elec_20", "arm_resist_elec_30"],
-          ["arm_resist_fire_10", "arm_resist_fire_20", "arm_resist_fire_30"],
-          ["arm_resist_sonic_10", "arm_resist_sonic_20", "arm_resist_sonic_30"]
+          [
+            "arm_shadow",
+            "arm_shadow_improved",
+            "arm_shadow_greater"
+          ],
+          [
+            "arm_silent_moves",
+            "arm_silent_moves_improved",
+            "arm_silent_moves_greater"
+          ],
+          [
+            "arm_resist_acid_10",
+            "arm_resist_acid_20",
+            "arm_resist_acid_30"
+          ],
+          [
+            "arm_resist_cold_10",
+            "arm_resist_cold_20",
+            "arm_resist_cold_30"
+          ],
+          [
+            "arm_resist_elec_10",
+            "arm_resist_elec_20",
+            "arm_resist_elec_30"
+          ],
+          [
+            "arm_resist_fire_10",
+            "arm_resist_fire_20",
+            "arm_resist_fire_30"
+          ],
+          [
+            "arm_resist_sonic_10",
+            "arm_resist_sonic_20",
+            "arm_resist_sonic_30"
+          ]
         ],
         "mutual_exclusions": [
-          ["arm_fort_light", "arm_fort_moderate", "arm_fort_heavy"]
+          [
+            "arm_fort_light",
+            "arm_fort_moderate",
+            "arm_fort_heavy"
+          ]
         ],
         "apply_shield_specific_when_category_is_shield": true
       },
@@ -221,7 +343,11 @@
       "name": "Intelligent Item Check",
       "kind": "intelligent_item_check",
       "weights": {
-        "chance_pct_by_tier": { "minor": 1, "medium": 2, "major": 5 }
+        "chance_pct_by_tier": {
+          "minor": 1,
+          "medium": 2,
+          "major": 5
+        }
       },
       "output_bindings": {
         "intelligent.roll": "result.roll",
@@ -290,7 +416,14 @@
       "name": "Item Description Synthesis",
       "kind": "description_synth",
       "rules": {
-        "include_blocks": ["base", "material", "magic", "intelligence", "curse", "history"],
+        "include_blocks": [
+          "base",
+          "material",
+          "magic",
+          "intelligence",
+          "curse",
+          "history"
+        ],
         "omit_if_absent": true
       },
       "output_bindings": {
