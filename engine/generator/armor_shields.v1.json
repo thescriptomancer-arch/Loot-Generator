@@ -339,6 +339,22 @@
       }
     },
     {
+  "id": "signature_traits",
+  "name": "Apply Signature Traits (DMG II)",
+  "kind": "select_from_table",
+  "inputs": {
+    "from_table": "sources/DMG2/items/magic/signature_traits.dmg2.core.json"
+  },
+  "weights": {
+    "chance_pct": { "minor": 0, "medium": 0, "major": 0 }
+  },
+  "output_bindings": {
+    "signature_trait.id": "row.id",
+    "signature_trait.name": "row.name"
+  }
+},
+
+    {
       "id": "int_check",
       "name": "Intelligent Item Check",
       "kind": "intelligent_item_check",
