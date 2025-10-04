@@ -346,7 +346,7 @@
     "from_table": "sources/DMG2/items/magic/signature_traits.dmg2.core.json"
   },
   "weights": {
-    "chance_pct": { "minor": 0, "medium": 0, "major": 0 }
+    "chance_pct": { "minor": 10, "medium": 10, "major": 20 }
   },
   "output_bindings": {
     "signature_trait.id": "row.id",
