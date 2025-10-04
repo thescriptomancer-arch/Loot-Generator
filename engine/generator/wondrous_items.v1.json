@@ -46,7 +46,7 @@
       "id": "specific_pick",
       "name": "Pick Specific Wondrous Item",
       "kind": "select_base_item",
-      "inputs": { "from_table": "sources/DMG/items/unique/unique_items.index.json" },
+      "inputs": { "from_table": "sources/ALL/items/unique/unique_items.all.index.json" },
       "rules": {
         "only_if": { "wondrous.build_mode": "specific_from_index" },
         "filter_by_field_equals": { "category": "wondrous" },
