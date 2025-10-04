@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG II",
+  "chapter": "Magic Item Signature Traits",
+  "section": "Chapter 7",
+  "fields": [
+    "id",
+    "name",
+    "description",
+    "source_page"
+  ],
+  "rows": [
+    { "id": "dmg2_trait_brilliant", "name": "Brilliant", "description": "The item emits brief flashes of bright light whenever it is activated. The creator determines the color upon selecting the trait.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_clean", "name": "Clean", "description": "The item never becomes stained or dirty.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_comfortable", "name": "Comfortable", "description": "The item is soothing and relaxing to wear or hold.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_crude", "name": "Crude", "description": "Appears made from base materials with shoddy workmanship.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_dreadful", "name": "Dreadful", "description": "Bears frightening emblems (skulls, leering faces) that seem to move when activated or used; creator chooses specifics.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_fashionable", "name": "Fashionable", "description": "Particularly attractive in appearance.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_flickering", "name": "Flickering", "description": "Flickers with a faint black flame too dim to provide illumination.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_gaudy", "name": "Gaudy", "description": "Brightly colored or covered in numerous fake jewels; might shimmer with faint rainbow light.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_glowing", "name": "Glowing", "description": "Sheds light equal to a candle for 1 round upon activation or when a charge is expended.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_heavy", "name": "Heavy", "description": "Feels unusually heavy when held; actual weight unchanged.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_loud", "name": "Loud", "description": "Upon activation emits an incongruous sound (lion’s roar, strong chord, short exclamation).", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_multicolored", "name": "Multicolored", "description": "Item’s coloration changes at random intervals.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_religious", "name": "Religious", "description": "Bears a particular faith’s symbol and incorporates that faith’s icons/colors.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_shadowy", "name": "Shadowy", "description": "Dead black in color; seems to swallow light that shines upon it.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_shrouded", "name": "Shrouded", "description": "Perpetually shrouded in a faint aura of cool mist.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_sizzling", "name": "Sizzling", "description": "Emits a faint, burning hiss whenever it strikes flesh.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_slimy", "name": "Slimy", "description": "Faint residue of slime coats the item at all times.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_smoky", "name": "Smoky", "description": "Emits a faintly visible trail of smoke when held.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_sparking", "name": "Sparking", "description": "Gives off sparks when it strikes a foe or is struck.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_totemic", "name": "Totemic", "description": "Decorated with fetishes, carvings, and markings identifying it as sacred to a specific tribe or group.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_warped", "name": "Warped", "description": "Constructed in an odd manner with curves or protrusions unlike known methods.", "source_page": "DMG II Ch.7" },
+    { "id": "dmg2_trait_writhing", "name": "Writhing", "description": "Upon activation, briefly twists and writhes like a snake.", "source_page": "DMG II Ch.7" }
+  ]
+}
