@@ -10091,6 +10091,2084 @@
     "other": ["wild shape"]
   },
   "cost_to_create": "2,000 gp, 160 XP, 4 days"
+},
+{
+  "id": "set_armor_watching_master",
+  "type": "item_set",
+  "name": "Armor of the Watching Master",
+  "description": "Medium adamantine breastplate plus matching helm, gauntlets, and mask—all marked with staring eyes. Grants initiative, keen sight, and powers to frighten, blind, burn, and crush obstacles; full set pierces invisibility.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": ["You gain a +2 bonus on initiative checks."]
+    },
+    {
+      "pieces_required": 4,
+      "effects": [
+        "You gain a +5 competence bonus on Spot checks.",
+        "1/day as a standard action, speak the command word “Cabiri” to gain see invisibility for 3 minutes."
+      ],
+      "visual": "When all four pieces are worn, each item’s eye motif becomes bloodshot, yellow-pupiled, and roves on its own."
+    }
+  ],
+  "pieces": [
+    "uniq_awm_mask_of_mastery",
+    "uniq_awm_helm_of_wounding_sight",
+    "uniq_awm_gauntlets_of_destruction",
+    "uniq_awm_breastplate_of_terror"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Knowledge (the planes)", "Bardic knowledge"],
+      "text": "Founded by an elf paladin after planar travels; the Watchful Eyes order issued these to top members. The order collapsed a century ago; sets surface sporadically."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Knowledge (the planes)", "Bardic knowledge"],
+      "text": "Collapse tied to many paladins turning blackguard as their founder vanished; infighting ended the order."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Knowledge (the planes)", "Bardic knowledge"],
+      "text": "Tales say the founder fell first and hid her corruption; a barbarian/blackguard cult still wears pieces as a badge."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Knowledge (the planes)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ],
+  "notes": [
+    "Designed for melee users; barbarian fast movement works in a breastplate. The set’s DR stacks with barbarian class DR (not other DR sources)."
+  ]
+},
+{
+  "id": "uniq_awm_mask_of_mastery",
+  "name": "Mask of Mastery",
+  "category": "wondrous item (face)",
+  "price_gp": 3500,
+  "item_level": 8,
+  "body_slot": "Face",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) enchantment",
+  "activation": "— and standard (command)",
+  "weight_lb": 1,
+  "effects": [
+    "+5 competence bonus on Intimidate checks (continuous).",
+    "1/day command (as the spell; Will DC 20 negates). Not language-dependent; the target need only hear you."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["command"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "1,750 gp, 140 XP, 4 days",
+  "set_id": "set_armor_watching_master",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_awm_helm_of_wounding_sight",
+  "name": "Helm of Wounding Sight",
+  "category": "wondrous item (head)",
+  "price_gp": 6500,
+  "item_level": 10,
+  "body_slot": "Head",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) evocation",
+  "activation": "Standard (command)",
+  "weight_lb": 1,
+  "effects": [
+    "On activation, sheds light as light until commanded to cease or removed.",
+    "3/day: 60-ft cone of bright burning light; creatures in area take 2d6 fire damage and are blinded for 1 round (Reflex DC 20 half damage and dazzled 1 round)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["light", "burning hands"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "3,250 gp, 260 XP, 6 days",
+  "set_id": "set_armor_watching_master",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_awm_gauntlets_of_destruction",
+  "name": "Gauntlets of Destruction",
+  "category": "wondrous item (hands) / weapon (spiked gauntlets, masterwork)",
+  "price_gp": 6610,
+  "item_level": 11,
+  "body_slot": "Hands",
+  "required_caster_level": 6,
+  "aura": "Moderate; (DC 18) evocation, transmutation",
+  "activation": "— and swift (command)",
+  "weight_lb": 2,
+  "effects": [
+    "+2 enhancement bonus to Strength (continuous).",
+    "3/day: activate to make your next melee attack this turn count as adamantine for overcoming DR and ignoring hardness.",
+    "Each is a masterwork spiked gauntlet; they can be enhanced as weapons individually."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor"],
+    "spells": ["bull's strength", "shatter"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "3,000 gp (plus 610 gp for two masterwork spiked gauntlets), 240 XP, 6 days",
+  "set_id": "set_armor_watching_master",
+  "set_piece_order": 3
+},
+{
+  "id": "uniq_awm_breastplate_of_terror",
+  "name": "Breastplate of Terror",
+  "category": "armor (+1 adamantine breastplate)",
+  "price_gp": 13200,
+  "item_level": 14,
+  "body_slot": "Body",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) necromancy",
+  "activation": "— and immediate (mental)",
+  "weight_lb": 30,
+  "effects": [
+    "+1 adamantine breastplate; grants DR 2/—.",
+    "This DR stacks with damage reduction gained as a class feature (e.g., barbarian), but not with other sources.",
+    "1/day: immediately after you’re damaged by a melee attack, frighten that attacker for 1 round (Will DC 20 negates to shaken 1 round)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor"],
+    "spells": ["cause fear"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "1,500 gp (plus 10,200 gp for adamantine breastplate), 120 XP, 3 days",
+  "set_id": "set_armor_watching_master",
+  "set_piece_order": 4
+},
+{
+  "id": "set_array_manticore",
+  "type": "item_set",
+  "name": "Array of the Manticore",
+  "description": "Sky-warrior’s ensemble honoring the manticore—bracers, gloves, helm, medallion, and winged vest. Rewards aerial combat with precision, protection, and mobility; the complete array calls a manticore ally.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": ["You are continually affected as by feather fall."]
+    },
+    {
+      "pieces_required": 5,
+      "effects": [
+        "2/day as a swift (mental) action, summon a manticore (as a summon monster effect) for 5 rounds.",
+        "The manticore has DR 10/magic and a +5 competence bonus on attack rolls.",
+        "Summoning a second manticore ends the first if still present.",
+        "Caster level 5th; you can negate or renew this power as a swift (mental) action."
+      ]
+    }
+  ],
+  "pieces": [
+    "uniq_aotm_bracers_of_aerial_combat",
+    "uniq_aotm_gloves_of_endless_javelins",
+    "uniq_aotm_medallion_of_aerial_defense",
+    "uniq_aotm_helm_of_the_hunter",
+    "uniq_aotm_winged_vest"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Crafted by a hobgoblin sorcerer for a bugbear manticore-rider bodyguard."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "After a siege, survivors split the set; discovering feather fall later led to strife and the array’s spread."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Legends tell of a spell to puppet the wearer and lock the items on—sought but never replicated."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_aotm_bracers_of_aerial_combat",
+  "name": "Bracers of Aerial Combat",
+  "category": "wondrous item (arms)",
+  "price_gp": 5000,
+  "item_level": 9,
+  "body_slot": "Arms",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) evocation",
+  "activation": "—",
+  "weight_lb": 1,
+  "effects": [
+    "+1 competence bonus on attack rolls if you or your target is airborne."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["gust of wind"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "2,500 gp, 200 XP, 5 days",
+  "set_id": "set_array_manticore",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_aotm_gloves_of_endless_javelins",
+  "name": "Gloves of Endless Javelins",
+  "category": "wondrous item (hands)",
+  "price_gp": 7000,
+  "item_level": 11,
+  "body_slot": "Hands",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) evocation",
+  "activation": "Free (command)",
+  "effects": [
+    "On activation, a +1 javelin of force appears in your hand.",
+    "The javelin lasts until you resolve an attack with it or until the end of your turn, whichever comes first."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor", "Craft Wondrous Item"],
+    "spells": ["magic missile"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "3,500 gp, 280 XP, 7 days",
+  "set_id": "set_array_manticore",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_aotm_medallion_of_aerial_defense",
+  "name": "Medallion of Aerial Defense",
+  "category": "wondrous item (throat)",
+  "price_gp": 8000,
+  "item_level": 11,
+  "body_slot": "Throat",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) abjuration",
+  "activation": "—",
+  "effects": [
+    "Grants DR 10/magic against ranged weapons as long as either you or your attacker is airborne."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["protection from arrows"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "4,000 gp, 320 XP, 8 days",
+  "set_id": "set_array_manticore",
+  "set_piece_order": 3
+},
+{
+  "id": "uniq_aotm_helm_of_the_hunter",
+  "name": "Helm of the Hunter",
+  "category": "wondrous item (head)",
+  "price_gp": 9000,
+  "item_level": 12,
+  "body_slot": "Head",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) divination",
+  "activation": "— or standard (mental)",
+  "weight_lb": 1,
+  "effects": [
+    "+5 competence bonus on Spot checks (continuous).",
+    "Benefit of the Far Shot feat (continuous).",
+    "1/day: gain low-light vision and darkvision 60 ft for 4 hours."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["clairaudience/clairvoyance", "darkvision"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "4,500 gp, 360 XP, 9 days",
+  "set_id": "set_array_manticore",
+  "set_piece_order": 4
+},
+{
+  "id": "uniq_aotm_winged_vest",
+  "name": "Winged Vest",
+  "category": "wondrous item (torso)",
+  "price_gp": 12000,
+  "item_level": 13,
+  "body_slot": "Torso",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "Swift (command)",
+  "weight_lb": 2,
+  "effects": [
+    "On activation, manticore wings unfold; you fly 60 ft (good) for 5 rounds.",
+    "Functions 5/day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["fly"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "6,000 gp, 480 XP, 12 days",
+  "set_id": "set_array_manticore",
+  "set_piece_order": 5
+},
+{
+  "id": "set_five_virtues",
+  "type": "item_set",
+  "name": "Five Virtues",
+  "description": "Legendary implements of courage—armband, standard, medal, armor crystal, and shield—created to uphold honor, freedom, valor, vigilance, and sacrifice.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": ["You gain a +1 morale bonus on Will saves."],
+      "visual": "Your eyes shine and sparkle with bravery."
+    },
+    {
+      "pieces_required": 5,
+      "effects": ["Adjacent allies gain a +1 bonus to AC."],
+      "visual": "When the Shield of Vigor is activated, all pieces take on a silvery sheen as if lit from a plane of valor."
+    }
+  ],
+  "pieces": [
+    "uniq_fv_armband_of_confrontation",
+    "uniq_fv_standard_of_valor",
+    "uniq_fv_medal_of_steadfast_honor",
+    "uniq_fv_crystal_of_alacrity",
+    "uniq_fv_shield_of_vigor"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (nobility and royalty)", "Bardic knowledge"],
+      "text": "An ancient illithid-fighting order embodied its five virtues in these items."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (nobility and royalty)", "Bardic knowledge"],
+      "text": "The order’s name is lost; archivists believe pieces remain scattered in hidden keeps or lairs."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (nobility and royalty)", "Bardic knowledge"],
+      "text": "Miners uncovered ruins near a subterranean lake; records claim a dead mind flayer community below holds stolen pieces."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (nobility and royalty)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ],
+  "notes": [
+    "Synergizes with the knight class (PH2); several pieces allow extra activations by expending Knight’s Challenge or Marshal abilities."
+  ]
+},
+{
+  "id": "uniq_fv_armband_of_confrontation",
+  "name": "Armband of Confrontation",
+  "category": "wondrous item (arms)",
+  "price_gp": 1400,
+  "item_level": 5,
+  "body_slot": "Arms",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) evocation",
+  "activation": "—",
+  "effects": [
+    "Your fighting challenge (PH2) lasts an extra 3 rounds."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["divine favor"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "700 gp, 56 XP, 2 days",
+  "set_id": "set_five_virtues",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_fv_standard_of_valor",
+  "name": "Standard of Valor",
+  "category": "wondrous item (shoulders / banner)",
+  "price_gp": 1400,
+  "item_level": 5,
+  "body_slot": "Shoulders",
+  "required_caster_level": 10,
+  "aura": "Moderate; (DC 20) abjuration",
+  "activation": "Immediate (command)",
+  "weight_lb": 4,
+  "effects": [
+    "1/day: grant one ally within 60 ft another save against a fear effect currently affecting them or about to affect them.",
+    "If you have Knight’s Challenge (PH2) or the Marshal’s grant move action (MH), you can reactivate by expending a daily use.",
+    "May be affixed to a pole/spear/polearm to free the shoulders slot; you must wield the weapon to gain the benefit."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["remove fear"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "700 gp, 56 XP, 2 days",
+  "set_id": "set_five_virtues",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_fv_medal_of_steadfast_honor",
+  "name": "Medal of Steadfast Honor",
+  "category": "wondrous item (throat)",
+  "price_gp": 1500,
+  "item_level": 5,
+  "body_slot": "Throat",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "Immediate (mental)",
+  "effects": [
+    "If knocked prone, immediately stand in place. Functions 1/day; if you have Knight’s Challenge (PH2), you may reactivate by expending a daily use."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["feather fall"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "750 gp, 60 XP, 2 days",
+  "set_id": "set_five_virtues",
+  "set_piece_order": 3
+},
+{
+  "id": "uniq_fv_crystal_of_alacrity",
+  "name": "Crystal of Alacrity (lesser armor crystal)",
+  "category": "augment crystal (armor crystal, lesser)",
+  "price_gp": 3500,
+  "item_level": 8,
+  "body_slot": "— (armor crystal)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "—",
+  "effects": [
+    "When attached to medium or heavy armor, grants a +5-ft morale bonus to your land speed."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor"],
+    "spells": ["longstrider"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "1,750 gp, 140 XP, 4 days",
+  "set_id": "set_five_virtues",
+  "set_piece_order": 4
+},
+{
+  "id": "uniq_fv_shield_of_vigor",
+  "name": "Shield of Vigor",
+  "category": "magic shield (+1 heavy steel shield)",
+  "price_gp": 6170,
+  "item_level": 10,
+  "body_slot": "— (held)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) conjuration",
+  "activation": "Swift (command)",
+  "weight_lb": 15,
+  "effects": [
+    "+1 heavy steel shield.",
+    "On activation, gain fast healing 5 for 3 rounds (1/day; if you have Knight’s Challenge, you can reactivate by expending a daily use)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor"],
+    "spells": ["vigor (SC 229)"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "3,000 gp (plus 170 gp for masterwork heavy steel shield), 240 XP, 6 days",
+  "set_id": "set_five_virtues",
+  "set_piece_order": 5
+},
+{
+  "id": "set_fleet_warriors_array",
+  "type": "item_set",
+  "name": "Fleet Warrior's Array",
+  "description": "Elven-crafted bracers, sandals, and vest that grant speed, sure footing, and slipperiness; the full array enables short-range teleportation for you (and possibly allies via sandals’ sharing).",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": ["You gain a +2 dodge bonus to AC against attacks of opportunity."]
+    },
+    {
+      "pieces_required": 3,
+      "effects": ["1/day as a standard (command) action, use dimension door (CL 7th)."],
+      "visual": "When the full set is worn, mithral elements glow emerald and leave a brief green trail as you move."
+    }
+  ],
+  "pieces": [
+    "uniq_fwa_bracers_of_blinding_strike",
+    "uniq_fwa_sandals_of_the_light_step",
+    "uniq_fwa_vest_of_free_movement"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Fashioned for the Green Runners—elite elves famed for tireless marches, scouting, and commando raids—who wore array pieces as rank marks."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "When their realm fell, the Green Runner generals vanished into an ancient forest with the pregnant queen; they later split up, and her fate is unknown."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Some claim the generals betrayed the kingdom by abducting the queen, dooming the realm by depriving it of its finest leaders."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_fwa_bracers_of_blinding_strike",
+  "name": "Bracers of Blinding Strike",
+  "category": "wondrous item (arms)",
+  "price_gp": 5000,
+  "item_level": 9,
+  "body_slot": "Arms",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) transmutation",
+  "activation": "— and swift (command)",
+  "weight_lb": 1,
+  "effects": [
+    "+2 competence bonus on initiative checks (continuous).",
+    "3/day: After you have used the full attack action this turn, activate to make one additional attack with any weapon you are holding at your full base attack bonus (plus applicable modifiers).",
+    "Not cumulative with other effects that grant an extra attack during a full attack (e.g., Rapid Shot, speed weapon, haste)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["haste"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "2,500 gp, 200 XP, 5 days",
+  "set_id": "set_fleet_warriors_array",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_fwa_sandals_of_the_light_step",
+  "name": "Sandals of the Light Step",
+  "category": "wondrous item (feet)",
+  "price_gp": 9000,
+  "item_level": 12,
+  "body_slot": "Feet",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "— and swift (mental)",
+  "weight_lb": 1,
+  "effects": [
+    "+10-foot enhancement bonus to base land speed (continuous).",
+    "Ignore extra movement costs for difficult terrain (PH 148) and leave no tracks (as pass without trace).",
+    "1/day: Gain water walk for 60 minutes; you may share the effect among up to five adjacent allies at activation, dividing the total duration equally."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["longstrider", "pass without trace", "water walk"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "4,500 gp, 360 XP, 9 days",
+  "set_id": "set_fleet_warriors_array",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_fwa_vest_of_free_movement",
+  "name": "Vest of Free Movement",
+  "category": "wondrous item (torso)",
+  "price_gp": 12000,
+  "item_level": 13,
+  "body_slot": "Torso",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) abjuration",
+  "activation": "Swift (command)",
+  "effects": [
+    "On activation, gain freedom of movement (as the spell) for 3 rounds.",
+    "Functions 3/day."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["freedom of movement"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "6,000 gp, 480 XP, 12 days",
+  "set_id": "set_fleet_warriors_array",
+  "set_piece_order": 3
+},
+{
+  "id": "set_garb_hunting_cat",
+  "type": "item_set",
+  "name": "Garb of the Hunting Cat",
+  "description": "Tiger-themed mask, clawed gloves, and mantle that turn you into a stalking predator; the full garb rends foes and cloaks you from sight.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": [
+        "If during your turn you hit the same foe with both a primary claw glove attack and an off-hand claw glove attack, the second attack also rends for +3d6 damage. You can rend only once per round."
+      ]
+    },
+    {
+      "pieces_required": 3,
+      "effects": [
+        "1/day as a standard (mental) action, use invisibility on yourself (CL 3rd)."
+      ],
+      "visual": "In combat while wearing all three, you appear as a humanoid tiger; the items’ fur looks alive."
+    }
+  ],
+  "pieces": [
+    "uniq_ghc_mask_of_the_tiger",
+    "uniq_ghc_claw_gloves",
+    "uniq_ghc_mantle_of_the_predator"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Feared attacks on settlements were traced to wearers of this garb—humans donning tigerish gear who struck swiftly and vanished."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Rakshasa-worshiping cultists used the garb in coming-of-age hunts; many sets later circulated without buyers knowing the bloody origin."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "The master rakshasa escaped; said to have pure white fur and to exact vengeance on complete-set owners when they are not wearing it—often via ‘accidents’ with beasts—yet the pieces are always left behind."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_ghc_mask_of_the_tiger",
+  "name": "Mask of the Tiger",
+  "category": "wondrous item (face)",
+  "price_gp": 4000,
+  "item_level": 8,
+  "body_slot": "Face",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) transmutation",
+  "activation": "—",
+  "weight_lb": 1,
+  "effects": [
+    "Gain the Track feat; if you already have Track, instead gain a +5 competence bonus on Survival checks.",
+    "Gain low-light vision."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["low-light vision (SC 134)"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "2,000 gp, 160 XP, 4 days",
+  "set_id": "set_garb_hunting_cat",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_ghc_claw_gloves",
+  "name": "Claw Gloves",
+  "category": "wondrous item (hands) / weapon (+1 punching daggers, pair)",
+  "price_gp": 5604,
+  "item_level": 10,
+  "body_slot": "Hands",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "—",
+  "weight_lb": 1,
+  "effects": [
+    "Treated as a pair of +1 punching daggers when both are worn.",
+    "Wearing them does not hinder wielding other weapons or using your hands.",
+    "If you charge or use Spring Attack while both hands are empty, you may make an off-hand claw glove attack in addition to the normal claw glove attack granted (both attacks take normal two-weapon fighting penalties).",
+    "This extra attack can’t be combined with any other effect that grants extra attacks when charging or using Spring Attack."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor", "Craft Wondrous Item"],
+    "spells": ["magic fang"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "2,500 gp (plus 604 gp for two masterwork punching daggers), 200 XP, 5 days",
+  "set_id": "set_garb_hunting_cat",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_ghc_mantle_of_the_predator",
+  "name": "Mantle of the Predator",
+  "category": "wondrous item (shoulders)",
+  "price_gp": 8000,
+  "item_level": 11,
+  "body_slot": "Shoulders",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "+5 competence bonus on Hide and Move Silently checks.",
+    "+1d6 damage on melee attacks against foes denied their Dexterity bonus to AC.",
+    "Creatures with concealment, without discernible anatomies, or immune to critical hits are immune to this extra damage."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["cat's grace"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "4,000 gp, 320 XP, 8 days",
+  "set_id": "set_garb_hunting_cat",
+  "set_piece_order": 3
+},
+{
+  "id": "set_gharyns_monastic_array",
+  "type": "item_set",
+  "name": "Gharyn's Monastic Array",
+  "description": "Foot wrappings, mask, and kama that channel animal forms into swift, stunning technique. Best for monks (especially kama users).",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": ["Add +1 to the save DC of your Stunning Fist attacks."]
+    },
+    {
+      "pieces_required": 3,
+      "effects": [
+        "When you score a critical hit with a scorpion kama, you can expend a daily use of Stunning Fist as a free action to make that attack a stunning attack (no effect if you don’t have Stunning Fist)."
+      ],
+      "visual": "Your arm briefly resembles a striking scorpion’s tail."
+    }
+  ],
+  "pieces": [
+    "uniq_gma_cobra_straps",
+    "uniq_gma_panther_mask",
+    "uniq_gma_scorpion_kama"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Found in the ashes of monk Gharyn, who sacrificed himself shielding his order from a red dragon; many believe the dragon’s fire charged the array."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "At the Monastery of the Lone Dove, Gharyn rebelled against meaningless strictures, trained followers in worldly styles, and died saving the monks—his ashes revealed the three items."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Monk Nobara Lame denounces Gharyn and duels to the death anyone wearing pieces of the array, original or copy."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_gma_cobra_straps",
+  "name": "Cobra Straps",
+  "category": "wondrous item (feet)",
+  "price_gp": 1400,
+  "item_level": 5,
+  "body_slot": "Feet",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "Free (mental)",
+  "effects": [
+    "1/day: When you make an unarmed attack at the end of a charge, immediately after attempting the attack you may move 5 feet away from the target without provoking attacks of opportunity."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["expeditious retreat"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "700 gp, 56 XP, 2 days",
+  "set_id": "set_gharyns_monastic_array",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_gma_panther_mask",
+  "name": "Panther Mask",
+  "category": "wondrous item (face)",
+  "price_gp": 2700,
+  "item_level": 7,
+  "body_slot": "Face",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "—",
+  "effects": [
+    "Gain the Run feat.",
+    "If wearing light or no armor, gain a +5-foot enhancement bonus to land speed."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["longstrider"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "1,350 gp, 108 XP, 3 days",
+  "set_id": "set_gharyns_monastic_array",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_gma_scorpion_kama",
+  "name": "Scorpion Kama",
+  "category": "weapon (kama)",
+  "price_gp": 6302,
+  "item_level": 10,
+  "body_slot": "— (held)",
+  "required_caster_level": 10,
+  "aura": "Moderate; (DC 20) transmutation",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "+1 kama.",
+    "Deals damage equal to your unarmed strike damage if that is greater than a normal kama’s damage."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor"],
+    "spells": ["magic weapon"],
+    "other": ["Stunning Fist, possession of a piece of the set"]
+  },
+  "cost_to_create": "3,000 gp (plus 302 gp for masterwork kama), 240 XP, 6 days",
+  "set_id": "set_gharyns_monastic_array",
+  "set_piece_order": 3
+},
+{
+  "id": "set_instruments_blood_gift",
+  "type": "item_set",
+  "name": "Instruments of the Blood Gift",
+  "description": "Arms, hand-wraps, and choker that convert sacrificed blood into arcane fuel—especially potent for sorcerers and dragonblooded characters.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": ["You automatically stabilize when reduced to –1 to –9 hit points."],
+      "visual": "Eyes take on a reddish tint and skin becomes faintly ruddy."
+    },
+    {
+      "pieces_required": 3,
+      "effects": [
+        "3/day as a swift (command) action, expend a sorcerer spell slot to heal yourself HP equal to twice the slot’s level."
+      ],
+      "visual": "Eyes smolder with liquid fire; skin flushes with empowered blood."
+    }
+  ],
+  "pieces": [
+    "uniq_ibg_bands_of_blood_rage",
+    "uniq_ibg_barbs_of_retribution",
+    "uniq_ibg_blood_claw_choker"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Crafted by Palamandius to free spontaneous casters from the Wizards of the Pure."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "The Wizards of the Pure abducted spontaneous casters into a dead magic zone; Palamandius rekindled his blood-born magic to lead their escape."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Remnants of the Pure still murder wandering sorcerers out of fear and spite."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_ibg_bands_of_blood_rage",
+  "name": "Bands of Blood Rage",
+  "category": "wondrous item (arms)",
+  "price_gp": 2600,
+  "item_level": 7,
+  "body_slot": "Arms",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) enchantment",
+  "activation": "Swift (mental)",
+  "weight_lb": 2,
+  "effects": [
+    "Each time you don the bands, you take 1 damage that can’t be healed while worn.",
+    "3/day: You and any willing ally within 30 ft enter a blood rage for 5 rounds (can’t end early except by unconsciousness or effects that end rage; unlike barbarian rage, it imposes no action limits).",
+    "While raging: +5 morale bonus on melee weapon damage; each affected creature takes 5 damage at the end of its turn each round.",
+    "If you are a sorcerer or have the dragonblood subtype, you also gain a +5 morale bonus on damage with your arcane spells while in a blood rage created by bands you wear."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["rage"],
+    "other": ["sorcerer or dragonblood subtype, possession of a piece of the set"]
+  },
+  "cost_to_create": "1,300 gp, 104 XP, 3 days",
+  "set_id": "set_instruments_blood_gift",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_ibg_barbs_of_retribution",
+  "name": "Barbs of Retribution",
+  "category": "wondrous item (hands)",
+  "price_gp": 4500,
+  "item_level": 9,
+  "body_slot": "Hands",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) necromancy",
+  "activation": "Immediate (mental)",
+  "weight_lb": 1,
+  "effects": [
+    "Each time you don the barbs, you take 1 damage that can’t be healed while worn.",
+    "1/day: Sacrifice a sorcerer spell slot of 2nd level or higher to force an enemy within 30 ft to reroll a saving throw it just succeeded; the reroll has a penalty equal to half the sacrificed spell’s level (energy streams from your hands).",
+    "If you have the dragonblood subtype, you may instead sacrifice your own hit points (at least 5); the reroll suffers –1 per 5 hp spent (max –5 for 25 hp), manifested as fiery blood streaming from your hands."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["bestow curse"],
+    "other": ["sorcerer or dragonblood subtype, possession of a piece of the set"]
+  },
+  "cost_to_create": "2,250 gp, 180 XP, 5 days",
+  "set_id": "set_instruments_blood_gift",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_ibg_blood_claw_choker",
+  "name": "Blood Claw Choker",
+  "category": "wondrous item (throat)",
+  "price_gp": 12000,
+  "item_level": 13,
+  "body_slot": "Throat",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) necromancy, transmutation",
+  "activation": "— and Swift (mental)",
+  "effects": [
+    "Each time you don the choker, you take 1 damage that can’t be healed while worn.",
+    "+2 enhancement bonus to Constitution (continuous).",
+    "2/day: Regain any one sorcerer spell slot you have used today (up to 5th level). When you do, you take damage equal to twice the level of the slot regained."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["bear's endurance", "vampiric touch"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "6,000 gp, 480 XP, 12 days",
+  "set_id": "set_instruments_blood_gift",
+  "set_piece_order": 3
+},
+{
+  "id": "set_raiment_of_the_four",
+  "type": "item_set",
+  "name": "Raiment of the Four",
+  "description": "Gloves, goggles, periapt, and belt tied to sky, sun, sea, and earth—granting elemental protections and reality-bending travel and insight.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": [
+        "Gain resistance to cold 5; this stacks with similar resistances from race, class, or template."
+      ]
+    },
+    {
+      "pieces_required": 3,
+      "effects": [
+        "Gain resistance to cold 5 and electricity 5; these stack with similar resistances as above."
+      ]
+    },
+    {
+      "pieces_required": 4,
+      "effects": [
+        "Gain resistance to cold 5, electricity 5, and fire 5; these stack as above.",
+        "1/day: Commune with the spirit of the druid Alain (as commune, CL 9th) to ask four questions. Using this negates the set’s energy resistances until the next sunrise."
+      ],
+      "visual": "Teleportation via the belt manifests as a pillar of fire engulfing the travelers."
+    }
+  ],
+  "pieces": [
+    "uniq_rotf_gloves_starry_sky",
+    "uniq_rotf_goggles_golden_sun",
+    "uniq_rotf_periapt_sullen_sea",
+    "uniq_rotf_belt_wide_earth"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Knowledge (nature)", "Bardic knowledge"],
+      "text": "Druid Alain received a vision to craft items bound to earth, sky, sea, and sun, gathered components from the world’s corners, and used the raiment to survive perilous lands."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Knowledge (nature)", "Bardic knowledge"],
+      "text": "Alain’s spirit is drawn to united pieces and can impart secrets when all four are brought together."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Knowledge (nature)", "Bardic knowledge"],
+      "text": "Orc shaman Grotarb briefly possessed the set before dying drowned, burned, and dismembered; his dark spirit sometimes haunts new collectors of multiple pieces."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Knowledge (nature)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_rotf_gloves_starry_sky",
+  "name": "Gloves of the Starry Sky",
+  "category": "wondrous item (hands)",
+  "price_gp": 1100,
+  "item_level": 4,
+  "body_slot": "Hands",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 15) evocation",
+  "activation": "— and Standard (mental)",
+  "effects": [
+    "Shed bright, silvery radiance equivalent to light; douse/renew as a standard (mental) action.",
+    "3/day: Sacrifice a prepared spell or slot of 1st level or higher to use magic missile (as the spell), using your caster level; missiles appear as tiny falling stars."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["magic missile"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "550 gp, 44 XP, 2 days",
+  "set_id": "set_raiment_of_the_four",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_rotf_goggles_golden_sun",
+  "name": "Goggles of the Golden Sun",
+  "category": "wondrous item (face)",
+  "price_gp": 4000,
+  "item_level": 8,
+  "body_slot": "Face",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) evocation",
+  "activation": "— and Standard (mental)",
+  "effects": [
+    "Immune to blindness and dazzling (continuous).",
+    "3/day: Sacrifice a prepared spell or slot of 3rd level or higher to use fireball (Reflex DC 14 half), using your caster level or the item’s (whichever is higher); appears as an exploding comet."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["fireball"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "2,000 gp, 160 XP, 4 days",
+  "set_id": "set_raiment_of_the_four",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_rotf_periapt_sullen_sea",
+  "name": "Periapt of the Sullen Sea",
+  "category": "wondrous item (throat)",
+  "price_gp": 6000,
+  "item_level": 10,
+  "body_slot": "Throat",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) abjuration",
+  "activation": "— and Standard (mental)",
+  "effects": [
+    "Hold your breath for up to 12 hours before making Constitution checks (continuous).",
+    "2/day: Sacrifice a prepared spell or slot of 4th level or higher to use freedom of movement (as the spell), using your caster level or the item’s (whichever is higher)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["freedom of movement"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "3,000 gp, 240 XP, 6 days",
+  "set_id": "set_raiment_of_the_four",
+  "set_piece_order": 3
+},
+{
+  "id": "uniq_rotf_belt_wide_earth",
+  "name": "Belt of the Wide Earth",
+  "category": "wondrous item (waist)",
+  "price_gp": 8000,
+  "item_level": 11,
+  "body_slot": "Waist",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) conjuration",
+  "activation": "— and Standard (mental)",
+  "effects": [
+    "Your carrying capacity is doubled (continuous).",
+    "2/day: Sacrifice a prepared spell or slot of 5th level or higher to use teleport (as the spell), using your caster level or the belt’s (whichever is higher)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["teleport"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "4,000 gp, 320 XP, 8 days",
+  "set_id": "set_raiment_of_the_four",
+  "set_piece_order": 4
+},
+{
+  "id": "set_raiment_stormwalker",
+  "type": "item_set",
+  "name": "Raiment of the Stormwalker",
+  "description": "Ring, bracers, robe, and anklets that let you become the storm—shrouding foes in crackling light, empowering strikes with lightning, shrugging off sonic and electrical assault, and striding the clouds. All collection benefits function for a druid in wild shape even if items have melded.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": ["3/day use obscuring mist (CL 5th) as a standard (mental) action."]
+    },
+    {
+      "pieces_required": 3,
+      "effects": ["1/day use call lightning (CL 5th) as a standard (mental) action."]
+    },
+    {
+      "pieces_required": 4,
+      "effects": [
+        "Take only half damage from electricity; if the effect allows a save for half, instead take no damage on a successful save."
+      ],
+      "visual": "When fully worn, the robe flashes with lightning that crackles over the other pieces."
+    }
+  ],
+  "pieces": [
+    "uniq_ros_stormfire_ring",
+    "uniq_ros_bracers_of_lightning",
+    "uniq_ros_robe_of_thunder",
+    "uniq_ros_cloudwalker_anklets"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Knowledge (nature)", "Bardic knowledge"],
+      "text": "The first Stormwalker, a half-orc druid, took the storm as his symbol and crafted the original raiment."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Knowledge (nature)", "Bardic knowledge"],
+      "text": "He was slain by his half-sister; then his father sought the raiment’s power. Druids of both orcs and humans now claim the title."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Knowledge (nature)", "Bardic knowledge"],
+      "text": "Those who don the full raiment often find old enemies—and even friends—turn against them; no curse is detected yet trouble follows."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Knowledge (nature)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_ros_stormfire_ring",
+  "name": "Stormfire Ring",
+  "category": "ring",
+  "price_gp": 4000,
+  "item_level": 8,
+  "body_slot": "Ring",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) evocation",
+  "activation": "Standard (mental)",
+  "effects": [
+    "5/day: Create a faerie fire effect of crackling lightning for 5 rounds; as faerie fire except each affected creature takes 1d6 electricity damage each round for the duration.",
+    "Reapplying does not increase damage but extends duration.",
+    "A druid can activate this item while in wild shape."
+  ],
+  "prerequisites": {
+    "feats": ["Forge Ring"],
+    "spells": ["faerie fire"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "2,000 gp, 160 XP, 4 days",
+  "set_id": "set_raiment_stormwalker",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_ros_bracers_of_lightning",
+  "name": "Bracers of Lightning",
+  "category": "wondrous item (arms)",
+  "price_gp": 11000,
+  "item_level": 13,
+  "body_slot": "Arms",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) evocation",
+  "activation": "Swift (mental)",
+  "weight_lb": 1,
+  "effects": [
+    "On activation, bracers crackle with electricity for 1 round.",
+    "During that round, your melee and ranged attacks gain the shock weapon property; even melee touch attacks deal the extra electricity damage.",
+    "A druid can activate this item while in wild shape."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["call lightning"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "5,500 gp, 440 XP, 11 days",
+  "set_id": "set_raiment_stormwalker",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_ros_robe_of_thunder",
+  "name": "Robe of Thunder",
+  "category": "wondrous item (body)",
+  "price_gp": 38000,
+  "item_level": 17,
+  "body_slot": "Body",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) transmutation",
+  "activation": "— or Standard (mental)",
+  "weight_lb": 1,
+  "effects": [
+    "Take only half damage from sonic attacks; if such an attack allows a save for half damage, instead take no damage on a successful save (continuous).",
+    "3/day: Activate to gain a rumbling, invisible aura of thunder for 5 rounds (Listen DC 10 to hear); creatures striking you with natural attacks or nonreach melee weapons take 2d6 sonic damage.",
+    "A druid can benefit from and activate this item while in wild shape."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["control weather"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "19,000 gp, 1,520 XP, 38 days",
+  "set_id": "set_raiment_stormwalker",
+  "set_piece_order": 3
+},
+{
+  "id": "uniq_ros_robe_of_thunder",
+  "name": "Robe of Thunder",
+  "category": "wondrous item (body)",
+  "price_gp": 38000,
+  "item_level": 17,
+  "body_slot": "Body",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) transmutation",
+  "activation": "— or Standard (mental)",
+  "weight_lb": 1,
+  "effects": [
+    "Take only half damage from sonic attacks; if such an attack allows a save for half damage, instead take no damage on a successful save (continuous).",
+    "3/day: Activate to gain a rumbling, invisible aura of thunder for 5 rounds (Listen DC 10 to hear); creatures striking you with natural attacks or nonreach melee weapons take 2d6 sonic damage.",
+    "A druid can benefit from and activate this item while in wild shape."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["control weather"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "19,000 gp, 1,520 XP, 38 days",
+  "set_id": "set_raiment_stormwalker",
+  "set_piece_order": 3
+},
+{
+  "id": "uniq_ros_cloudwalker_anklets",
+  "name": "Cloudwalker Anklets",
+  "category": "wondrous item (feet)",
+  "price_gp": 50000,
+  "item_level": 18,
+  "body_slot": "Feet",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) transmutation",
+  "activation": "—",
+  "effects": [
+    "Continuous air walk, as the spell.",
+    "A druid benefits from this item even while in wild shape."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["air walk"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "25,000 gp, 2,000 XP, 50 days",
+  "set_id": "set_raiment_stormwalker",
+  "set_piece_order": 4
+},
+{
+  "id": "set_regalia_of_the_hero",
+  "type": "item_set",
+  "name": "Regalia of the Hero",
+  "description": "Helm, horn, and badge that awaken leadership—bolstering allies with courage, tactics, and resilience.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": [
+        "1/day as an immediate (command) action, grant a single ally within 30 ft (not yourself) a +5 insight bonus on a single attack roll, saving throw, or skill check."
+      ],
+      "visual": "Eyes sparkle with conviction; posture straightens with confidence."
+    },
+    {
+      "pieces_required": 3,
+      "effects": [
+        "1/day as a standard (command) action, grant a single ally within 30 ft (not yourself) an extra move action taken immediately.",
+        "If you have the marshal’s grant move action class feature, this instead affects all allies within 30 ft."
+      ],
+      "visual": "When sounding the horn while wearing the other two pieces, all three flash with golden light."
+    }
+  ],
+  "pieces": [
+    "uniq_roth_badge_of_valor",
+    "uniq_roth_helm_of_tactics",
+    "uniq_roth_horn_of_resilience"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Three items once borne by Reynard, a courageous soldier whose sacrifice inspired the set’s power."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Reynard Ellison’s helm, horn, and badge became the regalia after he fell enabling his allies’ escape and victory."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "The Coalition of the Bulwark still watches orc threats and recruits adventurers at the Fortress of the Bulwark."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_roth_badge_of_valor",
+  "name": "Badge of Valor",
+  "category": "wondrous item (throat)",
+  "price_gp": 1400,
+  "item_level": 5,
+  "body_slot": "Throat",
+  "required_caster_level": 5,
+  "aura": "Moderate; (DC 17) abjuration",
+  "activation": "Immediate (mental)",
+  "effects": [
+    "3/day: You and all allies within 60 ft gain a +2 bonus on the next save made against a charm or fear effect before the start of your next turn.",
+    "If you can inspire courage with bardic music, you may activate the badge to increase the bonus granted by that ability by 1 for its duration."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["remove fear"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "700 gp, 56 XP, 2 days",
+  "set_id": "set_regalia_of_the_hero",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_roth_helm_of_tactics",
+  "name": "Helm of Tactics",
+  "category": "wondrous item (head)",
+  "price_gp": 2000,
+  "item_level": 6,
+  "body_slot": "Head",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) transmutation",
+  "activation": "Swift (mental)",
+  "weight_lb": 1,
+  "effects": [
+    "3/day: You and allies within 60 ft gain a +2 bonus on melee weapon damage rolls against enemies you or they flank for 10 rounds (ally loses benefit if moving >60 ft away, regains on return).",
+    "If you are a marshal, you may instead increase the effect of your minor aura by 1 for 10 rounds."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["fox's cunning"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "1,000 gp, 80 XP, 2 days",
+  "set_id": "set_regalia_of_the_hero",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_roth_horn_of_resilience",
+  "name": "Horn of Resilience",
+  "category": "wondrous item (held)",
+  "price_gp": 5000,
+  "item_level": 9,
+  "body_slot": "— (held)",
+  "required_caster_level": 8,
+  "aura": "Moderate; (DC 19) enchantment",
+  "activation": "Standard (manipulation)",
+  "effects": [
+    "2/day: You and allies within 30 ft gain DR 5/— for 5 rounds (ally loses benefit beyond 30 ft, regains on return).",
+    "If you are a marshal, you may instead increase the effect of your major aura by 1 for 5 rounds.",
+    "If you can inspire greatness with bardic music, you may grant that target 50 temporary hit points (do not stack with other temp HP) lasting until depleted or inspire greatness ends."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["heroism"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "2,500 gp, 200 XP, 5 days",
+  "set_id": "set_regalia_of_the_hero",
+  "set_piece_order": 3
+},
+{
+  "id": "set_regalia_of_the_phoenix",
+  "type": "item_set",
+  "name": "Regalia of the Phoenix",
+  "description": "Mask, crown, scepter, and cloak of living flame—granting sight, Charisma, burning wrath, flight, and rebirth.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": [
+        "5/day: When you are dealt fire damage, gain resistance to fire 5 against that attack only."
+      ]
+    },
+    {
+      "pieces_required": 3,
+      "effects": [
+        "5/day: When you are dealt fire damage, gain immunity to fire against that attack only.",
+        "Only after all five immunity uses are expended does the 2-piece resistance benefit function that day."
+      ]
+    },
+    {
+      "pieces_required": 4,
+      "effects": [
+        "If reduced to 0 to –9 hit points, you are automatically affected by heal (CL 11th), 1/day."
+      ],
+      "visual": "All items appear as pure fire; cloak becomes flaming wings; on revival your body is remade in ruby light."
+    }
+  ],
+  "pieces": [
+    "uniq_rotp_raptors_mask",
+    "uniq_rotp_crown_of_flames",
+    "uniq_rotp_talon_scepter",
+    "uniq_rotp_phoenix_cloak"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "First borne by the Phoenix Queen, an unstoppable sorcerer-queen until assassins struck at her lover’s plea."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Assassins divided the regalia and fled, spreading its legend across lands."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Rumors tell the Queen’s lover still lives, hunting those who wield the regalia or its copies."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_rotp_raptors_mask",
+  "name": "Raptor's Mask",
+  "category": "wondrous item (face)",
+  "price_gp": 3500,
+  "item_level": 8,
+  "body_slot": "Face",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) divination",
+  "activation": "—",
+  "effects": [
+    "+5 bonus on Spot checks.",
+    "Immunity to blindness and dazzling effects."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["clairaudience/clairvoyance", "glitterdust"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "1,750 gp, 140 XP, 4 days",
+  "set_id": "set_regalia_of_the_phoenix",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_rotp_crown_of_flames",
+  "name": "Crown of Flames",
+  "category": "wondrous item (head)",
+  "price_gp": 8500,
+  "item_level": 12,
+  "body_slot": "Head",
+  "required_caster_level": 8,
+  "aura": "Moderate; (DC 19) transmutation",
+  "activation": "— or Immediate (mental)",
+  "effects": [
+    "+2 enhancement bonus to Charisma (continuous).",
+    "1/day: Surround yourself in flames as fire shield (warm only) for 5 rounds."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["eagle's splendor", "fire shield"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "4,250 gp, 340 XP, 9 days",
+  "set_id": "set_regalia_of_the_phoenix",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_rotp_talon_scepter",
+  "name": "Talon Scepter",
+  "category": "weapon (light mace)",
+  "price_gp": 10305,
+  "item_level": 13,
+  "body_slot": "— (held)",
+  "required_caster_level": 10,
+  "aura": "Moderate; (DC 20) evocation",
+  "activation": "— or Swift (mental)",
+  "weight_lb": 4,
+  "effects": [
+    "+1 flaming light mace.",
+    "Swift: Emit a 30-ft ruby ray (ranged touch) dealing 1d6 fire damage."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor"],
+    "spells": ["flame blade", "flame strike", "fireball"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "5,000 gp (plus 305 gp for masterwork light mace), 400 XP, 10 days",
+  "set_id": "set_regalia_of_the_phoenix",
+  "set_piece_order": 3
+},
+{
+  "id": "uniq_rotp_phoenix_cloak",
+  "name": "Phoenix Cloak",
+  "category": "wondrous item (shoulders)",
+  "price_gp": 50000,
+  "item_level": 18,
+  "body_slot": "Shoulders",
+  "required_caster_level": 10,
+  "aura": "Moderate; (DC 20) transmutation",
+  "activation": "—",
+  "weight_lb": 1,
+  "effects": [
+    "Gain a fly speed equal to your land speed with perfect maneuverability (continuous)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["fly"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "25,000 gp, 2,000 XP, 50 days",
+  "set_id": "set_regalia_of_the_phoenix",
+  "set_piece_order": 4
+},
+{
+  "id": "set_seven_veils",
+  "type": "item_set",
+  "name": "Seven Veils",
+  "description": "Seven prismatic veils—each mirrors a prismatic color’s effect and grants protection from that color, culminating in runestaff-like versatility.",
+  "collection_benefits": [
+    {
+      "pieces_required": 3,
+      "effects": [
+        "+2 competence bonus on Concentration, Knowledge (arcana), and Spellcraft checks."
+      ]
+    },
+    {
+      "pieces_required": 5,
+      "effects": [
+        "Resistance 5 to acid, electricity, and fire."
+      ]
+    },
+    {
+      "pieces_required": 7,
+      "effects": [
+        "Use the seven veils like a runestaff to cast each of the following 1/day by spending your own arcane slots of equal or higher level: cone of cold, daylight, disintegrate, dispel magic, gust of wind, magic missile, passwall."
+      ]
+    }
+  ],
+  "pieces": [
+    "uniq_sve_burning_veil",
+    "uniq_sve_caustic_veil",
+    "uniq_sve_veil_of_storms",
+    "uniq_sve_veil_of_whispers",
+    "uniq_sve_veil_of_doors",
+    "uniq_sve_serpent_veil",
+    "uniq_sve_turquoise_veil"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Said to be drawn from a rainbow by Boccob; each veil grants an effect linked to a prismatic color and protects from that color."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Wizards fought and died over full sets; extra pieces circulated widely."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Two full-set wearers became liches—perhaps coincidence, perhaps divine design by Boccob or Wee Jas."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_sve_burning_veil",
+  "name": "Burning Veil",
+  "category": "wondrous item (head)",
+  "price_gp": 1000,
+  "item_level": 4,
+  "body_slot": "Head",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) evocation",
+  "activation": "— and Swift (mental)",
+  "effects": [
+    "Immunity to the red effect of any prismatic spell (continuous).",
+    "3/day: Deal 1d6 fire damage to a creature already damaged by your arcane fire spell this round."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["burning hands"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "500 gp, 40 XP, 1 day",
+  "set_id": "set_seven_veils",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_sve_caustic_veil",
+  "name": "Caustic Veil",
+  "category": "wondrous item (waist)",
+  "price_gp": 2000,
+  "item_level": 6,
+  "body_slot": "Waist",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) conjuration",
+  "activation": "— and Swift (mental)",
+  "effects": [
+    "Immunity to the orange effect of any prismatic spell (continuous).",
+    "3/day: Deal 2d6 acid damage to a creature already damaged by your arcane acid spell this round."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["Melf's acid arrow"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "1,000 gp, 80 XP, 2 days",
+  "set_id": "set_seven_veils",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_sve_veil_of_storms",
+  "name": "Veil of Storms",
+  "category": "wondrous item (torso)",
+  "price_gp": 4000,
+  "item_level": 8,
+  "body_slot": "Torso",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) evocation",
+  "activation": "— and Swift (mental)",
+  "effects": [
+    "Immunity to the yellow effect of any prismatic spell (continuous).",
+    "3/day: Deal 4d6 electricity damage to a creature already damaged by your arcane electricity spell this round."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["lightning bolt"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "2,000 gp, 160 XP, 4 days",
+  "set_id": "set_seven_veils",
+  "set_piece_order": 3
+},
+{
+  "id": "uniq_sve_veil_of_whispers",
+  "name": "Veil of Whispers",
+  "category": "wondrous item (face)",
+  "price_gp": 7000,
+  "item_level": 11,
+  "body_slot": "Face",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) enchantment",
+  "activation": "— and Swift (mental)",
+  "effects": [
+    "Immunity to the indigo effect of any prismatic spell (continuous).",
+    "3/day: Confuse (2 rounds) a creature within 30 ft that failed a save against an arcane enchantment spell you cast this round (Will DC 20 negates).",
+    "Can be worn concurrently with a turquoise veil, but not with any other face-slot item."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["confusion"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "3,500 gp, 280 XP, 7 days",
+  "set_id": "set_seven_veils",
+  "set_piece_order": 4
+},
+{
+  "id": "uniq_sve_veil_of_whispers",
+  "name": "Veil of Whispers",
+  "category": "wondrous item (face)",
+  "price_gp": 7000,
+  "item_level": 11,
+  "body_slot": "Face",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) enchantment",
+  "activation": "— and Swift (mental)",
+  "effects": [
+    "Immunity to the indigo effect of any prismatic spell (continuous).",
+    "3/day: Confuse (2 rounds) a creature within 30 ft that failed a save against an arcane enchantment spell you cast this round (Will DC 20 negates).",
+    "Can be worn concurrently with a turquoise veil, but not with any other face-slot item."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["confusion"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "3,500 gp, 280 XP, 7 days",
+  "set_id": "set_seven_veils",
+  "set_piece_order": 4
+},
+{
+  "id": "uniq_sve_veil_of_doors",
+  "name": "Veil of Doors",
+  "category": "wondrous item (shoulders)",
+  "price_gp": 11000,
+  "item_level": 13,
+  "body_slot": "Shoulders",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) abjuration",
+  "activation": "— and Swift (mental)",
+  "effects": [
+    "Immunity to the violet effect of any prismatic spell (continuous).",
+    "2/day: Dismiss (as dismissal) a single extraplanar creature within 30 ft that was damaged this round by a creature you summoned or called with an arcane conjuration spell (Will DC 27 – creature’s HD negates)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["dismissal"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "5,500 gp, 440 XP, 11 days",
+  "set_id": "set_seven_veils",
+  "set_piece_order": 5
+},
+{
+  "id": "uniq_sve_serpent_veil",
+  "name": "Serpent Veil",
+  "category": "wondrous item (throat)",
+  "price_gp": 16000,
+  "item_level": 14,
+  "body_slot": "Throat",
+  "required_caster_level": 11,
+  "aura": "Moderate; (DC 20) necromancy",
+  "activation": "— and Swift (mental)",
+  "effects": [
+    "Immunity to the green effect of any prismatic spell (continuous).",
+    "3/day: Poison a single creature affected by an arcane melee touch spell you cast earlier this round (initial and secondary 5d10 damage; Fort DC 20 negates)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["circle of death"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "8,000 gp, 640 XP, 16 days",
+  "set_id": "set_seven_veils",
+  "set_piece_order": 6
+},
+{
+  "id": "uniq_sve_turquoise_veil",
+  "name": "Turquoise Veil",
+  "category": "wondrous item (face)",
+  "price_gp": 22000,
+  "item_level": 15,
+  "body_slot": "Face",
+  "required_caster_level": 11,
+  "aura": "Moderate; (DC 20) transmutation",
+  "activation": "— and Swift (mental)",
+  "effects": [
+    "Immunity to the blue effect of any prismatic spell (continuous).",
+    "1/day: Turn to stone (as flesh to stone) a creature within 30 ft that failed a save against an arcane transmutation spell you cast this round (Fort DC 20 negates).",
+    "May be worn concurrently with a veil of whispers, but not with any other face-slot item."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["flesh to stone"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "11,000 gp, 880 XP, 22 days",
+  "set_id": "set_seven_veils",
+  "set_piece_order": 7
+},
+{
+  "id": "set_vestments_of_divinity",
+  "type": "item_set",
+  "name": "Vestments of Divinity",
+  "description": "Five sacred items revealed in a vision—fortifying will against evil and smiting the wicked.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": [
+        "+1 sacred bonus on saves against effects created by evil creatures."
+      ]
+    },
+    {
+      "pieces_required": 5,
+      "effects": [
+        "Your melee attacks deal an extra 1d6 damage to evil creatures."
+      ],
+      "visual": "Body takes on a silvery sheen; eyes glow aquamarine."
+    }
+  ],
+  "pieces": [
+    "uniq_vod_ephod_of_authority",
+    "uniq_vod_lenses_of_revelation",
+    "uniq_vod_cord_of_favor",
+    "uniq_vod_badge_of_glory",
+    "uniq_vod_phylactery_of_virtue"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Knowledge (religion)", "Bardic knowledge"],
+      "text": "Revealed to Reesh N’Faeren in a vision; he sought and gathered them to battle the Heralds of Hell."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Knowledge (religion)", "Bardic knowledge"],
+      "text": "Reesh’s crusade against the cult became legend; whether he succeeded or fell is unknown."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Knowledge (religion)", "Bardic knowledge"],
+      "text": "Cult cells scattered; some claim a holy vigilante purged many and that the cult hoarded pieces to keep them apart."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Knowledge (religion)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_vod_ephod_of_authority",
+  "name": "Ephod of Authority",
+  "category": "wondrous item (torso)",
+  "price_gp": 800,
+  "item_level": 3,
+  "body_slot": "Torso",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) necromancy",
+  "activation": "—",
+  "weight_lb": 2,
+  "effects": [
+    "Effective cleric level increases by 1 for the purpose of turning undead (not for rebuking or commanding)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": [],
+    "other": ["turn undead, possession of a piece of the set"]
+  },
+  "cost_to_create": "400 gp, 32 XP, 1 day",
+  "set_id": "set_vestments_of_divinity",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_vod_lenses_of_revelation",
+  "name": "Lenses of Revelation",
+  "category": "wondrous item (face)",
+  "price_gp": 1400,
+  "item_level": 5,
+  "body_slot": "Face",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) divination",
+  "activation": "Standard (mental)",
+  "effects": [
+    "Perceive a creature’s true nature for 1 round (visible only to you) as a faint colored aura: Red (evil outsider), Bone-white (undead), Green (any other).",
+    "Effects that defeat detect evil also mask the target from these lenses."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["augury"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "700 gp, 56 XP, 2 days",
+  "set_id": "set_vestments_of_divinity",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_vod_cord_of_favor",
+  "name": "Cord of Favor",
+  "category": "wondrous item (waist)",
+  "price_gp": 3000,
+  "item_level": 7,
+  "body_slot": "Waist",
+  "required_caster_level": 6,
+  "aura": "Moderate; (DC 18) evocation",
+  "activation": "— and Standard (command)",
+  "weight_lb": 1,
+  "effects": [
+    "+5 competence bonus on Sense Motive checks (continuous).",
+    "3/day: Sacrifice a prepared divine spell or divine slot of 1st level or higher to use divine favor (use your caster level or the cord’s, whichever is higher)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["divine favor"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "1,500 gp, 120 XP, 3 days",
+  "set_id": "set_vestments_of_divinity",
+  "set_piece_order": 3
+},
+{
+  "id": "uniq_vod_badge_of_glory",
+  "name": "Badge of Glory",
+  "category": "wondrous item (throat)",
+  "price_gp": 3400,
+  "item_level": 8,
+  "body_slot": "Throat",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "Swift (command)",
+  "weight_lb": 1,
+  "effects": [
+    "2/day: The next melee attack you make this turn against an evil creature deals +1 damage per two character levels.",
+    "If you have smite evil, the extra damage equals that granted by your smite evil ability (or the above value, whichever is greater)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": [],
+    "other": ["ability to smite evil, possession of a piece of the set"]
+  },
+  "cost_to_create": "1,700 gp, 136 XP, 4 days",
+  "set_id": "set_vestments_of_divinity",
+  "set_piece_order": 4
+},
+{
+  "id": "uniq_vod_phylactery_of_virtue",
+  "name": "Phylactery of Virtue",
+  "category": "wondrous item (head)",
+  "price_gp": 6500,
+  "item_level": 10,
+  "body_slot": "Head",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) necromancy",
+  "activation": "— and Standard (command)",
+  "effects": [
+    "+2 morale bonus on saves against energy drain, death effects, and negative energy effects (continuous).",
+    "2/day: Sacrifice a prepared divine spell or slot of 4th level or higher to use death ward (use your caster level or the phylactery’s, whichever is higher)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["death ward"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "3,250 gp, 260 XP, 7 days",
+  "set_id": "set_vestments_of_divinity",
+  "set_piece_order": 5
+},
+{
+  "id": "set_wraiths_woe",
+  "type": "item_set",
+  "name": "Wraith's Woe",
+  "description": "Choker, gauntlets, and shirt crafted to thwart undead—revealing, warding, and restoring the living.",
+  "collection_benefits": [
+    {
+      "pieces_required": 2,
+      "effects": [
+        "At will: Detect undead (CL 3rd) as a standard (mental) action."
+      ],
+      "visual": "Wearer takes on a haunted pallor when all pieces are worn."
+    },
+    {
+      "pieces_required": 3,
+      "effects": [
+        "1/day as a standard (mental) action: Cure all ability damage you have and restore all points drained from one ability score of your choice."
+      ]
+    }
+  ],
+  "pieces": [
+    "uniq_ww_choker_of_life_protection",
+    "uniq_ww_gauntlets_of_ghost_fighting",
+    "uniq_ww_shirt_of_wraith_stalking"
+  ],
+  "lore": [
+    {
+      "dc": 15,
+      "skills": ["Knowledge (arcana)", "Knowledge (religion)", "Bardic knowledge"],
+      "text": "First forged by a mystic theurge who founded the Blades Against Death after wraiths slew her family."
+    },
+    {
+      "dc": 20,
+      "skills": ["Knowledge (arcana)", "Knowledge (religion)", "Bardic knowledge"],
+      "text": "The order still sponsors undead-hunters and awards pieces to proven allies."
+    },
+    {
+      "dc": 25,
+      "skills": ["Knowledge (arcana)", "Knowledge (religion)", "Bardic knowledge"],
+      "text": "Whispers claim the founder yet ‘advises’ leaders—perhaps undead; critics disappear after speaking out."
+    },
+    {
+      "dc": 30,
+      "skills": ["Knowledge (arcana)", "Knowledge (religion)", "Bardic knowledge"],
+      "text": "Reveals the location of another piece of the set."
+    }
+  ]
+},
+{
+  "id": "uniq_ww_choker_of_life_protection",
+  "name": "Choker of Life Protection",
+  "category": "wondrous item (throat)",
+  "price_gp": 14000,
+  "item_level": 14,
+  "body_slot": "Throat",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) conjuration",
+  "activation": "— or Immediate (mental)",
+  "effects": [
+    "+2 dodge bonus to AC against attacks of undead while any protection charges remain.",
+    "Negate up to three negative levels per day; each prevented level expends one of three stones on the choker (stones reset at dawn). You may negate them one at a time or all at once."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["restoration"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "7,000 gp, 560 XP, 14 days",
+  "set_id": "set_wraiths_woe",
+  "set_piece_order": 1
+},
+{
+  "id": "uniq_ww_gauntlets_of_ghost_fighting",
+  "name": "Gauntlets of Ghost Fighting",
+  "category": "wondrous item (hands)",
+  "price_gp": 4000,
+  "item_level": 8,
+  "body_slot": "Hands",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) conjuration",
+  "activation": "—",
+  "weight_lb": 1,
+  "effects": [
+    "Your spells and attacks deal damage normally to incorporeal creatures, ignoring their 50% miss chance.",
+    "Your melee attacks deal an extra 1d6 damage against incorporeal creatures."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["plane shift"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "2,000 gp, 160 XP, 4 days",
+  "set_id": "set_wraiths_woe",
+  "set_piece_order": 2
+},
+{
+  "id": "uniq_ww_shirt_of_wraith_stalking",
+  "name": "Shirt of Wraith Stalking",
+  "category": "wondrous item (torso)",
+  "price_gp": 6000,
+  "item_level": 10,
+  "body_slot": "Torso",
+  "required_caster_level": 3,
+  "aura": "Faint; (DC 16) abjuration",
+  "activation": "Standard (mental)",
+  "weight_lb": 1,
+  "effects": [
+    "At will: Hide from undead as the spell, except undead receive no saving throw regardless of Intelligence."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["hide from undead"],
+    "other": ["possession of a piece of the set"]
+  },
+  "cost_to_create": "3,000 gp, 240 XP, 6 days",
+  "set_id": "set_wraiths_woe",
+  "set_piece_order": 3
 }
 
   ]
