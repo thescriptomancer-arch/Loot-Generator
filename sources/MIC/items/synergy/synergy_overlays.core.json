@@ -543,7 +543,7 @@
     "source_page": "MIC Ch.1"
   },
     {
-    "id": "mic_syn_soulbound_greater",
+    "id": "mic_syn_soulbound_greater_weapon",
     "applies_to": "weapon",
     "requires_all_properties": ["mic_weap_soulbound"],
     "grants_effect_tags": ["soulbound_greater", "essentia_capacity_4", "enhancement_via_essentia_up_to_+5"],
