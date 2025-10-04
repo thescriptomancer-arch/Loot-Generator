@@ -1,0 +1,1873 @@
+{
+  "schema_version": "1.0",
+  "source": "DMG + MIC + DMG2",
+  "chapter": "Aggregated",
+  "section": "All",
+  "fields": [
+    "id",
+    "name",
+    "category",
+    "costing",
+    "min_enhancement",
+    "stacking_rules",
+    "source",
+    "aura",
+    "required_caster_level",
+    "required_feat",
+    "required_spells"
+  ],
+  "rows": [
+    {
+      "id": "arm_glamered",
+      "name": "Glamered",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2700
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Cosmetic illusion; no mechanical stacking interactions",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "disguise self"
+      ]
+    },
+    {
+      "id": "arm_shadow",
+      "name": "Shadow",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 competence on Hide; upgrades to Improved/Greater; don\u2019t stack tiers",
+      "source": "DMG Ch.7",
+      "aura": "Faint illusion",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "invisibility"
+      ]
+    },
+    {
+      "id": "arm_shadow_improved",
+      "name": "Shadow, improved",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Shadow; +10 competence on Hide",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "invisibility"
+      ]
+    },
+    {
+      "id": "arm_shadow_greater",
+      "name": "Shadow, greater",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 33750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Improved; +15 competence on Hide",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "invisibility"
+      ]
+    },
+    {
+      "id": "arm_silent_moves",
+      "name": "Silent moves",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 competence on Move Silently; upgrades to Improved/Greater",
+      "source": "DMG Ch.7",
+      "aura": "Faint illusion",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "silence"
+      ]
+    },
+    {
+      "id": "arm_silent_moves_improved",
+      "name": "Silent moves, improved",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Silent moves; +10",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "silence"
+      ]
+    },
+    {
+      "id": "arm_silent_moves_greater",
+      "name": "Silent moves, greater",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 33750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Improved; +15",
+      "source": "DMG Ch.7",
+      "aura": "Moderate illusion",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "silence"
+      ]
+    },
+    {
+      "id": "arm_slick",
+      "name": "Slick",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 competence on Escape Artist; upgrades to Improved/Greater",
+      "source": "DMG Ch.7",
+      "aura": "Faint conjuration",
+      "required_caster_level": 4,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "grease"
+      ]
+    },
+    {
+      "id": "arm_slick_improved",
+      "name": "Slick, improved",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Slick; +10",
+      "source": "DMG Ch.7",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "grease"
+      ]
+    },
+    {
+      "id": "arm_slick_greater",
+      "name": "Slick, greater",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 33750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces Improved; +15",
+      "source": "DMG Ch.7",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "grease"
+      ]
+    },
+    {
+      "id": "arm_fort_light",
+      "name": "Fortification, light",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Does not stack with other fortification grades; choose one grade",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "arm_fort_moderate",
+      "name": "Fortification, moderate",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Mutually exclusive with light/heavy",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "arm_fort_heavy",
+      "name": "Fortification, heavy",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Mutually exclusive with light/moderate",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "arm_ghost_touch",
+      "name": "Ghost touch",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Functions normally against incorporeal; wearer fully protected as described",
+      "source": "DMG Ch.7",
+      "aura": "Strong transmutation",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "etherealness"
+      ]
+    },
+    {
+      "id": "arm_invulnerability",
+      "name": "Invulnerability",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Provides DR as per DMG; counts toward +10 effective cap",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration (and evocation if miracle)",
+      "required_caster_level": 18,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "stoneskin",
+        "wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "arm_spell_res_13",
+      "name": "Spell resistance (13)",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Pick one SR tier only; tiers do not stack",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_spell_res_15",
+      "name": "Spell resistance (15)",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Pick one SR tier only; tiers do not stack",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_spell_res_17",
+      "name": "Spell resistance (17)",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Pick one SR tier only; tiers do not stack",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_spell_res_19",
+      "name": "Spell resistance (19)",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Pick one SR tier only; tiers do not stack",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_wild",
+      "name": "Wild",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Druid-friendly; functions while wild shaped; see DMG text",
+      "source": "DMG Ch.7",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "baleful polymorph"
+      ]
+    },
+    {
+      "id": "arm_resist_acid_10",
+      "name": "Energy resistance (acid 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_acid_20",
+      "name": "Energy resistance (acid 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces acid 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_acid_30",
+      "name": "Energy resistance (acid 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces acid 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_cold_10",
+      "name": "Energy resistance (cold 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_cold_20",
+      "name": "Energy resistance (cold 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces cold 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_cold_30",
+      "name": "Energy resistance (cold 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces cold 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_elec_10",
+      "name": "Energy resistance (electricity 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_elec_20",
+      "name": "Energy resistance (electricity 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces electricity 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_elec_30",
+      "name": "Energy resistance (electricity 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces electricity 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_fire_10",
+      "name": "Energy resistance (fire 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_fire_20",
+      "name": "Energy resistance (fire 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces fire 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_fire_30",
+      "name": "Energy resistance (fire 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces fire 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_sonic_10",
+      "name": "Energy resistance (sonic 10)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 18000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose one energy type per instance; tiers replace lower tiers",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_sonic_20",
+      "name": "Energy resistance (sonic 20)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 42000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces sonic 10",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "arm_resist_sonic_30",
+      "name": "Energy resistance (sonic 30)",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 66000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Replaces sonic 20",
+      "source": "DMG Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "",
+      "required_spells": []
+    },
+    {
+      "id": "shd_animated",
+      "name": "Animated",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Shield defends on its own; frees hands; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Strong transmutation",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "animate objects"
+      ]
+    },
+    {
+      "id": "shd_arrow_catching",
+      "name": "Arrow catching",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Increases chance to intercept missiles; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate abjuration",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "entropic shield"
+      ]
+    },
+    {
+      "id": "shd_arrow_deflection",
+      "name": "Arrow deflection",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Functions as the Deflect Arrows feat (with requirements); shield only",
+      "source": "DMG Ch.7",
+      "aura": "Faint abjuration",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "shield"
+      ]
+    },
+    {
+      "id": "shd_bashing",
+      "name": "Bashing",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Increases shield bash damage; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "bull's strength"
+      ]
+    },
+    {
+      "id": "shd_reflecting",
+      "name": "Reflecting",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Reflects targeted spells as per DMG; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 14,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "spell turning"
+      ]
+    },
+    {
+      "id": "arm_ghost_touch_shield",
+      "name": "Ghost touch",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Shield functions normally against incorporeal; shield only",
+      "source": "DMG Ch.7",
+      "aura": "Strong transmutation",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "etherealness"
+      ]
+    },
+    {
+      "id": "mic_arm_acidic",
+      "name": "Acidic",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Deals 2d4 acid per full round to grapplers/objects in continuous contact; no damage for <1 round contact; item immune.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate conjuration (DC 18)",
+      "required_caster_level": 6,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "Melf's acid arrow"
+      ]
+    },
+    {
+      "id": "mic_arm_agility",
+      "name": "Agility",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 500
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+1 resistance bonus on Reflex saves.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cat's grace",
+        "resistance"
+      ]
+    },
+    {
+      "id": "mic_arm_anchoring",
+      "name": "Anchoring",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 enhancement bonus to resist bull rush, overrun, trip.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "bull's strength"
+      ]
+    },
+    {
+      "id": "mic_arm_aporter",
+      "name": "Aporter",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 20000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "2/day dimension door (self + equipment) to visualized spot within 800 ft; standard action; mental activation.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate conjuration (DC 20)",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "dimension door"
+      ]
+    },
+    {
+      "id": "mic_shield_averted",
+      "name": "Averter",
+      "category": "shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 13000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "3/day standard action: enemies seeing shield DC 14 Will or cannot approach within 30 ft for 3 rounds (mind-affecting compulsion).",
+      "source": "MIC Ch.1",
+      "aura": "Faint enchantment (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "suggestion",
+        "aversion (EPH 79)"
+      ]
+    },
+    {
+      "id": "mic_arm_axeblock",
+      "name": "Axeblock",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "DR 5/bludgeoning or piercing (turns away slashing).",
+      "source": "MIC Ch.1",
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "stoneskin"
+      ]
+    },
+    {
+      "id": "mic_arm_balance",
+      "name": "Balance",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3750
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 competence bonus on Balance checks.",
+      "source": "MIC Ch.1",
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "balancing lorecall (SC 23)"
+      ]
+    },
+    {
+      "id": "mic_arm_bane_blind",
+      "name": "Bane Blind",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "3/day swift: imperceptible to designated creature type/subtype for 10 rounds or until you attack; nonmagical senses cannot detect you.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate illusion (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "greater invisibility"
+      ]
+    },
+    {
+      "id": "mic_arm_beastskin",
+      "name": "Beastskin",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "When using wild shape, expend +1 use to transform armor to same type fitted for new form; weight adjusts; proficiency carries over.",
+      "source": "MIC Ch.1",
+      "aura": "Strong transmutation (DC 21)",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "ironwood"
+      ]
+    },
+    {
+      "id": "mic_arm_blinking",
+      "name": "Blinking",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "1/day standard command: blink for 1 minute.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate transmutation (DC 20)",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "blink"
+      ]
+    },
+    {
+      "id": "mic_arm_blueshine",
+      "name": "Blueshine",
+      "category": "armor_metal",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 1500
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Armor never tarnishes; immune to acid and rust; +2 competence on Hide checks.",
+      "source": "MIC Ch.1",
+      "aura": "Strong abjuration (DC 21)",
+      "required_caster_level": 12,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "Craft (alchemy) 5 ranks"
+      ]
+    },
+    {
+      "id": "mic_arm_blurring",
+      "name": "Blurring",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift command: blur for 5 rounds; 3/day.",
+      "source": "MIC Ch.1",
+      "aura": "Faint illusion (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "blur"
+      ]
+    },
+    {
+      "id": "mic_arm_buoyant",
+      "name": "Buoyant",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 4000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "No armor check penalty on Swim checks; +2 competence bonus on Swim checks.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "swim (SC 217)"
+      ]
+    },
+    {
+      "id": "mic_arm_called",
+      "name": "Called",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Standard command: call armor/shield from anywhere on same plane; appears donned or in/adjacent square; loses call if worn by another since last worn.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate conjuration (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "teleport"
+      ]
+    },
+    {
+      "id": "mic_arm_commander",
+      "name": "Commander",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+2 competence Diplomacy; allies within 30 ft get +1 morale Will; wearer -5 Hide (in addition to ACP).",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "eagle's splendor"
+      ]
+    },
+    {
+      "id": "mic_arm_daylight",
+      "name": "Daylight",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift command: daylight up to 30 min/day, not continuous; can deactivate with swift.",
+      "source": "MIC Ch.1",
+      "aura": "Faint evocation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "daylight"
+      ]
+    },
+    {
+      "id": "mic_arm_death_ward",
+      "name": "Death Ward",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Immediate mental: ignore one death effect or negative energy effect; 1/day.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate necromancy (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "death ward"
+      ]
+    },
+    {
+      "id": "mic_arm_deepdweller",
+      "name": "Deepdweller",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 12000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Breathe water; immune to cold water and pressure; no ACP on Swim; converse with water-breathing creatures; see twice as far underwater (DMG 93).",
+      "source": "MIC Ch.1",
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "darkvision",
+        "water breathing"
+      ]
+    },
+    {
+      "id": "mic_arm_displacement",
+      "name": "Displacement",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift command 1/day: displacement for 5 rounds.",
+      "source": "MIC Ch.1",
+      "aura": "Faint illusion (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "displacement"
+      ]
+    },
+    {
+      "id": "mic_light_dragondodger",
+      "name": "Dragondodger",
+      "category": "light_armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Evasion vs breath weapons (Reflex half \u2192 no damage on success).",
+      "source": "MIC Ch.1",
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cat's grace"
+      ]
+    },
+    {
+      "id": "mic_arm_easy_travel",
+      "name": "Easy Travel",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 1500
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Carry up to medium load as if light (ignores load-based max Dex, check penalty, speed reduction); can walk up to 10 hours/day before forced-march checks.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "bear's endurance"
+      ]
+    },
+    {
+      "id": "mic_arm_ectoplasmic_feedback",
+      "name": "Ectoplasmic Feedback",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "When hit by incorporeal touch, attacker takes 1d6 damage (no incorporeal miss chance).",
+      "source": "MIC Ch.1",
+      "aura": "Faint abjuration (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "ectoplasmic feedback (SC 78)"
+      ]
+    },
+    {
+      "id": "mic_shield_ectoplasmic_wall",
+      "name": "Ectoplasmic Wall",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Standard command 1/day: create wall of ectoplasm (ten 10-ft squares or 10-ft radius sphere/hemisphere), 2\" thick, 20 hp, hardness 5, break DC 19; blocks most effects and ethereal; duration 7 rounds or until shield picked up.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate conjuration (DC 20)",
+      "required_caster_level": 11,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "wall of iron",
+        "wall of ectoplasm (EPH 140)"
+      ]
+    },
+    {
+      "id": "mic_arm_energy_immunity",
+      "name": "Energy Immunity",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Immediate mental 1/day: immunity to chosen energy (acid/cold/electricity/fire) for 1 minute; minor sensory cue per energy.",
+      "source": "MIC Ch.1",
+      "aura": "Strong abjuration (DC 21)",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "protection from energy"
+      ]
+    },
+    {
+      "id": "mic_arm_fearsome",
+      "name": "Fearsome",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 15000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift command: 20-ft aura; creatures Will DC 16 or panicked 1 round (shaken 1 round on success); 3/day.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate necromancy (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "fear"
+      ]
+    },
+    {
+      "id": "mic_arm_freedom",
+      "name": "Freedom",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Move and attack normally as per freedom of movement.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "freedom of movement"
+      ]
+    },
+    {
+      "id": "mic_arm_ghost_ward",
+      "name": "Ghost Ward",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Add enhancement bonus (not armor/shield bonus) to AC against touch (incl. incorporeal touch).",
+      "source": "MIC Ch.1",
+      "aura": "Faint conjuration (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "mage armor"
+      ]
+    },
+    {
+      "id": "mic_arm_gilled",
+      "name": "Gilled",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 6000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Water-breathing wearer can breathe and speak freely in air.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "air breathing (SC 8)"
+      ]
+    },
+    {
+      "id": "mic_arm_hammerblock",
+      "name": "Hammerblock",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "DR 5/piercing or slashing (turns away bludgeoning).",
+      "source": "MIC Ch.1",
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "stoneskin"
+      ]
+    },
+    {
+      "id": "mic_arm_healing",
+      "name": "Healing",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 8000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift command or automatic at \u20131 to \u20139 hp: heal 2d8+5 hp; 1/day.",
+      "source": "MIC Ch.1",
+      "aura": "Faint conjuration (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cure moderate wounds"
+      ]
+    },
+    {
+      "id": "mic_shield_heartening",
+      "name": "Heartening",
+      "category": "shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 2000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Immediate mental: gain 5 temp hp (max 5 min); does not stack with other temp hp; 2/day.",
+      "source": "MIC Ch.1",
+      "aura": "Faint necromancy (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "false life"
+      ]
+    },
+    {
+      "id": "mic_arm_landing",
+      "name": "Landing",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 4000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Ignore damage from first 60 ft of a fall; may always land on feet.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "feather fall"
+      ]
+    },
+    {
+      "id": "mic_arm_linked",
+      "name": "Linked",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 6000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Standard mental 3/day: telepathic bond with known wearers of other linked items within 10 miles; lasts 1 hour.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate divination (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "Rary's telepathic bond",
+        "mindlink (EPH 120)"
+      ]
+    },
+    {
+      "id": "mic_arm_magic_eating",
+      "name": "Magic-Eating",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 10000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "When you succeed on a save vs a spell that targets you, heal 1 hp per spell level after the spell takes effect.",
+      "source": "MIC Ch.1",
+      "aura": "Strong abjuration (DC 23)",
+      "required_caster_level": 16,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "spell resistance"
+      ]
+    },
+    {
+      "id": "mic_shield_manifester",
+      "name": "Manifester",
+      "category": "shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 6000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Free mental 1/day: draw 3 power points from shield to manifest a psionic power; points must all be spent on that one power.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 6,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "any 2nd-level psionic power"
+      ]
+    },
+    {
+      "id": "mic_arm_masking",
+      "name": "Masking",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 40000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Constant nondetection vs divinations (DC 25 caster level check to overcome) for you and gear.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate abjuration (DC 20)",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "nondetection"
+      ]
+    },
+    {
+      "id": "mic_arm_menacing",
+      "name": "Menacing",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 30000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Standard command: one creature within 30 ft with fewer HD must save (DC 10 + 1/2 HD + Cha) or be panicked 5 rounds; on success shaken 1 round; immune to further uses from same armor for 24h; 3/day.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate necromancy (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "fear"
+      ]
+    },
+    {
+      "id": "mic_arm_mindarmor",
+      "name": "Mindarmor",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 3000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Immediate mental: +5 bonus on Will saves vs mind-affecting until start of your next turn; 3/day.",
+      "source": "MIC Ch.1",
+      "aura": "Faint enchantment (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "heroism",
+        "empty mind (EPH 99)"
+      ]
+    },
+    {
+      "id": "mic_light_mobility",
+      "name": "Mobility",
+      "category": "light_armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Gain Mobility feat (even if you lack prerequisites).",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cat's grace"
+      ]
+    },
+    {
+      "id": "mic_arm_nimbleness",
+      "name": "Nimbleness",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Max Dex +1; armor check penalty \u20132.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate transmutation (DC 19)",
+      "required_caster_level": 8,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cat's grace"
+      ]
+    },
+    {
+      "id": "mic_arm_quickness",
+      "name": "Quickness",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 5000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+5 ft enhancement bonus to land speed.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "longstrider"
+      ]
+    },
+    {
+      "id": "mic_arm_radiant",
+      "name": "Radiant",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Resistance 10 to acid, cold, electricity, fire, sonic; radiates bright/shadowy light for rounds equal to damage absorbed (max 10), overlapping durations do not stack.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate abjuration (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "resist energy"
+      ]
+    },
+    {
+      "id": "mic_shield_ranged",
+      "name": "Ranged",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Throw shield (range incr 30 ft); deals 1d6 (buckler/light) or 1d8 (heavy) slashing + Str + enhancement; returns before next turn; no shield AC while away; cannot be tower shields.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "hurl (SC 117)",
+        "far hand (EPH 106)"
+      ]
+    },
+    {
+      "id": "mic_arm_retaliation",
+      "name": "Retaliation",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Each time you take \u226510 damage from a single melee attack, attacker takes 1d6 damage; if that attack drops you below 0 hp, attacker takes 3d6; damage is magic.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate necromancy (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "symbol of pain"
+      ]
+    },
+    {
+      "id": "mic_arm_roaring",
+      "name": "Roaring",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Negates damage from nonmagical projectiles that would deal \u226410 damage and reflects them to attacker (reroll damage); +4 competence on initiative (roaring dragon head warns of battle).",
+      "source": "MIC Ch.1",
+      "aura": "Strong divination (DC 21)",
+      "required_caster_level": 13,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "protection from arrows",
+        "true seeing"
+      ]
+    },
+    {
+      "id": "mic_arm_soulbound",
+      "name": "Soulbound",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift mental: invest essentia to increase enhancement bonus to AC by +1 per point (max +3); essentia capacity 2; chakra binds grant insight bonuses (see MoI).",
+      "source": "MIC Ch.1",
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 6,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "magic vestment",
+        "essentia pool 2"
+      ]
+    },
+    {
+      "id": "mic_arm_spearblock",
+      "name": "Spearblock",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 2
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "DR 5/bludgeoning or slashing (turns away piercing).",
+      "source": "MIC Ch.1",
+      "aura": "Moderate abjuration (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "stoneskin"
+      ]
+    },
+    {
+      "id": "mic_arm_speed",
+      "name": "Speed",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 6000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift mental 3/day: haste on you for 1 round.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "haste"
+      ]
+    },
+    {
+      "id": "mic_arm_stamina",
+      "name": "Stamina",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 500
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "+1 resistance bonus on Fortitude saves.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "bear's endurance",
+        "resistance"
+      ]
+    },
+    {
+      "id": "mic_arm_styptic",
+      "name": "Styptic",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Prevents ongoing blood loss; bleeding wounds automatically close; stabilize if dying; 25% chance to negate Con-draining blood drain effects.",
+      "source": "MIC Ch.1",
+      "aura": "Moderate conjuration (DC 18)",
+      "required_caster_level": 7,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cure critical wounds",
+        "Heal 10 ranks"
+      ]
+    },
+    {
+      "id": "mic_shield_time_buttress",
+      "name": "Time Buttress",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Standard mental 1/day: invulnerable to all attacks, spells, powers (harmful or helpful) until end of your next turn.",
+      "source": "MIC Ch.1",
+      "aura": "Strong transmutation (DC 23)",
+      "required_caster_level": 17,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "temporal stasis",
+        "timeless body (EPH 138)"
+      ]
+    },
+    {
+      "id": "mic_arm_twilight",
+      "name": "Twilight",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Reduces arcane spell failure chance by 10%.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "cat's grace"
+      ]
+    },
+    {
+      "id": "mic_arm_vanishing",
+      "name": "Vanishing",
+      "category": "armor_or_shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Standard mental 2/day: become invisible/inaudible/undetectable by nonmagical senses for 3 minutes or until you attack; mind-affecting-immune creatures perceive you normally.",
+      "source": "MIC Ch.1",
+      "aura": "Faint enchantment (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "suggestion",
+        "cloud mind (EPH 84)"
+      ]
+    },
+    {
+      "id": "mic_shield_variable",
+      "name": "Variable",
+      "category": "shield",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 1
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Swift mental: change size among buckler/light/heavy/tower (appropriately sized); normal shield-carrying rules apply.",
+      "source": "MIC Ch.1",
+      "aura": "Faint transmutation (DC 17)",
+      "required_caster_level": 5,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "shrink item"
+      ]
+    },
+    {
+      "id": "mic_arm_woodwalk",
+      "name": "Woodwalk",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 9000
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "If you have woodland stride, standard command 3/day: tree stride (1 round).",
+      "source": "MIC Ch.1",
+      "aura": "Moderate conjuration (DC 19)",
+      "required_caster_level": 9,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "tree stride"
+      ]
+    },
+    {
+      "id": "dmg2_arm_energy_defense",
+      "name": "Energy defense",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires energy resistance on the same armor; +2 to existing resistance; 1/day immediate or standard preactivation; melee attackers take 1d6+10 of that energy type (reach weapons exempt); lasts 10 rounds.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    },
+    {
+      "id": "dmg2_arm_energy_immunity",
+      "name": "Energy immunity",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Choose energy type on activation; 1/day; lockout 24h.",
+      "source": "DMG II Ch.7",
+      "aura": "Moderate abjuration and evocation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "fire shield",
+        "resist energy"
+      ]
+    },
+    {
+      "id": "dmg2_arm_fortifying_defense_light",
+      "name": "Fortifying defense, light",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 3
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corresponding fortification. When fortification negates a crit/sneak, target must make DC 20 Will save or cannot crit or sneak attack any target for 1d4 rounds; threats are normal hits (no confirmation).",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "dmg2_arm_fortifying_defense_moderate",
+      "name": "Fortifying defense, moderate",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 4
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corresponding fortification. When fortification negates a crit/sneak, target must make DC 20 Will save or cannot crit or sneak attack any target for 1d4 rounds; threats are normal hits (no confirmation).",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "dmg2_arm_fortifying_defense_heavy",
+      "name": "Fortifying defense, heavy",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires corresponding fortification. When fortification negates a crit/sneak, target must make DC 20 Will save or cannot crit or sneak attack any target for 1d4 rounds; threats are normal hits (no confirmation).",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "limited wish",
+        "miracle"
+      ]
+    },
+    {
+      "id": "dmg2_arm_slippery_mind",
+      "name": "Slippery mind",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 45000
+      },
+      "min_enhancement": 0,
+      "stacking_rules": "Grants second saving throw 1 round after failing a save vs. enchantment; no effect if wearer already has slippery mind class feature.",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "mind blank"
+      ]
+    },
+    {
+      "id": "dmg2_arm_slippery_aura",
+      "name": "Slippery aura",
+      "category": "armor",
+      "costing": {
+        "type": "flat_gp",
+        "gp": 45000
+      },
+      "min_enhancement": 0,
+      "stacking_rules": "Synergy: requires slippery mind on the same armor. Standard action; allies within 10 ft gain slippery mind for 10 minutes; 1/day.",
+      "source": "DMG II Ch.7",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": [
+        "mind blank"
+      ]
+    },
+    {
+      "id": "dmg2_arm_spell_trapping",
+      "name": "Spell trapping",
+      "category": "armor",
+      "costing": {
+        "type": "bonus_equiv",
+        "bonus_equiv": 5
+      },
+      "min_enhancement": 1,
+      "stacking_rules": "Synergy: requires spell resistance on the same armor. When a targeted spell fails to overcome SR, store it (up to 5th level, 1/day) and later release it; armor's SR is +2 higher.",
+      "source": "DMG II Ch.7",
+      "aura": "",
+      "required_caster_level": null,
+      "required_feat": "Craft Magic Arms and Armor",
+      "required_spells": []
+    }
+  ]
+}
