@@ -2940,7 +2940,7 @@
     "required_caster_level": 20,
     "required_feat": "Craft Wondrous Item; Sanctify Relic",
     "required_spells": ["bear's endurance"]
-  }
+  },
   {
     "id": "uniq_eyes_of_expanded_vision",
     "name": "Eyes of Expanded Vision",
