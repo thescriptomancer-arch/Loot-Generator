@@ -8,13 +8,23 @@
       "kind": "select_base_item",
       "inputs": {
         "inline_choices": {
-          "tier": ["minor", "medium", "major"]
+          "tier": [
+            "minor",
+            "medium",
+            "major"
+          ]
         }
       },
       "weights": {
-        "tier": { "minor": 60, "medium": 30, "major": 10 }
+        "tier": {
+          "minor": 60,
+          "medium": 30,
+          "major": 10
+        }
       },
-      "output_bindings": { "tier": "tier" }
+      "output_bindings": {
+        "tier": "tier"
+      }
     },
     {
       "id": "base_item",
@@ -48,11 +58,17 @@
       "kind": "select_base_item",
       "inputs": {
         "inline_choices": {
-          "count": [20, 50]
+          "count": [
+            20,
+            50
+          ]
         }
       },
       "weights": {
-        "count": { "20": 80, "50": 20 }
+        "count": {
+          "20": 80,
+          "50": 20
+        }
       },
       "rules": {
         "apply_only_if_subcategory_is_ammunition": true
@@ -82,7 +98,11 @@
         "from_table": "sources/DMG/items/materials/materials.core.json"
       },
       "weights": {
-        "special_material_chance_pct": { "minor": 10, "medium": 20, "major": 30 },
+        "special_material_chance_pct": {
+          "minor": 10,
+          "medium": 20,
+          "major": 30
+        },
         "material_weights_weapon": {
           "mat_cold_iron": 30,
           "mat_alchemical_silver": 25,
@@ -109,6 +129,55 @@
       }
     },
     {
+      "id": "template",
+      "name": "Select Template (DMG II)",
+      "kind": "select_material",
+      "inputs": {
+        "from_table": "sources/DMG2/items/materials/materials.dmg2.templates.core.json"
+      },
+      "weights": {
+        "template_chance_pct": {
+          "minor": 10,
+          "medium": 20,
+          "major": 30
+        }
+      },
+      "rules": {
+        "filter_by_item_composition": true,
+        "apply_stats_modifiers": true,
+        "apply_cost_modifiers": true,
+        "fallback_baseline_table": "sources/DMG/items/materials/material_composition_baselines.core.json"
+      },
+      "output_bindings": {
+        "template.id": "row.id",
+        "template.name": "row.name"
+      }
+    },
+    {
+      "id": "augment_crystal",
+      "name": "Attach Augment Crystal (MIC)",
+      "kind": "select_material",
+      "inputs": {
+        "from_table": "sources/MIC/items/augment_crystals/augment_crystals.materialized.core.json"
+      },
+      "weights": {
+        "chance_pct": {
+          "minor": 12,
+          "medium": 18,
+          "major": 24
+        }
+      },
+      "rules": {
+        "filter_by_item_composition": true,
+        "apply_cost_modifiers": true,
+        "apply_stats_modifiers": false
+      },
+      "output_bindings": {
+        "augment_crystal.id": "row.id",
+        "augment_crystal.name": "row.name"
+      }
+    },
+    {
       "id": "size_shape",
       "name": "Apply Size and Shape",
       "kind": "size_shape",
@@ -123,14 +192,42 @@
       "kind": "magic_core",
       "weights": {
         "enhancement_by_tier": {
-          "minor": { "+1": 80, "+2": 18, "+3": 2 },
-          "medium": { "+1": 15, "+2": 70, "+3": 15 },
-          "major": { "+2": 25, "+3": 55, "+4": 18, "+5": 2 }
+          "minor": {
+            "+1": 80,
+            "+2": 18,
+            "+3": 2
+          },
+          "medium": {
+            "+1": 15,
+            "+2": 70,
+            "+3": 15
+          },
+          "major": {
+            "+2": 25,
+            "+3": 55,
+            "+4": 18,
+            "+5": 2
+          }
         },
         "special_ability_count_by_tier": {
-          "minor": { "0": 55, "1": 35, "2": 10 },
-          "medium": { "0": 15, "1": 55, "2": 25, "3": 5 },
-          "major": { "0": 5, "1": 35, "2": 40, "3": 18, "4": 2 }
+          "minor": {
+            "0": 55,
+            "1": 35,
+            "2": 10
+          },
+          "medium": {
+            "0": 15,
+            "1": 55,
+            "2": 25,
+            "3": 5
+          },
+          "major": {
+            "0": 5,
+            "1": 35,
+            "2": 40,
+            "3": 18,
+            "4": 2
+          }
         }
       },
       "rules": {
@@ -147,7 +244,7 @@
       "name": "Select Weapon Special Abilities",
       "kind": "magic_special_abilities",
       "inputs": {
-        "from_table": "sources/DMG/items/magic/weapon_special_abilities.core.json"
+        "from_table": "sources/ALL/items/magic/weapon_special_abilities.all.core.json"
       },
       "weights": {
         "by_tier_melee": {
@@ -177,7 +274,53 @@
           "wpn_shocking_burst": 2,
           "wpn_returning": 2,
           "wpn_throwing": 2,
-          "wpn_ki_focus": 2
+          "wpn_ki_focus": 2,
+          "dmg2_wpn_corrosive_melee": 2,
+          "dmg2_wpn_acidic_burst_melee": 2,
+          "dmg2_wpn_caustic_surge_melee": 2,
+          "dmg2_wpn_icy_surge_melee": 2,
+          "dmg2_wpn_lightning_surge_melee": 2,
+          "dmg2_wpn_holy_surge_melee": 2,
+          "dmg2_wpn_unholy_surge_melee": 2,
+          "dmg2_wpn_defensive_surge_melee": 2,
+          "dmg2_wpn_sudden_stunning_melee": 2,
+          "dmg2_wpn_illusion_bane_melee": 2,
+          "dmg2_wpn_illusion_theft_melee": 2,
+          "dmg2_wpn_illusion_theft_ranged": 2,
+          "dmg2_wpn_incorporeal_binding_melee": 2,
+          "dmg2_wpn_incorporeal_binding_ranged": 2,
+          "dmg2_wpn_air_elemental_power_large_melee": 2,
+          "dmg2_wpn_air_elemental_power_large_ranged": 2,
+          "dmg2_wpn_air_elemental_power_huge_melee": 2,
+          "dmg2_wpn_air_elemental_power_huge_ranged": 2,
+          "dmg2_wpn_air_elemental_power_greater_melee": 2,
+          "dmg2_wpn_air_elemental_power_greater_ranged": 2,
+          "dmg2_wpn_air_elemental_power_elder_melee": 2,
+          "dmg2_wpn_air_elemental_power_elder_ranged": 2,
+          "dmg2_wpn_earth_elemental_power_large_melee": 2,
+          "dmg2_wpn_earth_elemental_power_large_ranged": 2,
+          "dmg2_wpn_earth_elemental_power_huge_melee": 2,
+          "dmg2_wpn_earth_elemental_power_huge_ranged": 2,
+          "dmg2_wpn_earth_elemental_power_greater_melee": 2,
+          "dmg2_wpn_earth_elemental_power_greater_ranged": 2,
+          "dmg2_wpn_earth_elemental_power_elder_melee": 2,
+          "dmg2_wpn_earth_elemental_power_elder_ranged": 2,
+          "dmg2_wpn_fire_elemental_power_large_melee": 2,
+          "dmg2_wpn_fire_elemental_power_large_ranged": 2,
+          "dmg2_wpn_fire_elemental_power_huge_melee": 2,
+          "dmg2_wpn_fire_elemental_power_huge_ranged": 2,
+          "dmg2_wpn_fire_elemental_power_greater_melee": 2,
+          "dmg2_wpn_fire_elemental_power_greater_ranged": 2,
+          "dmg2_wpn_fire_elemental_power_elder_melee": 2,
+          "dmg2_wpn_fire_elemental_power_elder_ranged": 2,
+          "dmg2_wpn_water_elemental_power_large_melee": 2,
+          "dmg2_wpn_water_elemental_power_large_ranged": 2,
+          "dmg2_wpn_water_elemental_power_huge_melee": 2,
+          "dmg2_wpn_water_elemental_power_huge_ranged": 2,
+          "dmg2_wpn_water_elemental_power_greater_melee": 2,
+          "dmg2_wpn_water_elemental_power_greater_ranged": 2,
+          "dmg2_wpn_water_elemental_power_elder_melee": 2,
+          "dmg2_wpn_water_elemental_power_elder_ranged": 2
         },
         "by_tier_ranged": {
           "wpn_flaming_ranged": 14,
@@ -195,13 +338,55 @@
           "wpn_holy_ranged": 3,
           "wpn_unholy_ranged": 3,
           "wpn_anarchic_ranged": 3,
-          "wpn_axiomatic_ranged": 3
+          "wpn_axiomatic_ranged": 3,
+          "dmg2_wpn_corrosive_ranged": 2,
+          "dmg2_wpn_acidic_burst_ranged": 2,
+          "dmg2_wpn_illusion_bane_ranged": 2,
+          "dmg2_wpn_illusion_theft_melee": 2,
+          "dmg2_wpn_illusion_theft_ranged": 2,
+          "dmg2_wpn_incorporeal_binding_melee": 2,
+          "dmg2_wpn_incorporeal_binding_ranged": 2,
+          "dmg2_wpn_air_elemental_power_large_melee": 2,
+          "dmg2_wpn_air_elemental_power_large_ranged": 2,
+          "dmg2_wpn_air_elemental_power_huge_melee": 2,
+          "dmg2_wpn_air_elemental_power_huge_ranged": 2,
+          "dmg2_wpn_air_elemental_power_greater_melee": 2,
+          "dmg2_wpn_air_elemental_power_greater_ranged": 2,
+          "dmg2_wpn_air_elemental_power_elder_melee": 2,
+          "dmg2_wpn_air_elemental_power_elder_ranged": 2,
+          "dmg2_wpn_earth_elemental_power_large_melee": 2,
+          "dmg2_wpn_earth_elemental_power_large_ranged": 2,
+          "dmg2_wpn_earth_elemental_power_huge_melee": 2,
+          "dmg2_wpn_earth_elemental_power_huge_ranged": 2,
+          "dmg2_wpn_earth_elemental_power_greater_melee": 2,
+          "dmg2_wpn_earth_elemental_power_greater_ranged": 2,
+          "dmg2_wpn_earth_elemental_power_elder_melee": 2,
+          "dmg2_wpn_earth_elemental_power_elder_ranged": 2,
+          "dmg2_wpn_fire_elemental_power_large_melee": 2,
+          "dmg2_wpn_fire_elemental_power_large_ranged": 2,
+          "dmg2_wpn_fire_elemental_power_huge_melee": 2,
+          "dmg2_wpn_fire_elemental_power_huge_ranged": 2,
+          "dmg2_wpn_fire_elemental_power_greater_melee": 2,
+          "dmg2_wpn_fire_elemental_power_greater_ranged": 2,
+          "dmg2_wpn_fire_elemental_power_elder_melee": 2,
+          "dmg2_wpn_fire_elemental_power_elder_ranged": 2,
+          "dmg2_wpn_water_elemental_power_large_melee": 2,
+          "dmg2_wpn_water_elemental_power_large_ranged": 2,
+          "dmg2_wpn_water_elemental_power_huge_melee": 2,
+          "dmg2_wpn_water_elemental_power_huge_ranged": 2,
+          "dmg2_wpn_water_elemental_power_greater_melee": 2,
+          "dmg2_wpn_water_elemental_power_greater_ranged": 2,
+          "dmg2_wpn_water_elemental_power_elder_melee": 2,
+          "dmg2_wpn_water_elemental_power_elder_ranged": 2
         }
       },
       "rules": {
         "respect_min_enhancement": true,
         "sum_bonus_equiv_to_pricing": true,
-        "split_by_category": ["weapon_melee", "weapon_ranged"],
+        "split_by_category": [
+          "weapon_melee",
+          "weapon_ranged"
+        ],
         "handle_energy_burst_superset": true,
         "alignment_conflicts": true
       },
@@ -215,7 +400,11 @@
       "name": "Intelligent Item Check",
       "kind": "intelligent_item_check",
       "weights": {
-        "chance_pct_by_tier": { "minor": 1, "medium": 2, "major": 5 }
+        "chance_pct_by_tier": {
+          "minor": 1,
+          "medium": 2,
+          "major": 5
+        }
       },
       "output_bindings": {
         "intelligent.roll": "result.roll",
@@ -284,7 +473,14 @@
       "name": "Item Description Synthesis",
       "kind": "description_synth",
       "rules": {
-        "include_blocks": ["base", "material", "magic", "intelligence", "curse", "history"],
+        "include_blocks": [
+          "base",
+          "material",
+          "magic",
+          "intelligence",
+          "curse",
+          "history"
+        ],
         "omit_if_absent": true
       },
       "output_bindings": {
