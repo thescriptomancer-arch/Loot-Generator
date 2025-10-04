@@ -14,7 +14,8 @@
     "aura",
     "required_caster_level",
     "required_feat",
-    "required_spells"
+    "required_spells",
+    "category_synergy_original"
   ],
   "rows": [
     {
@@ -33,7 +34,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "chaos hammer"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_anarchic_ranged",
@@ -51,7 +53,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "chaos hammer"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_axiomatic_melee",
@@ -69,7 +72,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "order's wrath"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_axiomatic_ranged",
@@ -87,7 +91,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "order's wrath"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_bane_melee",
@@ -105,7 +110,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "summon monster I"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_bane_ranged",
@@ -123,7 +129,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "summon monster I"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_bane_ammo",
@@ -141,7 +148,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "summon monster I"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_brilliant_energy",
@@ -160,7 +168,8 @@
       "required_spells": [
         "gaseous form",
         "continual flame"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_dancing",
@@ -178,7 +187,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "animate objects"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_defending",
@@ -197,7 +207,8 @@
       "required_spells": [
         "shield",
         "shield of faith"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_distance",
@@ -208,14 +219,15 @@
         "bonus_equiv": 1
       },
       "min_enhancement": 1,
-      "stacking_rules": "Range increment \u00d72; ranged only",
+      "stacking_rules": "Range increment ×2; ranged only",
       "source": "DMG Ch.7",
       "aura": "Moderate divination",
       "required_caster_level": 6,
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "clairaudience/clairvoyance"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_disruption",
@@ -233,7 +245,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "heal"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_flaming",
@@ -253,7 +266,8 @@
         "flame blade",
         "flame strike",
         "fireball"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_flaming_ranged",
@@ -273,7 +287,8 @@
         "flame blade",
         "flame strike",
         "fireball"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_flaming_burst",
@@ -293,7 +308,8 @@
         "flame blade",
         "flame strike",
         "fireball"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_flaming_burst_ranged",
@@ -313,7 +329,8 @@
         "flame blade",
         "flame strike",
         "fireball"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_frost",
@@ -332,7 +349,8 @@
       "required_spells": [
         "chill metal",
         "ice storm"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_frost_ranged",
@@ -351,7 +369,8 @@
       "required_spells": [
         "chill metal",
         "ice storm"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_icy_burst",
@@ -370,7 +389,8 @@
       "required_spells": [
         "chill metal",
         "ice storm"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_icy_burst_ranged",
@@ -389,7 +409,8 @@
       "required_spells": [
         "chill metal",
         "ice storm"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_ghost_touch_melee",
@@ -407,7 +428,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "plane shift"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_ghost_touch_ranged",
@@ -425,7 +447,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "plane shift"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_holy_melee",
@@ -443,7 +466,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "holy smite"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_holy_ranged",
@@ -461,7 +485,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "holy smite"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_unholy_melee",
@@ -479,7 +504,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "unholy blight"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_unholy_ranged",
@@ -497,7 +523,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "unholy blight"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_keen",
@@ -515,7 +542,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "keen edge"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_ki_focus",
@@ -526,12 +554,13 @@
         "bonus_equiv": 1
       },
       "min_enhancement": 1,
-      "stacking_rules": "Allows use of ki strike\u2013like effects; melee only",
+      "stacking_rules": "Allows use of ki strike–like effects; melee only",
       "source": "DMG Ch.7",
       "aura": "Moderate transmutation",
       "required_caster_level": 8,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_merciful_melee",
@@ -549,7 +578,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "cure light wounds"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_merciful_ranged",
@@ -567,7 +597,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "cure light wounds"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_mighty_cleaving",
@@ -585,7 +616,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "divine power"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_returning",
@@ -603,7 +635,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "telekinesis"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_seeking",
@@ -621,7 +654,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "true seeing"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_shock",
@@ -640,7 +674,8 @@
       "required_spells": [
         "call lightning",
         "lightning bolt"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_shock_ranged",
@@ -659,7 +694,8 @@
       "required_spells": [
         "call lightning",
         "lightning bolt"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_shocking_burst",
@@ -678,7 +714,8 @@
       "required_spells": [
         "call lightning",
         "lightning bolt"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_shocking_burst_ranged",
@@ -697,7 +734,8 @@
       "required_spells": [
         "call lightning",
         "lightning bolt"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_spell_storing",
@@ -713,7 +751,8 @@
       "aura": "Strong evocation",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_speed",
@@ -731,7 +770,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "haste"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_thundering",
@@ -749,7 +789,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "blindness/deafness"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_throwing",
@@ -767,7 +808,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "magic stone"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_vicious",
@@ -785,7 +827,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "enervation"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_vorpal",
@@ -804,7 +847,8 @@
       "required_spells": [
         "circle of death",
         "keen edge"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "wpn_wounding",
@@ -822,7 +866,8 @@
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
         "Mordenkainen's sword"
-      ]
+      ],
+      "category_synergy_original": null
     },
     {
       "id": "mic-acidic-burst",
@@ -835,7 +880,8 @@
       "aura": "Strong conjuration (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "Melf's acid arrow"
+      "required_spells": "Melf's acid arrow",
+      "category_synergy_original": null
     },
     {
       "id": "mic-arcane-might",
@@ -848,7 +894,8 @@
       "aura": "Strong transmutation (DC 22)",
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "greater magic weapon"
+      "required_spells": "greater magic weapon",
+      "category_synergy_original": null
     },
     {
       "id": "mic-aquan",
@@ -856,12 +903,13 @@
       "category": "Weapon",
       "costing": "+2 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Overcomes DR of fire-subtype creatures; +2d6 damage vs fire subtype. Fire-subtype wielders gain 1 negative level while wielded (can\u2019t be removed while held). Projectile weapons pass to ammo.",
+      "stacking_rules": "Overcomes DR of fire-subtype creatures; +2d6 damage vs fire subtype. Fire-subtype wielders gain 1 negative level while wielded (can’t be removed while held). Projectile weapons pass to ammo.",
       "source": "MIC",
       "aura": "Moderate evocation (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": ""
+      "required_spells": "",
+      "category_synergy_original": null
     },
     {
       "id": "mic-aquatic",
@@ -874,7 +922,8 @@
       "aura": "Moderate abjuration (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "freedom of movement"
+      "required_spells": "freedom of movement",
+      "category_synergy_original": null
     },
     {
       "id": "mic-auran",
@@ -882,12 +931,13 @@
       "category": "Weapon",
       "costing": "+2 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Overcomes DR of earth-subtype creatures; +2d6 damage vs earth subtype. Earth-subtype wielders gain 1 negative level while wielded (can\u2019t be removed while held). Projectile weapons pass to ammo.",
+      "stacking_rules": "Overcomes DR of earth-subtype creatures; +2d6 damage vs earth subtype. Earth-subtype wielders gain 1 negative level while wielded (can’t be removed while held). Projectile weapons pass to ammo.",
       "source": "MIC",
       "aura": "Moderate evocation (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": ""
+      "required_spells": "",
+      "category_synergy_original": null
     },
     {
       "id": "mic-banishing",
@@ -895,12 +945,13 @@
       "category": "Weapon",
       "costing": "+2 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Free action on hit vs extraplanar creature (26 HD or fewer): banish (Will DC 20 negates). +2 DC for each alignment/material trait the weapon has that matches the target\u2019s DR requirement. 3/day. Projectile weapons pass to ammo.",
+      "stacking_rules": "Free action on hit vs extraplanar creature (26 HD or fewer): banish (Will DC 20 negates). +2 DC for each alignment/material trait the weapon has that matches the target’s DR requirement. 3/day. Projectile weapons pass to ammo.",
       "source": "MIC",
       "aura": "Strong abjuration (DC 21)",
       "required_caster_level": 13,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "banishment"
+      "required_spells": "banishment",
+      "category_synergy_original": null
     },
     {
       "id": "mic-berserker",
@@ -913,7 +964,8 @@
       "aura": "Moderate enchantment (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "rage"
+      "required_spells": "rage",
+      "category_synergy_original": null
     },
     {
       "id": "mic-binding",
@@ -926,7 +978,8 @@
       "aura": "Moderate abjuration (DC 20)",
       "required_caster_level": 10,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "dimensional anchor"
+      "required_spells": "dimensional anchor",
+      "category_synergy_original": null
     },
     {
       "id": "mic-blessed",
@@ -934,12 +987,13 @@
       "category": "Weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Counts as good-aligned for DR (continuous). 3/day swift: auto-confirm all crit threats vs evil foes for 1 round (as bless weapon). Doesn\u2019t stack for extra benefit with other crit-confirm/keen/vorpal effects.",
+      "stacking_rules": "Counts as good-aligned for DR (continuous). 3/day swift: auto-confirm all crit threats vs evil foes for 1 round (as bless weapon). Doesn’t stack for extra benefit with other crit-confirm/keen/vorpal effects.",
       "source": "MIC",
       "aura": "Faint transmutation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "bless weapon"
+      "required_spells": "bless weapon",
+      "category_synergy_original": null
     },
     {
       "id": "mic-blindsighted",
@@ -952,7 +1006,8 @@
       "aura": "Moderate divination (DC 18)",
       "required_caster_level": 6,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": ""
+      "required_spells": "",
+      "category_synergy_original": null
     },
     {
       "id": "mic-bloodfeeding",
@@ -960,12 +1015,13 @@
       "category": "Melee weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Each hit on a living creature grants 1 blood point (max 10; store 1 hour). On a hit, free action to spend up to 5 points for +2 damage per point; you don\u2019t gain a point from that same strike.",
+      "stacking_rules": "Each hit on a living creature grants 1 blood point (max 10; store 1 hour). On a hit, free action to spend up to 5 points for +2 damage per point; you don’t gain a point from that same strike.",
       "source": "MIC",
       "aura": "Moderate necromancy (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "vampiric touch"
+      "required_spells": "vampiric touch",
+      "category_synergy_original": null
     },
     {
       "id": "mic-bloodstone",
@@ -978,7 +1034,8 @@
       "aura": "Moderate necromancy (DC 20)",
       "required_caster_level": 10,
       "required_feat": "Craft Magic Arms and Armor; Empower Spell",
-      "required_spells": "vampiric touch"
+      "required_spells": "vampiric touch",
+      "category_synergy_original": null
     },
     {
       "id": "mic-blurstrike",
@@ -991,7 +1048,8 @@
       "aura": "Moderate illusion (DC 18)",
       "required_caster_level": 6,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "blur"
+      "required_spells": "blur",
+      "category_synergy_original": null
     },
     {
       "id": "mic-brash",
@@ -1004,7 +1062,8 @@
       "aura": "Faint abjuration (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "remove fear"
+      "required_spells": "remove fear",
+      "category_synergy_original": null
     },
     {
       "id": "mic-brutal-surge",
@@ -1012,12 +1071,13 @@
       "category": "Melee weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "After a successful melee hit, swift action to bull rush target using your stats; if two-handed, +2 on opposed Str check. You don\u2019t move with target; movement provokes AoOs from others only. Uses/day = 1 + your Con bonus; once used, no other creature can use it until next day.",
+      "stacking_rules": "After a successful melee hit, swift action to bull rush target using your stats; if two-handed, +2 on opposed Str check. You don’t move with target; movement provokes AoOs from others only. Uses/day = 1 + your Con bonus; once used, no other creature can use it until next day.",
       "source": "MIC",
       "aura": "Moderate evocation (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "Bigby's forceful hand"
+      "required_spells": "Bigby's forceful hand",
+      "category_synergy_original": null
     },
     {
       "id": "mic-bodyfeeder",
@@ -1025,12 +1085,13 @@
       "category": "Weapon",
       "costing": "+3 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "On a crit vs living target, gain temp HP equal to half the crit\u2019s damage; lasts up to 1 minute; doesn\u2019t stack with itself or other sources.",
+      "stacking_rules": "On a crit vs living target, gain temp HP equal to half the crit’s damage; lasts up to 1 minute; doesn’t stack with itself or other sources.",
       "source": "MIC",
       "aura": "Moderate necromancy (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "vampiric touch or claws of the vampire (EPH 84)"
+      "required_spells": "vampiric touch or claws of the vampire (EPH 84)",
+      "category_synergy_original": null
     },
     {
       "id": "mic-changeling",
@@ -1043,7 +1104,8 @@
       "aura": "Faint transmutation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "shrink item"
+      "required_spells": "shrink item",
+      "category_synergy_original": null
     },
     {
       "id": "mic-chargebreaker",
@@ -1056,7 +1118,8 @@
       "aura": "Faint enchantment (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "daze monster"
+      "required_spells": "daze monster",
+      "category_synergy_original": null
     },
     {
       "id": "mic-charging",
@@ -1069,7 +1132,8 @@
       "aura": "Moderate transmutation (DC 19)",
       "required_caster_level": 8,
       "required_feat": "Craft Magic Arms and Armor; Spirited Charge",
-      "required_spells": "keen edge"
+      "required_spells": "keen edge",
+      "category_synergy_original": null
     },
     {
       "id": "mic-collision",
@@ -1082,7 +1146,8 @@
       "aura": "Moderate transmutation (DC 18)",
       "required_caster_level": 6,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "weapon of impact (SC 237)"
+      "required_spells": "weapon of impact (SC 237)",
+      "category_synergy_original": null
     },
     {
       "id": "mic-consumptive",
@@ -1095,7 +1160,8 @@
       "aura": "Moderate necromancy (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "enervation"
+      "required_spells": "enervation",
+      "category_synergy_original": null
     },
     {
       "id": "mic-corrosive",
@@ -1108,7 +1174,8 @@
       "aura": "Moderate conjuration (DC 20)",
       "required_caster_level": 10,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "acid fog OR acid storm (SC 7) OR Melf's acid arrow OR storm of vengeance"
+      "required_spells": "acid fog OR acid storm (SC 7) OR Melf's acid arrow OR storm of vengeance",
+      "category_synergy_original": null
     },
     {
       "id": "mic-cursespewing",
@@ -1116,12 +1183,13 @@
       "category": "Weapon",
       "costing": "+3 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "On a critical hit, target is cursed for 1 minute: \u20134 to attack rolls, saves, skill checks, and ability checks (not cumulative with itself).",
+      "stacking_rules": "On a critical hit, target is cursed for 1 minute: –4 to attack rolls, saves, skill checks, and ability checks (not cumulative with itself).",
       "source": "MIC",
       "aura": "Moderate necromancy (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "bestow curse"
+      "required_spells": "bestow curse",
+      "category_synergy_original": null
     },
     {
       "id": "mic-deadly-precision",
@@ -1134,7 +1202,8 @@
       "aura": "Faint transmutation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "keen edge"
+      "required_spells": "keen edge",
+      "category_synergy_original": null
     },
     {
       "id": "mic-defensive-surge",
@@ -1147,7 +1216,8 @@
       "aura": "Faint abjuration (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "shield"
+      "required_spells": "shield",
+      "category_synergy_original": null
     },
     {
       "id": "mic-desiccating",
@@ -1160,7 +1230,8 @@
       "aura": "Moderate necromancy (DC 19)",
       "required_caster_level": 8,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "desiccating bubble (SC 63)"
+      "required_spells": "desiccating bubble (SC 63)",
+      "category_synergy_original": null
     },
     {
       "id": "mic-desiccating-burst",
@@ -1173,7 +1244,8 @@
       "aura": "Strong necromancy (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "horrid wilting"
+      "required_spells": "horrid wilting",
+      "category_synergy_original": null
     },
     {
       "id": "mic-disarming",
@@ -1181,12 +1253,13 @@
       "category": "Weapon",
       "costing": "+2 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "+2 bonus on disarm attempts; you can\u2019t be disarmed of this weapon.",
+      "stacking_rules": "+2 bonus on disarm attempts; you can’t be disarmed of this weapon.",
       "source": "MIC",
       "aura": "Moderate transmutation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "bull's strength"
+      "required_spells": "bull's strength",
+      "category_synergy_original": null
     },
     {
       "id": "mic-dislocator",
@@ -1194,12 +1267,13 @@
       "category": "Weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Swift mental: your next hit before end of turn teleports the target up to 10 ft in any direction (Will DC 17 negates); can\u2019t place into occupied space. 3/day. Projectile weapons pass to ammunition.",
+      "stacking_rules": "Swift mental: your next hit before end of turn teleports the target up to 10 ft in any direction (Will DC 17 negates); can’t place into occupied space. 3/day. Projectile weapons pass to ammunition.",
       "source": "MIC",
       "aura": "Strong conjuration (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "teleport"
+      "required_spells": "teleport",
+      "category_synergy_original": null
     },
     {
       "id": "mic-dislocator-great",
@@ -1212,7 +1286,8 @@
       "aura": "Strong conjuration (DC 22)",
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "greater teleport"
+      "required_spells": "greater teleport",
+      "category_synergy_original": null
     },
     {
       "id": "mic-dispelling",
@@ -1225,7 +1300,8 @@
       "aura": "Faint abjuration (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "dispel magic"
+      "required_spells": "dispel magic",
+      "category_synergy_original": null
     },
     {
       "id": "mic-dispelling-greater",
@@ -1238,7 +1314,8 @@
       "aura": "Strong abjuration (DC 22)",
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "greater dispel magic"
+      "required_spells": "greater dispel magic",
+      "category_synergy_original": null
     },
     {
       "id": "mic-divine-wrath",
@@ -1251,7 +1328,8 @@
       "aura": "Strong evocation (DC 21)",
       "required_caster_level": 13,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "searing light; requires turn undead and good alignment"
+      "required_spells": "searing light; requires turn undead and good alignment",
+      "category_synergy_original": null
     },
     {
       "id": "mic-domineering",
@@ -1259,12 +1337,13 @@
       "category": "Weapon",
       "costing": "+2 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Creature hit is shaken for 1 minute (Will DC 16 negates). Doesn\u2019t stack with itself or other fear effects.",
+      "stacking_rules": "Creature hit is shaken for 1 minute (Will DC 16 negates). Doesn’t stack with itself or other fear effects.",
       "source": "MIC",
       "aura": "Moderate necromancy (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "fear"
+      "required_spells": "fear",
+      "category_synergy_original": null
     },
     {
       "id": "mic-doom-burst",
@@ -1272,12 +1351,13 @@
       "category": "Weapon",
       "costing": "+2 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "On a critical hit, target becomes shaken (no save) for 5 rounds, even if normally immune to crit extra damage. Doesn\u2019t stack with itself or other fear effects.",
+      "stacking_rules": "On a critical hit, target becomes shaken (no save) for 5 rounds, even if normally immune to crit extra damage. Doesn’t stack with itself or other fear effects.",
       "source": "MIC",
       "aura": "Moderate necromancy (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "fear"
+      "required_spells": "fear",
+      "category_synergy_original": null
     },
     {
       "id": "mic-dragondoom",
@@ -1290,7 +1370,8 @@
       "aura": "Moderate transmutation (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "fell the greatest foe (SC 90)"
+      "required_spells": "fell the greatest foe (SC 90)",
+      "category_synergy_original": null
     },
     {
       "id": "mic-dragonhunter",
@@ -1298,12 +1379,13 @@
       "category": "Projectile weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "On hit vs a dragon, target takes 1 Str damage. Critical multiplier increases by 1 against dragons (e.g., longbow x4 vs dragons). Effects that alter threatening/confirming criticals (e.g., keen edge, bless weapon) don\u2019t function on a weapon with this property.",
+      "stacking_rules": "On hit vs a dragon, target takes 1 Str damage. Critical multiplier increases by 1 against dragons (e.g., longbow x4 vs dragons). Effects that alter threatening/confirming criticals (e.g., keen edge, bless weapon) don’t function on a weapon with this property.",
       "source": "MIC",
       "aura": "Moderate transmutation & necromancy (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "keen edge; ray of enfeeblement"
+      "required_spells": "keen edge; ray of enfeeblement",
+      "category_synergy_original": null
     },
     {
       "id": "mic-eager",
@@ -1316,7 +1398,8 @@
       "aura": "Moderate evocation (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "cat's grace"
+      "required_spells": "cat's grace",
+      "category_synergy_original": null
     },
     {
       "id": "mic-energy-aura",
@@ -1329,7 +1412,8 @@
       "aura": "Strong evocation (DC 22)",
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "chill metal; flame blade; Melf's acid arrow; shocking grasp"
+      "required_spells": "chill metal; flame blade; Melf's acid arrow; shocking grasp",
+      "category_synergy_original": null
     },
     {
       "id": "mic-energy-surge",
@@ -1342,7 +1426,8 @@
       "aura": "Faint evocation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "Spell(s) corresponding to the chosen prerequisite property (corrosive/flaming/frost/shock)"
+      "required_spells": "Spell(s) corresponding to the chosen prerequisite property (corrosive/flaming/frost/shock)",
+      "category_synergy_original": null
     },
     {
       "id": "mic-enervating",
@@ -1355,7 +1440,8 @@
       "aura": "Moderate necromancy (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "enervation"
+      "required_spells": "enervation",
+      "category_synergy_original": null
     },
     {
       "id": "mic-ethereal-reaver",
@@ -1368,7 +1454,8 @@
       "aura": "Strong divination (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "see invisibility"
+      "required_spells": "see invisibility",
+      "category_synergy_original": null
     },
     {
       "id": "mic-everbright",
@@ -1381,7 +1468,8 @@
       "aura": "Strong evocation (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "searing light"
+      "required_spells": "searing light",
+      "category_synergy_original": null
     },
     {
       "id": "mic-fiercebane",
@@ -1394,7 +1482,8 @@
       "aura": "Strong conjuration (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "summon monster I"
+      "required_spells": "summon monster I",
+      "category_synergy_original": null
     },
     {
       "id": "mic-fleshgrinding",
@@ -1407,7 +1496,8 @@
       "aura": "Moderate transmutation (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "animate objects"
+      "required_spells": "animate objects",
+      "category_synergy_original": null
     },
     {
       "id": "mic-force",
@@ -1415,12 +1505,13 @@
       "category": "Projectile weapon",
       "costing": "+2 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Ammunition becomes a force attack: automatically overcomes DR, ignores incorporeal miss chance, but doesn\u2019t affect creatures immune to force. Damage as normal for the ammunition.",
+      "stacking_rules": "Ammunition becomes a force attack: automatically overcomes DR, ignores incorporeal miss chance, but doesn’t affect creatures immune to force. Damage as normal for the ammunition.",
       "source": "MIC",
       "aura": "Moderate evocation (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "magic missile"
+      "required_spells": "magic missile",
+      "category_synergy_original": null
     },
     {
       "id": "mic-ghost-strike",
@@ -1433,7 +1524,8 @@
       "aura": "Moderate conjuration (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "undeath to death"
+      "required_spells": "undeath to death",
+      "category_synergy_original": null
     },
     {
       "id": "mic-harmonizing",
@@ -1446,7 +1538,8 @@
       "aura": "Faint illusion (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "ghost sound; requires bardic music class feature"
+      "required_spells": "ghost sound; requires bardic music class feature",
+      "category_synergy_original": null
     },
     {
       "id": "mic-heavenly-burst",
@@ -1459,7 +1552,8 @@
       "aura": "Moderate evocation (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "holy smite"
+      "required_spells": "holy smite",
+      "category_synergy_original": null
     },
     {
       "id": "mic-hideaway",
@@ -1472,7 +1566,8 @@
       "aura": "Faint transmutation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "shrink item"
+      "required_spells": "shrink item",
+      "category_synergy_original": null
     },
     {
       "id": "mic-holy-surge",
@@ -1485,7 +1580,8 @@
       "aura": "Moderate evocation (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "holy smite or holy word"
+      "required_spells": "holy smite or holy word",
+      "category_synergy_original": null
     },
     {
       "id": "mic-illuminating",
@@ -1498,7 +1594,8 @@
       "aura": "Faint evocation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "light"
+      "required_spells": "light",
+      "category_synergy_original": null
     },
     {
       "id": "mic-hunting",
@@ -1511,7 +1608,8 @@
       "aura": "Moderate abjuration (DC 18)",
       "required_caster_level": 6,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "greater magic fang"
+      "required_spells": "greater magic fang",
+      "category_synergy_original": null
     },
     {
       "id": "mic-ignan",
@@ -1524,7 +1622,8 @@
       "aura": "Moderate evocation (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "fire subtype"
+      "required_spells": "fire subtype",
+      "category_synergy_original": null
     },
     {
       "id": "mic-illusion-bane",
@@ -1537,7 +1636,8 @@
       "aura": "Moderate divination (DC 20)",
       "required_caster_level": 10,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "true seeing; dispel magic"
+      "required_spells": "true seeing; dispel magic",
+      "category_synergy_original": null
     },
     {
       "id": "mic-illusion-theft",
@@ -1550,7 +1650,8 @@
       "aura": "Strong divination (DC 23)",
       "required_caster_level": 17,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "true seeing; dispel magic"
+      "required_spells": "true seeing; dispel magic",
+      "category_synergy_original": null
     },
     {
       "id": "mic-impact",
@@ -1558,12 +1659,13 @@
       "category": "Bludgeoning weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Doubles the weapon\u2019s threat range. Does not stack with other threat-range expansion effects.",
+      "stacking_rules": "Doubles the weapon’s threat range. Does not stack with other threat-range expansion effects.",
       "source": "MIC",
       "aura": "Moderate evocation (DC 20)",
       "required_caster_level": 10,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "weapon of impact (SC 237)"
+      "required_spells": "weapon of impact (SC 237)",
+      "category_synergy_original": null
     },
     {
       "id": "mic-impaling",
@@ -1571,12 +1673,13 @@
       "category": "Piercing melee weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "3/day, swift command to make the weapon\u2019s next attack (this turn) a touch attack; must declare before rolling; use is wasted on a miss.",
+      "stacking_rules": "3/day, swift command to make the weapon’s next attack (this turn) a touch attack; must declare before rolling; use is wasted on a miss.",
       "source": "MIC",
       "aura": "Moderate transmutation (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "find the gap (SC 91)"
+      "required_spells": "find the gap (SC 91)",
+      "category_synergy_original": null
     },
     {
       "id": "mic-impedance",
@@ -1584,12 +1687,13 @@
       "category": "Weapon",
       "costing": "+2 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "On a hit, target\u2019s spells and SLAs are impeded for 1d6 rounds. To cast/use, target must succeed on a check (Spellcraft, Int, or Cha\u2014highest bonus) DC 15 + spell level; on failure the effect is lost.",
+      "stacking_rules": "On a hit, target’s spells and SLAs are impeded for 1d6 rounds. To cast/use, target must succeed on a check (Spellcraft, Int, or Cha—highest bonus) DC 15 + spell level; on failure the effect is lost.",
       "source": "MIC",
       "aura": "Moderate abjuration (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "antimagic field"
+      "required_spells": "antimagic field",
+      "category_synergy_original": null
     },
     {
       "id": "mic-implacable",
@@ -1602,7 +1706,8 @@
       "aura": "Moderate necromancy (DC 18)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "vampiric touch"
+      "required_spells": "vampiric touch",
+      "category_synergy_original": null
     },
     {
       "id": "mic-incorporeal-binding",
@@ -1615,7 +1720,8 @@
       "aura": "Moderate conjuration (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "dimensional anchor; plane shift"
+      "required_spells": "dimensional anchor; plane shift",
+      "category_synergy_original": null
     },
     {
       "id": "mic-knockback",
@@ -1623,12 +1729,13 @@
       "category": "Weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "3/day, swift command: the next hit before end of your turn forces the target (of your size or smaller) to make a Fort DC 19 save or be pushed back 5 ft (no effect if it can\u2019t move back).",
+      "stacking_rules": "3/day, swift command: the next hit before end of your turn forces the target (of your size or smaller) to make a Fort DC 19 save or be pushed back 5 ft (no effect if it can’t move back).",
       "source": "MIC",
       "aura": "Moderate evocation (DC 20)",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "repulsion"
+      "required_spells": "repulsion",
+      "category_synergy_original": null
     },
     {
       "id": "mic-lucky",
@@ -1641,7 +1748,8 @@
       "aura": "Strong divination (DC 22)",
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "moment of prescience or fate of one (EPH 107)"
+      "required_spells": "moment of prescience or fate of one (EPH 107)",
+      "category_synergy_original": null
     },
     {
       "id": "mic-magebane",
@@ -1649,12 +1757,13 @@
       "category": "Weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "Against creatures that can cast arcane spells or use invocations, the weapon\u2019s enhancement bonus is +2 higher and it deals +2d6 damage. May be added to cold iron without the usual +2,000 gp surcharge. Projectile weapons pass this to ammunition.",
+      "stacking_rules": "Against creatures that can cast arcane spells or use invocations, the weapon’s enhancement bonus is +2 higher and it deals +2d6 damage. May be added to cold iron without the usual +2,000 gp surcharge. Projectile weapons pass this to ammunition.",
       "source": "MIC",
       "aura": "Moderate evocation (DC 19)",
       "required_caster_level": 8,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "dispel magic"
+      "required_spells": "dispel magic",
+      "category_synergy_original": null
     },
     {
       "id": "mic_maiming",
@@ -1667,7 +1776,8 @@
       "aura": "Faint transmutation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "keen edge"
+      "required_spells": "keen edge",
+      "category_synergy_original": null
     },
     {
       "id": "mic_manifester",
@@ -1680,7 +1790,8 @@
       "aura": "Moderate divination (DC 19)",
       "required_caster_level": 8,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "any 3rd-level psionic power"
+      "required_spells": "any 3rd-level psionic power",
+      "category_synergy_original": null
     },
     {
       "id": "mic_metalline",
@@ -1693,7 +1804,8 @@
       "aura": "Moderate transmutation (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "fabricate"
+      "required_spells": "fabricate",
+      "category_synergy_original": null
     },
     {
       "id": "mic_mighty_smiting",
@@ -1706,7 +1818,8 @@
       "aura": "Moderate evocation (DC 19)",
       "required_caster_level": 8,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "divine power"
+      "required_spells": "divine power",
+      "category_synergy_original": null
     },
     {
       "id": "mic_mindcrusher",
@@ -1719,7 +1832,8 @@
       "aura": "Strong necromancy (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "vampiric touch or psychic vampire (EPH 127)"
+      "required_spells": "vampiric touch or psychic vampire (EPH 127)",
+      "category_synergy_original": null
     },
     {
       "id": "mic_mindfeeder",
@@ -1732,7 +1846,8 @@
       "aura": "Strong necromancy (DC 22)",
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "vampiric touch or psychic vampire (EPH 127)"
+      "required_spells": "vampiric touch or psychic vampire (EPH 127)",
+      "category_synergy_original": null
     },
     {
       "id": "mic_morphing",
@@ -1745,7 +1860,8 @@
       "aura": "Moderate transmutation (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "fabricate"
+      "required_spells": "fabricate",
+      "category_synergy_original": null
     },
     {
       "id": "mic_necrotic_focus",
@@ -1753,12 +1869,13 @@
       "category": "Melee weapon",
       "costing": "+3 bonus",
       "min_enhancement": null,
-      "stacking_rules": "Channels ability drain/energy drain through the weapon as if natural attacks; if a save is allowed, add the weapon\u2019s enhancement bonus to the DC.",
+      "stacking_rules": "Channels ability drain/energy drain through the weapon as if natural attacks; if a save is allowed, add the weapon’s enhancement bonus to the DC.",
       "source": "MIC",
       "aura": "Moderate necromancy (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "enervation, spectral hand"
+      "required_spells": "enervation, spectral hand",
+      "category_synergy_original": null
     },
     {
       "id": "mic_paralytic_burst",
@@ -1771,7 +1888,8 @@
       "aura": "Moderate enchantment (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "hold monster"
+      "required_spells": "hold monster",
+      "category_synergy_original": null
     },
     {
       "id": "mic_paralyzing",
@@ -1784,7 +1902,8 @@
       "aura": "Moderate enchantment (DC 20)",
       "required_caster_level": 10,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "hold monster"
+      "required_spells": "hold monster",
+      "category_synergy_original": null
     },
     {
       "id": "mic_parrying",
@@ -1797,7 +1916,8 @@
       "aura": "Strong enchantment (DC 22)",
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "divine protection (SC 70) or defensive precognition (EPH 124)"
+      "required_spells": "divine protection (SC 70) or defensive precognition (EPH 124)",
+      "category_synergy_original": null
     },
     {
       "id": "mic_power_storing",
@@ -1810,7 +1930,8 @@
       "aura": "Strong evocation (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor; manifester level 12th",
-      "required_spells": ""
+      "required_spells": "",
+      "category_synergy_original": null
     },
     {
       "id": "mic_precise",
@@ -1818,12 +1939,13 @@
       "category": "Ranged weapon",
       "costing": "+1 bonus",
       "min_enhancement": null,
-      "stacking_rules": "Ignore the normal \u20134 penalty for shooting/throwing into melee (no benefit if you already have Precise Shot).",
+      "stacking_rules": "Ignore the normal –4 penalty for shooting/throwing into melee (no benefit if you already have Precise Shot).",
       "source": "MIC",
       "aura": "Faint evocation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor; Precise Shot",
-      "required_spells": ""
+      "required_spells": "",
+      "category_synergy_original": null
     },
     {
       "id": "mic_prismatic_burst",
@@ -1836,7 +1958,8 @@
       "aura": "Strong evocation (DC 21)",
       "required_caster_level": 13,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "prismatic spray"
+      "required_spells": "prismatic spray",
+      "category_synergy_original": null
     },
     {
       "id": "mic_profane",
@@ -1849,7 +1972,8 @@
       "aura": "Moderate necromancy (DC 17)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "inflict light wounds"
+      "required_spells": "inflict light wounds",
+      "category_synergy_original": null
     },
     {
       "id": "mic_profane_burst",
@@ -1857,12 +1981,13 @@
       "category": "Weapon [SYNERGY]",
       "costing": "+1 bonus",
       "min_enhancement": null,
-      "stacking_rules": "Synergy: requires Profane. On crit, extra negative energy damage (x2:1d10; x3:2d10; x4:3d10), doubled vs good outsiders. Burst applies even if Profane isn\u2019t active. Non-undead wielder takes 1d4 Con damage (or Cha if no Con). Projectile weapons pass to ammo.",
+      "stacking_rules": "Synergy: requires Profane. On crit, extra negative energy damage (x2:1d10; x3:2d10; x4:3d10), doubled vs good outsiders. Burst applies even if Profane isn’t active. Non-undead wielder takes 1d4 Con damage (or Cha if no Con). Projectile weapons pass to ammo.",
       "source": "MIC",
       "aura": "Strong necromancy (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "inflict critical wounds"
+      "required_spells": "inflict critical wounds",
+      "category_synergy_original": null
     },
     {
       "id": "mic_psibane",
@@ -1875,7 +2000,8 @@
       "aura": "Strong divination (DC 22)",
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "dispel magic or bend reality (EPH 80)"
+      "required_spells": "dispel magic or bend reality (EPH 80)",
+      "category_synergy_original": null
     },
     {
       "id": "mic_psychokinetic",
@@ -1888,7 +2014,8 @@
       "aura": "Moderate evocation (DC 20)",
       "required_caster_level": 10,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "blast of force (SC 31) or concussive blast (EPH 85)"
+      "required_spells": "blast of force (SC 31) or concussive blast (EPH 85)",
+      "category_synergy_original": null
     },
     {
       "id": "mic-psychokinetic-burst",
@@ -1901,7 +2028,8 @@
       "aura": "Strong evocation (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "blast of force or concussive blast"
+      "required_spells": "blast of force or concussive blast",
+      "category_synergy_original": null
     },
     {
       "id": "mic-quick-loading",
@@ -1914,7 +2042,8 @@
       "aura": "Moderate conjuration (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "Leomund's secret chest; shrink item"
+      "required_spells": "Leomund's secret chest; shrink item",
+      "category_synergy_original": null
     },
     {
       "id": "mic-resounding",
@@ -1927,7 +2056,8 @@
       "aura": "Faint enchantment (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "bless"
+      "required_spells": "bless",
+      "category_synergy_original": null
     },
     {
       "id": "mic-revealing",
@@ -1940,7 +2070,8 @@
       "aura": "Faint evocation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "faerie fire"
+      "required_spells": "faerie fire",
+      "category_synergy_original": null
     },
     {
       "id": "mic-sacred",
@@ -1953,7 +2084,8 @@
       "aura": "Moderate conjuration (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "cure light wounds"
+      "required_spells": "cure light wounds",
+      "category_synergy_original": null
     },
     {
       "id": "mic-sacred-burst",
@@ -1966,7 +2098,8 @@
       "aura": "Strong conjuration (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "cure critical wounds"
+      "required_spells": "cure critical wounds",
+      "category_synergy_original": null
     },
     {
       "id": "mic-screaming",
@@ -1979,7 +2112,8 @@
       "aura": "Moderate evocation (DC 18)",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "shout or sound burst"
+      "required_spells": "shout or sound burst",
+      "category_synergy_original": null
     },
     {
       "id": "mic-screaming-burst",
@@ -1992,7 +2126,8 @@
       "aura": "Strong evocation (DC 21)",
       "required_caster_level": 12,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "shout or sound burst"
+      "required_spells": "shout or sound burst",
+      "category_synergy_original": null
     },
     {
       "id": "mic-shadowstrike",
@@ -2005,7 +2140,8 @@
       "aura": "Strong illusion (DC 22)",
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "shadow conjuration"
+      "required_spells": "shadow conjuration",
+      "category_synergy_original": null
     },
     {
       "id": "mic-shattermantle",
@@ -2018,7 +2154,8 @@
       "aura": "Faint divination (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "assay spell resistance"
+      "required_spells": "assay spell resistance",
+      "category_synergy_original": null
     },
     {
       "id": "mic-shielding",
@@ -2031,7 +2168,8 @@
       "aura": "Moderate transmutation (DC 20)",
       "required_caster_level": 10,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "animate objects; shield"
+      "required_spells": "animate objects; shield",
+      "category_synergy_original": null
     },
     {
       "id": "mic-sizing",
@@ -2044,7 +2182,8 @@
       "aura": "Moderate transmutation (DC 19)",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "shrink item"
+      "required_spells": "shrink item",
+      "category_synergy_original": null
     },
     {
       "id": "mic-slow-burst",
@@ -2057,7 +2196,8 @@
       "aura": "Faint transmutation (DC 17)",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "slow"
+      "required_spells": "slow",
+      "category_synergy_original": null
     },
     {
       "id": "mic-soulbound",
@@ -2070,7 +2210,8 @@
       "aura": "Moderate abjuration (DC 18)",
       "required_caster_level": 6,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "magic weapon"
+      "required_spells": "magic weapon",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_spellstrike",
@@ -2078,12 +2219,13 @@
       "category": "Weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "As a free action, reallocate the weapon\u2019s enhancement bonus to saving throws vs spells/spell-like abilities until your next turn.",
+      "stacking_rules": "As a free action, reallocate the weapon’s enhancement bonus to saving throws vs spells/spell-like abilities until your next turn.",
       "source": "MIC",
       "aura": "Moderate; (DC 19) abjuration",
       "required_caster_level": 8,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "resistance"
+      "required_spells": "resistance",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_stunning_surge",
@@ -2096,7 +2238,8 @@
       "aura": "Moderate; (DC 19) enchantment",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "hold monster"
+      "required_spells": "hold monster",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_stygian",
@@ -2109,7 +2252,8 @@
       "aura": "Moderate; (DC 19) necromancy",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "enervation"
+      "required_spells": "enervation",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_sundering",
@@ -2122,7 +2266,8 @@
       "aura": "Faint; (DC 17) transmutation",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor; Improved Sunder",
-      "required_spells": "weapon of impact (SC 237) or metaphysical weapon (EPH 118)"
+      "required_spells": "weapon of impact (SC 237) or metaphysical weapon (EPH 118)",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_sweeping",
@@ -2135,7 +2280,8 @@
       "aura": "Faint; (DC 17) transmutation",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "bull's strength"
+      "required_spells": "bull's strength",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_terran",
@@ -2148,7 +2294,8 @@
       "aura": "Moderate; (DC 18) evocation",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "earth subtype"
+      "required_spells": "earth subtype",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_transmuting",
@@ -2156,12 +2303,13 @@
       "category": "Weapon",
       "costing": "+2 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "After hitting a creature with DR, at start of your next turn the weapon adapts to bypass that DR for 10 rounds (or until it adapts to a different target\u2019s DR). Gains no other benefits of the materials.",
+      "stacking_rules": "After hitting a creature with DR, at start of your next turn the weapon adapts to bypass that DR for 10 rounds (or until it adapts to a different target’s DR). Gains no other benefits of the materials.",
       "source": "MIC",
       "aura": "Strong; (DC 21) transmutation",
       "required_caster_level": 13,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "fabricate"
+      "required_spells": "fabricate",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_vampiric",
@@ -2174,7 +2322,8 @@
       "aura": "Moderate; (DC 19) necromancy",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "vampiric touch"
+      "required_spells": "vampiric touch",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_vanishing",
@@ -2187,7 +2336,8 @@
       "aura": "Moderate; (DC 20) conjuration",
       "required_caster_level": 10,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "dimension door"
+      "required_spells": "dimension door",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_venomous",
@@ -2200,7 +2350,8 @@
       "aura": "Moderate; (DC 19) necromancy",
       "required_caster_level": 9,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "poison"
+      "required_spells": "poison",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_warning",
@@ -2213,7 +2364,8 @@
       "aura": "Moderate; (DC 18) transmutation",
       "required_caster_level": 7,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "cat's grace"
+      "required_spells": "cat's grace",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_weakening",
@@ -2221,12 +2373,13 @@
       "category": "Weapon",
       "costing": "+1 bonus",
       "min_enhancement": 1,
-      "stacking_rules": "On a critical hit target takes \u20134 Strength for 10 minutes (min 1); not cumulative. Projectile weapons pass to ammunition.",
+      "stacking_rules": "On a critical hit target takes –4 Strength for 10 minutes (min 1); not cumulative. Projectile weapons pass to ammunition.",
       "source": "MIC",
       "aura": "Faint; (DC 17) necromancy",
       "required_caster_level": 5,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "ray of enfeeblement"
+      "required_spells": "ray of enfeeblement",
+      "category_synergy_original": null
     },
     {
       "id": "mic_weap_whirling",
@@ -2239,7 +2392,8 @@
       "aura": "Moderate; (DC 20) transmutation",
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": "haste"
+      "required_spells": "haste",
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_corrosive_melee",
@@ -2255,7 +2409,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_corrosive_ranged",
@@ -2271,7 +2426,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_acidic_burst_melee",
@@ -2287,7 +2443,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_acidic_burst_ranged",
@@ -2303,7 +2460,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_caustic_surge_melee",
@@ -2319,7 +2477,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_icy_surge_melee",
@@ -2335,7 +2494,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_lightning_surge_melee",
@@ -2351,7 +2511,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_holy_surge_melee",
@@ -2367,7 +2528,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_unholy_surge_melee",
@@ -2383,7 +2545,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_defensive_surge_melee",
@@ -2399,7 +2562,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_sudden_stunning_melee",
@@ -2415,7 +2579,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_illusion_bane_melee",
@@ -2431,7 +2596,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_illusion_bane_ranged",
@@ -2447,7 +2613,8 @@
       "aura": "",
       "required_caster_level": null,
       "required_feat": "Craft Magic Arms and Armor",
-      "required_spells": []
+      "required_spells": [],
+      "category_synergy_original": null
     },
     {
       "id": "dmg2_wpn_illusion_theft_melee",
@@ -2716,7 +2883,7 @@
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
-        "acid fog or Melf\u2019s acid arrow",
+        "acid fog or Melf’s acid arrow",
         "summon monster VI (Large)",
         "summon monster VII (Huge)",
         "summon monster VIII (Greater)",
@@ -2739,7 +2906,7 @@
       "required_caster_level": 11,
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
-        "acid fog or Melf\u2019s acid arrow",
+        "acid fog or Melf’s acid arrow",
         "summon monster VI (Large)",
         "summon monster VII (Huge)",
         "summon monster VIII (Greater)",
@@ -2762,7 +2929,7 @@
       "required_caster_level": 13,
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
-        "acid fog or Melf\u2019s acid arrow",
+        "acid fog or Melf’s acid arrow",
         "summon monster VI (Large)",
         "summon monster VII (Huge)",
         "summon monster VIII (Greater)",
@@ -2785,7 +2952,7 @@
       "required_caster_level": 13,
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
-        "acid fog or Melf\u2019s acid arrow",
+        "acid fog or Melf’s acid arrow",
         "summon monster VI (Large)",
         "summon monster VII (Huge)",
         "summon monster VIII (Greater)",
@@ -2808,7 +2975,7 @@
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
-        "acid fog or Melf\u2019s acid arrow",
+        "acid fog or Melf’s acid arrow",
         "summon monster VI (Large)",
         "summon monster VII (Huge)",
         "summon monster VIII (Greater)",
@@ -2831,7 +2998,7 @@
       "required_caster_level": 15,
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
-        "acid fog or Melf\u2019s acid arrow",
+        "acid fog or Melf’s acid arrow",
         "summon monster VI (Large)",
         "summon monster VII (Huge)",
         "summon monster VIII (Greater)",
@@ -2854,7 +3021,7 @@
       "required_caster_level": 17,
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
-        "acid fog or Melf\u2019s acid arrow",
+        "acid fog or Melf’s acid arrow",
         "summon monster VI (Large)",
         "summon monster VII (Huge)",
         "summon monster VIII (Greater)",
@@ -2877,7 +3044,7 @@
       "required_caster_level": 17,
       "required_feat": "Craft Magic Arms and Armor",
       "required_spells": [
-        "acid fog or Melf\u2019s acid arrow",
+        "acid fog or Melf’s acid arrow",
         "summon monster VI (Large)",
         "summon monster VII (Huge)",
         "summon monster VIII (Greater)",
