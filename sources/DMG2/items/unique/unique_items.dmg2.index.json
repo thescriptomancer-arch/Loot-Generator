@@ -266,4 +266,91 @@
       "aura": "Strong abjuration, divination, and evocation",
       "required_caster_level": 10,
       "required_feat": "Craft Wondrous Item",
-      "required_spells":_
+      "required_spells": "scorching ray; resist energy; faerie fire; mage armor"
+    },
+    {
+      "id": "dmg2_uniq_rogues_vest",
+      "name": "Rogue’s Vest",
+      "category": "wondrous",
+      "price_gp": 29600,
+      "source_page": "DMG II Ch.7",
+      "notes": "+2 competence on Hide and Move Silently; +2 Reflex saves; if wearer has sneak attack, increase sneak attack damage by +1d6.",
+      "aura": "Strong illusion",
+      "required_caster_level": 13,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": "cat’s grace; invisibility; true strike"
+    },
+    {
+      "id": "dmg2_uniq_scarab_stabilization",
+      "name": "Scarab of Stabilization",
+      "category": "wondrous",
+      "price_gp": 92400,
+      "source_page": "DMG II Ch.7",
+      "notes": "Automatically stabilizes wearer at negative HP; if an effect would drop to −10 or lower, becomes −9 and stabilizes instead (one-time use; scarab crumbles).",
+      "aura": "Strong conjuration",
+      "required_caster_level": 11,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": "contingency; cure light wounds"
+    },
+    {
+      "id": "dmg2_uniq_scarf_spellcatching",
+      "name": "Scarf of Spellcatching",
+      "category": "wondrous",
+      "price_gp": 18000,
+      "source_page": "DMG II Ch.7",
+      "notes": "+2 luck bonus on saves vs spells and SLAs; if wearer successfully saves vs a spell that targets only her, the spell is absorbed (stored for 1 hour per level); wearer with casting/UMD can cast the stored spell; total capacity 20 spell levels; destroying effect when exceeded.",
+      "aura": "Strong abjuration",
+      "required_caster_level": 15,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": "spell turning"
+    },
+    {
+      "id": "dmg2_uniq_slippers_battledancing",
+      "name": "Slippers of Battledancing",
+      "category": "wondrous",
+      "price_gp": 33750,
+      "source_page": "DMG II Ch.7",
+      "notes": "+10 ft enhancement to land speed; +5 competence on Tumble; if wearer has ≥5 ranks Perform (dance), +2 insight on initiative and, if he moved ≥10 ft as part of a move action, use Cha in place of Str/Dex for attack and damage with one-handed or light weapons.",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 7,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": "longstrider; cat’s grace; eagle’s splendor"
+    },
+    {
+      "id": "dmg2_uniq_vest_of_legends",
+      "name": "Vest of Legends",
+      "category": "wondrous",
+      "price_gp": 16000,
+      "source_page": "DMG II Ch.7",
+      "notes": "+5 competence on Diplomacy and Perform; if worn by a bard, bard level counts +5 higher for inspire courage, fascinate, inspire greatness, inspire heroics (no new abilities granted).",
+      "aura": "Strong enchantment and transmutation",
+      "required_caster_level": 13,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": "eagle’s splendor; greater heroism"
+    },
+    {
+      "id": "dmg2_uniq_vestment_verminshape",
+      "name": "Vestment of Verminshape",
+      "category": "wondrous",
+      "price_gp": 20000,
+      "source_page": "DMG II Ch.7",
+      "notes": "If wearer has wild shape, also allows vermin shapes with same size options as allowed animal shapes.",
+      "aura": "Moderate transmutation",
+      "required_caster_level": 10,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": "polymorph OR wild shape ability; giant vermin"
+    },
+    {
+      "id": "dmg2_uniq_vestments_divinity",
+      "name": "Vestments of Divinity",
+      "category": "wondrous",
+      "price_gp": 30000,
+      "source_page": "DMG II Ch.7",
+      "notes": "Wearer with cleric domains gains access to Good domain (if good) or Evil domain (if evil); casts spells with matching alignment descriptor at +1 CL (or +2 CL if already had that domain). Neutral wearer gains no benefit.",
+      "aura": "Moderate conjuration",
+      "required_caster_level": 9,
+      "required_feat": "Craft Wondrous Item",
+      "required_spells": "access to Good OR Evil domain"
+    }
+  ]
+}
