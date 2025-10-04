@@ -8454,5 +8454,799 @@
   },
   "cost_to_create": "16,000 gp, 1,280 XP, 32 days"
 },
+{
+  "id": "uniq_runestaff_of_the_architect",
+  "name": "Runestaff of the Architect",
+  "category": "staff (held)",
+  "price_gp": 30000,
+  "item_level": 16,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) transmutation",
+  "activation": "As spell used",
+  "weight_lb": 5,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: move earth, stone shape, wall of stone, wood shape."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["move earth", "stone shape", "wall of stone", "wood shape"]
+  },
+  "cost_to_create": "15,000 gp, 1,200 XP, 30 days"
+},
+{
+  "id": "uniq_runestaff_of_the_artisan",
+  "name": "Runestaff of the Artisan",
+  "category": "staff (held)",
+  "price_gp": 23000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) conjuration, transmutation",
+  "activation": "As spell used",
+  "weight_lb": 5,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: fabricate, major creation, mending, minor creation."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["fabricate", "major creation", "mending", "minor creation"]
+  },
+  "cost_to_create": "11,500 gp, 920 XP, 23 days"
+},
+{
+  "id": "uniq_runestaff_of_the_assassin",
+  "name": "Runestaff of the Assassin",
+  "category": "staff (held)",
+  "price_gp": 10000,
+  "item_level": 12,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) illusion",
+  "activation": "As spell used",
+  "weight_lb": 3,
+  "effects": [
+    "Each 2/day by expending an arcane slot of equal or higher level: greater invisibility, obscuring mist, pass without trace, poison."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["greater invisibility", "obscuring mist", "pass without trace", "poison"]
+  },
+  "cost_to_create": "5,000 gp, 400 XP, 10 days"
+},
+{
+  "id": "uniq_runestaff_of_cacophony",
+  "name": "Runestaff of Cacophony",
+  "category": "staff (held)",
+  "price_gp": 26000,
+  "item_level": 16,
+  "body_slot": "— (held)",
+  "required_caster_level": 16,
+  "aura": "Strong; (DC 23) evocation",
+  "activation": "As spell used",
+  "weight_lb": 3,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: shout, shout (greater), sound burst, sympathetic vibration."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["shout", "greater shout", "sound burst", "sympathetic vibration"]
+  },
+  "cost_to_create": "13,000 gp, 1,040 XP, 26 days"
+},
+{
+  "id": "uniq_runestaff_of_charming",
+  "name": "Runestaff of Charming",
+  "category": "staff (held)",
+  "price_gp": 8000,
+  "item_level": 11,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) enchantment",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: charm monster, charm person."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["charm monster", "charm person"]
+  },
+  "cost_to_create": "4,000 gp, 320 XP, 8 days"
+},
+{
+  "id": "uniq_runestaff_of_conjuration",
+  "name": "Runestaff of Conjuration",
+  "category": "staff (held)",
+  "price_gp": 25000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) conjuration",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 2/day by expending an arcane slot of equal or higher level: cloudkill, minor creation, stinking cloud, summon monster VI, summon swarm, unseen servant."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["cloudkill", "minor creation", "stinking cloud", "summon monster VI", "summon swarm", "unseen servant"]
+  },
+  "cost_to_create": "12,500 gp, 1,000 XP, 25 days"
+},
+{
+  "id": "uniq_runestaff_of_destruction",
+  "name": "Runestaff of Destruction",
+  "category": "staff (held)",
+  "price_gp": 27000,
+  "item_level": 16,
+  "body_slot": "— (held)",
+  "required_caster_level": 15,
+  "aura": "Strong; (DC 22) evocation",
+  "activation": "As spell used",
+  "weight_lb": 3,
+  "effects": [
+    "Each 1/day by expending an arcane slot of equal or higher level: disintegrate, earthquake, shatter."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["disintegrate", "earthquake", "shatter"]
+  },
+  "cost_to_create": "13,500 gp, 1,080 XP, 27 days"
+},
+{
+  "id": "uniq_runestaff_of_divination",
+  "name": "Runestaff of Divination",
+  "category": "staff (held)",
+  "price_gp": 21000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) divination",
+  "activation": "As spell used",
+  "weight_lb": 2,
+  "effects": [
+    "Each 2/day by expending an arcane slot of equal or higher level: detect secret doors, locate creature, locate object, prying eyes, tongues, true seeing."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["detect secret doors", "locate creature", "locate object", "prying eyes", "tongues", "true seeing"]
+  },
+  "cost_to_create": "10,500 gp, 840 XP, 21 days"
+},
+{
+  "id": "uniq_runestaff_of_earth_and_stone",
+  "name": "Runestaff of Earth and Stone",
+  "category": "staff (held)",
+  "price_gp": 24000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) transmutation",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day (either spell) by expending an arcane slot of equal or higher level: move earth, passwall."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["move earth", "passwall"]
+  },
+  "cost_to_create": "12,000 gp, 960 XP, 24 days"
+},
+{
+  "id": "uniq_runestaff_of_enchantment",
+  "name": "Runestaff of Enchantment",
+  "category": "staff (held)",
+  "price_gp": 32000,
+  "item_level": 16,
+  "body_slot": "— (held)",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) enchantment",
+  "activation": "As spell used",
+  "weight_lb": 3,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: crushing despair, mass suggestion, mind fog, sleep, suggestion, Tasha's hideous laughter."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["crushing despair", "mass suggestion", "mind fog", "sleep", "suggestion", "Tasha's hideous laughter"]
+  },
+  "cost_to_create": "16,000 gp, 1,280 XP, 32 days"
+},
+{
+  "id": "uniq_runestaff_of_entrapment",
+  "name": "Runestaff of Entrapment",
+  "category": "staff (held)",
+  "price_gp": 12000,
+  "item_level": 13,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) abjuration, evocation",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day (either spell) by expending an arcane slot of equal or higher level: dimensional anchor, Otiluke's resilient sphere."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["dimensional anchor", "Otiluke's resilient sphere"]
+  },
+  "cost_to_create": "6,000 gp, 480 XP, 12 days"
+},
+{
+  "id": "uniq_runestaff_of_ethereal_action",
+  "name": "Runestaff of Ethereal Action",
+  "category": "staff (held)",
+  "price_gp": 31300,
+  "item_level": 16,
+  "body_slot": "— (held)",
+  "required_caster_level": 14,
+  "aura": "Strong; (DC 22) transmutation",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "+1/masterwork ghost touch quarterstaff.",
+    "Each 3/day (either spell) by expending an arcane slot of equal or higher level: blink, ethereal jaunt."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor", "Craft Staff"],
+    "spells": ["blink", "ethereal jaunt"]
+  },
+  "cost_to_create": "15,500 gp (plus 300 gp for masterwork quarterstaff), 1,240 XP, 31 days"
+},
+{
+  "id": "uniq_runestaff_of_evocation",
+  "name": "Runestaff of Evocation",
+  "category": "staff (held)",
+  "price_gp": 25000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) evocation",
+  "activation": "As spell used",
+  "weight_lb": 3,
+  "effects": [
+    "Each 2/day by expending an arcane slot of equal or higher level: chain lightning, fireball, ice storm, magic missile, shatter, wall of force."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["chain lightning", "fireball", "ice storm", "magic missile", "shatter", "wall of fire"]
+  },
+  "cost_to_create": "12,500 gp, 1,000 XP, 25 days"
+},
+{
+  "id": "uniq_runestaff_of_eyes",
+  "name": "Runestaff of Eyes",
+  "category": "staff (held)",
+  "price_gp": 11000,
+  "item_level": 13,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) divination",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: arcane eye, remove blindness/deafness, see invisibility."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["arcane eye", "remove blindness/deafness", "see invisibility"]
+  },
+  "cost_to_create": "5,500 gp, 440 XP, 11 days"
+},
+{
+  "id": "uniq_runestaff_of_fiendish_darkness",
+  "name": "Runestaff of Fiendish Darkness",
+  "category": "staff (held)",
+  "price_gp": 48000,
+  "item_level": 17,
+  "body_slot": "— (held)",
+  "required_caster_level": 18,
+  "aura": "Strong; (DC 24) conjuration",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Good-aligned creature holding it gains 1 negative level (no actual level loss; cannot be removed while held).",
+    "Each 3/day by expending an arcane slot of equal or higher level: animate dead, darkness, dispel magic, summon monster IX (nightmare only)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["animate dead", "darkness", "dispel magic", "summon monster IX"],
+    "alignment": "evil"
+  },
+  "cost_to_create": "24,000 gp, 1,920 XP, 48 days"
+},
+{
+  "id": "uniq_runestaff_of_fire",
+  "name": "Runestaff of Fire",
+  "category": "staff (held)",
+  "price_gp": 8400,
+  "item_level": 12,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) evocation",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: burning hands, fireball, wall of fire."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["burning hands", "fireball", "wall of fire"]
+  },
+  "cost_to_create": "4,200 gp, 336 XP, 9 days"
+},
+{
+  "id": "uniq_runestaff_of_forced_happiness",
+  "name": "Runestaff of Forced Happiness",
+  "category": "staff (held)",
+  "price_gp": 18000,
+  "item_level": 14,
+  "body_slot": "— (held)",
+  "required_caster_level": 16,
+  "aura": "Strong; (DC 23) enchantment",
+  "activation": "As spell used",
+  "weight_lb": 3,
+  "effects": [
+    "Each 2/day by expending an arcane slot of equal or higher level: celebration (SC 44), Otto's irresistible dance, Tasha's hideous laughter."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["celebration (SC 44)", "Otto's irresistible dance", "Tasha's hideous laughter"]
+  },
+  "cost_to_create": "9,000 gp, 720 XP, 18 days"
+},
+{
+  "id": "uniq_runestaff_of_frost",
+  "name": "Runestaff of Frost",
+  "category": "staff (held)",
+  "price_gp": 20000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) evocation",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: cone of cold, ice storm, wall of ice."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["cone of cold", "ice storm", "wall of ice"]
+  },
+  "cost_to_create": "10,000 gp, 800 XP, 20 days"
+},
+{
+  "id": "uniq_runestaff_of_illumination",
+  "name": "Runestaff of Illumination",
+  "category": "staff (held)",
+  "price_gp": 34500,
+  "item_level": 16,
+  "body_slot": "— (held)",
+  "required_caster_level": 15,
+  "aura": "Strong; (DC 22) evocation",
+  "activation": "As spell used",
+  "weight_lb": 3,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: dancing lights, daylight, flare, sunburst."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["dancing lights", "daylight", "flare", "sunburst"]
+  },
+  "cost_to_create": "17,250 gp, 1,380 XP, 35 days"
+},
+{
+  "id": "uniq_runestaff_of_illusion",
+  "name": "Runestaff of Illusion",
+  "category": "staff (held)",
+  "price_gp": 19000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) illusion",
+  "activation": "As spell used",
+  "weight_lb": 3,
+  "effects": [
+    "Each 1/day by expending an arcane slot of equal or higher level: disguise self, major image, mirror image, mislead, persistent image, rainbow pattern."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["disguise self", "major image", "mirror image", "mislead", "persistent image", "rainbow pattern"]
+  },
+  "cost_to_create": "9,500 gp, 760 XP, 19 days"
+},
+{
+  "id": "uniq_runestaff_of_insanity",
+  "name": "Runestaff of Insanity",
+  "category": "staff (held)",
+  "price_gp": 46000,
+  "item_level": 17,
+  "body_slot": "— (held)",
+  "required_caster_level": 17,
+  "aura": "Strong; (DC 23) illusion",
+  "activation": "As spell used",
+  "weight_lb": 5,
+  "effects": [
+    "Each 2/day by expending an arcane slot of equal or higher level: confusion, insanity, lesser confusion, weird."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["confusion", "insanity", "lesser confusion", "weird"]
+  },
+  "cost_to_create": "23,000 gp, 1,840 XP, 46 days"
+},
+{
+  "id": "uniq_runestaff_of_necromancy",
+  "name": "Runestaff of Necromancy",
+  "category": "staff (held)",
+  "price_gp": 32000,
+  "item_level": 16,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) necromancy",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: cause fear, circle of death, enervation, ghoul touch, halt undead, waves of fatigue."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["cause fear", "circle of death", "enervation", "ghoul touch", "halt undead", "waves of fatigue"]
+  },
+  "cost_to_create": "16,000 gp, 1,280 XP, 32 days"
+},
+{
+  "id": "uniq_runestaff_of_night",
+  "name": "Runestaff of Night",
+  "category": "staff (held)",
+  "price_gp": 14000,
+  "item_level": 14,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) conjuration",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: darkness (can counter or dispel any light spell, regardless of level), darkvision, low-light vision.",
+    "Additionally 1/day by expending an arcane slot of equal or higher level: summon monster VI (summons one fiendish umber hulk only)."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["darkness", "darkvision", "low-light vision (SC 134)", "summon monster VI"]
+  },
+  "cost_to_create": "7,000 gp, 560 XP, 14 days"
+},
+{
+  "id": "uniq_runestaff_of_opening",
+  "name": "Runestaff of Opening",
+  "category": "staff (held)",
+  "price_gp": 15000,
+  "item_level": 14,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) transmutation",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: knock, open/close, passwall, shatter."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["knock", "open/close", "passwall", "shatter"]
+  },
+  "cost_to_create": "7,500 gp, 600 XP, 15 days"
+},
+{
+  "id": "uniq_runestaff_of_passage",
+  "name": "Runestaff of Passage",
+  "category": "staff (held)",
+  "price_gp": 75000,
+  "item_level": 19,
+  "body_slot": "— (held)",
+  "required_caster_level": 18,
+  "aura": "Strong; (DC 24) necromancy",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: astral projection, dimension door, greater teleport, passwall, phase door."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["astral projection", "dimension door", "greater teleport", "phase door"]
+  },
+  "cost_to_create": "37,500 gp, 3,000 XP, 75 days"
+},
+{
+  "id": "uniq_runestaff_of_power",
+  "name": "Runestaff of Power",
+  "category": "staff (held)",
+  "price_gp": 38300,
+  "item_level": 17,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) abjuration",
+  "activation": "As spell used and Swift (mental); see text",
+  "weight_lb": 4,
+  "effects": [
+    "Each 1/day by expending an arcane slot of equal or higher level: cone of cold; continual flame; fireball; globe of invulnerability; hold monster; levitate; lightning bolt; magic missile; ray of enfeeblement; wall of force (in a 5-ft-radius hemisphere around the wielder only).",
+    "Functions as a +2/masterwork quarterstaff; while held grants +2 luck bonus to AC and on saves.",
+    "Swift: expend a 1st-level arcane slot to activate smite—until start of your next turn all melee attacks with the staff deal double damage (triple on a critical).",
+    "If not attuned (per attunement rules), only the +2 enhancement remains; all other abilities are unavailable."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Magic Arms and Armor", "Craft Staff"],
+    "spells": ["cone of cold", "continual flame", "fireball", "globe of invulnerability", "hold monster", "levitate", "lightning bolt", "magic missile", "ray of enfeeblement", "wall of force"]
+  },
+  "cost_to_create": "19,000 gp (plus 300 gp for masterwork quarterstaff), 1,520 XP, 39 days"
+},
+{
+  "id": "uniq_runestaff_of_size_alteration",
+  "name": "Runestaff of Size Alteration",
+  "category": "staff (held)",
+  "price_gp": 12000,
+  "item_level": 13,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) transmutation",
+  "activation": "As spell used",
+  "weight_lb": 5,
+  "effects": [
+    "Each 2/day by expending an arcane slot of equal or higher level: enlarge person, mass enlarge person, mass reduce person, reduce person, shrink item."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["enlarge person", "mass enlarge person", "mass reduce person", "reduce person", "shrink item"]
+  },
+  "cost_to_create": "6,000 gp, 480 XP, 12 days"
+},
+{
+  "id": "uniq_runestaff_of_time",
+  "name": "Runestaff of Time",
+  "category": "staff (held)",
+  "price_gp": 35000,
+  "item_level": 16,
+  "body_slot": "— (held)",
+  "required_caster_level": 17,
+  "aura": "Strong; (DC 23) transmutation",
+  "activation": "As spell used",
+  "weight_lb": 3,
+  "effects": [
+    "Each 1/day by expending an arcane slot of equal or higher level: expeditious retreat, haste, temporal stasis, time stop."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["expeditious retreat", "haste", "temporal stasis", "time stop"]
+  },
+  "cost_to_create": "17,500 gp, 1,400 XP, 35 days"
+},
+{
+  "id": "uniq_runestaff_of_transmutation",
+  "name": "Runestaff of Transmutation",
+  "category": "staff (held)",
+  "price_gp": 25000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 13,
+  "aura": "Strong; (DC 21) transmutation",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 2/day by expending an arcane slot of equal or higher level: alter self, baleful polymorph, blink, disintegrate, expeditious retreat, stone shape."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["alter self", "baleful polymorph", "blink", "disintegrate", "expeditious retreat", "stone shape"]
+  },
+  "cost_to_create": "12,500 gp, 1,000 XP, 25 days"
+},
+{
+  "id": "uniq_runestaff_of_transportation",
+  "name": "Runestaff of Transportation",
+  "category": "staff (held)",
+  "price_gp": 19000,
+  "item_level": 15,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) transmutation",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: blink, dimension door, teleport."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["blink", "dimension door", "teleport"]
+  },
+  "cost_to_create": "9,500 gp, 760 XP, 19 days"
+},
+{
+  "id": "uniq_runestaff_of_the_undead_slayer",
+  "name": "Runestaff of the Undead Slayer",
+  "category": "staff (held)",
+  "price_gp": 37000,
+  "item_level": 17,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) necromancy",
+  "activation": "As spell used",
+  "weight_lb": 5,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: death ward, detect undead, disrupting weapon, searing light, undeath to death."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["death ward", "detect undead", "disrupting weapon", "searing light", "undeath to death"]
+  },
+  "cost_to_create": "18,500 gp, 1,480 XP, 37 days"
+},
+{
+  "id": "uniq_runestaff_of_the_undying",
+  "name": "Runestaff of the Undying",
+  "category": "staff (held)",
+  "price_gp": 16000,
+  "item_level": 14,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) necromancy",
+  "activation": "As spell used",
+  "weight_lb": 5,
+  "effects": [
+    "Each 2/day by expending an arcane slot of equal or higher level: animate dead, create undead."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["animate dead", "create undead"]
+  },
+  "cost_to_create": "8,000 gp, 640 XP, 16 days"
+},
+{
+  "id": "uniq_runestaff_of_vision",
+  "name": "Runestaff of Vision",
+  "category": "staff (held)",
+  "price_gp": 16000,
+  "item_level": 14,
+  "body_slot": "— (held)",
+  "required_caster_level": 12,
+  "aura": "Strong; (DC 21) divination",
+  "activation": "As spell used",
+  "weight_lb": 4,
+  "effects": [
+    "Each 3/day by expending an arcane slot of equal or higher level: darkvision, see invisibility, true seeing."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Staff"],
+    "spells": ["darkvision", "see invisibility", "true seeing"]
+  },
+  "cost_to_create": "8,000 gp, 640 XP, 16 days"
+},
+{
+  "id": "uniq_sacred_scabbard",
+  "name": "Sacred Scabbard",
+  "category": "wondrous item",
+  "price_gp": 4400,
+  "item_level": 9,
+  "body_slot": "—",
+  "required_caster_level": 4,
+  "aura": "Faint; (DC 17) transmutation",
+  "activation": "Swift (command)",
+  "weight_lb": 1,
+  "effects": [
+    "Reshapes to fit any dagger, sword, or axe touched to it (including double weapons). Keeps the weapon clean and sharp.",
+    "3/day: as you draw the weapon, it gains bless weapon for 10 rounds.",
+    "Functions only for good-aligned characters."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["bless weapon"]
+  },
+  "cost_to_create": "2,200 gp, 176 XP, 5 days"
+},
+{
+  "id": "uniq_salve_minor_spell_resistance",
+  "name": "Salve of Minor Spell Resistance",
+  "category": "wondrous item (held, consumable)",
+  "price_gp": 1350,
+  "item_level": 5,
+  "body_slot": "— (held)",
+  "required_caster_level": 9,
+  "aura": "Moderate; (DC 19) abjuration",
+  "activation": "Full-round (manipulation)",
+  "weight_lb": 0.5,
+  "effects": [
+    "Upon application, you gain spell resistance 17 for 5 minutes."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["spell resistance"]
+  },
+  "cost_to_create": "675 gp, 54 XP, 2 days"
+},
+{
+  "id": "uniq_scepter_of_the_netherworld",
+  "name": "Scepter of the Netherworld",
+  "category": "wondrous item (held)",
+  "price_gp": 9000,
+  "item_level": 12,
+  "body_slot": "— (held)",
+  "required_caster_level": 10,
+  "aura": "Moderate; (DC 20) necromancy",
+  "activation": "—",
+  "weight_lb": 3,
+  "effects": [
+    "If you can turn or rebuke undead, while holding the scepter you do so as if your relevant class level were 3 higher."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Rod"],
+    "other": ["Ability to turn or rebuke undead"]
+  },
+  "cost_to_create": "4,500 gp, 360 XP, 9 days"
+},
+{
+  "id": "uniq_scrolls_of_uncertain_provenance_relic",
+  "name": "Scrolls of Uncertain Provenance [Relic]",
+  "category": "wondrous item (relic, held or not)",
+  "price_gp": 8000,
+  "item_level": 11,
+  "body_slot": "— or — (held)",
+  "required_caster_level": 20,
+  "aura": "Strong; (DC 25) necromancy",
+  "activation": "— or 1 hour; see text",
+  "weight_lb": 5,
+  "effects": [
+    "As long as you possess them and are LN, LE, LG, or N: +5 competence bonus on Knowledge checks.",
+    "Reading the scrolls (1 hour): DC 20 Knowledge (religion) check; +2 bonus per language you speak; spells such as read magic/comprehend languages and Decipher Script do not help.",
+    "On success, you accumulate hours toward one benefit: 1h—Renewal pact (self); 2h—Renewal pact (another); 3h—Death pact (self); 4h—Death pact (another); 6h—True resurrection (another) and the scrolls disappear.",
+    "Each hour of reading you must roll on a risk table (whether or not you gain a benefit): 01–10 go insane (insanity; Will DC 20 negates); 11–30 permanent curse (–4 to attack rolls, saves, ability checks, skill checks; Will DC 20 negates); 31–60 geas/quest for Wee Jas (Will DC 20 negates); 61–90 gain 1d6 negative levels (Fort DC 20 removes after 24h); 91–100 become a ghost for a year and a day (Fort DC 20 negates)."
+  ],
+  "relic_power": "Daily, spend 1 hour reading (with the above check and risks) to unlock renewal/death pacts or true resurrection as hours accumulate.",
+  "relic_attunement": "Worship Wee Jas and either sacrifice a 6th-level divine spell slot or have the True Believer feat and at least 11 HD.",
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item", "Sanctify Relic"],
+    "spells": ["death pact (SC 60)", "renewal pact (SC 173)", "true resurrection"]
+  },
+  "cost_to_create": "4,000 gp, 320 XP, 8 days"
+},
+{
+  "id": "uniq_scrying_beacon",
+  "name": "Scrying Beacon",
+  "category": "wondrous item (held)",
+  "price_gp": 750,
+  "item_level": 3,
+  "body_slot": "— (held)",
+  "required_caster_level": 5,
+  "aura": "Faint; (DC 17) divination",
+  "activation": "—; see text",
+  "effects": [
+    "Spend 1 minute to attune; the next clairaudience/clairvoyance you cast (while within 1 mile) is centered on the beacon. Then the beacon becomes dormant until you attune again."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["clairaudience/clairvoyance"]
+  },
+  "cost_to_create": "375 gp, 30 XP, 1 day"
+},
+{
+  "id": "uniq_scrying_shard",
+  "name": "Scrying Shard",
+  "category": "wondrous item (held)",
+  "price_gp": 1350,
+  "item_level": 5,
+  "body_slot": "— (held)",
+  "required_caster_level": 7,
+  "aura": "Moderate; (DC 18) divination",
+  "activation": "—",
+  "weight_lb": 1,
+  "effects": [
+    "Any character can cast scrying using the shard as a focus."
+  ],
+  "prerequisites": {
+    "feats": ["Craft Wondrous Item"],
+    "spells": ["scrying"]
+  },
+  "cost_to_create": "675 gp, 54 XP, 2 days"
+}
+
   ]
 }
