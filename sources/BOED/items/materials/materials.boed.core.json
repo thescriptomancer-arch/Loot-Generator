@@ -1,0 +1,92 @@
+{
+  "fields": [
+    "id",
+    "name",
+    "applies_to",
+    "cost_mod",
+    "stats_mod",
+    "constraints",
+    "source",
+    "source_page"
+  ],
+  "rows": [
+    {
+      "id": "BOED_MAT_aurorum",
+      "name": "Aurorum",
+      "applies_to": ["weapon", "armor", "shield"],
+      "cost_mod": "+4,000 gp market price modifier",
+      "stats_mod": [
+        "If sundered, reform by bringing fragments together (full-round action); restores to prior state",
+        "Hit points and hardness as steel"
+      ],
+      "constraints": null,
+      "source": "BoED",
+      "source_page": "BoED p.36–37"
+    },
+    {
+      "id": "BOED_MAT_frystalline",
+      "name": "Frystalline",
+      "applies_to": ["weapon"],
+      "cost_mod": "+2,000 gp market price modifier (weapon)",
+      "stats_mod": [
+        "Weapon counts as good-aligned for overcoming damage reduction",
+        "Hardness 10; 15 hp per inch"
+      ],
+      "constraints": null,
+      "source": "BoED",
+      "source_page": "BoED p.36–37"
+    },
+    {
+      "id": "BOED_MAT_moonblood",
+      "name": "Moonblood",
+      "applies_to": ["armor"],
+      "cost_mod": "1,500 gp per application",
+      "stats_mod": [
+        "+2 sacred bonus to AC for 1 day when properly applied (DC 22 Craft (painting), 1 hour)",
+        "Evil creature that touches it takes 1d6 damage"
+      ],
+      "constraints": "Warpaint; not an equipment material per se",
+      "source": "BoED",
+      "source_page": "BoED p.37"
+    },
+    {
+      "id": "BOED_MAT_serren",
+      "name": "Serren",
+      "applies_to": ["weapon"],
+      "cost_mod": "+4,000 gp market price modifier (one bow or 50 arrows/bolts)",
+      "stats_mod": [
+        "Bows/arrows/bolts gain ghost touch (nonmagical property)",
+        "Hit points and hardness as wood"
+      ],
+      "constraints": null,
+      "source": "BoED",
+      "source_page": "BoED p.37–38"
+    },
+    {
+      "id": "BOED_MAT_solarian_truesteel",
+      "name": "Solarian Truesteel",
+      "applies_to": ["weapon"],
+      "cost_mod": "+1,000 gp market price modifier (weapon)",
+      "stats_mod": [
+        "+1 bonus on confirmation rolls for critical hits",
+        "Hardness 11; 25 hp per inch"
+      ],
+      "constraints": null,
+      "source": "BoED",
+      "source_page": "BoED p.38"
+    },
+    {
+      "id": "BOED_MAT_ysgardian_heartwire",
+      "name": "Ysgardian Heartwire",
+      "applies_to": ["armor"],
+      "cost_mod": "+1,500 gp market price modifier (eligible armors only)",
+      "stats_mod": [
+        "+2 AC for purposes of confirming critical hits (reinforced vital areas)",
+        "No weight increase"
+      ],
+      "constraints": "Only for chain shirts, chainmail, or heavy armors",
+      "source": "BoED",
+      "source_page": "BoED p.38"
+    }
+  ]
+}
