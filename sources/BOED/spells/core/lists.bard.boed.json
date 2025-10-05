@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "source": "BoED v3.5",
+  "chapter": "Magic",
+  "section": "Bard Spell List (BoED)",
+  "fields": [
+    "spell_id",
+    "level"
+  ],
+  "rows": [
+    {
+      "spell_id": "BOED_SPELL_dolorous_motes",
+      "level": 4
+    },
+    {
+      "spell_id": "BOED_SPELL_eladrin_form",
+      "level": 2
+    },
+    {
+      "spell_id": "BOED_SPELL_faerinaal_s_hymn",
+      "level": 2
+    },
+    {
+      "spell_id": "BOED_SPELL_inspired_aim",
+      "level": 4
+    },
+    {
+      "spell_id": "BOED_SPELL_ray_of_hope",
+      "level": 1
+    },
+    {
+      "spell_id": "BOED_SPELL_refreshment",
+      "level": 3
+    },
+    {
+      "spell_id": "BOED_SPELL_telepathy_block",
+      "level": 5
+    }
+  ]
+}

@@ -1,0 +1,2602 @@
+{
+  "schema_version": "1.0",
+  "source": "BoED v3.5",
+  "chapter": "Spells",
+  "section": "Sanctified/Exalted Spells (Master)",
+  "fields": [
+    "id",
+    "name",
+    "school",
+    "subschool",
+    "descriptors",
+    "levels",
+    "components",
+    "casting_time",
+    "range",
+    "target",
+    "area",
+    "duration",
+    "saving_throw",
+    "spell_resistance",
+    "short_description",
+    "source_ref"
+  ],
+  "rows": [
+    {
+      "id": "BOED_SPELL_amber_sarcophagus",
+      "name": "Amber Sarcophagus",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "wizard": 7,
+        "sorcerer": 7
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One creature",
+      "area": null,
+      "duration": "1 day/level",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Amber Sarcophagus\nEvocation\nLevel: Sorcerer/wizard 7\nComponents: V,  S,  M\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": "2 or more summoned creatures,"
+    },
+    {
+      "id": "BOED_SPELL_aspect_of_the_deity",
+      "name": "Aspect of the Deity",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "apostle_of_peace": 6,
+        "herald": 7
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Personal",
+      "target": "You",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Aspect of the Deity\nTransmutation [Good]\nLevel: Apostle of peace 6, exalted arcan-\nist 6, Herald 7\nAslesser aspect of the deity , but you take on\nall the qualities of a celestial creature\n(see the Monster Manual for complete\ndetails):• You take on a shining, metallic\nappearance.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_axiomatic_creature",
+      "name": "Axiomatic Creature",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "cleric": 8,
+        "wizard": 8,
+        "sorcerer": 8
+      },
+      "components": [
+        "V",
+        "S",
+        "M",
+        "XP",
+        "Archon"
+      ],
+      "casting_time": "1 round",
+      "range": "Touch",
+      "target": "One corporeal creature of",
+      "area": null,
+      "duration": "Permanent",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Axiomatic Creature\nTransmutation\nLevel: Cleric 8, sorcerer/wizard 8\nComponents: V , S, M, XP , Archon\nCasting Time: 1 round\nRange: Touch\nTarget: One corporeal creature of\nlawful or neutral alignment that is\nnative to the Material Plane\nDuration: Permanent\nSaving Throw: Fortitude negates\n(harmless)\nSpell Resistance: Yes (harmless)\nThis spell transforms the target into an\naxiomatic creature—a perfect versionof itself.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_ayailla_s_radiant_burst",
+      "name": "Ayailla’s Radiant Burst",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sanctified": 2
+      },
+      "components": [
+        "V",
+        "S",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "60 ft.",
+      "target": null,
+      "area": "Cone-shaped burst",
+      "duration": "Instantaneous",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes",
+      "short_description": "Ayailla’s Radiant Burst\nEvocation [Good]\nLevel: Sanctified 2\nComponents: V , S, Sacrifice\nCasting Time: 1 standard action\nRange: 60 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_blessed_sight",
+      "name": "Blessed Sight",
+      "school": "Divination",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "celestial": 3
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Personal",
+      "target": "You",
+      "area": null,
+      "duration": "1 minute/level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Blessed Sight\nDivinationLevel: Apostle of peace 3, champion of\nGwynharwyf 3, cleric 3, paladin 3,Celestial 3, slayer of Domiel 3\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 minute/level (D)\nThis spell makes your eyes glow with\nwhite light and allows you to see evilauras within 120 feet of you.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_blinding_beauty",
+      "name": "Blinding Beauty",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "fey": 4
+      },
+      "components": [
+        "V",
+        "S",
+        "Abstinence"
+      ],
+      "casting_time": "1 standard actionRange: Personal",
+      "range": null,
+      "target": "You",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Blinding Beauty\nTransmutation [Good]Level: Beloved of Valarian 4, bard 4,\ndruid 4, Fey 4, ranger 4\nComponents: V , S, Abstinence\nCasting Time: 1 standard actionRange: Personal\nTarget: You\nDuration: 1 round/level\nYou gain the physical beauty of a\nnymph, with some of the supernaturalaccompaniment.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_blinding_glory",
+      "name": "Blinding Glory",
+      "school": "Conjuration",
+      "subschool": "Creation",
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "glory": 9,
+        "sorcerer": 9,
+        "wizard": 9
+      },
+      "components": [
+        "V",
+        "S",
+        "M/DF"
+      ],
+      "casting_time": "1 hour",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": null,
+      "area": "100-ft./level radius spread, cen-",
+      "duration": "1 hour/level",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Blinding Glory\nConjuration (Creation) [Good]Level: Glory 9, sorcerer/wizard 9\nComponents: V , S, M/DF\nCasting Time: 1 hour\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_blood_of_the_martyr",
+      "name": "Blood of the Martyr",
+      "school": "Necromancy",
+      "subschool": "Healing",
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 4,
+        "paladin": 4
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Medium (100 ft. + 10 ft./level)",
+      "target": "Willing creature",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Blood of the Martyr\nNecromancy (Healing) [Good]Level: Apostle of peace 4, champion of\nGwynharwyf 4, cleric 4, paladin 4\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_bolt_of_glory",
+      "name": "Bolt of Glory",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "glory": 6
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./level)",
+      "target": null,
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Bolt of Glory\nEvocation [Good]Level: Exalted arcanist 6, Glory 6\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": "Ray"
+    },
+    {
+      "id": "BOED_SPELL_brilliant_emanation",
+      "name": "Brilliant Emanation",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sanctified": 3,
+        "cleric": 3
+      },
+      "components": [
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "100 ft. + 10 ft./level",
+      "target": null,
+      "area": "100-ft.-radius emanation + 10-ft.",
+      "duration": "1d4 rounds",
+      "saving_throw": "Fortitude partial",
+      "spell_resistance": "Yes",
+      "short_description": "Brilliant Emanation\nEvocation [Good]\nLevel: Sanctified 3\nComponents: Sacrifice\nCasting Time: 1 standard action\nRange: 100 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_call_faithful_servants",
+      "name": "Call Faithful Servants",
+      "school": "Conjuration",
+      "subschool": "Calling",
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "celestial": 6,
+        "cleric": 6
+      },
+      "components": [
+        "V",
+        "S",
+        "Abstinence"
+      ],
+      "casting_time": "1 minute",
+      "range": "Close (25 ft. + 5 ft./2",
+      "target": null,
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Call Faithful Servants\nConjuration (Calling) [Good]\nLevel: Celestial 6, cleric 6,\nsorcerer/wizard 5\nComponents: V , S, Abstinence,\nCelestial\nCasting Time: 1 minute\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": "1d4 lantern archons, coure"
+    },
+    {
+      "id": "BOED_SPELL_call_mount",
+      "name": "Call Mount",
+      "school": "Conjuration",
+      "subschool": "Calling",
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "paladin": 2
+      },
+      "components": [
+        "V"
+      ],
+      "casting_time": "1 round",
+      "range": "10 ft.",
+      "target": null,
+      "area": null,
+      "duration": "1 hour/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Call Mount\nConjuration (Calling) [Good]Level: Paladin 2\nComponents: V\nCasting Time: 1 round\nRange: 10 ft.",
+      "source_ref": "BoED",
+      "effect": "Your special mount"
+    },
+    {
+      "id": "BOED_SPELL_celestial_aspect",
+      "name": "Celestial Aspect",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "apostle_of_peace": 6,
+        "cleric": 3,
+        "sanctified": 3
+      },
+      "components": [
+        "V",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One creature touched",
+      "area": null,
+      "duration": "1 minute/level",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Celestial Aspect\nTransmutation [Good]Level: Sanctified 3\nComponents: V , Sacrifice\nCasting Time: 1 standard action\nRange: Touch\nTarget: One creature touched\nDuration: 1 minute/level\nSaving Throw: Fortitude negates\n(harmless); see text\nSpell Resistance: Yes (harmless)\nThe target can assume one of several\ncelestial traits, chosen from selectionbelow.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_celestial_brilliance",
+      "name": "Celestial Brilliance",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good",
+        "Light"
+      ],
+      "levels": {
+        "cleric": 5,
+        "joy": 5,
+        "glory": 4
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Object touched",
+      "area": "40-ft.-radius spread centered on",
+      "duration": "1 day/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Celestial Brilliance\nEvocation [Good, Light]Level: Cleric 4, Glory 4,\nsorcerer/wizard 4\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Touch\nTarget: Object touched\nDuration: 1 day/level (D)\nSaving Throw: None\nSpell Resistance: No\nThe object touched sheds light brighter\nthan bright sunlight, channeled directlyfrom the celestial realms.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_channel_celestial",
+      "name": "Channel Celestial",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sanctified": 7,
+        "cleric": 7
+      },
+      "components": [
+        "V",
+        "DF",
+        "Abstinence",
+        "Sacri-"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "You and 1 willing celestial",
+      "area": null,
+      "duration": "10 minutes/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Channel Celestial\nTransmutation [Good]\nLevel: Sanctified 7\nComponents: V , DF, Abstinence, Sacri-\nfice\nCasting Time: 1 standard action\nRange: Touch\nTarget: You and 1 willing celestial\nDuration: 10 minutes/level (D)\nSaving Throw: None\nSpell Resistance: No\nYou invite a celestial creature to occupy\nyour body, as described in the section onCelestial Channeling in Chapter 2.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_channel_greater_celestial",
+      "name": "Channel Greater Celestial",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 9,
+        "sanctified": 9
+      },
+      "components": [
+        "V",
+        "DF",
+        "Abstinence",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "You and 1 willing celestial",
+      "area": null,
+      "duration": "10 minutes/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Channel Greater Celestial\nTransmutation [Good]Level: Sanctified 9\nAschannel celestial, but the celestial you\nchannel may have up to 24 HD.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_constricting_chains",
+      "name": "Constricting Chains",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sanctified": 7
+      },
+      "components": [
+        "V",
+        "S",
+        "F",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Medium (100 ft. + 10 ft./level)",
+      "target": "One creature",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Constricting Chains\nEvocation [Good]\nLevel: Sanctified 7\nComponents: V , S, F, Sacrifice\nCasting Time: 1 standard action\nRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_convert_wand",
+      "name": "Convert Wand",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "cleric": 5
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Wand touched",
+      "area": "20-ft.-radius emanation, centered",
+      "duration": "1 minute/level",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Convert Wand\nTransmutation\nLevel: Cleric 5\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Touch\nTarget: Wand touched\nDuration: 1 minute/level\nSaving Throw: None\nSpell Resistance: No\nThis spell temporarily transforms a\nmagic wand of any type into a healingwand with the same number of chargesremaining.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_crown_of_flame",
+      "name": "Crown of Flame",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "gl": 8,
+        "y": 8,
+        "herald": 8,
+        "glory": 5
+      },
+      "components": [
+        "V",
+        "Archon"
+      ],
+      "casting_time": "1 standard action",
+      "range": "10 ft.",
+      "target": null,
+      "area": "10-ft.-radius emanation, centered",
+      "duration": "1 minute/level",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Crown of Flame\nEvocation [Good]Level: Cleric 5, exalted arcanist 5,\nGlory 5\nComponents: V , Archon\nCasting Time: 1 standard action\nRange: 10 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_cry_of_ysgard",
+      "name": "Cry of Ysgard",
+      "school": "Conjuration",
+      "subschool": "Calling",
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 7,
+        "sanctified": 7
+      },
+      "components": [
+        "V",
+        "Sacrifice"
+      ],
+      "casting_time": "1 round",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": null,
+      "area": null,
+      "duration": "Instantaneous; see text",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Cry of Ysgard\nConjuration (Calling) [Good]Level: Sanctified 7\nComponents: V , Sacrifice\nCasting Time: 1 round\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": "Calls 2d4 bariaur defenders of"
+    },
+    {
+      "id": "BOED_SPELL_curtain_of_light",
+      "name": "Curtain of Light",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Light"
+      ],
+      "levels": {
+        "sanctified": 5,
+        "cleric": 5
+      },
+      "components": [
+        "V",
+        "S",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Medium (100 ft. + 10 ft./level)",
+      "target": null,
+      "area": null,
+      "duration": "1 round/level (D)",
+      "saving_throw": "See text",
+      "spell_resistance": "No",
+      "short_description": "Curtain of Light\nEvocation [Light]\nLevel: Sanctified 5\nComponents: V , S, Sacrifice\nCasting Time: 1 standard action\nRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": "Curtain of light whose area is"
+    },
+    {
+      "id": "BOED_SPELL_dancing_web",
+      "name": "Dancing Web",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 5,
+        "druid": 5
+      },
+      "components": [
+        "V",
+        "S",
+        "M/DF"
+      ],
+      "casting_time": "1 standard actionRange: Medium (100 ft. + 10 ft./level)",
+      "range": null,
+      "target": null,
+      "area": "20-ft.-radius burst",
+      "duration": "Instantaneous",
+      "saving_throw": "Reflex half; see text",
+      "spell_resistance": "Yes",
+      "short_description": "Dancing Web\nEvocation [Good]\nLevel: Cleric 5, druid 5, sorcerer/\nwizard 4\nComponents: V , S, M/DF\nCasting Time: 1 standard actionRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_diamond_spray",
+      "name": "Diamond Spray",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sanctified": 4
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 standard action",
+      "range": "60 ft.",
+      "target": null,
+      "area": "Cone-shaped burst",
+      "duration": "Instantaneous",
+      "saving_throw": "Reflex half",
+      "spell_resistance": "Yes",
+      "short_description": "Diamond Spray\nEvocation [Good]Level: Sanctified 4\nComponents: V,  S,  M\nCasting Time: 1 standard action\nRange: 60 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_distilled_joy",
+      "name": "Distilled Joy",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "joy": 3,
+        "sorcerer": 3,
+        "wizard": 3
+      },
+      "components": [
+        "V",
+        "S",
+        "F"
+      ],
+      "casting_time": "1 day",
+      "range": "Touch",
+      "target": "One living creature",
+      "area": null,
+      "duration": "Permanent",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes (harmless)You draw forth the material essence of joy",
+      "short_description": "Distilled Joy\nTransmutationLevel: Joy 3, sorcerer/wizard 3\nComponents: V,  S,  F\nCasting Time: 1 day\nRange: Touch\nTarget: One living creature\nDuration: Permanent\nSaving Throw: Fortitude negates\n(harmless)\nSpell Resistance: Yes (harmless)You draw forth the material essence of joy\nfrom a creature experiencing great bliss.This physical manifestation of joy, calledambrosia, can be used in the creation ofgood magic items, as a special spell com-ponent, or as a druglike substance (with\nno addictive qualities).",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_divine_inspiration",
+      "name": "Divine Inspiration",
+      "school": "Divination",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "champion_of_gwynharwyf": 1,
+        "cleric": 1,
+        "sanctified": 1
+      },
+      "components": [
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One creature touched",
+      "area": null,
+      "duration": "1d4 rounds",
+      "saving_throw": "None",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Divine Inspiration\nDivinationLevel: Sanctified 1\nComponents: Sacrifice\nCasting Time: 1 standard action\nRange: Touch\nTarget: One creature touched\nDuration: 1d4 rounds\nSaving Throw: None\nSpell Resistance: Yes (harmless)\nThis spell helps to tip the momentum of\ncombat in the favor of good, grantinglimited precognitive ability that enablesthe spell’s recipient to circumvent thedefenses of evil opponents.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_dolorous_motes",
+      "name": "Dolorous Motes",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [],
+      "levels": {
+        "bard": 4,
+        "wizard": 3,
+        "sorcerer": 3
+      },
+      "components": [
+        "V",
+        "S",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Long (400 ft. + 40 ft./level)",
+      "target": "Creature touched",
+      "area": null,
+      "duration": "1 round/level (D)",
+      "saving_throw": "Will negates; see text",
+      "spell_resistance": "Yes",
+      "short_description": "Dolorous Motes\nEnchantment (Compulsion) [Mind-\nAffecting]\nLevel: Bard 4, sorcerer/wizard 3\nComponents: V , S, Sacrifice\nCasting Time: 1 standard action\nRange: Long (400 ft.",
+      "source_ref": "BoED",
+      "effect": "1 10-ft. cube/level"
+    },
+    {
+      "id": "BOED_SPELL_eladrin_form",
+      "name": "Eladrin Form",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "bard": 2,
+        "cleric": 2
+      },
+      "components": [
+        "V"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Personal",
+      "target": "You",
+      "area": null,
+      "duration": "1 round/level (D)",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Eladrin Form\nTransmutation [Good]Level: Sorcerer/wizard 7\nComponents: V\nCasting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 round/level (D)\nYou assume the form of an incorporeal\nglobe of eldritch colors, 5 feet in diame-ter.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_emerald_burst",
+      "name": "Emerald Burst",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sorcerer": 5,
+        "wizard": 5
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": null,
+      "area": "20-ft.-radius burst",
+      "duration": "Instantaneous",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes",
+      "short_description": "Emerald Burst\nEvocation [Good]Level: Sorcerer/wizard 5\nComponents: V,  S,  M\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_empyreal_ecstasy",
+      "name": "Empyreal Ecstasy",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "pleasure": 7
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 round",
+      "range": "30 ft.",
+      "target": "One creature/level",
+      "area": null,
+      "duration": "1 minute/level (D)",
+      "saving_throw": "Will negates",
+      "spell_resistance": "Yes",
+      "short_description": "Empyreal Ecstasy\nAbjurationLevel: Bard 6, Pleasure 7\nComponents: V , S, DF\nCasting Time: 1 round\nRange: 30 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_end_to_strife",
+      "name": "End to Strife",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [],
+      "levels": {
+        "apostle_of_peace": 9,
+        "cleric": 9
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "80 ft.",
+      "target": null,
+      "area": "80-ft.-radius emanation, centered",
+      "duration": "1 round/level",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "End to Strife\nEnchantment (Compulsion) [Mind-\nAffecting]\nLevel: Apostle of peace 9, cleric 9\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: 80 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_energetic_healing",
+      "name": "Energetic Healing",
+      "school": "Conjuration",
+      "subschool": "Healing",
+      "descriptors": [],
+      "levels": {
+        "apostle_of_peace": 5,
+        "cleric": 5,
+        "druid": 5
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One living creature touched",
+      "area": null,
+      "duration": "10 minutes/level or until discharged",
+      "saving_throw": "None",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Energetic Healing\nConjuration (Healing)Level: Apostle of peace 5, cleric 5,\ndruid 5Components: V , S, DF\nCasting Time: 1 standard action\nRange: Touch\nTarget: One living creature touched\nDuration: 10 minutes/level or until\ndischarged\nSaving Throw: None\nSpell Resistance: Yes (harmless)\nThis spell converts magical energy\ndamage into healing power.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_energize_potion",
+      "name": "Energize Potion",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "cleric": 3,
+        "druid": 3
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": null,
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "Reflex half",
+      "spell_resistance": "Yes",
+      "short_description": "Energize Potion\nTransmutationLevel: Cleric 3, druid 3,\nsorcerer/wizard 2, Wrath 2\nComponents: V,  S,  M\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": "10-ft.-radius burst"
+    },
+    {
+      "id": "BOED_SPELL_estanna_s_stew",
+      "name": "Estanna’s Stew",
+      "school": "Conjuration",
+      "subschool": "Healing",
+      "descriptors": [],
+      "levels": {
+        "cleric": 2,
+        "druid": 2,
+        "paladin": 2
+      },
+      "components": [
+        "V",
+        "S",
+        "F"
+      ],
+      "casting_time": "1 round",
+      "range": "0 ft.",
+      "target": null,
+      "area": null,
+      "duration": "Instantaneous (see text)",
+      "saving_throw": "Will half (harmless);",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Estanna’s Stew\nConjuration (Healing)\nLevel: Cleric 2, druid 2, paladin 2\nComponents: V,  S,  F\nCasting Time: 1 round\nRange: 0 ft.",
+      "source_ref": "BoED",
+      "effect": "Fills pot with healing stew (1"
+    },
+    {
+      "id": "BOED_SPELL_exalted_fury",
+      "name": "Exalted Fury",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 9,
+        "sanctified": 9
+      },
+      "components": [
+        "V",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "40 ft.",
+      "target": "Robe, garment, or outfit",
+      "area": "40-ft. radius burst, centered on you",
+      "duration": "Instantaneous",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Exalted Fury\nEvocation [Good]Level: Sanctified 9\nComponents: V , Sacrifice\nCasting Time: 1 standard action\nRange: 40 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_eyes_of_the_avoral",
+      "name": "Eyes of the Avoral",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "apostle_of_peace": 1
+      },
+      "components": [
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One creature",
+      "area": null,
+      "duration": "10 minutes/level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": null,
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_faerinaal_s_hymn",
+      "name": "Faerinaal’s Hymn",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [],
+      "levels": {
+        "bard": 2
+      },
+      "components": [
+        "V"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)Targets: Up to one evil creature/level",
+      "target": null,
+      "area": null,
+      "duration": "Concentration",
+      "saving_throw": "Will negates",
+      "spell_resistance": "Yes",
+      "short_description": "Faerinaal’s Hymn\nEnchantment (Compulsion) [Good,\nMind-Affecting]\nLevel: Bard 2\nComponents: V\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_glorious_raiment",
+      "name": "Glorious Raiment",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "apostle_of_peace": 2,
+        "gl": 2,
+        "y": 2,
+        "glory": 2
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Robe, garment, or outfit",
+      "area": null,
+      "duration": "1 minute/level",
+      "saving_throw": "Will negates (harmless,",
+      "spell_resistance": "Yes (harmless,",
+      "short_description": "Glorious Raiment\nAbjuration [Good]\nLevel: Apostle of peace 2, Glory 2\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: Touch\nTarget: Robe, garment, or outfit\ntouched\nDuration: 1 minute/level\nSaving Throw: Will negates (harmless,\nobject)\nSpell Resistance: Yes (harmless,\nobject)\nYou imbue a robe, priestly garment, or\noutfit of regular clothing with divinepower.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_glory_of_the_martyr",
+      "name": "Glory of the Martyr",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "champion_of_gwynharwyf": 4
+      },
+      "components": [
+        "V",
+        "S",
+        "F",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One creature/level",
+      "area": null,
+      "duration": "1 hour/level (D)",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Glory of the Martyr\nAbjuration [Good]\nLevel: Champion of Gwynharwyf 4,\npaladin 4\nComponents: V , S, F, DF\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_greater_status",
+      "name": "Greater Status",
+      "school": "Divination",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "sanctified": 3,
+        "community": 4
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One creature touched/3 levels",
+      "area": null,
+      "duration": "1 hour/level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Greater Status\nDivinationLevel: Apostle of peace 4, cleric 4,\nCommunity 4\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: Touch\nTargets: One creature touched/3 levels\nDuration: 1 hour/level\nSaving Throw: Will negates (harmless)\nSpell Resistance: Yes (harmless)\nAsstatus (described in the Player’s Hand-\nbook ), but you can also cast a limited\nselection of spells through the link, as ifyou were touching the target.",
+      "source_ref": "BoED",
+      "effect": "Magic warhammer of force"
+    },
+    {
+      "id": "BOED_SPELL_healing_touch",
+      "name": "Healing Touch",
+      "school": "Necromancy",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sorcerer": 3,
+        "wizard": 3
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Creature touched",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Healing Touch\nNecromancy [Good]Level: Sorcerer/wizard 3\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Touch\nTarget: Creature touched\nDuration: Instantaneous\nSaving Throw: Will negates (harmless)\nSpell Resistance: Yes (harmless)\nYou transfer some of your life essence to\nanother creature, healing it.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_heart_s_ease",
+      "name": "Heart’s Ease",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [],
+      "levels": {
+        "beloved_of_valarian": 3,
+        "cleric": 3,
+        "pleasure": 3
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One creature/level",
+      "area": null,
+      "duration": "Permanent",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Heart’s Ease\nEnchantment (Compulsion) [Mind-\nAffecting]\nLevel: Beloved of Valarian 3, cleric 3,\nPleasure 3Components: V , S, DF\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_heavenly_lightning",
+      "name": "Heavenly Lightning",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "celestial": 5
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "Up to one creature per 2 caster",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Heavenly Lightning\nEvocation [Good]Level: Celestial 5, exalted arcanist 5\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_heavenly_lightning_storm",
+      "name": "Heavenly Lightning Storm",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "celestial": 7
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": null,
+      "range": "Medium (100 ft. + 10 ft./level)",
+      "target": "Up to one creature per caster level",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Heavenly Lightning Storm\nEvocation [Good]Level: Celestial 7, exalted arcanist 7\nRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_heaven_s_trumpet",
+      "name": "Heaven’s Trumpet",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good",
+        "Sonic"
+      ],
+      "levels": {
+        "sanctified": 5
+      },
+      "components": [
+        "S",
+        "F",
+        "Archon"
+      ],
+      "casting_time": "1 standard action",
+      "range": "120 ft.",
+      "target": "One creature with an Intelli-",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes",
+      "short_description": "Heaven’s Trumpet\nEvocation [Good, Sonic]Level: Bard 6, cleric 7, emissary of\nBarachiel 4\nComponents: S, F, Archon\nCasting Time: 1 standard action\nRange: 120 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_inspired_aim",
+      "name": "Inspired Aim",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [
+        "Language-Dependent",
+        "Mind-Affect-ing"
+      ],
+      "levels": {
+        "bard": 4,
+        "cleric": 3,
+        "fey": 3,
+        "ranger": 3
+      },
+      "components": [
+        "V"
+      ],
+      "casting_time": "1 standard action",
+      "range": "40 ft.",
+      "target": "Allies with 40-ft.-radius ema-",
+      "area": null,
+      "duration": "Concentration",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Inspired Aim\nEnchantment (Compulsion)\n[Language-Dependent, Mind-Affect-ing]\nLevel: Bard 4, cleric 3, Fey 3, ranger 3\nComponents: V\nCasting Time: 1 standard action\nRange: 40 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_lantern_light",
+      "name": "Lantern Light",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good",
+        "Light"
+      ],
+      "levels": {
+        "cleric": 1,
+        "paladin": 1
+      },
+      "components": [
+        "S",
+        "Abstinence"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)CHAPTER 6:",
+      "target": null,
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Lantern Light\nEvocation [Good, Light]Level: Cleric 1, paladin 1, sorcerer/\nwizard 1, vassal of Bahamut 1\nComponents: S, Abstinence\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_last_judgment",
+      "name": "Last Judgment",
+      "school": "Necromancy",
+      "subschool": null,
+      "descriptors": [
+        "Death",
+        "Good"
+      ],
+      "levels": {
+        "cleric": 8,
+        "wizard": 8,
+        "sorcerer": 8
+      },
+      "components": [
+        "V",
+        "Celestial"
+      ],
+      "casting_time": "1 round",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One evil humanoid, monstrous",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "Will partial",
+      "spell_resistance": "Yes",
+      "short_description": "Last Judgment\nNecromancy [Death, Good]\nLevel: Cleric 8, sorcerer/wizard 8,\nWrath 8\nComponents: V , Celestial\nCasting Time: 1 round\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_leonal_s_roar",
+      "name": "Leonal’s Roar",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good",
+        "Sonic"
+      ],
+      "levels": {
+        "druid": 8
+      },
+      "components": [
+        "V"
+      ],
+      "casting_time": "1 standard action",
+      "range": "40 ft.",
+      "target": "Nongood creatures in a 40-ft.-",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "Fortitude partial",
+      "spell_resistance": "YesThis spell has the effect of a holy word,",
+      "short_description": "Leonal’s Roar\nEvocation [Good, Sonic]\nLevel: Druid 8\nComponents: V\nCasting Time: 1 standard action\nRange: 40 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_lastai_s_caress",
+      "name": "Lastai’s Caress",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [],
+      "levels": {
+        "cleric": 2,
+        "pleasure": 2
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One known evil creature",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Lastai’s Caress\nEnchantment (Compulsion) [Good,\nMind-Affecting]\nLevel: Cleric 2, Pleasure 2\nComponents: V,  S,  M\nCasting Time: 1 standard action\nRange: Touch\nTarget: One known evil creature\ntouched\nDuration: 1 round/level\nSaving Throw: None\nSpell Resistance: Yes\nYour gentle touch fills the target with\ntremendous feelings of love and com-\npassion, and has the power to unnerveand debilitate evil creatures.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_luminous_armor",
+      "name": "Luminous Armor",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "sanctified": 2,
+        "cleric": 2
+      },
+      "components": [
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One good creature touched",
+      "area": null,
+      "duration": "1 hour/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Luminous Armor\nAbjuration\nLevel: Sanctified 2\nComponents: Sacrifice\nCasting Time: 1 standard action\nRange: Touch\nTarget: One good creature touched\nDuration: 1 hour/level (D)\nSaving Throw: None\nSpell Resistance: Yes (harmless)\nThis spell, favored among eladrins visit-\ning the Material Plane, envelops thetarget in a protective, shimmering auraof light.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_mind_bond",
+      "name": "Mind Bond",
+      "school": "Divination",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "paladin": 2
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "Special mount",
+      "area": null,
+      "duration": "1 round/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Mind Bond\nDivinationLevel: Paladin 3\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_path_of_the_exalted",
+      "name": "Path of the Exalted",
+      "school": "Divination",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "cleric": 3,
+        "sanctified": 3
+      },
+      "components": [
+        "V",
+        "Abstinence"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Personal",
+      "target": null,
+      "area": null,
+      "duration": "1 decision; see text",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Path of the Exalted\nDivinationLevel: Sanctified 3\nComponents: V , Abstinence\nCasting Time: 1 standard action\nRange: Personal\nDuration: 1 decision; see text\nPath of the exalted allows the caster to con-\nsult her deity (or an agent of her deity) tohelp make a difficult decision.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_perfect_summons",
+      "name": "Perfect Summons",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sorcerer": 4,
+        "wizard": 4
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Medium (100 ft. + 10 ft./level)",
+      "target": null,
+      "area": "40-ft.-radius spread",
+      "duration": "1 hour/level",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Perfect Summons\nTransmutation [Good]Level: Sorcerer/wizard 4\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_phieran_s_resolve",
+      "name": "Phieran’s Resolve",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sanctified": 3
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "20 ft.",
+      "target": "One good creature/level in a",
+      "area": null,
+      "duration": "1 minute/level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Phieran’s Resolve\nAbjuration [Good]\nLevel: Sanctified 3\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: 20 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_phoenix_fire",
+      "name": "Phoenix Fire",
+      "school": "Necromancy",
+      "subschool": null,
+      "descriptors": [
+        "Fire",
+        "Good"
+      ],
+      "levels": {
+        "sanctified": 7
+      },
+      "components": [
+        "V",
+        "S",
+        "F",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "15 ft.",
+      "target": null,
+      "area": "15-ft.-radius spread, centered on",
+      "duration": "Instantaneous (see text)",
+      "saving_throw": "Reflex half (see text)",
+      "spell_resistance": "Yes (see text)",
+      "short_description": "Phoenix Fire\nNecromancy [Fire, Good]Level: Sanctified 7\nComponents: V , S, F, Sacrifice\nCasting Time: 1 standard action\nRange: 15 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_quickshift",
+      "name": "Quickshift",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 6,
+        "sorcerer": 6,
+        "wizard": 6
+      },
+      "components": [
+        "V",
+        "S",
+        "Celestial"
+      ],
+      "casting_time": "1 round",
+      "range": "Personal",
+      "target": "You",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Quickshift\nTransmutation [Good]Level: Cleric 6, sorcerer/wizard 6\nComponents: V , S, Celestial\nCasting Time: 1 round\nRange: Personal\nTarget: You\nDuration: 1 round/level\nFor the duration of this spell, the\ncaster’s teleport orgreater teleport spell-\nlike ability is quickened (as if enhancedwith the Quicken Spell feat).",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_radiant_fog",
+      "name": "Radiant Fog",
+      "school": "Conjuration",
+      "subschool": "Creation, Good",
+      "descriptors": [],
+      "levels": {
+        "sorcerer": 4,
+        "wizard": 4
+      },
+      "components": [
+        "V",
+        "S",
+        "Abstinence"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Medium (100 ft. + 10 ft./level)",
+      "target": null,
+      "area": null,
+      "duration": "1 minute/level",
+      "saving_throw": "Fortitude partial (see",
+      "spell_resistance": "Yes (see text)",
+      "short_description": "Radiant Fog\nConjuration (Creation, Good)Level: Sorcerer/wizard 4\nComponents: V , S, Abstinence\nCasting Time: 1 standard action\nRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": "Fog that spreads in a 20-ft."
+    },
+    {
+      "id": "BOED_SPELL_radiant_shield",
+      "name": "Radiant Shield",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Electricity",
+        "Good"
+      ],
+      "levels": {
+        "wrath": 4
+      },
+      "components": [
+        "V",
+        "S",
+        "Abstinence"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Personal",
+      "target": "You",
+      "area": null,
+      "duration": "1 round/level (D)",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Radiant Shield\nEvocation [Electricity, Good]Level: Sorcerer/wizard 4, Wrath 4\nComponents: V , S, Abstinence\nCasting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 round/level (D)\nA scintillating aura of white radiance\nwreathes you and causes damage to eachcreature that attacks you in melee.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_rain_of_black_tulips",
+      "name": "Rain of Black Tulips",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "druid": 9
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Long (400 ft. + 40 ft./level)",
+      "target": null,
+      "area": "Cylinder (80-ft. radius, 80 ft.",
+      "duration": null,
+      "saving_throw": "None (damage) and",
+      "spell_resistance": "Yes",
+      "short_description": "Rain of Black Tulips\nEvocation [Good]Level: Druid 9\nComponents: V,  S,  M\nCasting Time: 1 standard action\nRange: Long (400 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_rain_of_embers",
+      "name": "Rain of Embers",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Fire",
+        "Good"
+      ],
+      "levels": {
+        "sanctified": 7
+      },
+      "components": [
+        "V",
+        "S",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Medium (100 ft. + 10 ft./level)",
+      "target": null,
+      "area": "Cylinder (40-ft. radius, 120 ft.",
+      "duration": "1 round/level (D)",
+      "saving_throw": "Reflex half; see text",
+      "spell_resistance": "Yes",
+      "short_description": "Rain of Embers\nEvocation [Fire, Good]\nLevel: Sanctified 7\nComponents: V , S, Sacrifice\nCasting Time: 1 standard action\nRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_ray_of_hope",
+      "name": "Ray of Hope",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [],
+      "levels": {
+        "apostle_of_peace": 1,
+        "bard": 1
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One living creature",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Ray of Hope\nEnchantment (Compulsion) [Good,\nMind-Affecting]\nLevel: Apostle of peace 1, bard 1, cleric\n1, emissary of Barachiel 1\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_refreshment",
+      "name": "Refreshment",
+      "school": "Conjuration",
+      "subschool": "Healing",
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "apostle_of_peace": 3,
+        "bard": 3,
+        "endurance": 3
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "20 ft.Target: 20-ft.-radius burst centered on",
+      "target": null,
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": null,
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_remove_addiction",
+      "name": "Remove Addiction",
+      "school": "Conjuration",
+      "subschool": "Healing",
+      "descriptors": [],
+      "levels": {
+        "beloved_of_valarian": 2,
+        "cleric": 2
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One creature touched",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Remove Addiction\nConjuration (Healing)Level: Beloved of Valarian 2, cleric 2,\ndruid 2\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Touch\nTarget: One creature touched\nDuration: Instantaneous\nSaving Throw: Fortitude negates\n(harmless)\nSpell Resistance: Yes (harmless)\nRemove addiction cures all addictions that\nthe target suffers from (see Drugs in the\nBook of Vile Darkness for more informa-\ntion about addictions).",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_remove_fatigue",
+      "name": "Remove Fatigue",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "pleasure": 4
+      },
+      "components": [
+        "S"
+      ],
+      "casting_time": "10 minutes",
+      "range": "Touch",
+      "target": "Up to one living creature",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Remove Fatigue\nTransmutationLevel: Apostle of peace 4, cleric 4, Plea-\nsure 4\nComponents: S\nCasting Time: 10 minutes\nRange: Touch\nTarget: Up to one living creature\ntouched per two levels\nDuration: Instantaneous\nSaving Throw: Fortitude negates\n(harmless)\nSpell Resistance: Yes (harmless)\nThe creatures you touch gain the bene-\nfits of 8 hours of restful sleep.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_remove_nausea",
+      "name": "Remove Nausea",
+      "school": "Conjuration",
+      "subschool": "Healing",
+      "descriptors": [],
+      "levels": {
+        "apostle_of_peace": 3,
+        "cleric": 3
+      },
+      "components": [
+        "V",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Creature touched",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": null,
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_restore_soul_s_treasure",
+      "name": "Restore Soul’s Treasure",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "sanctified": 8
+      },
+      "components": [
+        "Sacrifice"
+      ],
+      "casting_time": "1 round",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "Disintegrated remains of one",
+      "area": null,
+      "duration": "Instantaneous",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Restore Soul’s Treasure\nTransmutationLevel: Sanctified 8\nComponents: Sacrifice\nCasting Time: 1 round\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_righteous_glare",
+      "name": "Righteous Glare",
+      "school": "Necromancy",
+      "subschool": null,
+      "descriptors": [
+        "Death",
+        "Good"
+      ],
+      "levels": {
+        "cleric": 7,
+        "sorcerer": 7,
+        "wizard": 7
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Personal",
+      "target": "You",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Righteous Glare\nNecromancy [Death, Good]Level: Cleric 7, sorcerer/wizard 7\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 1 round/level\nYou gain a supernatural gaze attack like\nthat of a ghaele eladrin.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_righteous_smite",
+      "name": "Righteous Smite",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "wrath": 7
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Medium (100 ft. + 10 ft./level)",
+      "target": null,
+      "area": "20-ft. radius spread",
+      "duration": "Instantaneous",
+      "saving_throw": "Will partial; see text",
+      "spell_resistance": "Yes",
+      "short_description": "Righteous Smite\nEvocation [Good]Level: Cleric 7, exalted arcanist 7,\nWrath 7\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_sacred_guardian",
+      "name": "Sacred Guardian",
+      "school": "Divination",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "apostle_of_peace": 5,
+        "cleric": 5
+      },
+      "components": [
+        "V",
+        "S",
+        "Celestial"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Object or willing creature",
+      "area": null,
+      "duration": "1 day/level",
+      "saving_throw": "None (see text)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Sacred Guardian\nDivinationLevel: Apostle of peace 5, cleric 5\nComponents: V , S, Celestial\nCasting Time: 1 standard action\nRange: Touch\nTarget: Object or willing creature\ntouched\nDuration: 1 day/level\nSaving Throw: None (see text)\nSpell Resistance: Yes (harmless)\nCelestials use sacred guardian to monitor\nthe location and condition of a creatureor object that has been placed in theircare.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_sacred_haven",
+      "name": "Sacred Haven",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "paladin": 4
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Creature touched",
+      "area": null,
+      "duration": "1 minute/level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Sacred Haven\nAbjurationLevel: Paladin 4\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: Touch\nTarget: Creature touched\nDuration: 1 minute/level\nSaving Throw: Will negates (harmless)\nSpell Resistance: Yes (harmless)\nYou shield one creature in a nimbus of\nholy light.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_sanctify_the_wicked",
+      "name": "Sanctify the Wicked",
+      "school": "Necromancy",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "sanctified": 9
+      },
+      "components": [
+        "V",
+        "S",
+        "F",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One evil creature",
+      "area": null,
+      "duration": "See text",
+      "saving_throw": "Will negates",
+      "spell_resistance": "YesThis spell tears the foul, corrupted soul",
+      "short_description": "Sanctify the Wicked\nNecromancy [Good]Level: Sanctified 9\nComponents: V , S, F, Sacrifice\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_second_wind",
+      "name": "Second Wind",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "paladin": 1
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Creature touched",
+      "area": null,
+      "duration": "1 hour/level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": null,
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_secure_corpse",
+      "name": "Secure Corpse",
+      "school": "Necromancy",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "cleric": 6
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": null,
+      "area": null,
+      "duration": "1 day/level (D)CHAPTER 6:",
+      "saving_throw": null,
+      "spell_resistance": "No",
+      "short_description": "Secure Corpse\nNecromancyLevel: Cleric 6\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": "Stores one creature’s corpse in"
+    },
+    {
+      "id": "BOED_SPELL_shield_of_the_archons",
+      "name": "Shield of the Archons",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "apostle_of_peace": 7,
+        "cleric": 7
+      },
+      "components": [
+        "V",
+        "Archon"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Personal",
+      "target": "You",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Shield of the Archons\nAbjuration [Good]Level: Apostle of peace 7, cleric 7\nComponents: V , Archon\nCasting Time: 1 standard action\nRange: Personal\nTarget: You\nEffect: Mobile shield\nDuration: 1 round/level\nA mystic shield of beneficent energies\ninterposes itself between you an incom-ing magical attack.",
+      "source_ref": "BoED",
+      "effect": "Mobile shield"
+    },
+    {
+      "id": "BOED_SPELL_sicken_evil",
+      "name": "Sicken Evil",
+      "school": "Necromancy",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 5,
+        "sanctified": 5
+      },
+      "components": [
+        "V",
+        "S",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Personal",
+      "target": null,
+      "area": "20-ft.-radius emanationDuration: 1 minute/level (D)",
+      "duration": null,
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Sicken Evil\nNecromancy [Good]Level: Sanctified 5\nComponents: V , S, Sacrifice\nCasting Time: 1 standard action\nRange: Personal\nArea: 20-ft.-radius emanationDuration: 1 minute/level (D)\nSaving Throw: None\nSpell Resistance: Yes\nYou emanate a powerful aura that sick-\nens evil creatures within the specifiedarea.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_silvered_claws",
+      "name": "Silvered Claws",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "druid": 1,
+        "ranger": 1
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One living creature touched",
+      "area": null,
+      "duration": "1 minute/level",
+      "saving_throw": "Will negates (harmless)",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Silvered Claws\nTransmutationLevel: Druid 1, ranger 1\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: Touch\nTarget: One living creature touched\nDuration: 1 minute/level\nSaving Throw: Will negates (harmless)\nSpell Resistance: Yes (harmless)\nThis spell allows the target to treat all of\nits natural attacks as silvered weapons.The spell affects slam attacks, fist orclaw attacks, bite attacks, and any other\nnatural weapons the target creature pos-\nsesses.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_silvered_weapon",
+      "name": "Silvered Weapon",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "paladin": 1,
+        "ranger": 2
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One weapon or projectile",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes (object, harm-",
+      "short_description": "Silvered Weapon\nTransmutation\nLevel: Paladin 1, ranger 2\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Touch\nTarget: One weapon or projectile\ntouched\nDuration: 1 round/level\nSaving Throw: Fortitude negates\n(object, harmless)\nSpell Resistance: Yes (object, harm-\nless)\nThis spell transforms a single weapon or\nprojectile you are holding into a silveredweapon.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_smite_heretic",
+      "name": "Smite Heretic",
+      "school": "Conjuration",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "paladin": 3
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Personal",
+      "target": "You",
+      "area": null,
+      "duration": "10 minutes/level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Smite Heretic\nConjuration\nLevel: Paladin 3\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: Personal\nTarget: You\nDuration: 10 minutes/level\nFor the duration of the spell, when using\nyour smite evil class ability against anevil creature with the ability to castdivine spells, you gain a +2 sacred bonuson the attack roll.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_spear_of_valarian",
+      "name": "Spear of Valarian",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "beloved_of_valarian": 4,
+        "druid": 5
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One nonmagical weapon",
+      "area": null,
+      "duration": "1 round/level (D)",
+      "saving_throw": "Fortitude negates",
+      "spell_resistance": "Yes (object, harm-",
+      "short_description": "Spear of Valarian\nTransmutationLevel: Beloved of Valarian 4, druid 5,\nranger 4\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Touch\nTarget: One nonmagical weapon\ntouched\nDuration: 1 round/level (D)\nSaving Throw: Fortitude negates\n(object, harmless)\nSpell Resistance: Yes (object, harm-\nless)\nThe spear of Valarian spell transforms\none nonmagical weapon into a shim-mering silver spear.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_spread_of_contentment",
+      "name": "Spread of Contentment",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [],
+      "levels": {
+        "cleric": 8,
+        "pleasure": 8
+      },
+      "components": [
+        "V",
+        "S",
+        "M107CHAPTER 6:"
+      ],
+      "casting_time": null,
+      "range": "Long (400 ft. + 40 ft./level)",
+      "target": null,
+      "area": null,
+      "duration": "1 hour/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Spread of Contentment\nEnchantment (Compulsion) [Mind-\nAffecting]\nLevel: Cleric 8, Pleasure 8\nComponents: V,  S,  M107CHAPTER 6:\nMAGIC\n<<<PAGE>>>108Casting Time: 1 hour\nRange: Long (400 ft.",
+      "source_ref": "BoED",
+      "effect": "10 ft./level-radius spread"
+    },
+    {
+      "id": "BOED_SPELL_starmantle",
+      "name": "Starmantle",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "wizard": 6,
+        "sorcerer": 6,
+        "joy": 7
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 standard",
+      "range": "Touch",
+      "target": "One living creature",
+      "area": null,
+      "duration": "1 minute/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Starmantle\nAbjurationLevel: Joy 7, sorcerer/wizard 6\nComponents: V,  S,  M\nCasting Time: 1 standard\naction\nRange: Touch\nTarget: One living creature\ntouched\nDuration: 1 minute/level (D)\nSaving Throw: None\nSpell Resistance: Yes (harmless)\nThis spell manifests as a draping cloak\nof tiny, cascading stars that seem toflicker out before touching the ground.The cloak forms over the target’s exist-ing apparel and sheds light as a torch,although this is not the mantle’s primaryfunction.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_storm_of_shards",
+      "name": "Storm of Shards",
+      "school": "Evocation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 6,
+        "sanctified": 6
+      },
+      "components": [
+        "V",
+        "S",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "0 ft.",
+      "target": null,
+      "area": "80-ft.-radius spread",
+      "duration": "InstantaneousCHAPTER 6:",
+      "saving_throw": null,
+      "spell_resistance": "Yes",
+      "short_description": "Storm of Shards\nEvocation [Good]Level: Sanctified 6\nComponents: V , S, Sacrifice\nCasting Time: 1 standard action\nRange: 0 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_sublime_revelry",
+      "name": "Sublime Revelry",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "cleric": 9,
+        "pleasure": 9
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 round",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One creature/level, no two of",
+      "area": null,
+      "duration": "1 minute/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Sublime Revelry\nAbjuration\nLevel: Cleric 9, Pleasure 9\nComponents: V , S, DF\nCasting Time: 1 round\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_sunmantle",
+      "name": "Sunmantle",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "sanctified": 4
+      },
+      "components": [
+        "S",
+        "Sacrifice"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "One creature touched",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": "None",
+      "spell_resistance": "Yes",
+      "short_description": "Sunmantle\nAbjurationLevel: Sanctified 4\nComponents: S, Sacrifice\nCasting Time: 1 standard action\nRange: Touch\nTarget: One creature touched\nDuration: 1 round/level\nSaving Throw: None\nSpell Resistance: Yes\nThis spell cloaks the target in a wavering\ncloak of light that illuminates an areaaround the target (and dispels darkness)as a daylight spell.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_sustain",
+      "name": "Sustain",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "champion_of_gwynharwyf": 4
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 round",
+      "range": "Touch",
+      "target": "Up to one living creature",
+      "area": null,
+      "duration": "6 hours/level",
+      "saving_throw": "None",
+      "spell_resistance": "Yes (harmless)",
+      "short_description": "Sustain\nTransmutationLevel: Apostle of peace 4, cleric 4,\nEndurance 4\nComponents: V,  S,  M\nCasting Time: 1 round\nRange: Touch\nTarget: Up to one living creature\ntouched/two levels\nDuration: 6 hours/level\nSaving Throw: None\nSpell Resistance: Yes (harmless)\nThis spell instantly relieves the nega-\ntive effects of hunger and thirst andallows the targets to go without food orwater for the duration of the spell, suf-fering no ill effects from the depriva-tion.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_telepathy_block",
+      "name": "Telepathy Block",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "bard": 5,
+        "cleric": 5,
+        "wizard": 5,
+        "sorcerer": 5
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": null,
+      "area": "80-ft.-radius emanation centered",
+      "duration": "1 round/level (D)",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Telepathy Block\nAbjuration\nLevel: Bard 5, cleric 5, sorcerer/wizard 5\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_tomb_of_light",
+      "name": "Tomb of Light",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 7,
+        "wizard": 7,
+        "sorcerer": 7
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 round",
+      "range": "Touch",
+      "target": "Evil extraplanar creature",
+      "area": null,
+      "duration": "Concentration",
+      "saving_throw": "Fortitude partial",
+      "spell_resistance": "Yes",
+      "short_description": "Tomb of Light\nTransmutation [Good]\nLevel: Cleric 7, sorcerer/wizard 7\nComponents: V,  S,  M\nCasting Time: 1 round\nRange: Touch\nTarget: Evil extraplanar creature\ntouched\nDuration: Concentration\nSaving Throw: Fortitude partial\nSpell Resistance: Yes\nWhen you cast this spell, you attempt to\ndraw out the impure substance of an evilextraplanar creature and replace it withyour own pure substance.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_touch_of_adamantine",
+      "name": "Touch of Adamantine",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "sanctified": 1
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Weapon touched",
+      "area": null,
+      "duration": "1 minute/level",
+      "saving_throw": "Will negates (object,",
+      "spell_resistance": "Yes (object, harm-",
+      "short_description": "Touch of Adamantine\nTransmutationLevel: Cleric 6, druid 6, sorcerer/wizard 5\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Touch\nTarget: Weapon touched\nDuration: 1 minute/level\nSaving Throw: Will negates (object,\nharmless)\nSpell Resistance: Yes (object, harm-\nless)\nThis spell grants one weapon the prop-\nerties of an adamantine weapon.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_unearthly_beauty",
+      "name": "Unearthly Beauty",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "fey": 8,
+        "druid": 8
+      },
+      "components": [
+        "V",
+        "S",
+        "Abstinence"
+      ],
+      "casting_time": null,
+      "range": "Personal",
+      "target": "You",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": null,
+      "spell_resistance": null,
+      "short_description": "Unearthly Beauty\nTransmutation [Good]Level: Druid 8, Fey 8\nAsblinding beauty, but at any time during\nthe duration of the spell, you can evoke\nan additional effect as a free action.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_valiant_steed",
+      "name": "Valiant Steed",
+      "school": "Conjuration",
+      "subschool": "Calling",
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "cleric": 6,
+        "sanctified": 6
+      },
+      "components": [
+        "V",
+        "S",
+        "Sacrifice"
+      ],
+      "casting_time": "1 hour",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": null,
+      "area": null,
+      "duration": "Instantaneous; see text",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Valiant Steed\nConjuration (Calling) [Good]Level: Sanctified 6\nComponents: V , S, Sacrifice\nCasting Time: 1 hour\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": "Calls 1 pegasus or unicorn"
+    },
+    {
+      "id": "BOED_SPELL_vanishing_weapon",
+      "name": "Vanishing Weapon",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "wizard": 5,
+        "sorcerer": 5
+      },
+      "components": [
+        "V",
+        "S"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Weapon touched",
+      "area": null,
+      "duration": "1 minute/level",
+      "saving_throw": "None; see text",
+      "spell_resistance": "No",
+      "short_description": "Vanishing Weapon\nAbjuration\nLevel: Sorcerer/wizard 5\nComponents: V,  S\nCasting Time: 1 standard action\nRange: Touch\nTarget: Weapon touched\nDuration: 1 minute/level\nSaving Throw: None; see text\nSpell Resistance: No\nThis spell encapsulates a weapon in a\nfaint blue glow.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_vengeance_halo",
+      "name": "Vengeance Halo",
+      "school": "Abjuration",
+      "subschool": null,
+      "descriptors": [
+        "Good"
+      ],
+      "levels": {
+        "wrath": 6
+      },
+      "components": [
+        "V",
+        "S",
+        "DF",
+        "Abstinence"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One good-aligned creature; see",
+      "area": null,
+      "duration": "1 minute/level",
+      "saving_throw": "None or Reflex half;",
+      "spell_resistance": "No",
+      "short_description": "Vengeance Halo\nAbjuration [Good]Level: Cleric 6, Wrath 6\nComponents: V , S, DF, Abstinence\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_vision_of_heaven",
+      "name": "Vision of Heaven",
+      "school": "Enchantment",
+      "subschool": null,
+      "descriptors": [
+        "Mind-Affecting"
+      ],
+      "levels": {
+        "celestial": 1,
+        "joy": 1
+      },
+      "components": [
+        "V"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One evil creature",
+      "area": null,
+      "duration": "1 round",
+      "saving_throw": "Will negates",
+      "spell_resistance": "Yes",
+      "short_description": "Vision of Heaven\nEnchantment [Mind-Affecting]Level: Apostle of peace 1, cleric 1,\nCelestial 1, exalted arcanist 1, Joy 1,slayer of Domiel 1\nComponents: V\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_wages_of_sin",
+      "name": "Wages of Sin",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [],
+      "levels": {
+        "wizard": 6,
+        "sorcerer": 6
+      },
+      "components": [
+        "V",
+        "Abstinence"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Medium (100 ft. + 10 ft/level)",
+      "target": "One evil creature/level",
+      "area": null,
+      "duration": "1 round/level",
+      "saving_throw": "Will negates",
+      "spell_resistance": "Yes",
+      "short_description": "Wages of Sin\nEnchantment (Compulsion) [Good,\nMind-Affecting]\nLevel: Sorcerer/wizard 6\nComponents: V , Abstinence\nCasting Time: 1 standard action\nRange: Medium (100 ft.",
+      "source_ref": "BoED",
+      "effect": "Cone-shaped burst"
+    },
+    {
+      "id": "BOED_SPELL_warding_gems",
+      "name": "Warding Gems",
+      "school": "Conjuration",
+      "subschool": "Healing",
+      "descriptors": [],
+      "levels": {
+        "cleric": 5
+      },
+      "components": [
+        "V",
+        "S",
+        "M"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": null,
+      "area": null,
+      "duration": "1 hour/level",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Warding Gems\nConjuration (Healing)Level: Cleric 5\nComponents: V,  S,  M\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": "1 gem/3 caster levels"
+    },
+    {
+      "id": "BOED_SPELL_winged_mount",
+      "name": "Winged Mount",
+      "school": "Transmutation",
+      "subschool": null,
+      "descriptors": [],
+      "levels": {
+        "paladin": 4
+      },
+      "components": [
+        "V",
+        "S",
+        "DF"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Touch",
+      "target": "Special mount touched",
+      "area": null,
+      "duration": "10 minutes/level",
+      "saving_throw": "None",
+      "spell_resistance": "No",
+      "short_description": "Winged Mount\nTransmutation\nLevel: Paladin 4\nComponents: V , S, DF\nCasting Time: 1 standard action\nRange: Touch\nTarget: Special mount touched\nDuration: 10 minutes/level\nSaving Throw: None\nSpell Resistance: No\nThis spell causes your mount to sprout\ngiant, feathery white wings.",
+      "source_ref": "BoED",
+      "effect": null
+    },
+    {
+      "id": "BOED_SPELL_yoke_of_mercy",
+      "name": "Yoke of Mercy",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "descriptors": [],
+      "levels": {
+        "apostle_of_peace": 2
+      },
+      "components": [
+        "V",
+        "Abstinence"
+      ],
+      "casting_time": "1 standard action",
+      "range": "Close (25 ft. + 5 ft./2 levels)",
+      "target": "One creature",
+      "area": null,
+      "duration": "1 round/levelSaving Throw: Will negates",
+      "saving_throw": null,
+      "spell_resistance": "No",
+      "short_description": "Yoke of Mercy\nEnchantment (Compulsion) [Good,\nMind-Affecting]\nLevel: Apostle of peace 2,\nsorcerer/wizard 2\nComponents: V , Abstinence\nCasting Time: 1 standard action\nRange: Close (25 ft.",
+      "source_ref": "BoED",
+      "effect": null
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "source": "BoED v3.5",
+  "chapter": "Magic",
+  "section": "Sorcerer_Wizard Spell List (BoED)",
+  "fields": [
+    "spell_id",
+    "level"
+  ],
+  "rows": [
+    {
+      "spell_id": "BOED_SPELL_amber_sarcophagus",
+      "level": 7
+    },
+    {
+      "spell_id": "BOED_SPELL_axiomatic_creature",
+      "level": 8
+    },
+    {
+      "spell_id": "BOED_SPELL_ayailla_s_radiant_burst",
+      "level": 2
+    },
+    {
+      "spell_id": "BOED_SPELL_blinding_glory",
+      "level": 9
+    },
+    {
+      "spell_id": "BOED_SPELL_brilliant_emanation",
+      "level": 3
+    },
+    {
+      "spell_id": "BOED_SPELL_celestial_aspect",
+      "level": 3
+    },
+    {
+      "spell_id": "BOED_SPELL_channel_celestial",
+      "level": 7
+    },
+    {
+      "spell_id": "BOED_SPELL_channel_greater_celestial",
+      "level": 9
+    },
+    {
+      "spell_id": "BOED_SPELL_constricting_chains",
+      "level": 7
+    },
+    {
+      "spell_id": "BOED_SPELL_cry_of_ysgard",
+      "level": 7
+    },
+    {
+      "spell_id": "BOED_SPELL_curtain_of_light",
+      "level": 5
+    },
+    {
+      "spell_id": "BOED_SPELL_diamond_spray",
+      "level": 4
+    },
+    {
+      "spell_id": "BOED_SPELL_distilled_joy",
+      "level": 3
+    },
+    {
+      "spell_id": "BOED_SPELL_divine_inspiration",
+      "level": 1
+    },
+    {
+      "spell_id": "BOED_SPELL_dolorous_motes",
+      "level": 3
+    },
+    {
+      "spell_id": "BOED_SPELL_emerald_burst",
+      "level": 5
+    },
+    {
+      "spell_id": "BOED_SPELL_exalted_fury",
+      "level": 9
+    },
+    {
+      "spell_id": "BOED_SPELL_greater_status",
+      "level": 3
+    },
+    {
+      "spell_id": "BOED_SPELL_healing_touch",
+      "level": 3
+    },
+    {
+      "spell_id": "BOED_SPELL_heaven_s_trumpet",
+      "level": 5
+    },
+    {
+      "spell_id": "BOED_SPELL_last_judgment",
+      "level": 8
+    },
+    {
+      "spell_id": "BOED_SPELL_luminous_armor",
+      "level": 2
+    },
+    {
+      "spell_id": "BOED_SPELL_path_of_the_exalted",
+      "level": 3
+    },
+    {
+      "spell_id": "BOED_SPELL_perfect_summons",
+      "level": 4
+    },
+    {
+      "spell_id": "BOED_SPELL_phieran_s_resolve",
+      "level": 3
+    },
+    {
+      "spell_id": "BOED_SPELL_phoenix_fire",
+      "level": 7
+    },
+    {
+      "spell_id": "BOED_SPELL_quickshift",
+      "level": 6
+    },
+    {
+      "spell_id": "BOED_SPELL_radiant_fog",
+      "level": 4
+    },
+    {
+      "spell_id": "BOED_SPELL_rain_of_embers",
+      "level": 7
+    },
+    {
+      "spell_id": "BOED_SPELL_restore_soul_s_treasure",
+      "level": 8
+    },
+    {
+      "spell_id": "BOED_SPELL_righteous_glare",
+      "level": 7
+    },
+    {
+      "spell_id": "BOED_SPELL_sanctify_the_wicked",
+      "level": 9
+    },
+    {
+      "spell_id": "BOED_SPELL_sicken_evil",
+      "level": 5
+    },
+    {
+      "spell_id": "BOED_SPELL_starmantle",
+      "level": 6
+    },
+    {
+      "spell_id": "BOED_SPELL_storm_of_shards",
+      "level": 6
+    },
+    {
+      "spell_id": "BOED_SPELL_sunmantle",
+      "level": 4
+    },
+    {
+      "spell_id": "BOED_SPELL_telepathy_block",
+      "level": 5
+    },
+    {
+      "spell_id": "BOED_SPELL_tomb_of_light",
+      "level": 7
+    },
+    {
+      "spell_id": "BOED_SPELL_touch_of_adamantine",
+      "level": 1
+    },
+    {
+      "spell_id": "BOED_SPELL_valiant_steed",
+      "level": 6
+    },
+    {
+      "spell_id": "BOED_SPELL_vanishing_weapon",
+      "level": 5
+    },
+    {
+      "spell_id": "BOED_SPELL_wages_of_sin",
+      "level": 6
+    }
+  ]
+}
