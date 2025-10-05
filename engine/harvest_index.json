@@ -37,8 +37,8 @@
         "sources/DMG/items/unique/unique_items.index.json",
         "sources/DMG/items/magic/weapon_special_abilities.core.json",
         "sources/DMG/items/magic/armor_special_abilities.core.json",
-        "sources/DMG/items/magic/intelligent/intelligent_item_tables.core.json",
-        "sources/DMG/items/magic/cursed/cursed_item_tables.core.json"
+        "sources/DMG/items/magic/intelligent_item_tables.core.json",
+        "sources/DMG/items/magic/cursed_item_tables.core.json"
       ]
     },
     {
