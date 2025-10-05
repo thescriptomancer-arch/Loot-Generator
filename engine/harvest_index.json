@@ -55,7 +55,7 @@
   ]
 },
       {
-  "book": "Dungeon Master's Guide II (DMG2 v3.5)",
+  "book": "DMG2 v3.5",
   "roots": ["sources/DMG2"],
   "load_order": [
     "sources/DMG2/items/magic/weapon_special_abilities.dmg2.core.json",
