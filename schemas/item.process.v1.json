@@ -26,7 +26,13 @@
             "cursed_item_check",
             "cursed_item_apply",
             "flavor",
-            "description_synth"
+            "description_synth",
+            "select_from_table",
+            "wondrous_effect_build",
+            "ring_effect_build",
+            "charges_roll",
+            "compound_ability_packaging",
+            "space_limitation_mod"
           ]},
           "inputs": { "type": "object" },
           "weights": { "type": "object" },
