@@ -1,0 +1,966 @@
+{
+  "schema_version": "1.0",
+  "source": "ALL",
+  "chapter": "Magic Items",
+  "section": "Item Sets (Aggregated)",
+  "fields": [
+    "id",
+    "name",
+    "description",
+    "collection_benefits",
+    "pieces",
+    "lore",
+    "additional_prereq_notes",
+    "sources"
+  ],
+  "rows": [
+    {
+      "id": "set_armor_watching_master",
+      "name": "Armor of the Watching Master",
+      "description": "Medium adamantine breastplate plus matching helm, gauntlets, and mask—all marked with staring eyes. Grants initiative, keen sight, and powers to frighten, blind, burn, and crush obstacles; full set pierces invisibility.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "You gain a +2 bonus on initiative checks."
+          ]
+        },
+        {
+          "pieces_required": 4,
+          "effects": [
+            "You gain a +5 competence bonus on Spot checks.",
+            "1/day as a standard action, speak the command word “Cabiri” to gain see invisibility for 3 minutes."
+          ],
+          "visual": "When all four pieces are worn, each item’s eye motif becomes bloodshot, yellow-pupiled, and roves on its own."
+        }
+      ],
+      "pieces": [
+        "uniq_awm_mask_of_mastery",
+        "uniq_awm_helm_of_wounding_sight",
+        "uniq_awm_gauntlets_of_destruction",
+        "uniq_awm_breastplate_of_terror"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (the planes)",
+            "Bardic knowledge"
+          ],
+          "text": "Founded by an elf paladin after planar travels; the Watchful Eyes order issued these to top members. The order collapsed a century ago; sets surface sporadically."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (the planes)",
+            "Bardic knowledge"
+          ],
+          "text": "Collapse tied to many paladins turning blackguard as their founder vanished; infighting ended the order."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (the planes)",
+            "Bardic knowledge"
+          ],
+          "text": "Tales say the founder fell first and hid her corruption; a barbarian/blackguard cult still wears pieces as a badge."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (the planes)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_array_manticore",
+      "name": "Array of the Manticore",
+      "description": "Sky-warrior’s ensemble honoring the manticore—bracers, gloves, helm, medallion, and winged vest. Rewards aerial combat with precision, protection, and mobility; the complete array calls a manticore ally.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "You are continually affected as by feather fall."
+          ]
+        },
+        {
+          "pieces_required": 5,
+          "effects": [
+            "2/day as a swift (mental) action, summon a manticore (as a summon monster effect) for 5 rounds.",
+            "The manticore has DR 10/magic and a +5 competence bonus on attack rolls.",
+            "Summoning a second manticore ends the first if still present.",
+            "Caster level 5th; you can negate or renew this power as a swift (mental) action."
+          ]
+        }
+      ],
+      "pieces": [
+        "uniq_aotm_bracers_of_aerial_combat",
+        "uniq_aotm_gloves_of_endless_javelins",
+        "uniq_aotm_medallion_of_aerial_defense",
+        "uniq_aotm_helm_of_the_hunter",
+        "uniq_aotm_winged_vest"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Crafted by a hobgoblin sorcerer for a bugbear manticore-rider bodyguard."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "After a siege, survivors split the set; discovering feather fall later led to strife and the array’s spread."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Legends tell of a spell to puppet the wearer and lock the items on—sought but never replicated."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_five_virtues",
+      "name": "Five Virtues",
+      "description": "Legendary implements of courage—armband, standard, medal, armor crystal, and shield—created to uphold honor, freedom, valor, vigilance, and sacrifice.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "You gain a +1 morale bonus on Will saves."
+          ],
+          "visual": "Your eyes shine and sparkle with bravery."
+        },
+        {
+          "pieces_required": 5,
+          "effects": [
+            "Adjacent allies gain a +1 bonus to AC."
+          ],
+          "visual": "When the Shield of Vigor is activated, all pieces take on a silvery sheen as if lit from a plane of valor."
+        }
+      ],
+      "pieces": [
+        "uniq_fv_armband_of_confrontation",
+        "uniq_fv_standard_of_valor",
+        "uniq_fv_medal_of_steadfast_honor",
+        "uniq_fv_crystal_of_alacrity",
+        "uniq_fv_shield_of_vigor"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (nobility and royalty)",
+            "Bardic knowledge"
+          ],
+          "text": "An ancient illithid-fighting order embodied its five virtues in these items."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (nobility and royalty)",
+            "Bardic knowledge"
+          ],
+          "text": "The order’s name is lost; archivists believe pieces remain scattered in hidden keeps or lairs."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (nobility and royalty)",
+            "Bardic knowledge"
+          ],
+          "text": "Miners uncovered ruins near a subterranean lake; records claim a dead mind flayer community below holds stolen pieces."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (nobility and royalty)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_fleet_warriors_array",
+      "name": "Fleet Warrior's Array",
+      "description": "Elven-crafted bracers, sandals, and vest that grant speed, sure footing, and slipperiness; the full array enables short-range teleportation for you (and possibly allies via sandals’ sharing).",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "You gain a +2 dodge bonus to AC against attacks of opportunity."
+          ]
+        },
+        {
+          "pieces_required": 3,
+          "effects": [
+            "1/day as a standard (command) action, use dimension door (CL 7th)."
+          ],
+          "visual": "When the full set is worn, mithral elements glow emerald and leave a brief green trail as you move."
+        }
+      ],
+      "pieces": [
+        "uniq_fwa_bracers_of_blinding_strike",
+        "uniq_fwa_sandals_of_the_light_step",
+        "uniq_fwa_vest_of_free_movement"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Fashioned for the Green Runners—elite elves famed for tireless marches, scouting, and commando raids—who wore array pieces as rank marks."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "When their realm fell, the Green Runner generals vanished into an ancient forest with the pregnant queen; they later split up, and her fate is unknown."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Some claim the generals betrayed the kingdom by abducting the queen, dooming the realm by depriving it of its finest leaders."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_garb_hunting_cat",
+      "name": "Garb of the Hunting Cat",
+      "description": "Tiger-themed mask, clawed gloves, and mantle that turn you into a stalking predator; the full garb rends foes and cloaks you from sight.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "If during your turn you hit the same foe with both a primary claw glove attack and an off-hand claw glove attack, the second attack also rends for +3d6 damage. You can rend only once per round."
+          ]
+        },
+        {
+          "pieces_required": 3,
+          "effects": [
+            "1/day as a standard (mental) action, use invisibility on yourself (CL 3rd)."
+          ],
+          "visual": "In combat while wearing all three, you appear as a humanoid tiger; the items’ fur looks alive."
+        }
+      ],
+      "pieces": [
+        "uniq_ghc_mask_of_the_tiger",
+        "uniq_ghc_claw_gloves",
+        "uniq_ghc_mantle_of_the_predator"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Feared attacks on settlements were traced to wearers of this garb—humans donning tigerish gear who struck swiftly and vanished."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Rakshasa-worshiping cultists used the garb in coming-of-age hunts; many sets later circulated without buyers knowing the bloody origin."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "The master rakshasa escaped; said to have pure white fur and to exact vengeance on complete-set owners when they are not wearing it—often via ‘accidents’ with beasts—yet the pieces are always left behind."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_gharyns_monastic_array",
+      "name": "Gharyn's Monastic Array",
+      "description": "Foot wrappings, mask, and kama that channel animal forms into swift, stunning technique. Best for monks (especially kama users).",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "Add +1 to the save DC of your Stunning Fist attacks."
+          ]
+        },
+        {
+          "pieces_required": 3,
+          "effects": [
+            "When you score a critical hit with a scorpion kama, you can expend a daily use of Stunning Fist as a free action to make that attack a stunning attack (no effect if you don’t have Stunning Fist)."
+          ],
+          "visual": "Your arm briefly resembles a striking scorpion’s tail."
+        }
+      ],
+      "pieces": [
+        "uniq_gma_cobra_straps",
+        "uniq_gma_panther_mask",
+        "uniq_gma_scorpion_kama"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Found in the ashes of monk Gharyn, who sacrificed himself shielding his order from a red dragon; many believe the dragon’s fire charged the array."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "At the Monastery of the Lone Dove, Gharyn rebelled against meaningless strictures, trained followers in worldly styles, and died saving the monks—his ashes revealed the three items."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Monk Nobara Lame denounces Gharyn and duels to the death anyone wearing pieces of the array, original or copy."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_instruments_blood_gift",
+      "name": "Instruments of the Blood Gift",
+      "description": "Arms, hand-wraps, and choker that convert sacrificed blood into arcane fuel—especially potent for sorcerers and dragonblooded characters.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "You automatically stabilize when reduced to –1 to –9 hit points."
+          ],
+          "visual": "Eyes take on a reddish tint and skin becomes faintly ruddy."
+        },
+        {
+          "pieces_required": 3,
+          "effects": [
+            "3/day as a swift (command) action, expend a sorcerer spell slot to heal yourself HP equal to twice the slot’s level."
+          ],
+          "visual": "Eyes smolder with liquid fire; skin flushes with empowered blood."
+        }
+      ],
+      "pieces": [
+        "uniq_ibg_bands_of_blood_rage",
+        "uniq_ibg_barbs_of_retribution",
+        "uniq_ibg_blood_claw_choker"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Crafted by Palamandius to free spontaneous casters from the Wizards of the Pure."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "The Wizards of the Pure abducted spontaneous casters into a dead magic zone; Palamandius rekindled his blood-born magic to lead their escape."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Remnants of the Pure still murder wandering sorcerers out of fear and spite."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_raiment_of_the_four",
+      "name": "Raiment of the Four",
+      "description": "Gloves, goggles, periapt, and belt tied to sky, sun, sea, and earth—granting elemental protections and reality-bending travel and insight.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "Gain resistance to cold 5; this stacks with similar resistances from race, class, or template."
+          ]
+        },
+        {
+          "pieces_required": 3,
+          "effects": [
+            "Gain resistance to cold 5 and electricity 5; these stack with similar resistances as above."
+          ]
+        },
+        {
+          "pieces_required": 4,
+          "effects": [
+            "Gain resistance to cold 5, electricity 5, and fire 5; these stack as above.",
+            "1/day: Commune with the spirit of the druid Alain (as commune, CL 9th) to ask four questions. Using this negates the set’s energy resistances until the next sunrise."
+          ],
+          "visual": "Teleportation via the belt manifests as a pillar of fire engulfing the travelers."
+        }
+      ],
+      "pieces": [
+        "uniq_rotf_gloves_starry_sky",
+        "uniq_rotf_goggles_golden_sun",
+        "uniq_rotf_periapt_sullen_sea",
+        "uniq_rotf_belt_wide_earth"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (nature)",
+            "Bardic knowledge"
+          ],
+          "text": "Druid Alain received a vision to craft items bound to earth, sky, sea, and sun, gathered components from the world’s corners, and used the raiment to survive perilous lands."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (nature)",
+            "Bardic knowledge"
+          ],
+          "text": "Alain’s spirit is drawn to united pieces and can impart secrets when all four are brought together."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (nature)",
+            "Bardic knowledge"
+          ],
+          "text": "Orc shaman Grotarb briefly possessed the set before dying drowned, burned, and dismembered; his dark spirit sometimes haunts new collectors of multiple pieces."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (nature)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_raiment_stormwalker",
+      "name": "Raiment of the Stormwalker",
+      "description": "Ring, bracers, robe, and anklets that let you become the storm—shrouding foes in crackling light, empowering strikes with lightning, shrugging off sonic and electrical assault, and striding the clouds. All collection benefits function for a druid in wild shape even if items have melded.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "3/day use obscuring mist (CL 5th) as a standard (mental) action."
+          ]
+        },
+        {
+          "pieces_required": 3,
+          "effects": [
+            "1/day use call lightning (CL 5th) as a standard (mental) action."
+          ]
+        },
+        {
+          "pieces_required": 4,
+          "effects": [
+            "Take only half damage from electricity; if the effect allows a save for half, instead take no damage on a successful save."
+          ],
+          "visual": "When fully worn, the robe flashes with lightning that crackles over the other pieces."
+        }
+      ],
+      "pieces": [
+        "uniq_ros_stormfire_ring",
+        "uniq_ros_bracers_of_lightning",
+        "uniq_ros_robe_of_thunder",
+        "uniq_ros_cloudwalker_anklets"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (nature)",
+            "Bardic knowledge"
+          ],
+          "text": "The first Stormwalker, a half-orc druid, took the storm as his symbol and crafted the original raiment."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (nature)",
+            "Bardic knowledge"
+          ],
+          "text": "He was slain by his half-sister; then his father sought the raiment’s power. Druids of both orcs and humans now claim the title."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (nature)",
+            "Bardic knowledge"
+          ],
+          "text": "Those who don the full raiment often find old enemies—and even friends—turn against them; no curse is detected yet trouble follows."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (nature)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_regalia_of_the_hero",
+      "name": "Regalia of the Hero",
+      "description": "Helm, horn, and badge that awaken leadership—bolstering allies with courage, tactics, and resilience.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "1/day as an immediate (command) action, grant a single ally within 30 ft (not yourself) a +5 insight bonus on a single attack roll, saving throw, or skill check."
+          ],
+          "visual": "Eyes sparkle with conviction; posture straightens with confidence."
+        },
+        {
+          "pieces_required": 3,
+          "effects": [
+            "1/day as a standard (command) action, grant a single ally within 30 ft (not yourself) an extra move action taken immediately.",
+            "If you have the marshal’s grant move action class feature, this instead affects all allies within 30 ft."
+          ],
+          "visual": "When sounding the horn while wearing the other two pieces, all three flash with golden light."
+        }
+      ],
+      "pieces": [
+        "uniq_roth_badge_of_valor",
+        "uniq_roth_helm_of_tactics",
+        "uniq_roth_horn_of_resilience"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Three items once borne by Reynard, a courageous soldier whose sacrifice inspired the set’s power."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Reynard Ellison’s helm, horn, and badge became the regalia after he fell enabling his allies’ escape and victory."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "The Coalition of the Bulwark still watches orc threats and recruits adventurers at the Fortress of the Bulwark."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_regalia_of_the_phoenix",
+      "name": "Regalia of the Phoenix",
+      "description": "Mask, crown, scepter, and cloak of living flame—granting sight, Charisma, burning wrath, flight, and rebirth.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "5/day: When you are dealt fire damage, gain resistance to fire 5 against that attack only."
+          ]
+        },
+        {
+          "pieces_required": 3,
+          "effects": [
+            "5/day: When you are dealt fire damage, gain immunity to fire against that attack only.",
+            "Only after all five immunity uses are expended does the 2-piece resistance benefit function that day."
+          ]
+        },
+        {
+          "pieces_required": 4,
+          "effects": [
+            "If reduced to 0 to –9 hit points, you are automatically affected by heal (CL 11th), 1/day."
+          ],
+          "visual": "All items appear as pure fire; cloak becomes flaming wings; on revival your body is remade in ruby light."
+        }
+      ],
+      "pieces": [
+        "uniq_rotp_raptors_mask",
+        "uniq_rotp_crown_of_flames",
+        "uniq_rotp_talon_scepter",
+        "uniq_rotp_phoenix_cloak"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "First borne by the Phoenix Queen, an unstoppable sorcerer-queen until assassins struck at her lover’s plea."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Assassins divided the regalia and fled, spreading its legend across lands."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Rumors tell the Queen’s lover still lives, hunting those who wield the regalia or its copies."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_seven_veils",
+      "name": "Seven Veils",
+      "description": "Seven prismatic veils—each mirrors a prismatic color’s effect and grants protection from that color, culminating in runestaff-like versatility.",
+      "collection_benefits": [
+        {
+          "pieces_required": 3,
+          "effects": [
+            "+2 competence bonus on Concentration, Knowledge (arcana), and Spellcraft checks."
+          ]
+        },
+        {
+          "pieces_required": 5,
+          "effects": [
+            "Resistance 5 to acid, electricity, and fire."
+          ]
+        },
+        {
+          "pieces_required": 7,
+          "effects": [
+            "Use the seven veils like a runestaff to cast each of the following 1/day by spending your own arcane slots of equal or higher level: cone of cold, daylight, disintegrate, dispel magic, gust of wind, magic missile, passwall."
+          ]
+        }
+      ],
+      "pieces": [
+        "uniq_sve_burning_veil",
+        "uniq_sve_caustic_veil",
+        "uniq_sve_veil_of_storms",
+        "uniq_sve_veil_of_whispers",
+        "uniq_sve_veil_of_doors",
+        "uniq_sve_serpent_veil",
+        "uniq_sve_turquoise_veil"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Said to be drawn from a rainbow by Boccob; each veil grants an effect linked to a prismatic color and protects from that color."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Wizards fought and died over full sets; extra pieces circulated widely."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Two full-set wearers became liches—perhaps coincidence, perhaps divine design by Boccob or Wee Jas."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_vestments_of_divinity",
+      "name": "Vestments of Divinity",
+      "description": "Five sacred items revealed in a vision—fortifying will against evil and smiting the wicked.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "+1 sacred bonus on saves against effects created by evil creatures."
+          ]
+        },
+        {
+          "pieces_required": 5,
+          "effects": [
+            "Your melee attacks deal an extra 1d6 damage to evil creatures."
+          ],
+          "visual": "Body takes on a silvery sheen; eyes glow aquamarine."
+        }
+      ],
+      "pieces": [
+        "uniq_vod_ephod_of_authority",
+        "uniq_vod_lenses_of_revelation",
+        "uniq_vod_cord_of_favor",
+        "uniq_vod_badge_of_glory",
+        "uniq_vod_phylactery_of_virtue"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (religion)",
+            "Bardic knowledge"
+          ],
+          "text": "Revealed to Reesh N’Faeren in a vision; he sought and gathered them to battle the Heralds of Hell."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (religion)",
+            "Bardic knowledge"
+          ],
+          "text": "Reesh’s crusade against the cult became legend; whether he succeeded or fell is unknown."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (religion)",
+            "Bardic knowledge"
+          ],
+          "text": "Cult cells scattered; some claim a holy vigilante purged many and that the cult hoarded pieces to keep them apart."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (religion)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    },
+    {
+      "id": "set_wraiths_woe",
+      "name": "Wraith's Woe",
+      "description": "Choker, gauntlets, and shirt crafted to thwart undead—revealing, warding, and restoring the living.",
+      "collection_benefits": [
+        {
+          "pieces_required": 2,
+          "effects": [
+            "At will: Detect undead (CL 3rd) as a standard (mental) action."
+          ],
+          "visual": "Wearer takes on a haunted pallor when all pieces are worn."
+        },
+        {
+          "pieces_required": 3,
+          "effects": [
+            "1/day as a standard (mental) action: Cure all ability damage you have and restore all points drained from one ability score of your choice."
+          ]
+        }
+      ],
+      "pieces": [
+        "uniq_ww_choker_of_life_protection",
+        "uniq_ww_gauntlets_of_ghost_fighting",
+        "uniq_ww_shirt_of_wraith_stalking"
+      ],
+      "lore": [
+        {
+          "dc": 15,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (religion)",
+            "Bardic knowledge"
+          ],
+          "text": "First forged by a mystic theurge who founded the Blades Against Death after wraiths slew her family."
+        },
+        {
+          "dc": 20,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (religion)",
+            "Bardic knowledge"
+          ],
+          "text": "The order still sponsors undead-hunters and awards pieces to proven allies."
+        },
+        {
+          "dc": 25,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (religion)",
+            "Bardic knowledge"
+          ],
+          "text": "Whispers claim the founder yet ‘advises’ leaders—perhaps undead; critics disappear after speaking out."
+        },
+        {
+          "dc": 30,
+          "skills": [
+            "Knowledge (arcana)",
+            "Knowledge (religion)",
+            "Bardic knowledge"
+          ],
+          "text": "Reveals the location of another piece of the set."
+        }
+      ],
+      "additional_prereq_notes": null,
+      "sources": [
+        "MIC v3.5"
+      ]
+    }
+  ]
+}
