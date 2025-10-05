@@ -53,6 +53,17 @@
     "sources/MIC/items/unique/unique_items.mic.index.json",
     "sources/MIC/rules/mic_rules.json"
   ]
+},
+      {
+  "book": "Dungeon Master's Guide II (DMG2 v3.5)",
+  "roots": ["sources/DMG2"],
+  "load_order": [
+    "sources/DMG2/items/magic/weapon_special_abilities.dmg2.core.json",
+    "sources/DMG2/items/magic/armor_special_abilities.dmg2.core.json",
+    "sources/DMG2/items/magic/signature_traits.dmg2.core.json",
+    "sources/DMG2/items/materials/materials.dmg2.templates.core.json",
+    "sources/DMG2/items/unique/unique_items.dmg2.index.json"
+  ]
 }
   ]
 }
