@@ -15324,20 +15324,7 @@
       null,
       null
     ],
-    [
-      "set_armor_watching_master",
-      "Armor of the Watching Master",
-      null,
-      null,
-      null,
-      [
-        "Designed for melee users; barbarian fast movement works in a breastplate. The set’s DR stacks with barbarian class DR (not other DR sources)."
-      ],
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_awm_mask_of_mastery",
       "Mask of Mastery",
@@ -15386,18 +15373,7 @@
       null,
       null
     ],
-    [
-      "set_array_manticore",
-      "Array of the Manticore",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_aotm_bracers_of_aerial_combat",
       "Bracers of Aerial Combat",
@@ -15458,20 +15434,7 @@
       null,
       null
     ],
-    [
-      "set_five_virtues",
-      "Five Virtues",
-      null,
-      null,
-      null,
-      [
-        "Synergizes with the knight class (PH2); several pieces allow extra activations by expending Knight’s Challenge or Marshal abilities."
-      ],
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_fv_armband_of_confrontation",
       "Armband of Confrontation",
@@ -15580,18 +15543,7 @@
       null,
       null
     ],
-    [
-      "set_garb_hunting_cat",
-      "Garb of the Hunting Cat",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_ghc_mask_of_the_tiger",
       "Mask of the Tiger",
@@ -15628,18 +15580,7 @@
       null,
       null
     ],
-    [
-      "set_gharyns_monastic_array",
-      "Gharyn's Monastic Array",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_gma_cobra_straps",
       "Cobra Straps",
@@ -15676,18 +15617,7 @@
       null,
       null
     ],
-    [
-      "set_instruments_blood_gift",
-      "Instruments of the Blood Gift",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_ibg_bands_of_blood_rage",
       "Bands of Blood Rage",
@@ -15724,18 +15654,7 @@
       null,
       null
     ],
-    [
-      "set_raiment_of_the_four",
-      "Raiment of the Four",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_rotf_gloves_starry_sky",
       "Gloves of the Starry Sky",
@@ -15784,18 +15703,7 @@
       null,
       null
     ],
-    [
-      "set_raiment_stormwalker",
-      "Raiment of the Stormwalker",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+    
     [
       "uniq_ros_stormfire_ring",
       "Stormfire Ring",
@@ -15844,18 +15752,7 @@
       null,
       null
     ],
-    [
-      "set_regalia_of_the_hero",
-      "Regalia of the Hero",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_roth_badge_of_valor",
       "Badge of Valor",
@@ -15892,18 +15789,7 @@
       null,
       null
     ],
-    [
-      "set_regalia_of_the_phoenix",
-      "Regalia of the Phoenix",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_rotp_raptors_mask",
       "Raptor's Mask",
@@ -15952,18 +15838,7 @@
       null,
       null
     ],
-    [
-      "set_seven_veils",
-      "Seven Veils",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_sve_burning_veil",
       "Burning Veil",
@@ -16048,18 +15923,7 @@
       null,
       null
     ],
-    [
-      "set_vestments_of_divinity",
-      "Vestments of Divinity",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_vod_ephod_of_authority",
       "Ephod of Authority",
@@ -16120,18 +15984,7 @@
       null,
       null
     ],
-    [
-      "set_wraiths_woe",
-      "Wraith's Woe",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
+
     [
       "uniq_ww_choker_of_life_protection",
       "Choker of Life Protection",
