@@ -2,46 +2,90 @@
   "$id": "schemas/item.process.v1.json",
   "title": "Item Generation Process",
   "type": "object",
-  "required": ["schema_version", "category", "steps"],
+  "required": [
+    "schema_version",
+    "category",
+    "steps"
+  ],
   "properties": {
-    "schema_version": { "type": "string", "const": "1.0" },
-    "category": { "type": "string", "enum": ["armor", "shield", "weapon", "ammunition", "potion", "ring", "rod", "scroll", "staff", "wand", "wondrous", "artifact"] },
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "armor",
+        "shield",
+        "weapon",
+        "ammunition",
+        "potion",
+        "ring",
+        "rod",
+        "scroll",
+        "staff",
+        "wand",
+        "wondrous",
+        "artifact"
+      ]
+    },
     "steps": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "kind"],
+        "required": [
+          "id",
+          "name",
+          "kind"
+        ],
         "properties": {
-          "id": { "type": "string" },
-          "name": { "type": "string" },
-          "kind": { "type": "string", "enum": [
-            "select_base_item",
-            "masterwork_gate",
-            "select_material",
-            "size_shape",
-            "magic_core",
-            "magic_special_abilities",
-            "intelligent_item_check",
-            "intelligent_item_build",
-            "cursed_item_check",
-            "cursed_item_apply",
-            "flavor",
-            "description_synth",
-            "select_from_table",
-            "wondrous_effect_build",
-            "ring_effect_build",
-            "charges_roll",
-            "compound_ability_packaging",
-            "space_limitation_mod"
-          ]},
-          "inputs": { "type": "object" },
-          "weights": { "type": "object" },
-          "rules": { "type": "object" },
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "select_base_item",
+              "masterwork_gate",
+              "select_material",
+              "size_shape",
+              "magic_core",
+              "magic_special_abilities",
+              "intelligent_item_check",
+              "intelligent_item_build",
+              "cursed_item_check",
+              "cursed_item_apply",
+              "flavor",
+              "description_synth",
+              "select_from_table",
+              "wondrous_effect_build",
+              "ring_effect_build",
+              "charges_roll",
+              "compound_ability_packaging",
+              "space_limitation_mod"
+            ]
+          },
+          "inputs": {
+            "type": "object"
+          },
+          "weights": {
+            "type": "object"
+          },
+          "rules": {
+            "type": "object"
+          },
           "table_refs": {
             "type": "array",
-            "items": { "type": "string" }
+            "items": {
+              "type": "string"
+            }
           },
-          "output_bindings": { "type": "object" }
+          "output_bindings": {
+            "type": "object"
+          }
         }
       }
     }
