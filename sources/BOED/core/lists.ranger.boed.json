@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "spell_id": "boed_blinding_beauty",
+      "level": 4
+    },
+    {
+      "spell_id": "boed_eyes_of_the_avoral",
+      "level": 1
+    },
+    {
+      "spell_id": "boed_inspired_aim",
+      "level": 3
+    }
+  ]
+}

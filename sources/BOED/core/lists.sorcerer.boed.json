@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "spell_id": "boed_affliction",
+      "level": 4
+    },
+    {
+      "spell_id": "boed_amber_sarcophagus",
+      "level": 7
+    },
+    {
+      "spell_id": "boed_axiomatic_creature",
+      "level": 8
+    },
+    {
+      "spell_id": "boed_blinding_glory",
+      "level": 9
+    },
+    {
+      "spell_id": "boed_call_faithful_servants",
+      "level": 5
+    },
+    {
+      "spell_id": "boed_celestial_brilliance",
+      "level": 4
+    },
+    {
+      "spell_id": "boed_distilled_joy",
+      "level": 3
+    },
+    {
+      "spell_id": "boed_dolorous_motes",
+      "level": 3
+    },
+    {
+      "spell_id": "boed_eladrin_form",
+      "level": 7
+    },
+    {
+      "spell_id": "boed_elation",
+      "level": 3
+    },
+    {
+      "spell_id": "boed_emerald_burst",
+      "level": 5
+    },
+    {
+      "spell_id": "boed_energize_potion",
+      "level": 2
+    },
+    {
+      "spell_id": "boed_eyes_of_the_avoral",
+      "level": 1
+    },
+    {
+      "spell_id": "boed_healing_touch",
+      "level": 3
+    },
+    {
+      "spell_id": "boed_last_judgment",
+      "level": 8
+    }
+  ]
+}
