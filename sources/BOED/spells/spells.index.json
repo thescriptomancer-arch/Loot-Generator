@@ -1,0 +1,472 @@
+{
+  "rows": [
+    {
+      "id": "boed_affliction",
+      "name": "Affliction"
+    },
+    {
+      "id": "boed_amber_sarcophagus",
+      "name": "Amber Sarcophagus"
+    },
+    {
+      "id": "boed_armageddon",
+      "name": "Armageddon"
+    },
+    {
+      "id": "boed_aspect_of_the_deity",
+      "name": "Aspect of the Deity"
+    },
+    {
+      "id": "boed_axiomatic_creature",
+      "name": "Axiomatic Creature"
+    },
+    {
+      "id": "boed_ayailla_s_radiant_burst",
+      "name": "Ayailla’s Radiant Burst"
+    },
+    {
+      "id": "boed_bastion_of_good",
+      "name": "Bastion of Good"
+    },
+    {
+      "id": "boed_blessed_sight",
+      "name": "Blessed Sight"
+    },
+    {
+      "id": "boed_blinding_beauty",
+      "name": "Blinding Beauty"
+    },
+    {
+      "id": "boed_blinding_glory",
+      "name": "Blinding Glory"
+    },
+    {
+      "id": "boed_blood_of_the_martyr",
+      "name": "Blood of the Martyr"
+    },
+    {
+      "id": "boed_bolt_of_glory",
+      "name": "Bolt of Glory"
+    },
+    {
+      "id": "boed_brilliant_emanation",
+      "name": "Brilliant Emanation"
+    },
+    {
+      "id": "boed_call_faithful_servants",
+      "name": "Call Faithful Servants"
+    },
+    {
+      "id": "boed_call_mount",
+      "name": "Call Mount"
+    },
+    {
+      "id": "boed_celestial_aspect",
+      "name": "Celestial Aspect"
+    },
+    {
+      "id": "boed_celestial_blood",
+      "name": "Celestial Blood"
+    },
+    {
+      "id": "boed_celestial_brilliance",
+      "name": "Celestial Brilliance"
+    },
+    {
+      "id": "boed_chaav_s_laugh",
+      "name": "Chaav’s Laugh"
+    },
+    {
+      "id": "boed_channel_celestial",
+      "name": "Channel Celestial"
+    },
+    {
+      "id": "boed_channel_greater_celestial",
+      "name": "Channel Greater Celestial"
+    },
+    {
+      "id": "boed_constricting_chains",
+      "name": "Constricting Chains"
+    },
+    {
+      "id": "boed_convert_wand",
+      "name": "Convert Wand"
+    },
+    {
+      "id": "boed_crown_of_brilliance",
+      "name": "Crown of Brilliance"
+    },
+    {
+      "id": "boed_crown_of_flame",
+      "name": "Crown of Flame"
+    },
+    {
+      "id": "boed_crown_of_glory",
+      "name": "Crown of Glory"
+    },
+    {
+      "id": "boed_cry_of_ysgard",
+      "name": "Cry of Ysgard"
+    },
+    {
+      "id": "boed_curtain_of_light",
+      "name": "Curtain of Light"
+    },
+    {
+      "id": "boed_dancing_web",
+      "name": "Dancing Web"
+    },
+    {
+      "id": "boed_diamond_spray",
+      "name": "Diamond Spray"
+    },
+    {
+      "id": "boed_distilled_joy",
+      "name": "Distilled Joy"
+    },
+    {
+      "id": "boed_divine_inspiration",
+      "name": "Divine Inspiration"
+    },
+    {
+      "id": "boed_divine_sacrifice",
+      "name": "Divine Sacrifice"
+    },
+    {
+      "id": "boed_dolorous_motes",
+      "name": "Dolorous Motes"
+    },
+    {
+      "id": "boed_dragon_cloud",
+      "name": "Dragon Cloud"
+    },
+    {
+      "id": "boed_ease_pain",
+      "name": "Ease Pain"
+    },
+    {
+      "id": "boed_eladrin_form",
+      "name": "Eladrin Form"
+    },
+    {
+      "id": "boed_elation",
+      "name": "Elation"
+    },
+    {
+      "id": "boed_emerald_burst",
+      "name": "Emerald Burst"
+    },
+    {
+      "id": "boed_empyreal_ecstasy",
+      "name": "Empyreal Ecstasy"
+    },
+    {
+      "id": "boed_end_to_strife",
+      "name": "End to Strife"
+    },
+    {
+      "id": "boed_energetic_healing",
+      "name": "Energetic Healing"
+    },
+    {
+      "id": "boed_energize_potion",
+      "name": "Energize Potion"
+    },
+    {
+      "id": "boed_estanna_s_stew",
+      "name": "Estanna’s Stew"
+    },
+    {
+      "id": "boed_exalted_fury",
+      "name": "Exalted Fury"
+    },
+    {
+      "id": "boed_exalted_raiment",
+      "name": "Exalted Raiment"
+    },
+    {
+      "id": "boed_eyes_of_the_avoral",
+      "name": "Eyes of the Avoral"
+    },
+    {
+      "id": "boed_faerinaal_s_hymn",
+      "name": "Faerinaal’s Hymn"
+    },
+    {
+      "id": "boed_glorious_raiment",
+      "name": "Glorious Raiment"
+    },
+    {
+      "id": "boed_glory_of_the_martyr",
+      "name": "Glory of the Martyr"
+    },
+    {
+      "id": "boed_greater_status",
+      "name": "Greater Status"
+    },
+    {
+      "id": "boed_hammer_of_righteousness",
+      "name": "Hammer of Righteousness"
+    },
+    {
+      "id": "boed_healing_touch",
+      "name": "Healing Touch"
+    },
+    {
+      "id": "boed_heart_s_ease",
+      "name": "Heart’s Ease"
+    },
+    {
+      "id": "boed_heavenly_lightning",
+      "name": "Heavenly Lightning"
+    },
+    {
+      "id": "boed_heavenly_lightning_storm",
+      "name": "Heavenly Lightning Storm"
+    },
+    {
+      "id": "boed_heaven_s_trumpet",
+      "name": "Heaven’s Trumpet"
+    },
+    {
+      "id": "boed_inquisition",
+      "name": "Inquisition"
+    },
+    {
+      "id": "boed_inspired_aim",
+      "name": "Inspired Aim"
+    },
+    {
+      "id": "boed_lantern_light",
+      "name": "Lantern Light"
+    },
+    {
+      "id": "boed_last_judgment",
+      "name": "Last Judgment"
+    },
+    {
+      "id": "boed_leonal_s_roar",
+      "name": "Leonal’s Roar"
+    },
+    {
+      "id": "boed_lastai_s_caress",
+      "name": "Lastai’s Caress"
+    },
+    {
+      "id": "boed_luminous_armor",
+      "name": "Luminous Armor"
+    },
+    {
+      "id": "boed_mind_bond",
+      "name": "Mind Bond"
+    },
+    {
+      "id": "boed_moment_of_clarity",
+      "name": "Moment of Clarity"
+    },
+    {
+      "id": "boed_path_of_the_exalted",
+      "name": "Path of the Exalted"
+    },
+    {
+      "id": "boed_perfect_summons",
+      "name": "Perfect Summons"
+    },
+    {
+      "id": "boed_phieran_s_resolve",
+      "name": "Phieran’s Resolve"
+    },
+    {
+      "id": "boed_phoenix_fire",
+      "name": "Phoenix Fire"
+    },
+    {
+      "id": "boed_quickshift",
+      "name": "Quickshift"
+    },
+    {
+      "id": "boed_radiant_fog",
+      "name": "Radiant Fog"
+    },
+    {
+      "id": "boed_radiant_shield",
+      "name": "Radiant Shield"
+    },
+    {
+      "id": "boed_rain_of_black_tulips",
+      "name": "Rain of Black Tulips"
+    },
+    {
+      "id": "boed_rain_of_embers",
+      "name": "Rain of Embers"
+    },
+    {
+      "id": "boed_rain_of_roses",
+      "name": "Rain of Roses"
+    },
+    {
+      "id": "boed_ray_of_hope",
+      "name": "Ray of Hope"
+    },
+    {
+      "id": "boed_remove_addiction",
+      "name": "Remove Addiction"
+    },
+    {
+      "id": "boed_remove_fatigue",
+      "name": "Remove Fatigue"
+    },
+    {
+      "id": "boed_remove_nausea",
+      "name": "Remove Nausea"
+    },
+    {
+      "id": "boed_restore_soul_s_treasure",
+      "name": "Restore Soul’s Treasure"
+    },
+    {
+      "id": "boed_righteous_glare",
+      "name": "Righteous Glare"
+    },
+    {
+      "id": "boed_righteous_smite",
+      "name": "Righteous Smite"
+    },
+    {
+      "id": "boed_sacred_guardian",
+      "name": "Sacred Guardian"
+    },
+    {
+      "id": "boed_sacred_haven",
+      "name": "Sacred Haven"
+    },
+    {
+      "id": "boed_sanctify_the_wicked",
+      "name": "Sanctify the Wicked"
+    },
+    {
+      "id": "boed_second_wind",
+      "name": "Second Wind"
+    },
+    {
+      "id": "boed_shield_of_the_archons",
+      "name": "Shield of the Archons"
+    },
+    {
+      "id": "boed_sicken_evil",
+      "name": "Sicken Evil"
+    },
+    {
+      "id": "boed_silvered_weapon",
+      "name": "Silvered Weapon"
+    },
+    {
+      "id": "boed_smite_heretic",
+      "name": "Smite Heretic"
+    },
+    {
+      "id": "boed_spear_of_valarian",
+      "name": "Spear of Valarian"
+    },
+    {
+      "id": "boed_spread_of_contentment",
+      "name": "Spread of Contentment"
+    },
+    {
+      "id": "boed_starmantle",
+      "name": "Starmantle"
+    },
+    {
+      "id": "boed_stars_of_arvandor",
+      "name": "Stars of Arvandor"
+    },
+    {
+      "id": "boed_storm_of_shards",
+      "name": "Storm of Shards"
+    },
+    {
+      "id": "boed_sublime_revelry",
+      "name": "Sublime Revelry"
+    },
+    {
+      "id": "boed_sunmantle",
+      "name": "Sunmantle"
+    },
+    {
+      "id": "boed_sustain",
+      "name": "Sustain"
+    },
+    {
+      "id": "boed_sword_of_conscience",
+      "name": "Sword of Conscience"
+    },
+    {
+      "id": "boed_telepathy_block",
+      "name": "Telepathy Block"
+    },
+    {
+      "id": "boed_telepathy_tap",
+      "name": "Telepathy Tap"
+    },
+    {
+      "id": "boed_tomb_of_light",
+      "name": "Tomb of Light"
+    },
+    {
+      "id": "boed_twilight_luck",
+      "name": "Twilight Luck"
+    },
+    {
+      "id": "boed_touch_of_adamantine",
+      "name": "Touch of Adamantine"
+    },
+    {
+      "id": "boed_unearthly_beauty",
+      "name": "Unearthly Beauty"
+    },
+    {
+      "id": "boed_valiant_steed",
+      "name": "Valiant Steed"
+    },
+    {
+      "id": "boed_vanishing_weapon",
+      "name": "Vanishing Weapon"
+    },
+    {
+      "id": "boed_vengeance_halo",
+      "name": "Vengeance Halo"
+    },
+    {
+      "id": "boed_vision_of_heaven",
+      "name": "Vision of Heaven"
+    },
+    {
+      "id": "boed_wages_of_sin",
+      "name": "Wages of Sin"
+    },
+    {
+      "id": "boed_warcry",
+      "name": "Warcry"
+    },
+    {
+      "id": "boed_warding_gems",
+      "name": "Warding Gems"
+    },
+    {
+      "id": "boed_winged_mount",
+      "name": "Winged Mount"
+    },
+    {
+      "id": "boed_yoke_of_mercy",
+      "name": "Yoke of Mercy"
+    },
+    {
+      "id": "boed_aspect_of_the_deity_greater",
+      "name": "Aspect of the Deity, Greater"
+    },
+    {
+      "id": "boed_aspect_of_the_deity_lesser",
+      "name": "Aspect of the Deity, Lesser"
+    }
+  ]
+}
