@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "spell_id": "boed_blinding_beauty",
+      "level": 4
+    },
+    {
+      "spell_id": "boed_dolorous_motes",
+      "level": 4
+    },
+    {
+      "spell_id": "boed_elation",
+      "level": 2
+    },
+    {
+      "spell_id": "boed_empyreal_ecstasy",
+      "level": 6
+    },
+    {
+      "spell_id": "boed_faerinaal_s_hymn",
+      "level": 2
+    },
+    {
+      "spell_id": "boed_heaven_s_trumpet",
+      "level": 6
+    },
+    {
+      "spell_id": "boed_inspired_aim",
+      "level": 4
+    }
+  ]
+}
