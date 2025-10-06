@@ -467,6 +467,10 @@
     {
       "id": "boed_aspect_of_the_deity_lesser",
       "name": "Aspect of the Deity, Lesser"
-    }
+    },
+    { "id": "boed_luminous_armor_greater", "name": "Luminous Armor, Greater" },
+    { "id": "boed_heavenly_lightning_storm", "name": "Heavenly Lightning Storm" },
+    { "id": "boed_unearthly_beauty", "name": "Unearthly Beauty" }
+
   ]
 }
