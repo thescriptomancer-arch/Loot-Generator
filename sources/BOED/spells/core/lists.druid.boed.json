@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "spell_id": "boed_affliction",
+      "level": 3
+    },
+    {
+      "spell_id": "boed_blinding_beauty",
+      "level": 4
+    },
+    {
+      "spell_id": "boed_dancing_web",
+      "level": 5
+    },
+    {
+      "spell_id": "boed_energetic_healing",
+      "level": 5
+    },
+    {
+      "spell_id": "boed_energize_potion",
+      "level": 3
+    },
+    {
+      "spell_id": "boed_estanna_s_stew",
+      "level": 2
+    },
+    {
+      "spell_id": "boed_eyes_of_the_avoral",
+      "level": 1
+    },
+    {
+      "spell_id": "boed_leonal_s_roar",
+      "level": 8
+    },
+    {
+      "spell_id": "boed_rain_of_black_tulips",
+      "level": 9
+    },
+    {
+      "spell_id": "boed_rain_of_roses",
+      "level": 7
+    },
+    {
+      "spell_id": "boed_remove_addiction",
+      "level": 2
+    },
+    {
+      "spell_id": "boed_spear_of_valarian",
+      "level": 5
+    },
+    {
+      "spell_id": "boed_stars_of_arvandor",
+      "level": 4
+    },
+    {
+      "spell_id": "boed_touch_of_adamantine",
+      "level": 6
+    },
+    {
+      "spell_id": "boed_unearthly_beauty",
+      "level": 8
+    }
+  ]
+}
